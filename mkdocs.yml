@@ -1,0 +1,186 @@
+site_name: REV23 Desktop Docs
+site_description: 'REV23 Desktop Docs'
+site_author: 'REV23'
+site_url: 'https://docs.rev23.com/rev23-desktop-docs/'
+
+# Copyright
+copyright: 'Copyright &copy; 2018 REV23 Development, Inc.'
+
+#Navigation
+nav:
+    - Home: index.md
+    - Introduction: introduction.md
+    - User Interface:
+      - 'Terminology': ui/terminology.md
+      - 'Actions': ui/actions.md
+      - 'Main Window': ui/main-window.md
+      - 'Navigation Bar': ui/navigation-bar.md
+      - 'Ribbon': ui/ribbon.md
+      - 'List Views': ui/list-views.md
+      - 'Detail Views': ui/detail-views.md
+      - 'Common Actions': ui/common-actions.md
+      - 'Editors': ui/editors.md
+      - 'Scheduler': ui/scheduler.md
+      - 'Touch Mode': ui/touch-mode.md
+      - 'Skins': ui/skins.md
+    - Quick Start:
+      - 'Overview': quick-start/overview.md
+      - 'Add a tattooer': quick-start/add-a-tattooer.md
+      - 'Add a piercer': quick-start/add-a-piercer.md
+      - 'Add a manager': quick-start/add-a-manager.md
+      - 'Schedule an appointment': quick-start/schedule-an-appointment.md
+      - 'Add a retail item': quick-start/add-a-retail-item.md
+      - 'Set service prices': quick-start/set-service-prices.md
+      - 'Start a walk-in service': quick-start/start-a-walk-in-service.md
+      - 'Start a sale': quick-start/start-a-sale.md
+      - 'Clocking in': quick-start/clocking-in.md
+      - 'Start a scheduled service': quick-start/start-a-scheduled-service.md
+      - 'Apply a deposit': quick-start/apply-a-deposit.md
+      - 'Alter release & aftercare forms': quick-start/alter-release-and-aftercare-forms.md
+      - 'Refund an item': quick-start/refund-an-item.md
+      - 'Run reports': quick-start/run-reports.md
+      - 'Clocking out': quick-start/clocking-out.md
+      - 'Automate backups': quick-start/automate-backups.md
+      - 'Conclusion': quick-start/conclusion.md
+    - Beyond the Quick Start:
+      - 'Sell a gift card': quick-start/sell-a-gift-card.md
+      - 'Reward clients': quick-start/reward-clients.md
+      - 'Discount multiple piercings': quick-start/discount-multiple-piercings.md
+      - 'Incentivize artists': quick-start/incentivize-artists.md
+      - 'Add a new service type': quick-start/add-a-new-service-type.md
+    - Concepts:
+      - 'Today Dashboard': concepts/today-dashboard.md
+      - 'Customers': concepts/customers.md
+      - 'Appointments': concepts/appointments.md
+      - 'Cloud Calendar': concepts/cloud-calendar.md
+      - 'Deposits & Credits': concepts/deposits-and-credits.md      
+      - 'Services': concepts/services.md
+      - 'Walk-in Queue': concepts/walk-in-queue.md
+      - 'Payments': concepts/payments.md      
+      - 'Sales & Invoices': concepts/sales-and-invoices.md
+      - 'Credit Cards': concepts/credit-cards.md
+      - 'Gift Cards': concepts/gift-cards.md
+      - 'Refunds': concepts/refunds.md
+      - 'Waiting List': concepts/waiting-list.md
+      - 'Points': concepts/points.md
+      - 'Payouts': concepts/payouts.md      
+      - 'Time Clock': concepts/time-clock.md
+      - 'Tasks': concepts/tasks.md
+      - 'Walkouts': concepts/walkouts.md
+      - 'File Attachments': concepts/file-attachments.md
+      - 'Notes': concepts/notes.md
+      - 'Reports': concepts/reports.md
+      - 'Dashboards': concepts/dashboards.md
+      - 'Key Perfomance Indicators (KPI)': concepts/key-performance-indicators-kpi.md
+      - 'Templates': concepts/templates.md
+      - 'Virtual Receptionist': concepts/virtual-receptionist.md
+      - 'Email Marketing': concepts/email-marketing.md
+      - 'System Messages': concepts/system-messages.md
+      - 'News': concepts/news.md
+    - Installation:
+      - 'Main PC': installation/main-pc.md
+      - 'Add-On PC': installation/add-on-pc.md
+    - Server Concepts:
+      - 'Control Panel': server-concepts/control-panel.md
+      - 'Database Service': server-concepts/database-service.md
+      - 'Integration Service': server-concepts/integration-service.md
+      - 'Backup Service': server-concepts/backup-service.md
+      - 'Virtual Receptionist Service': server-concepts/virtual-receptionist-service.md
+      - 'SQL Server': server-concepts/sql-server.md
+    - Connection Concepts: 
+      - 'Enhanced Connections': connection-concepts/enhanced-connections.md
+      - 'Remote Connections': connection-concepts/remote-connections.md
+      - 'Connected Studios': connection-concepts/connected-studios.md       
+    - Security:
+      - 'Administrator': security/administrator.md
+      - 'Roles': security/roles.md
+      - 'Users': security/users.md
+    - Configuration:
+      - 'My Studio': configuration/my-studio.md
+      - 'Appointment Labels': configuration/appointment-labels.md
+      - 'Custom Texts': configuration/custom-texts.md
+      - 'Dynamic Commissions': configuration/dynamic-commissions.md
+      - 'Medical Conditions': configuration/medical-conditions.md
+      - 'P2PE Devices': configuration/p2pe-devices.md
+      - 'Payment Types': configuration/payment-types.md
+      - 'Return/Refund Reasons': configuration/return-refund-reasons.md
+      - 'Rotating Schedules': configuration/rotating-schedules.md
+      - 'Service Categories': configuration/service-categories.md
+      - 'Service Departments': configuration/service-departments.md
+      - 'Service Types': configuration/service-types.md
+      - 'Service Type Discounts': configuration/service-type-discounts.md
+      - 'SMS Gateways': configuration/sms-gateways.md
+      - 'Sources': configuration/sources.md
+      - 'Styles': configuration/styles.md
+      - 'Taxes': configuration/taxes.md
+      - 'Templates': configuration/templates.md
+      - 'Virtual Receptionist': configuration/virtual-receptionist.md
+      - 'Virtual Receptionist Options': configuration/virtual-receptionist-options.md
+      - 'Device Options': configuration/device-options.md
+      - 'Date/Time Format Codes': configuration/date-time-format-codes.md
+    - Inventory:
+      - 'Items': inventory/inventory-items.md
+      - 'Categories': inventory/inventory-categories.md
+      - 'Departments': inventory/inventory-departments.md
+      - 'Ball Configurations': inventory/ball-configurations.md
+      - 'Bulk Discount Codes': inventory/bulk-discount-codes.md
+      - 'Colors': inventory/colors.md
+      - 'Gem Configurations': inventory/gem-configurations.md
+      - 'Gauges': inventory/gauges.md
+      - 'Jewelry Types': inventory/jewelry-types.md
+      - 'Lengths & Diameters': inventory/lengths-and-diameters.md
+      - 'Manufacturers': inventory/manufacturers.md
+      - 'Materials': inventory/materials.md
+      - 'Vendors': inventory/vendors.md
+    - Hardware:
+      - 'Signature Pad': hardware/signature-pad.md
+      - 'Barcode Reader': hardware/barcode-reader.md
+      - 'Magstripe Swipe Card Reader': hardware/magstripe-swipe-card-reader.md
+      - 'Receipt Printer': hardware/receipt-printer.md
+      - 'Cash Drawer': hardware/cash-drawer.md
+      - 'Webcams': hardware/webcams.md
+      - 'Document & Photo Scanners': hardware/document-and-photo-scanners.md
+      - 'Inkjet & Laser Printers': hardware/inkjet-and-laser-printers.md
+      - 'External Hard Drives': hardware/external-hard-drives.md    
+    - Troubleshooting:
+      - 'General': troubleshooting/general.md
+      - 'Hardware': troubleshooting/hardware.md
+      - 'Virtual Receptionist': troubleshooting/virtual-receptionist.md
+      - 'Cloud Calendar': troubleshooting/cloud-calendar.md
+      - 'Health Inspector': troubleshooting/health-inspector.md
+    - Task Based Help:
+      - 'How to: Backup your database': how-to/backup-your-database-manually.md
+      - 'How to: Restore your database': how-to/restore-your-database.md
+      - 'How to: Migrate data to a new PC': how-to/migrate-data-to-a-new-pc.md
+      - 'How to: Recover from PC crashes': how-to/recover-from-pc-crashes.md
+      - 'How to: Reset user interface to defaults': how-to/reset-user-interface-defaults.md  
+    - Tattoo Management Studio: 'tattoo-management-studio.md'
+    - About:
+      - 'License': license.md
+      - 'Release Notes': release-notes.md
+
+# Theme
+theme: 
+  name: material
+  palette:
+    primary: 'blue'
+    accent: 'pink'
+
+#Repository
+repo_name: 'rev23docs/rev23-desktop-docs'
+repo_url: 'https://github.com/rev23docs/rev23-desktop-docs'
+
+# Customization
+extra:
+  social:
+    - type: 'instagram'
+      link: 'https://instagram.com/rev23dev'
+    - type: 'facebook'
+      link: 'https://facebook.com/rev23dev'
+    - type: 'github'
+      link: 'https://github.com/rev23docs'
+
+# Google Analytics
+google_analytics:
+  - 'UA-127274992-1'
+  - 'auto'
