@@ -1,3 +1,7 @@
 # Touch Mode
 
-This doc has not yet been updated. Please check back, or feel free to contribute on [GitHub](https://github.com/REV23Docs/rev23-desktop-docs). You can also fork this repository to create your own docs for internal use in your studio.
+Touch Mode is an optional mode that you can enable to enlarge elements of the user interface of REV23 Desktop, as well as change the appearance of certain editors (such as date/time editors) to make things easier to target with your finger on a touch screen device.
+
+## Actions
+
+**Enable Touch Mode:** Enable/disable Touch mode by using this action. It is located in the Quick Access Toolbar.
