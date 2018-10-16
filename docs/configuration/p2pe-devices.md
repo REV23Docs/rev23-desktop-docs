@@ -4,6 +4,8 @@ P2PE (Point-to-point Encryption) Devices represent the credit card terminals fro
 
 Use the Configure CardConnect action to automatically retrieve your registered terminals. You can configure some options per terminal.
 
+See: [Concepts: Credit Cards](../concepts/credit-cards.md)
+
 ## P2PE Device Properties
 
 **Friendly Name:** By default P2PE Devices are identified by their serial number. If you have more than one terminal you can assign a friendly name, such as "Left" or "Right" for easy identification. The friendly name is required must be unique.

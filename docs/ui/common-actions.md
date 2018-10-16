@@ -1,4 +1,5 @@
 # Common Actions
+
 There are some actions that appear throughout the user interface in both list views and detail views. Some are used for navigation and others are object specific.
 
 > If an action appears dimmed then that action is disabled for the selected object(s).

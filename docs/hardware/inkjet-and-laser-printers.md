@@ -1,0 +1,3 @@
+# Inkjet & Laser Printers
+
+REV23 Desktop can of course print to any printer already installed and properly configured in Microsoft Windows. However, in the majority of cases technical support for your printer is not provided by REV23. If your printer fails to print for some reason, attempt to print a test page from within Windows. If test pages work, but printing from REV23 Desktop does not, please contact support. If however, the test page does not print, you will have to contact the printer manufacturer or find another other support option.

@@ -10,5 +10,5 @@ If you do not with to use any of the features of the Virtual Receptionist you ma
 
 Options for the Virtual Receptionist are configured directly in REV23 Desktop.
 
-See [Concepts: Virtual Receptionist](concepts/virtual-receptionist.md).  
-See [Configuration: Virtual Receptionist](../configuration/virtual-receptionist.md) and [Configuration: Virtual Receptionist Options](../configuiration/virtual-receptionist-options.md).
+See [Concepts: Virtual Receptionist](../concepts/virtual-receptionist.md).  
+See [Configuration: Virtual Receptionist](../configuration/virtual-receptionist.md) and [Configuration: Virtual Receptionist Options](../configuration/virtual-receptionist-options.md).

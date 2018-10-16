@@ -6,7 +6,7 @@ Device Options are options specific to the PC that you're currently using. They 
 
 **Default Scanner**: If selected, when acquiring a picture/document from a scanner, you will not be prompted for which device to use.
 
-**Force TWAIN 1.x Behavior:** If checked, REV23 Desktop will force TWAIN 1.x during scanning operations. Some devices have issues with the newer TWAIN 2.x model. If you encounter errors or freezing of the application while attempting to scan, check this box and restart REV23 Desktop.
+**Force TWAIN 1.x Behavior:** If checked, REV23 Desktop will force TWAIN 1.x during scanning operations. Some devices have issues with the newer TWAIN 2.x model. If you encounter errors or freezing of the application while attempting to scan photos and documents, check this box and restart REV23 Desktop.
 
 **Default Receipt Printer:** If selected, sale & invoice receipts will attempt to print to this printer.
 
