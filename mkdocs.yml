@@ -36,18 +36,20 @@ nav:
       - 'Clocking in': quick-start/clocking-in.md
       - 'Start a scheduled service': quick-start/start-a-scheduled-service.md
       - 'Apply a deposit': quick-start/apply-a-deposit.md
-      - 'Alter release & aftercare forms': quick-start/alter-release-and-aftercare-forms.md
+      - 'Alter release & aftercare forms': quick-start/modify-consent-form.md
       - 'Refund an item': quick-start/refund-an-item.md
       - 'Run reports': quick-start/run-reports.md
       - 'Clocking out': quick-start/clocking-out.md
       - 'Automate backups': quick-start/automate-backups.md
       - 'Conclusion': quick-start/conclusion.md
-    - Beyond the Quick Start:
-      - 'Sell a gift card': quick-start/sell-a-gift-card.md
-      - 'Reward clients': quick-start/reward-clients.md
-      - 'Discount multiple piercings': quick-start/discount-multiple-piercings.md
-      - 'Incentivize artists': quick-start/incentivize-artists.md
-      - 'Add a new service type': quick-start/add-a-new-service-type.md
+    - Quick Start Vol 2:
+      - 'Overview': quick-start-2/overview.md
+      - 'Sell a gift card': quick-start-2/sell-a-gift-card.md
+      - 'Reward clients with referrals': quick-start-2/referral-program.md
+      - 'Reward clients with points': quick-start-2/reward-points.md
+      - 'Discount multiple piercings': quick-start-2/discount-multiple-piercings.md
+      - 'Incentivize artists': quick-start-2/incentivize-artists.md
+      - 'Add a new service type': quick-start-2/add-a-new-service-type.md
     - Concepts:
       - 'Today Dashboard': concepts/today-dashboard.md
       - 'Customers': concepts/customers.md
@@ -55,6 +57,11 @@ nav:
       - 'Cloud Calendar': concepts/cloud-calendar.md
       - 'Deposits & Credits': concepts/deposits-and-credits.md      
       - 'Services': concepts/services.md
+      - 'Templates': concepts/templates.md
+      - 'Template Designer': concepts/template-designer.md
+      - 'Aftercare Forms': concepts/aftercare-forms.md
+      - 'Consent Forms': concepts/consent-forms.md
+      - 'Service Follow-ups': concepts/service-follow-ups.md
       - 'Walk-in Queue': concepts/walk-in-queue.md
       - 'Payments': concepts/payments.md      
       - 'Sales & Invoices': concepts/sales-and-invoices.md
@@ -72,7 +79,6 @@ nav:
       - 'Reports': concepts/reports.md
       - 'Dashboards': concepts/dashboards.md
       - 'Key Perfomance Indicators (KPI)': concepts/key-performance-indicators-kpi.md
-      - 'Templates': concepts/templates.md
       - 'Virtual Receptionist': concepts/virtual-receptionist.md
       - 'Email Marketing': concepts/email-marketing.md
       - 'System Messages': concepts/system-messages.md
@@ -80,7 +86,10 @@ nav:
     - Installation:
       - 'Main PC': installation/main-pc.md
       - 'Add-On PC': installation/add-on-pc.md
+      - 'Advanced: SQL Server Manual Installation': installation/sql-server-manual-installation.md
+      - 'Advanced: SQL Sever Edition Upgrade': installation/sql-server-edition-upgrade.md
     - Server Concepts:
+      - 'Database': server-concepts/database.md
       - 'Control Panel': server-concepts/control-panel.md
       - 'Database Service': server-concepts/database-service.md
       - 'Integration Service': server-concepts/integration-service.md
@@ -97,6 +106,7 @@ nav:
       - 'Users': security/users.md
     - Configuration:
       - 'My Studio': configuration/my-studio.md
+      - 'CardConnect': configuration/credit-cards.md
       - 'Appointment Labels': configuration/appointment-labels.md
       - 'Custom Texts': configuration/custom-texts.md
       - 'Dynamic Commissions': configuration/dynamic-commissions.md
@@ -114,6 +124,7 @@ nav:
       - 'Styles': configuration/styles.md
       - 'Taxes': configuration/taxes.md
       - 'Templates': configuration/templates.md
+      - 'Walkout Reasons': configuration/walkout-reasons.md
       - 'Virtual Receptionist': configuration/virtual-receptionist.md
       - 'Virtual Receptionist Options': configuration/virtual-receptionist-options.md
       - 'Device Options': configuration/device-options.md
@@ -144,11 +155,13 @@ nav:
       - 'External Hard Drives': hardware/external-hard-drives.md    
     - Troubleshooting:
       - 'General': troubleshooting/general.md
+      - 'Commissions': troubleshooting/commissions.md
       - 'Hardware': troubleshooting/hardware.md
-      - 'Virtual Receptionist': troubleshooting/virtual-receptionist.md
       - 'Cloud Calendar': troubleshooting/cloud-calendar.md
+      - 'Virtual Receptionist': troubleshooting/virtual-receptionist.md
       - 'Health Inspector': troubleshooting/health-inspector.md
     - Task Based Help:
+      - 'How to: Import customers': how-to/import-customers.md
       - 'How to: Backup your database': how-to/backup-your-database-manually.md
       - 'How to: Restore your database': how-to/restore-your-database.md
       - 'How to: Migrate data to a new PC': how-to/migrate-data-to-a-new-pc.md

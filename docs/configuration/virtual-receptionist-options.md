@@ -33,6 +33,7 @@ SMTP Servers are outgoing mail servers, supplied by your email provider, which a
 **Use SSL:** Yes  
 **Requires Authentication:** Yes  
 **User name:** Your full outlook.com or hotmail.com email address.
+**Password:** Your outlook.com or hotmail.com password. If using two-factor authentication, you will need to generate a new app password.
 
 #### Office 365
 
@@ -49,6 +50,7 @@ SMTP Servers are outgoing mail servers, supplied by your email provider, which a
 **Use SSL:** Yes  
 **Requires Authentication:** Yes  
 **User name:** Your full gmail.com email address.
+**Password:** Your gmail.com password. If using two-factor authentication, you will need to generate a new app password.
 
 > You will need to enable Less Secure Apps in your Google Account in order to send emails from REV23 Desktop. See [Less Secure Apps](https://www.google.com/settings/security/lesssecureapps) on Google.
 
@@ -58,6 +60,7 @@ SMTP Servers are outgoing mail servers, supplied by your email provider, which a
 **Use SSL:** Yes  
 **Requires Authentication:** Yes  
 **User name:** Your full yahoo.com email address.
+**Password:** Your yahoo.com password.
 
 > You will need to enable Less Secure Apps in your Yahoo Account in order to send emails from REV23 Desktop. See [Less Secure Apps](https://login.yahoo.com/account/security) on Yahoo.
 

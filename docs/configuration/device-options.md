@@ -16,13 +16,15 @@ Device Options are options specific to the PC that you're currently using. They 
 
 **Default Credit Card Printer:** If selected, credit card authorization receipts will attempt to print to this printer.
 
-**Default Batch Report Printer:** If selected, credit card batch reports  will attempt to print to this printer.
+**Default Batch Report Printer:** If selected, credit card batch reports will attempt to print to this printer.
 
 **Use Cash Drawer:** If checked, REV23 Desktop will open the cash drawer when payments with payment types that have the "Open Cash Drawer" setting are created or during a No Sale.
 
 **Cash Drawer Printer:** The printer the cash drawer interface cable is connected to. This must be specified for the cash drawer to open.
 
-**Cash Drawer Open Code:** The cash drawer open code is the sequence REV23 Desktop will use when attempting to open the cash drawer. These settings are specific to the receipt printer. The defaults provided are for the Epson T88V. See the Cash Drawer topic for more information.
+**Cash Drawer Open Code:** The cash drawer open code is the sequence REV23 Desktop will use when attempting to open the cash drawer. These settings are specific to the receipt printer. The defaults provided are for the Epson T88V.
+
+See the [Cash Drawer](../hardware/cash-drawer.md) topic for more information.
 
 **Test Cash Drawer:**
 Clicking this button will attempt to open the cash drawer to verify your settings.

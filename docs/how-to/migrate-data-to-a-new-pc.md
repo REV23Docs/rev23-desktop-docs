@@ -31,10 +31,14 @@ Please note, this is for moving your main PC only. This process is pretty straig
 You have successfully moved your database to another PC.
 
 ## Add-on PCs
+
 If you have add-on PCs you'll notice that they no longer work. You will again need to enable enhanced connections on the new PC. Once complete you will need to reset the connection on your add-on PCs to use the new connection information. See [Add-on PCs](../installation/add-on-pc.md) for instructions on resetting this connection.
 
+If Remote Connections were enabled, you will need to make the adjustments to your router to point to your new main PC's local IP address.
+
 ## Additional Considerations
+
 Here are some additional considerations to complete this process:
 
-+ Don't forget to reconfigure your automatic database backups using the Backup Service!
++ Don't forget to reconfigure your automatic database backups in the [Backup Service](../server-concepts/backup-service.md).
 + Install and configure necessary hardware.

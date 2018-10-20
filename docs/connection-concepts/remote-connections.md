@@ -11,8 +11,8 @@ REV23 can configure this for you as a paid service by clicking [here](https://ww
 + Create two port forwarding rules to your main PC.
 
     | Rule Name | Port | Protocol |
-    | --- | --- | ---|
-    | SQL Server | 1533 | TCP |
+    | --- | --- | --- |
+    | SQL Server (REV23) | 1533 | TCP |
     | SQL Browser | 1434 | UDP |
 
 + On your add-on PC, the hostname is your public IP address, followed by a comma, then port 1533. For example, "23.23.23.23,1533"

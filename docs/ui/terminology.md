@@ -1,5 +1,9 @@
 # UI Terminology
 
+There are several important elements that make up the REV23 Desktop user interface, which will sometimes be referred to as the UI. The following topics will explain what those elements are, the terminology that will be used in this user guide, how to use those elements as well as how to customize their appearance.
+
+> Due to the constant evolution of REV23 Desktop, screenshots in this user guide may not appear exactly as you see them on your screen. Features are regularly added and changed which occasionally modifies the user interface before we've had a chance to update the user guide.
+
 In this brief topic, we will talk about the terminology we use to refer to different areas of the user interface. Understanding this terminology will be valuable as you go through these docs.
  
 ## UI

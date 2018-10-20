@@ -1,0 +1,1 @@
+# Quick Start: Add a manager

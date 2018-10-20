@@ -3,9 +3,10 @@
 The Database Service is the Microsoft SQL Server service which must be running for REV23 Desktop to establish a connection to the database. You should rarely need to do anything with the service itself. However, there are some options for configuring remote connections as well as a database usage meter which shows your database usage of the 10 GB limit of SQL Server Express.
 
 ## Database usage meter
+
 The database usage meter shows the approximate usage of your REV23 Desktop database in relevance to the (current) 10GB limit. The 10 GB limit is set by Microsoft SQL Server Express, the free database engine REV23 Desktop is pre-installed with and uses for data access. 
 
-If your usage meter reaches 100%, you will need to acquire a license to an edition of Microsoft SQL Server which does not have this limit. Only the Express Edition has a database size limit. REV23 Development, Inc. has no control over this limit and is in no way an attempt to charge you additional money. You can purchase a Microsoft SQL Server license directly from your local Microsoft Store or online at http://store.microsoft.com.
+If your usage meter reaches 100%, you will need to acquire a license to an edition of Microsoft SQL Server which does not have this limit. Only the Express Edition has a database size limit. REV23. has no control over this limit and is in no way an attempt to charge you additional money. You can purchase a Microsoft SQL Server license directly from your local Microsoft Store or online at http://store.microsoft.com.
 
 As of the time of this writing, REV23 Desktop comes pre-installed with Microsoft SQL Server 2014 Express with Service Pack 2. This version has a database size limit of 10 GB.
 

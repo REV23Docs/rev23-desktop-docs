@@ -2,15 +2,15 @@
 
 Templates are special documents in REV23 Desktop that contain placeholders (fields), which are filled with properties from a particular object. For example, consent forms are templates which then have fields such as the customer's name, address, driver's licenses, etc... populated and merged into the document. Unlike most objects in REV23 Desktop, you create and edit a template's text using the Template Designer and do very little with the Template Detail View itself.
 
-> Important Note: Templates that are built-in to REV23 Desktop, easily identifiable by having an author of REV23 Development, Inc., are overwritten each time you install an update to REV23 Desktop. This means that if you make a change to one of the built-in templates, the change will be reverted when you do an update and replaced with our version of the template. If you wish to make minor changes to our templates or use them as a guide to make your own, you must Clone the template first and edit your copy. This ensures that it will not be overwritten during a REV23 Desktop update. Additionally, occasionally we will make changes to REV23 Desktop that will require you to edit your custom templates to accommodate the changes. For example, we may remove or rename a property in the database which you were using in your template. After major updates to REV23 Desktop you should review your templates to ensure they're still working as you expect them to.
+> Important Note: Templates that are built-in to REV23 Desktop, easily identifiable by having an author of `REV23`, are overwritten each time you install an update to REV23 Desktop. This means that if you make a change to one of the built-in templates, the change will be reverted when you do an update and replaced with our version of the template. If you wish to make minor changes to our templates or use them as a guide to make your own, you must Clone the template first and edit your copy. This ensures that it will not be overwritten during a REV23 Desktop update. Additionally, occasionally we will make changes to REV23 Desktop that will require you to edit your custom templates to accommodate the changes. For example, we may remove or rename a property in the database which you were using in your template. After major updates to REV23 Desktop you should review your templates to ensure they're still working as you expect them to.
 
 ## Template Properties
 
-> Note: Editing the Template with the Template Detail View only allows you to edit the template metadata. To edit the contents of the template itself use the "Edit Template" action.
+> Note: Editing the Template with the Template Detail View only allows you to edit the template metadata. To edit the contents of the template itself use the **Show Template Designer** action.
 
 **Name:** The name of the template. The name is required and must be unique.
 
-**Author:** The user who created the document. This is pre-populated with the user logged in at the time. This property is mainly used to quickly identify templates created by REV23 Development, Inc. so they are not directly modified, as changes made to them will be overwritten with each update.
+**Author:** The user who created the document. This is pre-populated with the user logged in at the time. This property is mainly used to quickly identify templates created by REV23 so they are not directly modified, as changes made to them will be overwritten with each update.
 
 **Data Type:** The data type indicates what type of object the template will be used for. This value  controls which property will show up in the Template Designer.
 

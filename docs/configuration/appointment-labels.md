@@ -9,8 +9,8 @@ You can customize these labels to be any name and color you'd like with one exce
 # Appointment Label Properties
 
 **Type:** The type of the appointment label.
-    - Label: This appointment label will be a label.
-    - Status: The appointment label will be a status.
+- *Label*: This appointment label will be a label.
+- *Status*: The appointment label will be a status.
 
 **Name:** The name of the appointment label.
 

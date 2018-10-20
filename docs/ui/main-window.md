@@ -20,7 +20,7 @@ There are actions in the main window that aren't available in other views, they 
 
 ### Tools
 
-**Edit Model:** Opens the Model Editor. This is an advanced area of REV23 Desktop and should only be utilized by experienced users or REV23 Development, Inc. Technical Support. This action is only visible to users in roles having the Can Edit Model permission.
+**Edit Model:** Opens the Model Editor. This is an advanced area of REV23 Desktop and should only be utilized by experienced users or REV23 Support. This action is only visible to users in roles having the Can Edit Model permission.
 
 **Erase Change History:** Opens the Change History Eraser tool. This allows you to free up space in your database by removing change history that is older than one year from the current date. This process can take several minutes to several hours depending on the amount of data in your database. It is not recommended to be used except for in extreme cases of approaching your database size limit. This action is only visible to Administrator users.
 
@@ -32,4 +32,4 @@ There are actions in the main window that aren't available in other views, they 
 
 ### Diagnostics
 
-**Remote Support**: Initializes a remote support session with REV23 Development, Inc. Technical Support. You will need to give the provided ID to the support analyst. We will then be able to remotely control your computer assist you with any problems or questions you may have.
+**Remote Support**: Initializes a remote support session with REV23 Support. You will need to give the provided ID to the support analyst. We will then be able to remotely control your computer assist you with any problems or questions you may have.

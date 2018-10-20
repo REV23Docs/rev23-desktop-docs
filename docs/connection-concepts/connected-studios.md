@@ -11,7 +11,6 @@ Even though isolated, REV23 Desktop can optionally be configured to allow you to
 With multiple isolated studios, you can have REV23 Desktop prompt you for which database you'd like to connect to.
 In this scenario, both studios in California and New York are isolated and you can choose which one you'd like to connect to before you see the log on screen.
 
-
 ## What is a Connected Studio?
 
 Connected studios are when a REV23 Desktop server is setup at one studio, and your other studios connect to it with Add-on PCs via Remote Connections.
