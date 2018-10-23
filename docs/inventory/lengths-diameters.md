@@ -2,7 +2,7 @@
 
 Length & diameters represent various sizes of jewelry. You will optionally assign a length/diameter to jewelry when creating a piercing inventory item.
 
-## Length & Diameter Properties
+## Properties
 
 **Inches:** The measurement of this length/diameter in inches. When this value is modified, the millimeters value will automatically calculate.
 

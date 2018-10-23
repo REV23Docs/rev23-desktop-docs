@@ -24,10 +24,10 @@ When the software is closed and a backup has not been taken for 7 days.
 
 If you're able to access the contents of the hard drive look to the default backup location.
 
-| OS Version| Location |
-| --- | --- |
-| Windows 64-bit | C:\Program Files (x86)\REV23 Desktop\Backup |
-| Windows 32-bit | C:\Program Files\REV23 Desktop\Backup |
+OS Version| Location
+--- | ---
+Windows 64-bit | C:\Program Files (x86)\REV23 Desktop\Backup
+Windows 32-bit | C:\Program Files\REV23 Desktop\Backup
 
 In this directory you're looking for .bak files that begin with "TattooStudio" and then a time stamp containing the year, month and date the backup was taken. Recover as many of these as you can just in case, but you'll obviously want to attempt to restore the most recent backup copy.
 

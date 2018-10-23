@@ -10,6 +10,11 @@ copyright: 'Copyright &copy; 2018 REV23 Development, Inc.'
 nav:
     - Home: index.md
     - Introduction: introduction.md
+    - Installation:
+      - 'Main PC': installation/main-pc.md
+      - 'Add-On PC': installation/add-on-pc.md
+      - 'Advanced: SQL Server Manual Installation': installation/sql-server-manual-installation.md
+      - 'Advanced: SQL Sever Edition Upgrade': installation/sql-server-edition-upgrade.md
     - User Interface:
       - 'Terminology': ui/terminology.md
       - 'Actions': ui/actions.md
@@ -24,10 +29,9 @@ nav:
       - 'Touch Mode': ui/touch-mode.md
       - 'Skins': ui/skins.md
     - Quick Start:
-      - 'Overview': quick-start/overview.md
+      - 'Overview': quick-start/index.md
       - 'Add a tattooer': quick-start/add-a-tattooer.md
       - 'Add a piercer': quick-start/add-a-piercer.md
-      - 'Add a manager': quick-start/add-a-manager.md
       - 'Schedule an appointment': quick-start/schedule-an-appointment.md
       - 'Add a retail item': quick-start/add-a-retail-item.md
       - 'Set service prices': quick-start/set-service-prices.md
@@ -40,10 +44,9 @@ nav:
       - 'Refund an item': quick-start/refund-an-item.md
       - 'Run reports': quick-start/run-reports.md
       - 'Clocking out': quick-start/clocking-out.md
-      - 'Automate backups': quick-start/automate-backups.md
       - 'Conclusion': quick-start/conclusion.md
     - Quick Start Vol 2:
-      - 'Overview': quick-start-2/overview.md
+      - 'Overview': quick-start-2/index.md
       - 'Sell a gift card': quick-start-2/sell-a-gift-card.md
       - 'Reward clients with referrals': quick-start-2/referral-program.md
       - 'Reward clients with points': quick-start-2/reward-points.md
@@ -51,12 +54,15 @@ nav:
       - 'Incentivize artists': quick-start-2/incentivize-artists.md
       - 'Add a new service type': quick-start-2/add-a-new-service-type.md
     - Concepts:
+      - 'Users': concepts/users.md
+      - 'User Service Types': concepts/user-service-types.md
       - 'Today Dashboard': concepts/today-dashboard.md
       - 'Customers': concepts/customers.md
       - 'Appointments': concepts/appointments.md
       - 'Cloud Calendar': concepts/cloud-calendar.md
       - 'Deposits & Credits': concepts/deposits-and-credits.md      
       - 'Services': concepts/services.md
+      - 'Dynamic Commissions': concepts/dynamic-commissions.md
       - 'Templates': concepts/templates.md
       - 'Template Designer': concepts/template-designer.md
       - 'Aftercare Forms': concepts/aftercare-forms.md
@@ -69,25 +75,20 @@ nav:
       - 'Gift Cards': concepts/gift-cards.md
       - 'Refunds': concepts/refunds.md
       - 'Waiting List': concepts/waiting-list.md
+      - 'Rotating Schedules': concepts/rotating-schedules.md
       - 'Points': concepts/points.md
+      - 'Referrals': concepts/referrals.md
       - 'Payouts': concepts/payouts.md      
       - 'Time Clock': concepts/time-clock.md
       - 'Tasks': concepts/tasks.md
-      - 'Walkouts': concepts/walkouts.md
-      - 'File Attachments': concepts/file-attachments.md
-      - 'Notes': concepts/notes.md
+      - 'Inventory': concepts/inventory.md
+      - 'Walk-outs': concepts/walk-outs.md
       - 'Reports': concepts/reports.md
       - 'Dashboards': concepts/dashboards.md
       - 'Key Perfomance Indicators (KPI)': concepts/key-performance-indicators-kpi.md
       - 'Virtual Receptionist': concepts/virtual-receptionist.md
       - 'Email Marketing': concepts/email-marketing.md
-      - 'System Messages': concepts/system-messages.md
-      - 'News': concepts/news.md
-    - Installation:
-      - 'Main PC': installation/main-pc.md
-      - 'Add-On PC': installation/add-on-pc.md
-      - 'Advanced: SQL Server Manual Installation': installation/sql-server-manual-installation.md
-      - 'Advanced: SQL Sever Edition Upgrade': installation/sql-server-edition-upgrade.md
+      - 'Audit Trail': concepts/audit-trail.md
     - Server Concepts:
       - 'Database': server-concepts/database.md
       - 'Control Panel': server-concepts/control-panel.md
@@ -100,31 +101,33 @@ nav:
       - 'Enhanced Connections': connection-concepts/enhanced-connections.md
       - 'Remote Connections': connection-concepts/remote-connections.md
       - 'Connected Studios': connection-concepts/connected-studios.md       
-    - Security:
-      - 'Administrator': security/administrator.md
-      - 'Roles': security/roles.md
-      - 'Users': security/users.md
+    - Security Concepts:
+      - 'Administrator': security-concepts/administrator.md
+      - 'Roles': security-concepts/roles.md
     - Configuration:
       - 'My Studio': configuration/my-studio.md
       - 'CardConnect': configuration/credit-cards.md
       - 'Appointment Labels': configuration/appointment-labels.md
       - 'Custom Texts': configuration/custom-texts.md
       - 'Dynamic Commissions': configuration/dynamic-commissions.md
+      - 'Languages': configuration/languages.md
       - 'Medical Conditions': configuration/medical-conditions.md
       - 'P2PE Devices': configuration/p2pe-devices.md
       - 'Payment Types': configuration/payment-types.md
       - 'Return/Refund Reasons': configuration/return-refund-reasons.md
+      - 'Required Field Rules': configuration/required-field-rules.md
       - 'Rotating Schedules': configuration/rotating-schedules.md
       - 'Service Categories': configuration/service-categories.md
       - 'Service Departments': configuration/service-departments.md
       - 'Service Types': configuration/service-types.md
       - 'Service Type Discounts': configuration/service-type-discounts.md
+      - 'Service Type Discount Tiers': configuration/service-type-discount-tiers.md
       - 'SMS Gateways': configuration/sms-gateways.md
       - 'Sources': configuration/sources.md
       - 'Styles': configuration/styles.md
       - 'Taxes': configuration/taxes.md
       - 'Templates': configuration/templates.md
-      - 'Walkout Reasons': configuration/walkout-reasons.md
+      - 'Walk-out Reasons': configuration/walk-out-reasons.md
       - 'Virtual Receptionist': configuration/virtual-receptionist.md
       - 'Virtual Receptionist Options': configuration/virtual-receptionist-options.md
       - 'Device Options': configuration/device-options.md
@@ -135,11 +138,12 @@ nav:
       - 'Departments': inventory/inventory-departments.md
       - 'Ball Configurations': inventory/ball-configurations.md
       - 'Bulk Discount Codes': inventory/bulk-discount-codes.md
+      - 'Bulk Discount Code Tiers': inventory/bulk-discount-code-tiers.md
       - 'Colors': inventory/colors.md
       - 'Gem Configurations': inventory/gem-configurations.md
       - 'Gauges': inventory/gauges.md
       - 'Jewelry Types': inventory/jewelry-types.md
-      - 'Lengths & Diameters': inventory/lengths-and-diameters.md
+      - 'Lengths & Diameters': inventory/lengths-diameters.md
       - 'Manufacturers': inventory/manufacturers.md
       - 'Materials': inventory/materials.md
       - 'Vendors': inventory/vendors.md
@@ -162,11 +166,35 @@ nav:
       - 'Health Inspector': troubleshooting/health-inspector.md
     - Task Based Help:
       - 'How to: Import customers': how-to/import-customers.md
+      - 'How to: Add required fields': how-to/add-required-fields.md
       - 'How to: Backup your database': how-to/backup-your-database-manually.md
+      - 'How to: Automate backups':  how-to/automate-backups.md
       - 'How to: Restore your database': how-to/restore-your-database.md
       - 'How to: Migrate data to a new PC': how-to/migrate-data-to-a-new-pc.md
       - 'How to: Recover from PC crashes': how-to/recover-from-pc-crashes.md
       - 'How to: Reset user interface to defaults': how-to/reset-user-interface-defaults.md  
+    - Reference:
+      - 'Appointments': reference/appointments.md
+      - 'Customers': reference/customers.md
+      - 'Deposits & Credits': reference/deposits-credits.md
+      - 'Deposit/Credit History Items': reference/deposit-credit-history-items.md
+      - 'File Attachments': reference/file-attachments.md
+      - 'Gift Cards': reference/gift-cards.md
+      - 'Gift Card History Items': reference/gift-card-history-items.md
+      - 'News': reference/news.md
+      - 'Notes': reference/notes.md
+      - 'Persons': reference/persons.md
+      - 'Roles': reference/roles.md
+      - 'Sales & Invoices': reference/sales-invoices.md
+      - 'Services': reference/services.md
+      - 'System Messages': reference/system-messages.md
+      - 'Tasks': reference/tasks.md
+      - 'Time Clock Entries': reference/time-clock-entries.md
+      - 'Users': reference/users.md
+      - 'User Service Types': reference/user-service-types.md
+      - 'Waiting List Items': reference/waiting-list-items.md
+      - 'Walk-ins': reference/walk-ins.md
+      - 'Walk-outs': reference/walk-outs.md
     - Tattoo Management Studio: 'tattoo-management-studio.md'
     - About:
       - 'License': license.md
@@ -174,10 +202,12 @@ nav:
 
 # Theme
 theme: 
+  logo: 'img/logo.svg'
   name: material
   palette:
     primary: 'blue'
     accent: 'pink'
+  favicon: 'img/favicon.ico'
 
 #Repository
 repo_name: 'rev23docs/rev23-desktop-docs'

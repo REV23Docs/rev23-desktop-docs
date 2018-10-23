@@ -2,13 +2,13 @@
 
 Tax configuration allows you to define the various tax rates that you must collect on services and sale items. You can define multiple tax rates and select which to use for each service type and location inventory item.
 
-## Tax Properties
+## Properties
 
 **Name:** The name of the Tax. The name is required and must be unique.
 
 **Rate:** The tax rate for this tax.
 
-## Tax Actions
+## Actions
 
 ### Tools
 

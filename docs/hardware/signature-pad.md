@@ -12,11 +12,13 @@ The Wacom STU-530 requires no device drivers or additional setup in REV23 Deskto
 
 ### Wacom STU Display (Slideshow)
 
-The Wacom STU Display application is an optional download that allows you to run a slideshow of images on the STU Tablet while not in signing mode. Technical support for this application is not provided by REV23. 
- Download: 
- 
+The Wacom STU Display application is an optional download that allows you to run a slideshow of images on the STU Tablet while not in signing mode.
+
  - [**Download STU Display**](http://gsdt.wacom.eu/download/Wacom-STU-Display.xml)
 
+After installing, you'll find a new **Wacom STU Display** applet in your Windows Control Panel. Click the tab matching your model number to configure the slideshow and see the path of where to put your images.
+
+Technical support for this application is not provided by REV23.
 
 ## ePad-ink
 

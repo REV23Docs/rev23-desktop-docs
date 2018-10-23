@@ -1,6 +1,4 @@
-# Introduction
-
-## Letter from Nate
+# Welcome to REV23 Desktop
 
 Congratulations! You're about to begin learning how to use REV23 Desktop! Whether you're evaluating REV23 Desktop or have already made up your mind and signed up, I'm happy you're here with us.
 
@@ -16,6 +14,7 @@ Good luck and please let us know what you think. REV23 Desktop has evolved becau
 
 Sincerely,
 
-Nate Laff  
-Founder & Developer  
-REV23
+![Nate Laff - Founder & Developer of REV23](img/nate_sig.png)
+
+**Nate Laff**  
+Founder & Developer of REV23

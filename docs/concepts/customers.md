@@ -10,3 +10,9 @@ The Default Customer is:
 - Only accessible from sales and invoices. You cannot assign the default customer to appointments, deposits, services or the waiting list.
 
 The customer property on a Sale has a Default Customer button that you can click to set the customer of the sale to the Default Customer.
+
+## Related
+
+- [Reference: Customers](../reference/customers.md)
+
+

@@ -10,10 +10,10 @@ In order to properly scan 2D barcodes from your customer's driver's license usin
 
 1. Scan here.
 
-    ![Barcode USB HID](/hardware/img/barcode-usb-hid.png)
+    ![Barcode USB HID](img/barcode-usb-hid.png)
 
 1. Now scan here.
     
-    ![Barcode Control + ASCII Mode On](/hardware/img/barcode-control-ascii-mode-on.png)
+    ![Barcode Control + ASCII Mode On](img/barcode-control-ascii-mode-on.png)
 
 Your barcode scanner should now be configured to properly read 2-dimensional barcodes in from driver's licenses in REV23 Desktop.

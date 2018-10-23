@@ -4,6 +4,6 @@ Styles represent various art styles that your artists are tattooing on clients. 
 
 For example, a portrait of Marilyn Monroe could fall into a few styles, such as Celebrity, Portrait and possibly Black & Gray or Color depending on coloring choice.
 
-## Style Properties
+## Properties
 
 **Name:** The name of the Style. The name is required and must be unique.

@@ -10,7 +10,7 @@ Note: You can change the first day of the week that dynamic commissions use in y
 
 After creating a dynamic commission you must set the Dynamic Commission property on each Service Type you wish the commission to apply to and additionally on each Employee you must set each of their Employee Service Types commission type to Dynamic. 
 
-## Dynamic Commission Properties
+## Properties
 
 **Name:** The name of the dynamic commission. The name is required and must be unique.
 

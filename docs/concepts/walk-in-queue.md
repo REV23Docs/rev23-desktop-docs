@@ -28,3 +28,6 @@ If the customer does not return or has decided to leave without getting a servic
 ### Starting a Service
 
 When you're ready to perform the service, click the **Start Service** action to copy all relevant information from the queue to a new service record.
+
+## Related
+[Reference: Walk-ins](../reference/walk-ins.md)

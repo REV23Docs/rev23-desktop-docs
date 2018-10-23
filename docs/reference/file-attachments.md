@@ -1,4 +1,4 @@
-# File Attachments
+# File Attachment
 
 Some objects, such as Customers, Services and Appointments can store file attachments. Anywhere attachments can be stored you will see an attachments tab or nested list view.
 
@@ -8,7 +8,7 @@ Anywhere you can add an attachment you can either add it from a file on your fil
 
 You can double click a file attachment to open it's detail view. To open the attachment itself, use the Open action on the toolbar or right click menu.
 
-## File Attachments Properties
+## Properties
 
 **File Name:** The name of the attachment's file. If you've attached this from a file on the hard drive, it will use that file name.
 
@@ -18,21 +18,21 @@ You can double click a file attachment to open it's detail view. To open the att
 
 **Size:** The physical size of the file on the hard disk.
 
-## File Attachment Actions
+## Actions
 
 Objects that support file attachments have special actions for interacting with those attachments. They're generally located in a nested list view in the master object's detail view.
 
-### Records Creation Actions
+### Records Creation
 
 **Add From File:** Add an attachment from a file on your PC.
 
 **Add From Scanner:** Add an attachment by scanning the document on your scanner. After the scan, you will be prompted for an attachment name and the attachment type. By default, REV23 Desktop will prompt you for which scanner you'd like to use. You can set your default scanner in Device Options to avoid this prompt.
 
-### Save Actions
+### Save
 
 **Save As:** Save the selected attachment from the database to a location on your PC.
 
-### Open Object Actions
+### Open Object
 
 **Open:** Opens the selected attachment in the default program for that file type.
 

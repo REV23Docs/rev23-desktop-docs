@@ -61,3 +61,6 @@ To add an image or modify the color of the header, footer or font, email [ISVdel
 + Image file
 
 + Hex to RGB color code(s)
+
+## Related
+- [P2PE Devices](../configuration/p2pe-devices.md)

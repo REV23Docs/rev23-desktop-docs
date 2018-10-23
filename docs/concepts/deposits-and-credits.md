@@ -28,28 +28,6 @@ You can manually create history items to adjust the balance as needed, but more 
 - Forfeiting a deposit/credit. For example, when a customer doesn't show up for an appointment.
 - Tipping an artist. The customer may choose to a remaining balance of their deposit as a tip for the artist.
 
-## Deposit & Credit Properties
-
-**Date/Time:** The date and time the deposit/credit was created. 
-
-**Customer:** The customer that the deposit/credit was created for. 
-
-**Employee:** The user the deposit is intended for (who will be paid if the deposit is forfeit). This field is required for deposits only.
-
-**Type:** The type of the Deposit/Credit Object. It's value will be either **Deposit**, **In-Store Credit**, or **Reward Credit**. This field cannot be edited.
-
-**Amount:** The original amount of this deposit/credit. Do not edit this amount to alter the balance. Its balance should only be altered via its history.
-
-**Memo:** An optional text field for a description of this deposit/credit and why it was created.
-
-**Created By:** The user who created the deposit/credit.
-
-**Expiration Date:** The date this deposit/credit is no longer valid. Once this date has elapsed, regardless of the history, its available balance will be calculated as zero.
-
-**Available Balance:** The available balance is calculated based on the history of the deposit/credit. See [history](#deposit-credit-history) for more information.
-
-**Redeemable at any connected studio:** For multiple studios only, if checked, the customer can redeem this deposit/credit at any of the studios. Otherwise, it will only be redeemable at the studio it was originally created in.
-
 ## Deposit Policy
 
 The Deposit Policy is a custom text that appears on the deposit receipt.
@@ -62,24 +40,7 @@ You can optionally require a customer to sign a deposit agreement, using the sig
 
 The text which appears on the signature pad that the customer must first acknowledge is defined by custom text using the `SIGNATURE_PAD_DEPOSIT_AGREEMENT` key name.
 
+## Related
 
-## Deposit & Credit Actions
-
-### Record Edit Actions
-
-**Refund Deposit**
-
-### View Actions
-
-**Show Payment**
-
-### Detail View Actions
-
-**Sign Deposit Agreement**
-
-### Print Actions
-
-**Print Deposit/Credit Receipt**
-
-
-
+- [Reference: Deposits/Credits](../reference/deposits-credits.md)
+- [Reference: Deposit/Credit History Items](../reference/deposit-credit-history-items.md)

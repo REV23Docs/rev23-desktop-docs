@@ -5,7 +5,7 @@ The Backup Service is a background process that runs on your main REV23 PC and t
 You can configure the Backup Service in the [REV23 Desktop Control Panel](control-panel.md).
 
 > Don't have an external hard drive? Buy one from REV23 [here](https://www.rev23.com/products/hardware/western-digital-wd-my-book-3-tb-external-hard-drive/
-) today!.
+) today.
 
 ## Backup Service Options
 

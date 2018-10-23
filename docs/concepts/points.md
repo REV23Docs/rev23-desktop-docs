@@ -1,7 +1,5 @@
 # Points
 
-## What are points?
-
 Points allow you to reward your customers with cash for spending in your studio.
 
 ## Usage

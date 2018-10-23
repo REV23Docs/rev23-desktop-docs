@@ -2,7 +2,7 @@
 
 Vendors represent the businesses you purchase your inventory items from. A vendor can be associated with an inventory item where you'll specify your cost for the item when purchasing from them.
 
-## Vendor Properties
+## Properties
 
 **Name:** The vendor's business name.
 

@@ -1,8 +1,12 @@
 # Quick Start: Schedule an appointment
 
-Appointments are a critical piece of the tattoo industry! REV23 Desktop comes with an advance scheduler, as well as deposit tracking. Police Commissioner Jim Gordon was out for a run when he passed the new studio. He's come in to check it out and decides to schedule an appointment with Pam for tomorrow. Luckily, when jogging, he always keeps some cash tucked in his sock so he has the ability to put down a deposit.
+Appointments are a critical piece of the tattoo industry! REV23 Desktop features an advanced scheduler, as well as deposit tracking. 
 
-1. From the Today Dashboard click the Appointments action to open the Scheduler -OR- Navigate to Home > Appointments. Either way will take you to the scheduler.
+Gotham City Police Commissioner, Jim Gordon was out for a run when he passed the new studio. He's come in to check it out and decides to schedule an appointment with Pam for tomorrow. Luckily, while jogging, he always keeps some cash tucked in his sock so he has the ability to put down a deposit.
+
+1. From the Today Dashboard click the **Appointments** action to open the Scheduler *-OR-* navigate to **Home > Appointments**. Either way will take you to the scheduler.
+
+
 
 2. Navigate to the date we want to schedule for using the Date Navigator on the right. We'll see a nice wide open spot for Pam (in the green column) that we can schedule an appointment for. You can also use the Find Opening action to search for an available spot.
 

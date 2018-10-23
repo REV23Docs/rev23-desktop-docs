@@ -50,3 +50,8 @@ The template that is used for the email body can be changed in **Configuration >
 You can print an aftercare form from a Service by clicking the **Print Aftercare** action.
 
 Additionally, you can be prompted to print aftercare instructions after a sale containing one or more services has been fully paid. You can disable this prompt, or set it to always automatically print in [Configuration: My Studio: Options: Service Options](../configuration/my-studio.md#service-options).
+
+## Related
+
+- [Configuration: Templates](../configuration/templates.md)
+- [Configuration: Service Types](../configuration/service-types.md)

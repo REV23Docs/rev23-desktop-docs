@@ -4,9 +4,13 @@ P2PE (Point-to-point Encryption) Devices represent the credit card terminals fro
 
 Use the Configure CardConnect action to automatically retrieve your registered terminals. You can configure some options per terminal.
 
-See: [Concepts: Credit Cards](../concepts/credit-cards.md) for more information on Credit Card Processing with CardConnect.
+## Actions
 
-## P2PE Device Properties
+### Records Creation
+
+**Configure CardConnect:** Retrieves a list of registered P2PE Devices from your CardConnect account.
+
+## Properties
 
 **Friendly Name:** By default P2PE Devices are identified by their serial number. If you have more than one terminal you can assign a friendly name, such as "Left" or "Right" for easy identification. The friendly name is required must be unique.
 
@@ -21,3 +25,7 @@ See: [Concepts: Credit Cards](../concepts/credit-cards.md) for more information 
 **Banner Display Text:** If supplied, this text will be displayed on the bottom of the terminal when not in use. If blank, no text will be displayed and the terminal will only show your logo.
 
 > Banner Display Text Note: As of the time of this writing, all CardConnect P2PE Devices reboot themselves at approximately 3AM EST. When rebooted, the banner display text reverts back to its connection status (i.e. `BOLTED`). Your banner display text will be displayed again after the end of the first transaction for the day.
+
+## Related
+- [Concepts: Credit Cards](../concepts/credit-cards.md)
+- [Configuration: Credit Cards](../configuration/credit-cards.md)

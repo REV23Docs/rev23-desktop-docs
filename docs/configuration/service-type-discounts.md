@@ -8,7 +8,7 @@ You can provide multiple tiers where you can create a structure of discounts bas
 
 After you define the discounts, will assign the Bulk Discount Code of each Service Type you wish to apply to this discount. When services are linked to an sale/invoice, the invoice will search for match discount codes and automatically apply the discount for you.
 
-## Service Type Discount Properties
+## Properties
 
 **Name:** The name of the service type discount. The name is required and must be unique.
 
@@ -18,27 +18,7 @@ After you define the discounts, will assign the Bulk Discount Code of each Servi
 
 **Don't apply discount of a manually applied discount is greater:** If checked, if a service has a discount that was manually entered (say from another promotion you may be running, or a coupon), this discount will not be applied if it is less than what was entered at the time of the service. If you always want bulk discount codes to rule, regardless of coupons, leave this unchecked.
 
-## Service Type Discount Tiers
-
-**First is full price:** If checked, the discount will adjust itself to ensure the first service is full price. If unchecked, the discount will apply to all services it finds in this code. For example, lets take a $20 lobe piercing. You may want to do a promotion where the second piercing is half off. If this is unchecked, the 50% discount would apply to both (meaning two for the price of one), however, when it's checked only the second piercing will be discounted.
-
-**Discount Type:** The type of discount to be applied.
-
-- *None*: No discount is applied.
-- *Fixed*: The discount will be a fixed amount, set in the Discount Amount property.
-- *Percent*: The discount will be a percentage of the subtotal, set in the Discount Percentage property.
-
-**Discount Percentage:** The discount percentage to apply to each matching service. This property is only visible when the Discount Type is set to Percent.
-
-**Discount Amount:** 
-The discount amount to apply to each matching service. This property is only visible when the Discount Type is set to Fixed.
-
-**Start Quantity:** The minimum quantity of services for this tier to be applied.
-
-**End Quantity:** The maximum quantity of services for this tier to be applied before searching for the next tier.
-
-**And Up:** If checked, the end quantity is infinite, meaning there are higher discount tiers after this.
-
 ## Connected Studio Behavior
 
 A service type discount can exist in multiple studios. Instead of creating duplicate discount codes you should link to already existing discounts to each studio they apply to. Use the Link action in the Locations tab to add the code to additional studios.
+

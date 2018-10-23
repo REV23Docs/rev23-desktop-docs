@@ -6,11 +6,11 @@ Depending on whether you want to reset the Administrator user settings or anothe
 
 ## To reset the Administrator User Settings
 
-1) From the Main Window click the Tools tab on the Ribbon.
-2) Click the Model Editor action. The Model Editor window will appear.
-3) On the left hand pane, you will see a root (top) node titled REV23 Desktop. Right click it and select "Reset Differences" from the menu. Click Yes to the resulting prompt.
-4) Save the Model using the Save button.
-5) Close the Model Editor.
+1. From the Main Window click the Tools tab on the Ribbon.
+2. Click the Model Editor action. The Model Editor window will appear.
+3. On the left hand pane, you will see a root (top) node titled REV23 Desktop. Right click it and select "Reset Differences" from the menu. Click Yes to the resulting prompt.
+4. Save the Model using the Save button.
+5. Close the Model Editor.
 
 Your Administrator User Settings are now reset to default.
 
@@ -18,10 +18,10 @@ Your Administrator User Settings are now reset to default.
 
 ## To reset other User Settings
 
-1) Log on as Administrator.
-2) Go to the Security > User Settings.
-3) Find the user whose settings you need to reset and delete the record (You're deleting the users settings only, not their user account.)
-4) Log off as Administrator.
-5) Log on as the desired user.
+1. Log on as Administrator.
+2. Go to the **Security > User Settings**.
+3. Find the user whose settings you need to reset and delete the record (You're deleting the users settings only, not their user account.)
+4. Log off as Administrator.
+5. Log on as the desired user.
 
 The user's User Settings are now reset to default.

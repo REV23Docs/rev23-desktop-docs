@@ -1,4 +1,4 @@
-# System Messages
+# System Message
 
 System Messages provide insights into the health of your REV23 Desktop system. Most commonly you'll see errors related to authentication and password errors such as your SMTP server failing to send messages from the Virtual Receptionist due to a password change.
 
@@ -10,7 +10,7 @@ The number of unread system messages will appear next to the System Message item
 
 ## Actions
 
-### Record Edit Actions
+### Record Edit
 
 **Mark as Read:** Mark the selected system message(s) as read, meaning you have acknowledged them and attempted to correct the action.
 

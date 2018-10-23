@@ -6,7 +6,7 @@ You can customize these labels to be any name and color you'd like with one exce
 
 > The appointment labels that are built-in are required by the system and cannot be deleted or renamed. These are the labels with an index of zero (0).
 
-# Appointment Label Properties
+# Properties
 
 **Type:** The type of the appointment label.
 - *Label*: This appointment label will be a label.

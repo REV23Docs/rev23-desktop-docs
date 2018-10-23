@@ -43,3 +43,7 @@ You may be able to find apps in your devices app store that support subscription
 + **Microsoft Windows:** Outlook, included as a part of Microsoft Office, allows you to add internet calendars.
   
 + **Android:** ICSDroid is a paid app, in no way affiliated with REV23, that helps eliminate the delay of Google Calendar updating your REV23 Cloud Calendar. This app allows you to sync an internet calendar directly to the device, and many REV23 users have reported success with it.
+
+## Related
+- [Concepts: Users](users.md)
+- [Troubleshooting: Cloud Calendar](../troubleshooting/cloud-calendar.md)

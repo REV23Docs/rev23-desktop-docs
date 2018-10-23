@@ -6,7 +6,7 @@ You can create multiple tiers in the discount code which relate to the discount 
 
 In order to work, you need to create a bulk discount code with at least one tier with a starting quantity of 2 or more. Then assign the bulk discount code to each inventory item you wish to participate in the discount.
 
-## Bulk Discount Code Properties
+## Properties
 
 **Name:** The name of the bulk discount. The name is required and must be unique.
 
@@ -16,16 +16,4 @@ In order to work, you need to create a bulk discount code with at least one tier
 
 **Tiers:** List of Bulk Discount Tiers that apply to this discount code.
 
-### Bulk Discount Code Tier Properties
-
-**Discount Percentage:** The discount percentage to apply to each matching item.
-
-**Start Quantity:** The minimum quantity of items for this tier to be applied.
-
-**End Quantity:** The maximum quantity of items for this tier to be applied before searching for the next tier.
-
-**And Up:** If checked, the end quantity is infinite, meaning there are higher discount tiers after this.
-
-## Connected Studio Behavior
-A bulk discount code can exist in multiple studios. Instead of creating duplicate discount codes you should link to already existing discounts to each studio they apply to. Use the Link action in the Locations tab to add the code to additional studios.
 

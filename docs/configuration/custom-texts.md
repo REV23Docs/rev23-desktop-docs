@@ -4,7 +4,7 @@ Custom Texts are special text values read by REV23 Desktop. Custom texts are pri
 
 > The custom texts that are built-in are required by the system and cannot be deleted or renamed.
 
-## Custom Text Properties
+## Properties
 
 **Key Name:** The key name of the custom text. The key name is required must be unique. The key name is how REV23 Desktop locates the custom text.
 

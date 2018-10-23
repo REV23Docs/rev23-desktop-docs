@@ -1,4 +1,4 @@
-# Gauges
+# Gauge
 
 Gauges obviously represent various sized jewelry and piercing needles measured by gauge. You will optionally assign a gauge to piercing inventory items.
 

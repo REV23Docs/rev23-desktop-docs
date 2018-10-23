@@ -6,20 +6,20 @@ Editors are controls which allow you to view and edit a property of a particular
 
 When hovering over properties that store images or photos, special toolbars containing buttons will appear, allowing you to load or interact with the image.
 
-![Image Editor](/ui/img/image_editor.png)  
+![Image Editor](img/image_editor.png)  
 *The image editor*
 
-![Image Editor Load Button](/ui/img/image_editor_load.png)  
+![Image Editor Load Button](img/image_editor_load.png)  
 **Load:** Load an image from a file on your PC.
 
-![Image Editor Delete Button](/ui/img/image_editor_delete.png)  
+![Image Editor Delete Button](img/image_editor_delete.png)  
 **Delete:** Delete the current image.
 
-![Image Editor Webcam Button](/ui/img/image_editor_webcam.png)  
+![Image Editor Webcam Button](img/image_editor_webcam.png)  
 **Webcam:** Take a picture using your PC's webcam. By default, REV23 Desktop will use the first webcam it can find. You can set your default webcam in [Device Options](../configuration/device-options.md).
 
-![Image Editor Edit Button](/ui/img/image_editor_edit.png)  
+![Image Editor Edit Button](img/image_editor_edit.png)  
 **Edit:** Opens the REV23 Desktop Image Editor allowing you to crop or rotate the image.
 
-![Image Editor Scan Button](/ui/img/image_editor_scan.png)  
+![Image Editor Scan Button](img/image_editor_scan.png)  
 **Scan:** Initializes your TWAIN compatible scanner to scan an image. By default, REV23 Desktop will prompt you for which scanner you'd like to use. You can set your default scanner in [Device Options](../configuration/device-options.md) to avoid this prompt.

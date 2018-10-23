@@ -74,3 +74,8 @@ The body that is sent in the email is a template which you can customize.
 The template that is used for the email body can be changed in **Configuration > Virtual Receptionist Options** in the **Consent Form Customer Copy Email Options** tab. By default this is the template with key name `REV23_CONSENTFORM_EMAIL_BODY`, and is recommended you clone that template if you wish to change this text.
 
 > The email body should _not_ contain your consent form, but a more general email along the lines of "*Thank you for coming in to Gotham City Tattoo & Piercing, attached is your signed release form.*"
+
+## Related
+
+- [Configuration: Templates](../configuration/templates.md)
+- [Configuration: Service Types](../configuration/service-types.md)

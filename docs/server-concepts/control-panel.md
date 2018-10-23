@@ -8,7 +8,11 @@ The REV23 Desktop Control Panel is located only on your main REV23 Desktop PC an
 | --- | --- |
 | For Windows 10 | Type REV23 Desktop Control Panel in the search box on the taskbar, and then select REV23 Desktop Control Panel. |
 | For Windows 8.1 | Swipe in from the right edge of the screen, tap Search (or if you're using a mouse, point to the lower-right corner of the screen, move the mouse pointer up, and then click Search), enter REV23 Desktop Control Panel in the search box, and then tap or click REV23 Desktop Control Panel. |
-| For Windows 7 | Click the Start button. In the search box, type REV23 Desktop Control Panel, and then, in the list of results, click REV23 Desktop Control Panel. |
+| For Windows 7 | Click the Start button. In the search box, type REV23 Desktop Control Panel, and then, in the list of results, click REV23 Desktop Control Panel. 
+
+## Database Service
+
+See [Database Service](database-service.md).
 
 ## Backup Service
 

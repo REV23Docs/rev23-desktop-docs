@@ -8,7 +8,7 @@ REV23 Desktop comes with default templates for every scenario, including tattoo 
 
 Here's the catch. Each time the software is updated, we overwrite our built-in templates. Meaning, if you modify one of the built-in templates, the next time you update REV23 Desktop to a new version, your change will be erased and replaced with the default one again. So you can either start a new template using the New action, or, most commonly, you can modify an existing template by first copying it using the Clone action. This is the approach we will take in this topic.
 
-1. Navigate to Configuration -> Templates to open the Template List View. You'll need to be logged on as an Administrator or Manager user to access this area.
+1. Navigate to Configuration > Templates to open the Template List View. You'll need to be logged on as an Administrator or Manager user to access this area.
 
 2. Select the Consent Form for Tattoo (REV23) record, and click the Clone action. This will open the Template Detail View for our newly created copy. Provide a new name in the Name editor.
 

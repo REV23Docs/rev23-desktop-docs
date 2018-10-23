@@ -8,12 +8,12 @@ Well, it's still Friday and our appointment we scheduled earlier isn't until tom
 
 2. In the Service Detail View, we'll set up the service. For services, we only need a few things to get it rolling. The extent you need to fill this out is up to your health department.
 
-    + Customer: Required. Obviously.
-    + Service Type: Required. The type of service you're performing.
-    + Employee: Required. The employee providing the service.
-    + Placement Area: Recommended. The placement of the service on the body. If a piercing (what we're doing in this case) the name of the piercing itself generally guides this and is unnecessary.
-    + Design Description: Mostly for tattoos, or large piercing projects. A description of what is being done.
-    + Amount: The amount you're charging for the service. Generally you'll only fill this editor out when dealing with tattoos, since in most cases, piercing prices are fixed and determined by the studio.
+    + **Customer:** Required. Obviously.
+    + **Service Type:** Required. The type of service you're performing.
+    + **Employee:** Required. The employee providing the service.
+    + **Placement Area:** Recommended. The placement of the service on the body. If a piercing (what we're doing in this case) the name of the piercing itself generally guides this and is unnecessary.
+    + **Design Description:** Mostly for tattoos, or large piercing projects. A description of what is being done.
+    + **Amount:** The amount you're charging for the service. Generally you'll only fill this editor out when dealing with tattoos, since in most cases, piercing prices are fixed and determined by the studio.
 
 3. Like we saw when we scheduled an appointment for a customer, we can click the Customer editor to search for a customer by name, or create a new customer by clicking the New action or Scan/Swipe ID action. Since this client has her ID with her, we'll click the Scan/Swipe ID action to open the Customer Detail View and pre-fill that data in.
 
@@ -37,8 +37,9 @@ The only additional change we will make is to set the Quantity to 2, since our c
 
 7. It's time for the release form! Depending on your set up you can take one of two paths.
 
-    - If you have the Signature Pad, click the Sign Consent Form action. Unlike other actions we've dealt with so far, this does not appear on the ribbon.  Instead, you can find it in the Detail View itself underneath the main group of editors we just filled out. This will prompt the client to sign the signature pad device, generate the release form, and store it in the database. Optionally, you can have the signed document emailed to the client.
-    - If you do not have the Signature Pad, click the Print Consent Form action. This will fill the client's details and ID image onto a release form that is printed and ready to be signed. 
+    - If you have the Signature Pad, click the **Sign Consent Form** action. Unlike other actions we've dealt with so far, this does not appear on the ribbon.  Instead, you can find it in the Detail View itself underneath the main group of editors we just filled out. This will prompt the client to sign the signature pad device, generate the release form, and store it in the database. Optionally, you can have the signed document emailed to the client.
+  
+    - If you do not have the Signature Pad, click the **Print Consent Form** action. This will fill the client's details and ID image onto a release form that is printed and ready to be signed. 
 
 > Hint: Hold the SHIFT key down on your keyboard while clicking this action to preview the consent form instead.
 

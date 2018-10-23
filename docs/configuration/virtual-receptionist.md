@@ -6,12 +6,11 @@ If the workflow definition is active, the Virtual Receptionist service will be c
 
 To activate or deactivate a workflow definition, highlight it in the list and use the Activate/Deactivate actions. After changing a workflow's active status you can either restart the Virtual Receptionist Service manually, or wait 15 minutes and the workflow will be loaded/unloaded automatically.
 
-## Virtual Receptionist Workflow Definition Properties
+## Properties
 
 First, and most importantly, you should not directly edit any built-in workflow definition. With each update to REV23 Desktop, the built-in definitions are replaced,so any changes you make will be lost. It's also important to note that these definitions are an extremely complex area, and not intended to be modified by anyone except REV23. Modifying these workflows is outside of the scope of this document and will not be covered here. If you wish to make a change to or create a new workflow definition, please contact REV23 Support rather than attempt this on you own.
 
-
-## Virtual Receptionist Workflow Definition Actions 
+## Actions 
 
 ### Records Creation
 

@@ -1,5 +1,7 @@
 # Payments
 
+Payments represent the money going in and out of your studio's cash drawer. 
+
 ## Taking a payment
 
 ## Voiding payments
