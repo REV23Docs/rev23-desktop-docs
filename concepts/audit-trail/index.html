@@ -104,6 +104,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="../../#audit-trail" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -1265,10 +1269,48 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Audit Trail
+      </label>
     
     <a href="./" title="Audit Trail" class="md-nav__link md-nav__link--active">
       Audit Trail
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#analyze-the-audit-trail" title="Analyze the Audit Trail" class="md-nav__link">
+    Analyze the Audit Trail
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erase-audit-trail" title="Erase Audit Trail" class="md-nav__link">
+    Erase Audit Trail
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -2725,6 +2767,44 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#analyze-the-audit-trail" title="Analyze the Audit Trail" class="md-nav__link">
+    Analyze the Audit Trail
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erase-audit-trail" title="Erase Audit Trail" class="md-nav__link">
+    Erase Audit Trail
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -2733,9 +2813,20 @@
                   <a href="https://github.com/rev23docs/rev23-desktop-docs/edit/master/docs/concepts/audit-trail.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Audit Trail</h1>
-                
-                
+                <h1 id="audit-trail">Audit Trail</h1>
+<p>The Audit Trail (Change History) are records written to the database behind the scenes each time an object is created or modified. The Audit Trail records information about when, who and how an object changed.</p>
+<blockquote>
+<p>Because the Audit Trail records which user created or modified, if you want an accurate representation of who made what changes, it is important that each user log into their own account for daily activities. Having a generic user that all staff logs on to defeats the purpose of the Audit Trail.</p>
+</blockquote>
+<h2 id="analyze-the-audit-trail">Analyze the Audit Trail</h2>
+<ol>
+<li>Select the object you wish to analyze.</li>
+<li>Click the <strong>Show Change History</strong> action.</li>
+</ol>
+<p>In the dialog that appears, you will see records with a time stamp, as well as an operation type, such as <code>ObjectCreated</code>, <code>ObjectModified</code> and <code>InitialValueAssigned</code>. If the object was changed you will also see values for <code>Old Value</code> and <code>New Value</code>, meaning what the value was, and what it was changed to.</p>
+<h2 id="erase-audit-trail">Erase Audit Trail</h2>
+<p>Because the Audit Trail can get quite large and inflate your database size, it's a good idea to purge it every once in a while.</p>
+<p>The Administrator user can use the <strong>Erase Change History</strong> action in the Tools tab, and select a date to delete objects before that time. This process can take many hours to complete, so it is recommended you do it during off hours only.  You should also take a backup of your database before you perform this action.</p>
                 
                   
                 

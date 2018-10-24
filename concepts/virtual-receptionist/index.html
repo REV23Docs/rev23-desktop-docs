@@ -1248,9 +1248,45 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Virtual Receptionist
+      </label>
+    
     <a href="./" title="Virtual Receptionist" class="md-nav__link md-nav__link--active">
       Virtual Receptionist
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configure-email-settings" title="Configure Email Settings" class="md-nav__link">
+    Configure Email Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analyze-virtual-receptionist-history" title="Analyze Virtual Receptionist History" class="md-nav__link">
+    Analyze Virtual Receptionist History
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -2741,6 +2777,29 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configure-email-settings" title="Configure Email Settings" class="md-nav__link">
+    Configure Email Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analyze-virtual-receptionist-history" title="Analyze Virtual Receptionist History" class="md-nav__link">
+    Analyze Virtual Receptionist History
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2755,6 +2814,29 @@
                 
                 
                 <h1 id="virtual-receptionist">Virtual Receptionist</h1>
+<p>The Virtual Receptionist is a background service that runs "workflows" (complex tasks) when an object is created or meets a specific criteria.</p>
+<h2 id="configure-email-settings">Configure Email Settings</h2>
+<p>The most common use of the Virtual Receptionist is sending emails and text messages. These messages are sent via your own email accounts SMTP server and the virtual receptionist needs to be configured with that information. You can easily obtain your SMTP settings from your provider (they will know what this means). There is also a list of common providers in <a href="../../configuration/virtual-receptionist-options/#common-smtp-settings">Configuration: Virtual Receptionist Options</a>.</p>
+<ol>
+<li>
+<p>Navigate to <strong>Configuration &gt; Virtual Receptionist Options</strong> and supply your SMTP information. You can attempt to use the <strong>Detect Email Settings</strong> button to automatically detect these settings.</p>
+</li>
+<li>
+<p>After you have successfully sent a test message, click the <strong>Save</strong> action to save these settings.</p>
+</li>
+</ol>
+<blockquote>
+<p>It is important to remember that if you ever change your email password you will also need to update the password in these settings. Otherwise, messages will begin to fail to send.</p>
+</blockquote>
+<h2 id="analyze-virtual-receptionist-history">Analyze Virtual Receptionist History</h2>
+<p>Each time a Virtual Receptionist Workflow runs for an object it records information about the execution such as whether it completed (finished) or aborted (failed). If there is ever a question as to whether a particular workflow ran for a specific object (i.e. was the customer sent a text message reminder for this appointment?) you can look at the Virtual Receptionist History to determine what happened.</p>
+<ol>
+<li>Select the object you wish to analyze, such as an appointment.</li>
+<li>Click the <strong>Show Virtual Receptionist History</strong> action.</li>
+</ol>
+<p>If this list appears empty, no workflows have run for that object. This could mean one of a few things:
+- The object did not meet specific criteria. Many workflows criteria are based on specific time periods.
+- The <a href="../../server-concepts/virtual-receptionist-service/">Virtual Receptionist Service</a> is not running, or was not running when this object met the criteria to execute.</p>
                 
                   
                 

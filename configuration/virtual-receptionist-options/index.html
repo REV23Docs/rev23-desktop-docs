@@ -1846,43 +1846,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#common-smtp-server-settings" title="Common SMTP Server Settings" class="md-nav__link">
-    Common SMTP Server Settings
+  <a href="#common-smtp-settings" title="Common SMTP Settings" class="md-nav__link">
+    Common SMTP Settings
   </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#outlookhotmail" title="Outlook/Hotmail" class="md-nav__link">
-    Outlook/Hotmail
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#office-365" title="Office 365" class="md-nav__link">
-    Office 365
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gmail" title="Gmail" class="md-nav__link">
-    Gmail
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#yahoo-mail" title="Yahoo! Mail" class="md-nav__link">
-    Yahoo! Mail
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -2850,43 +2816,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#common-smtp-server-settings" title="Common SMTP Server Settings" class="md-nav__link">
-    Common SMTP Server Settings
+  <a href="#common-smtp-settings" title="Common SMTP Settings" class="md-nav__link">
+    Common SMTP Settings
   </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#outlookhotmail" title="Outlook/Hotmail" class="md-nav__link">
-    Outlook/Hotmail
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#office-365" title="Office 365" class="md-nav__link">
-    Office 365
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gmail" title="Gmail" class="md-nav__link">
-    Gmail
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#yahoo-mail" title="Yahoo! Mail" class="md-nav__link">
-    Yahoo! Mail
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -2934,40 +2866,53 @@
 <p><strong>Use Authentication</strong>: If checked, REV23 Desktop will use your user name/password when communicating with the SMTP Server.</p>
 <p><strong>User Name</strong>: Your SMTP Server user name.</p>
 <p><strong>Password</strong>: Your SMTP Server password.</p>
-<h3 id="common-smtp-server-settings">Common SMTP Server Settings</h3>
-<h4 id="outlookhotmail">Outlook/Hotmail</h4>
-<p><strong>Host:</strong> smtp.live.com<br />
-<strong>Port:</strong> 587<br />
-<strong>Use SSL:</strong> Yes<br />
-<strong>Requires Authentication:</strong> Yes<br />
-<strong>User name:</strong> Your full outlook.com or hotmail.com email address.
-<strong>Password:</strong> Your outlook.com or hotmail.com password. If using two-factor authentication, you will need to generate a new app password.</p>
-<h4 id="office-365">Office 365</h4>
-<p><strong>Host:</strong> smtp.office365.com<br />
-<strong>Port:</strong> 587<br />
-<strong>Use SSL:</strong> Yes<br />
-<strong>Requires Authentication:</strong> Yes<br />
-<strong>User name:</strong> Your full email address.</p>
-<h4 id="gmail">Gmail</h4>
-<p><strong>Host:</strong> smtp.gmail.com<br />
-<strong>Port:</strong> 587<br />
-<strong>Use SSL:</strong> Yes<br />
-<strong>Requires Authentication:</strong> Yes<br />
-<strong>User name:</strong> Your full gmail.com email address.
-<strong>Password:</strong> Your gmail.com password. If using two-factor authentication, you will need to generate a new app password.</p>
-<blockquote>
-<p>You will need to enable Less Secure Apps in your Google Account in order to send emails from REV23 Desktop. See <a href="https://www.google.com/settings/security/lesssecureapps">Less Secure Apps</a> on Google.</p>
-</blockquote>
-<h4 id="yahoo-mail">Yahoo! Mail</h4>
-<p><strong>Host:</strong> smtp.mail.yahoo.com<br />
-<strong>Port:</strong> 587<br />
-<strong>Use SSL:</strong> Yes<br />
-<strong>Requires Authentication:</strong> Yes<br />
-<strong>User name:</strong> Your full yahoo.com email address.
-<strong>Password:</strong> Your yahoo.com password.</p>
-<blockquote>
-<p>You will need to enable Less Secure Apps in your Yahoo Account in order to send emails from REV23 Desktop. See <a href="https://login.yahoo.com/account/security">Less Secure Apps</a> on Yahoo.</p>
-</blockquote>
+<h3 id="common-smtp-settings">Common SMTP Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>Host</th>
+<th>Port</th>
+<th>Use SSL</th>
+<th>Requires Auth</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Outlook/Hotmail</td>
+<td>smtp.live.com</td>
+<td>587</td>
+<td>Yes</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>Office 365</td>
+<td>smtp.office365.com</td>
+<td>587</td>
+<td>Yes</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>Gmail</td>
+<td>smtp.gmail.com</td>
+<td>587</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>You will need to enable Less Secure Apps in your Google Account in order to send emails from REV23 Desktop. See <a href="https://www.google.com/settings/security/lesssecureapps">Less Secure Apps</a> on Google.</td>
+</tr>
+<tr>
+<td>Yahoo!</td>
+<td>smtp.mail.yahoo.com</td>
+<td>587</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>You will need to enable Less Secure Apps in your Yahoo Account in order to send emails from REV23 Desktop. See <a href="https://login.yahoo.com/account/security">Less Secure Apps</a> on Yahoo.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="connected-studio-behavior">Connected Studio Behavior</h2>
 <p>Each Connected Studio has their own set of Virtual Receptionist Options that can be configured, so you may have a different SMTP Server or different templates for each studio.</p>
                 
