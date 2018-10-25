@@ -568,6 +568,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../add-a-manager/" title="Add a manager" class="md-nav__link">
+      Add a manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../schedule-an-appointment/" title="Schedule an appointment" class="md-nav__link">
       Schedule an appointment
     </a>
@@ -2077,8 +2089,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../hardware/barcode-reader/" title="Barcode Reader" class="md-nav__link">
-      Barcode Reader
+    <a href="../../hardware/bar-code-reader/" title="Bar code Reader" class="md-nav__link">
+      Bar code Reader
     </a>
   </li>
 
@@ -2755,35 +2767,70 @@
                 
                 
                 <h1 id="quick-start-start-a-scheduled-service">Quick Start: Start a scheduled service</h1>
-<p>It's Saturday, and it is sure to be a busy day for the girls! There will probably be plenty of walk-ins and appointments scheduled by all the people checking out the new shop. Yesterday, as Commissioner Gordon was on a jog, he stopped in and made an appointment for today. Well, it's time, and being ever so punctual, he's here and ready to get his new tattoo!</p>
+<p>Yesterday, as Commissioner Gordon was on a jog, he stopped in and made an appointment for today. Well, it's time, and being ever so punctual, he's here and ready to get his new tattoo!</p>
 <ol>
 <li>
-<p>Navigate to Home -&gt; Appointments. Click the Go to today action on the ribbon - OR - find and select the current date on the date navigator on the right hand side of the scheduler. We can see the appointment he scheduled with Pam in the scheduler.</p>
+<p>From the <strong>Today Dashboard</strong> observe the Agenda on the top. The agenda shows appointments that are coming up for the day. This view helps your users stay focused on what's happening, rather than bouncing from screen to screen.</p>
 </li>
 <li>
-<p>Right-click the appointment, and click the Start Service from the popup menu. This will create a new service based on the details of the appointment and open the Service Detail View. </p>
+<p>Select the appointment from the Agenda and click the <strong>Start Service</strong> action. This will create a new service based on the details of the appointment and open the Service Detail View.</p>
+<p><img alt="REV23 Desktop" src="../img/today_dashboard_agenda_start_service.png" /></p>
 </li>
 </ol>
-<p>Now, we're just in a service like we were when we created that walk-in service. The only difference here is that by using the Start Service action, the service knows it created from an appointment (so we can later track walk-in services vs scheduled appointments), and some of the info has been filled out for us already-- but not everything.</p>
+<p>Now, we're in a service like we were when we created that <a href="../start-a-walk-in-service/">walk-in service</a>. The only difference here is that by using the <strong>Start Service</strong> action, the service knows it created from an appointment (so we can later track walk-in services vs scheduled appointments), and some of the info has been filled out for us already-- but not everything.</p>
 <ol>
-<li>Because he was just jogging by when he decided to make an appointment, he didn't have his ID for us to scan at the time. We're also missing some important information such as his address. Click the Open Related Record action in the Customer editor. This will open the Customer Detail View for that customer.</li>
+<li>
+<p>Because he was just jogging by when he decided to make an appointment, he didn't have his ID for us to scan at the time. We're also missing some important information such as his address. Click the <strong>Open Related Record</strong> action in the Customer editor. This will open the Customer Detail View for that customer.</p>
+<p><img alt="REV23 Desktop" src="../img/service_detail_view_customer_open_object.png" /></p>
+</li>
 </ol>
 <blockquote>
-<p>Pro-tip: The Open Related Record action is extremely useful. Learning to incorporate it into your flow will make you much more efficient.</p>
+<p>Pro-tip: The <strong>Open Related Record</strong> action is <em>extremely</em> useful. Learning to incorporate it into your flow will make you much more efficient.</p>
 </blockquote>
 <ol>
-<li>Now that we have his ID, we can click the Scan/Swipe ID action in the Customer Detail View on the ribbon to easily and instantly populate the information we didn't get earlier, such as his address and ID number. Now, the next time the client is here, swiping his ID will recall this customer record and we avoid a duplicate record.</li>
-</ol>
+<li>
+<p>Now that we have his ID, we can click the <strong>Scan/Swipe ID</strong> action in the Customer Detail View on the ribbon to easily and instantly populate the information we didn't get earlier, such as his address and ID number. Now, the next time the client is here, swiping his ID will recall this customer record and we avoid a duplicate record.</p>
+<p><img alt="REV23 Desktop" src="../img/customer_detail_view_scan_swipe_id.png" /></p>
 <p>We can make any other necessary additions, then click the Save &amp; Close action to return to the Service Detail View.</p>
-<ol>
-<li>At this point, this is just as simple as the service we did earlier! Back in the Service Detail View, we still have some additional things we need to set up. We'll need to select Tattoo in the Service Type editor. </li>
+<p><img alt="REV23 Desktop" src="../img/customer_detail_view_complete_customer.png" /></p>
+</li>
+<li>
+<p>At this point, this is just as simple as the service we did earlier! Back in the Service Detail View, we still have some additional things we need to set up.</p>
+</li>
 </ol>
-<p>Additionally, we want to put some details about the tattoo in the Placement Area and Design Description editors. </p>
-<p>Finally, we will set the Amount editor to $500. By default, the Tattoo service type is set to a Custom pricing type, we're able to just type that amount in, unlike the walk-in service we did earlier, where the price was automatically set when we selected the service type.</p>
+<p><img alt="REV23 Desktop" src="../img/service_detail_view_scheduled_service.png" /></p>
+<pre><code>Add the following properties:
+- **Service Type:** `Tattoo`
+- **Placement Area:** `Back`
+- **Design Description:** `USMC w/ GCPD Badge`
+- **Amount:** `$500`
+</code></pre>
+<p>By default, the <em>Tattoo</em> service type is set to a <code>Custom</code> pricing type. With this pricing type, we're able to just type that amount in, unlike the walk-in service we did earlier, where the price was automatically set when we selected the service type.</p>
 <ol>
-<li>Click the Sign Consent Form or Print Consent Form actions depending on your hardware availability and Save &amp; Close the record to return to the Appointment Scheduler. </li>
+<li>The Signature Pad was delivered this morning and Selina's plugged it in. Click the <strong>Sign Consent Form</strong> action.</li>
 </ol>
-<p>The client has a deposit, and we will apply it to his sale in the next step.</p>
+<p><img alt="REV23 Desktop" src="../img/service_detail_view_sign_consent_form.png" /></p>
+<p>The customer will be prompted to join the mailing list (optional) as well as review the Service Agreement (not the actual consent form since the signature pad cannot scroll text), then provide their signature.</p>
+<p><img alt="REV23 Desktop" src="../img/service_signature_capture.png" /></p>
+<pre><code>When the customer signs the consent form, the signed copy will be generated as a PDF and stored digitally in the database. Let's inspect it.
+</code></pre>
+<ol>
+<li>Click the <strong>Attachments</strong> tab.</li>
+<li>
+<p>Highlight the consent form and click the <strong>Open</strong> action.</p>
+<p><img alt="REV23 Desktop" src="../img/service_detail_view_attachments_open.png" /></p>
+<p>The Consent Form will open in your default PDF application. Inspect it to ensure it looks good and his signature appears. You can see that it is now using the Consent Form template we customized yesterday. There are a few more changes we could make to get this to print all on a single page, for example, utilizing tables to place the ID and the signature side by side, or changing the font size.</p>
+<p><img alt="REV23 Desktop" src="../img/signed_consent_form.png" /></p>
+</li>
+</ol>
+<blockquote>
+<p>While you don't need to inspect the release form each time, it's a good idea to check it out every once in a while, especially if you have recently made changes to your release form.</p>
+</blockquote>
+<ol>
+<li>Click the <strong>Save &amp; Close</strong> action to save this service.</li>
+</ol>
+<p>Notice the Appointment has disappeared from the Agenda and is now in the Services list in the <strong>Today Dashboard</strong>.</p>
+<p>Pam will be tattooing the Commissioner for a few hours, so we'll check back in when she's done and ready to take payment and apply his deposit.</p>
                 
                   
                 

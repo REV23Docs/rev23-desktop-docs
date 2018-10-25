@@ -349,6 +349,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#installing-sql-server-for-rev23-desktop" title="Installing SQL Server for REV23 Desktop" class="md-nav__link">
+    Installing SQL Server for REV23 Desktop
+  </a>
+  
+</li>
+      
       
       
       
@@ -596,6 +603,18 @@
   <li class="md-nav__item">
     <a href="../../quick-start/add-a-piercer/" title="Add a piercer" class="md-nav__link">
       Add a piercer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../quick-start/add-a-manager/" title="Add a manager" class="md-nav__link">
+      Add a manager
     </a>
   </li>
 
@@ -2106,8 +2125,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../hardware/barcode-reader/" title="Barcode Reader" class="md-nav__link">
-      Barcode Reader
+    <a href="../../hardware/bar-code-reader/" title="Bar code Reader" class="md-nav__link">
+      Bar code Reader
     </a>
   </li>
 
@@ -2780,6 +2799,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#installing-sql-server-for-rev23-desktop" title="Installing SQL Server for REV23 Desktop" class="md-nav__link">
+    Installing SQL Server for REV23 Desktop
+  </a>
+  
+</li>
+      
       
       
       
@@ -2815,19 +2841,19 @@
 <li>For 32-bit computers, download the file SQLEXPR32_x86_ENU.exe.</li>
 </ul>
 <p>Save the file to your hard drive and once it is complete, execute the downloaded setup file.</p>
-<p>Installing SQL Server for REV23 Desktop</p>
-<p>The first screen is the SQL Server Installation Center. Click “New SQL Server stand-alone installation or add features to an existing installation".</p>
-<p>In SQL Server 2014 Setup, on the License Terms Page click the checkbox to accept the license terms, then click “Next”.</p>
-<p>On the Feature Selection page, make sure all available features are checked,then click “Next”.</p>
-<p>On the Instance Configuration page, check the Named Instance radio button, and type in TATTOOSTUDIO. All uppercase, all one word, just as it appears here, and in the image below, then click “Next”. If this step is not done properly, REV23 Desktop will not recognize that Microsoft SQL Server has been installed.</p>
-<p>On the Service Configuration page, change the Account Name for the SQL Server Database Engine Service, by clicking the drop down arrow in the Account Name column and clicking the “&lt;<Browse…>&gt;” item.</p>
-<p>In the “Select User or Group” window that pops up, type the word “SYSTEM” in the bottom box. Then click the “Check Names” button, if there are no errors, click “OK”. This should resolve the Account Name to “NT AUTHORITY\SYSTEM”. If everything looks correct, click the “Next” button.</p>
+<h2 id="installing-sql-server-for-rev23-desktop">Installing SQL Server for REV23 Desktop</h2>
+<p>The first screen is the SQL Server Installation Center. Click "New SQL Server stand-alone installation or add features to an existing installation".</p>
+<p>In SQL Server 2014 Setup, on the License Terms Page click the checkbox to accept the license terms, then click "Next".</p>
+<p>On the Feature Selection page, make sure all available features are checked,then click "Next".</p>
+<p>On the Instance Configuration page, check the Named Instance radio button, and type in TATTOOSTUDIO. All uppercase, all one word, just as it appears here, and in the image below, then click "Next". If this step is not done properly, REV23 Desktop will not recognize that Microsoft SQL Server has been installed.</p>
+<p>On the Service Configuration page, change the Account Name for the SQL Server Database Engine Service, by clicking the drop down arrow in the Account Name column and clicking the &lt;&lt;Browse…&gt;&gt; item.</p>
+<p>In the "Select User or Group" window that pops up, type the word “SYSTEM” in the bottom box. Then click the "Check Names" button, if there are no errors, click "OK". This should resolve the Account Name to “NT AUTHORITY\SYSTEM”. If everything looks correct, click the “Next” button.</p>
 <p>On the Database Engine Configuration page, set the Authentication Mode to Mixed Mode (SQL Server authentication and Windows authentication). In the password and confirm password box type a strong password. Keep this password for now. If support from REV23 is required, we may need it. Once everything is up and running you can discard this password.</p>
-<p>In the “Specify SQL Server administrators” section, click the “Add…” button,and follow the instructions from the previous step to add NT AUTHORITY\SYSTEM as a SQL Server Administrator. DO NOT CLICK “NEXT” ON THIS SCREEN YET!</p>
-<p>While still on the Database Engine Configuration page, click the FILESTREAM tab. Check the top checkbox that says “Enable FILESTREAM for Transact-SQL access”. Then click “Next”.</p>
-<p>On the Error Reporting page, you can either check the checkbox to send error reports to Microsoft, or leave it unchecked, then click “Next.”</p>
+<p>In the "Specify SQL Server administrators" section, click the "Add…" button,and follow the instructions from the previous step to add NT AUTHORITY\SYSTEM as a SQL Server Administrator. DO NOT CLICK "NEXT" ON THIS SCREEN YET!</p>
+<p>While still on the Database Engine Configuration page, click the FILESTREAM tab. Check the top checkbox that says “Enable FILESTREAM for Transact-SQL access”. Then click "Next".</p>
+<p>On the Error Reporting page, you can either check the checkbox to send error reports to Microsoft, or leave it unchecked, then click "Next."</p>
 <p>Microsoft SQL Server 2014 will now install.</p>
-<p>Once complete, if there are no errors (all features have a green check mark)click the “Close” button. Microsoft SQL Server 2014 Express is now installed.</p>
+<p>Once complete, if there are no errors (all features have a green check mark)click the "Close" button. Microsoft SQL Server 2014 Express is now installed.</p>
 <p>If the installation fails, please click the link on the bottom of the screen to open the Summary Log File. Email the contents of this file to support@rev23.com so we can further assist you.</p>
                 
                   

@@ -566,6 +566,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../add-a-manager/" title="Add a manager" class="md-nav__link">
+      Add a manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -2077,8 +2089,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../hardware/barcode-reader/" title="Barcode Reader" class="md-nav__link">
-      Barcode Reader
+    <a href="../../hardware/bar-code-reader/" title="Bar code Reader" class="md-nav__link">
+      Bar code Reader
     </a>
   </li>
 
@@ -2763,47 +2775,59 @@
 </li>
 <li>
 <p>Navigate to the date we want to schedule for using the Date Navigator on the right. We'll see a nice wide open spot for Pam (in the green column) that we can schedule an appointment for. You can also use the Find Opening action to search for an available spot.</p>
+<p><img alt="REV23 Desktop" src="../img/scheduler.png" /></p>
 </li>
 <li>
 <p>Click and drag in the time slot you would like to schedule for. With the selection made you can right click and select New Appointment from the menu.</p>
+<p><img alt="REV23 Desktop" src="../img/scheduler_new_appointment.png" /></p>
 </li>
 <li>
 <p>Fill out details of the appointment.</p>
 <ul>
-<li>Subject: Required. Can contain as little or detailed information as you like.</li>
-<li>Customer: Recommended. Search for an existing customer, create a new customer, or scan a customers ID using the barcode reader or magnetic stripe swipe reader.</li>
-<li>Description: Optional. Additional information about the appointment.</li>
-<li>Label &amp; Status: Optional. A color coded label for this appointment. Can be customized in Appointment Labels.</li>
+<li><strong>Subject:</strong> Required. Can contain as little or detailed information as you like.</li>
+<li><strong>Customer:</strong> Recommended. Search for an existing customer, create a new customer, or scan a customers ID using the barcode reader or magnetic stripe swipe reader.</li>
+<li><strong>Description:</strong> Optional. Additional information about the appointment.</li>
+<li><strong>Label &amp; Status:</strong> Optional. A color coded label for this appointment. Can be customized in Appointment Labels.</li>
 </ul>
 </li>
 <li>
-<p>Click the Customer editor to show the Customer Lookup List View. Since this is a new database we need to create a new customer. On the bottom of the Lookup List View there are two actions. New and Scan/Swipe ID. Since the client doesn't have his ID with him right now, we will type the information in using the New action. This will open the Customer Detail View.</p>
+<p>Click the <strong>Customer</strong> editor to show the Customer Lookup List View. Since this is a new database we need to create a new customer. On the bottom of the Lookup List View there are two actions. <strong>New</strong> and <strong>Scan/Swipe ID</strong>. Since the client doesn't have his ID with him right now, we will type the information in using the New action. This will open the Customer Detail View.</p>
+<p><img alt="REV23 Desktop" src="../img/appointment_detail_view_new_customer.png" /></p>
+</li>
+<li>
+<p>Fill out information for the customer. You can fill out as much or as little as you'd like. At a minimum, REV23 recommends:</p>
 <ul>
-<li>Name: Required. First and Last Name.</li>
-<li>Birthday: Recommended. By obtaining this now, we can avoid having a scenario later when he comes in to get tattooed and REV23 Desktop thinks he is underage and requires a guardian. However, there is an easy fix for that!</li>
-<li>Email: Recommended for email reminders.</li>
-<li>Mobile phone + Provider: Recommended for text message reminders.</li>
+<li><strong>Name:</strong> Required. First and Last Name.</li>
+<li><strong>Birthday</strong>: Recommended. By obtaining this now, we can avoid having a scenario later when he comes in to get tattooed and REV23 Desktop thinks he is underage and requires a guardian. However, there is an easy fix for that!</li>
+<li><strong>Email:</strong> Recommended for email reminders.</li>
+<li><strong>Mobile phone + Provider:</strong> Recommended for text message reminders.</li>
+<li><strong>Source</strong>: Ask where the customer heard about your studio.</li>
 </ul>
+<p><img alt="REV23 Desktop" src="../img/customer_detail_view_new_appointment.png" /></p>
 </li>
 <li>
-<p>Click the Save &amp; Close action on the Customer Detail View. After doing so, you will be prompted if you'd like to take a deposit (default settings are to prompt if they are a new customer or have a history of cancellations/no-shows). Click the Take a deposit tile to begin entering a new deposit.</p>
+<p>Click the <strong>Save &amp; Close</strong> action on the Customer Detail View.</p>
 </li>
 <li>
-<p>For the deposit, we need to know both the customer and the artist. These values are automatically set based on the details of the appointment we've already entered. Additionally we need to know how much the deposit is for, and how they're paying the deposit. We will type in $50.00 for the Amount editor, and select Cash in the Payment Type editor. Hit OK. </p>
+<p>If you're done with the appointment, click the <strong>Save &amp; Close</strong> action on the appointment, you will be prompted if you'd like to take a deposit (default settings are to prompt if they are a new customer or have a history of cancellations/no-shows). Click the <strong>Take a deposit</strong> tile to begin entering a new deposit.</p>
+<p><img alt="REV23 Desktop" src="../img/appointment_deposit_prompt.png" /></p>
+</li>
+<li>
+<p>Enter an amount for the deposit and click the <strong>Cash</strong> tile.</p>
+<p><img alt="REV23 Desktop" src="../img/new_deposit_payment.png" /></p>
 </li>
 </ol>
-<p>You will be prompted to print the deposit/credit receipt. This prompt can be defaulted in Deposit &amp; Credit Options to never print, always print, or prompt.</p>
 <blockquote>
-<p>Hint: The Amount property can also be defaulted by using the Recommended Deposit Amount property when you went through the Adding a service provider topic. This allows you to set the default deposit amount for each artist taking a deposit.</p>
+<p>Hint: The Amount property can also be defaulted by using the <strong>Recommended Deposit Amount</strong> property when you went through the Adding a tattooer topic. This allows you to set the default deposit amount for each artist taking a deposit.</p>
 </blockquote>
-<ol>
-<li>We have a completed appointment with a new customer that was created directly in the context of what we were doing, so we never needed to abandon the appointment itself to create new data. You can now click the Save &amp; Close action and the appointment will be saved.</li>
-</ol>
+<p>We have a created a new appointment and a new customer that was added directly in the context of what we were doing, so we never needed to abandon the appointment itself to create the customer.</p>
+<blockquote>
+<p>When creating new objects from another object, as we did with the customer in the appointment, if you were to Save the customer, however, discard the appointment before saving it, the customer record would <em>not</em> be saved to the database.</p>
+</blockquote>
 <p>We've now returned to the Scheduler. We can see icons on the appointment indicating a deposit was taken, and that the customer wants an email and text message reminder. If you've setup your email settings successfully in the Setup Wizard when you first installed REV23 Desktop, per the default settings, this client should receive a confirmation immediately once the appointment is saved, as well as another reminder 24 hours in advance of the appointment.</p>
+<p><img alt="REV23 Desktop" src="../img/scheduler_new_appointment_complete.png" /></p>
 <p>Since the appointment is set for tomorrow, we can move on and we'll return to it later. </p>
 <p>Next, we will create new tattoo and piercing aftercare items to sell so we're ready when someone wants to buy some!</p>
-<p>Continue to Next Topic
-Adding a sellable item</p>
                 
                   
                 
@@ -2824,7 +2848,7 @@ Adding a sellable item</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../add-a-piercer/" title="Add a piercer" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../add-a-manager/" title="Add a manager" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -2833,7 +2857,7 @@ Adding a sellable item</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Add a piercer
+                Add a manager
               </span>
             </div>
           </a>

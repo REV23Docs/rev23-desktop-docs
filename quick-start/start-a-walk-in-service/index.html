@@ -568,6 +568,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../add-a-manager/" title="Add a manager" class="md-nav__link">
+      Add a manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../schedule-an-appointment/" title="Schedule an appointment" class="md-nav__link">
       Schedule an appointment
     </a>
@@ -2077,8 +2089,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../hardware/barcode-reader/" title="Barcode Reader" class="md-nav__link">
-      Barcode Reader
+    <a href="../../hardware/bar-code-reader/" title="Bar code Reader" class="md-nav__link">
+      Bar code Reader
     </a>
   </li>
 
@@ -2755,16 +2767,15 @@
                 
                 
                 <h1 id="quick-start-start-a-walk-in-service">Quick Start: Start a walk-in service</h1>
-<p>Well, it's still Friday and our appointment we scheduled earlier isn't until tomorrow. Business must go on. Luckily, we have a body piercer hanging around to start taking some walk-in piercings. Let's see how a walk-in works.</p>
-<ol>
-<li>From the Today Dashboard click the New Walk-In action -OR- Navigate to Home -&gt; Services to open the Service List View, then click the New action to open the Service Detail View. </li>
-</ol>
-<blockquote>
-<p>Hint: The step of navigating to the list view isn't actually necessary. From most any screen you're in you can click the down arrow on the New action and select Service from the drop down menu. So, if you're in the Appointment Scheduler already and get a walk-in, there is no need to leave it.</p>
-</blockquote>
+<p>The appointment we scheduled isn't until tomorrow. Business must go on. Luckily, we have a body piercer hanging around to start taking some walk-in piercings. Let's see how a walk-in works.</p>
 <ol>
 <li>
+<p>From the Today Dashboard click the <strong>New Walk-In</strong> action.</p>
+<p><img alt="REV23 Desktop Today Dashboard" src="../img/today_dashboard.png" /></p>
+</li>
+<li>
 <p>In the Service Detail View, we'll set up the service. For services, we only need a few things to get it rolling. The extent you need to fill this out is up to your health department.</p>
+<p><img alt="REV23 Desktop" src="../img/service_detail_view_new.png" /></p>
 <ul>
 <li><strong>Customer:</strong> Required. Obviously.</li>
 <li><strong>Service Type:</strong> Required. The type of service you're performing.</li>
@@ -2775,49 +2786,46 @@
 </ul>
 </li>
 <li>
-<p>Like we saw when we scheduled an appointment for a customer, we can click the Customer editor to search for a customer by name, or create a new customer by clicking the New action or Scan/Swipe ID action. Since this client has her ID with her, we'll click the Scan/Swipe ID action to open the Customer Detail View and pre-fill that data in.</p>
+<p>Like we saw when we scheduled an appointment for a customer, we can click the Customer editor to search for a customer by name, or create a new customer by clicking the New action or Scan/Swipe ID action. Since this client has her ID with her, we'll click the <strong>Scan/Swipe ID</strong> action to open the Customer Detail View and pre-fill that data in.</p>
 </li>
 </ol>
 <blockquote>
-<p>Hint: If you do not yet have a barcode reader or magstripe stripe swiper, when REV23 Desktop is waiting for you to to scan the ID, press the letter 'D' on your keyboard to use demo data, which demonstrates the information that can be extracted from the ID.</p>
+<p>Hint: If you do not yet have a barcode reader or magstripe stripe swiper, when REV23 Desktop is waiting for you to to scan the ID, press the letter <code>D</code> on your keyboard to use demo data, which demonstrates the information that can be extracted from the ID.</p>
 </blockquote>
 <p>By swiping the ID, we will obtain the following fields automatically without any typing: First name, middle name, last name, gender, birthday, address, driver's license number and state. We'll add a few more fields such as email and mobile phone + provider.</p>
 <p>The next time this client returns, swiping the ID will recall this record, including any changes we've  made.</p>
 <ol>
 <li>
-<p>Hover over the ID Image Editor. We can click the scan button in the Image Editor to acquire the ID Image from the document scanner. </p>
+<p>Hover over the ID Image Editor. We can click the scan button in the Image Editor to acquire the ID Image from the document scanner.</p>
+<p><img alt="REV23 Desktop" src="../img/customer_detail_view_scan_id.png" /></p>
 </li>
 <li>
-<p>After we have scanned the ID image, click the Save &amp; Close action to return to the Service Detail View. This customer is now set in the Customer editor.</p>
+<p>After scanning the ID image, click the <strong>Save &amp; Close</strong> action to return to the Service Detail View. This customer is now set in the Customer editor.</p>
 </li>
 <li>
-<p>Now that the customer is entered in, we will select Lobe as the Service Type, and select Selina as the Employee. Notice that employees that are not assigned to the selected Service Type do not show up in the employee list, so when we clicked the Employee editor, only Selina appeared.</p>
+<p>Select <code>Lobe</code> as the <strong>Service Type</strong>, and select <code>Selina</code> as the <strong>Employee</strong>. Notice that users that are not assigned to the selected Service Type do not show up in the user list, so when we clicked this editor, only Selina appeared because we <a href="../add-a-piercer/">added her as a piercer</a>.</p>
 </li>
 </ol>
-<p>Because we've previously set the Lobe piercing price to $20.00 in the Setting service prices quick start topic, the Amount has been defaulted for us to $20.00 and can not be modified.</p>
-<p>Here, we could also set some jewelry parameters in the Gauge, Length/Diameter editors, but we will keep this as light as possible for now.</p>
-<p>The only additional change we will make is to set the Quantity to 2, since our client wants both of her ear lobes pierced.</p>
+<p>Because we've previously set the Lobe <a href="../set-service-prices/">piercing price</a> in the previous section, the <strong>Amount</strong> has been defaulted for us and can not be modified.</p>
 <ol>
 <li>
-<p>It's time for the release form! Depending on your set up you can take one of two paths.</p>
-<ul>
-<li>
-<p>If you have the Signature Pad, click the <strong>Sign Consent Form</strong> action. Unlike other actions we've dealt with so far, this does not appear on the ribbon.  Instead, you can find it in the Detail View itself underneath the main group of editors we just filled out. This will prompt the client to sign the signature pad device, generate the release form, and store it in the database. Optionally, you can have the signed document emailed to the client.</p>
+<p>Set the Quantity to 2, since our client wants both of her ear lobes pierced.</p>
 </li>
 <li>
-<p>If you do not have the Signature Pad, click the <strong>Print Consent Form</strong> action. This will fill the client's details and ID image onto a release form that is printed and ready to be signed. </p>
-</li>
-</ul>
-</li>
-</ol>
+<p>Click the <strong>Print Consent Form</strong> button to print a consent form for the customer to sign. Unlike other actions we've dealt with so far, these do not appear on the ribbon. Instead, some actions appear in the Detail View itself underneath the main group of editors we just filled out.</p>
+<p><img alt="REV23 Desktop" src="../img/service_detail_view_print_consent_form.png" /></p>
 <blockquote>
-<p>Hint: Hold the SHIFT key down on your keyboard while clicking this action to preview the consent form instead.</p>
+<p>Hint: Hold the <strong>SHIFT</strong> key down on your keyboard while the <strong>Print Consent Form</strong> action to preview the consent form instead of printing it directly to the printer.</p>
 </blockquote>
-<p>The release form looks pretty good. There are a few things that stand out that we would like to fix (our logo is too large), so we will come back to this later. For now, we have a release form that the client can sign.</p>
-<ol>
-<li>Click the Save &amp; Close action to save the record to return to the Service List View.</li>
+</li>
 </ol>
-<p>With the release form signed, Selina can now go do what she does best (well, second best after jewel heists) and pierce the client.</p>
+<p>If you have the Signature Pad, click the <strong>Sign Consent Form</strong> action instead.        </p>
+<p><img alt="REV23 Desktop" src="../img/consent_form_preview.png" /></p>
+<p>The release form looks pretty good. There are a few things that stand out that we would like to fix (the phone number is using Home instead of the preferred Mobile), so we will come back to this later. For now, we have a release form that the client can sign.</p>
+<ol>
+<li>Click the <strong>Save &amp; Close</strong> action to save the record to return to the Service List View.</li>
+</ol>
+<p>With the release form signed, Selina can now go do what she does best (well,second best after jewel heists) and pierce the client.</p>
 <p>Next, we'll see how to charge the client for the service.</p>
                 
                   

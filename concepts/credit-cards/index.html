@@ -566,6 +566,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../quick-start/add-a-manager/" title="Add a manager" class="md-nav__link">
+      Add a manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../quick-start/schedule-an-appointment/" title="Schedule an appointment" class="md-nav__link">
       Schedule an appointment
     </a>
@@ -1117,14 +1129,28 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#from-the-payments-list-view" title="From the Payments List View" class="md-nav__link">
-    From the Payments List View
+  <a href="#from-the-payment-detail-view" title="From the Payment Detail View" class="md-nav__link">
+    From the Payment Detail View
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#from-the-depositcredit-detail-view" title="From the Deposit/Credit Detail View" class="md-nav__link">
+    From the Deposit/Credit Detail View
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#read-card-method" title="Read Card Method" class="md-nav__link">
+    Read Card Method
+  </a>
   
 </li>
         
@@ -2188,8 +2214,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../hardware/barcode-reader/" title="Barcode Reader" class="md-nav__link">
-      Barcode Reader
+    <a href="../../hardware/bar-code-reader/" title="Bar code Reader" class="md-nav__link">
+      Bar code Reader
     </a>
   </li>
 
@@ -2886,14 +2912,28 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#from-the-payments-list-view" title="From the Payments List View" class="md-nav__link">
-    From the Payments List View
+  <a href="#from-the-payment-detail-view" title="From the Payment Detail View" class="md-nav__link">
+    From the Payment Detail View
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#from-the-depositcredit-detail-view" title="From the Deposit/Credit Detail View" class="md-nav__link">
+    From the Deposit/Credit Detail View
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#read-card-method" title="Read Card Method" class="md-nav__link">
+    Read Card Method
+  </a>
   
 </li>
         
@@ -2969,18 +3009,59 @@
 <p>See <a href="../../configuration/credit-cards/">Configuration: Credit Cards</a>.</p>
 <h2 id="usage">Usage</h2>
 <h3 id="taking-a-credit-card-payment">Taking a credit card payment</h3>
+<p>A payment using your CardConnect terminal can be initiated in a few ways:</p>
 <h4 id="from-a-sale">From a sale</h4>
-<p>Do this</p>
-<h4 id="from-the-payments-list-view">From the Payments List View</h4>
-<p>Do that.</p>
+<p>Click the <strong>Take Payment</strong> action. When prompted for the payment type, click the <strong>Credit Card</strong> tile.</p>
+<h4 id="from-the-payment-detail-view">From the Payment Detail View</h4>
+<p>When taking a payment by clicking the <strong>New</strong> action, there will be a P2PE Device button on the <strong>Payment Type</strong> editor. Click it to initiate a new transaction using the CardConnect terminal.</p>
+<h4 id="from-the-depositcredit-detail-view">From the Deposit/Credit Detail View</h4>
+<p>Same as Payment Detail View.</p>
+<h3 id="read-card-method">Read Card Method</h3>
+<p>Before initializing the terminal, you will be prompted for the <strong>Read Card Method</strong>, click the appropriate tile.</p>
+<ul>
+<li>
+<p><strong>Insert/Swipe/Tap</strong>: Use this to read a card using the terminal, or NFC payment such as ApplePay.</p>
+</li>
+<li>
+<p><strong>Manual:</strong> Type in the card number. You will also be prompted to type in the expiration date, security code and postal code.</p>
+</li>
+<li>
+<p><strong>Reference:</strong> Download a previously recorded transaction using the CardConnect reference number.</p>
+</li>
+</ul>
 <h3 id="tips">Tips</h3>
+<p>The terminal can prompt the customer to enter a tip for the eligible sales people on a sale.</p>
+<p>To configure tipping behavior:</p>
+<ol>
+<li>Navigate to <strong>Configuration &gt; My Studio</strong>.</li>
+<li>Click the <strong>Options</strong> tab.</li>
+<li>Click the <strong>Sales &amp; Payments</strong> tab.</li>
+<li></li>
+</ol>
 <h3 id="surcharges">Surcharges</h3>
+<p>You can optionally include an added surcharge to your card payments, up to a max of 4%. When a surcharge is added, the terminal will prompt the customer to agree to the surcharge, then show them final amount. Surcharges are also applied to tips.</p>
+<p>This interaction appears like this:</p>
+<ul>
+<li><code>Confirm $100.00.</code></li>
+<li><code>Agree to 2% surcharge?</code></li>
+<li><code>Confirm new total of $102.00.</code></li>
+</ul>
+<p>To configure the surcharge:</p>
+<ol>
+<li>Navigate to <strong>Configuration &gt; My Studio</strong>.</li>
+<li>Click the <strong>Options</strong> tab.</li>
+<li>Click the <strong>Sales &amp; Payments</strong> tab.</li>
+<li>Set the <strong>Surcharge</strong> property.</li>
+</ol>
+<blockquote>
+<p>Each state has their own rules on whether surcharges are allowed and up to what percentage. Please check the rules in your state before configuring a surcharge to prevent fines or termination of service.</p>
+</blockquote>
 <h3 id="refunding-a-credit-card-payment">Refunding a credit card payment</h3>
 <h3 id="managing-transactions-on-cardpointe">Managing transactions on CardPointe</h3>
-<p>You can log onto https://www.cardpointe.com to manage your account as well as see reports and manage transactions</p>
+<p>You can log onto https://www.cardpointe.com to manage your account as well as see reports and manage transactions.</p>
 <h3 id="hosted-payment-page">Hosted Payment Page</h3>
 <p>CardConnect can set up a Hosted Payment Page for your to accept payments from a website for things such as online deposits.</p>
-<p>These transactions can be entered into REV23 Desktop by clicking the Reference tile when taking a new payment and entering the transaction number.</p>
+<p>These transactions can be entered into REV23 Desktop by clicking the <strong>Reference</strong> tile when taking a new payment and entering the transaction number.</p>
 <h3 id="related-topics">Related Topics</h3>
 <ul>
 <li><a href="../../configuration/credit-cards/">Configuration: Credit Cards</a></li>

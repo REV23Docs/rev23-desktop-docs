@@ -568,6 +568,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../add-a-manager/" title="Add a manager" class="md-nav__link">
+      Add a manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../schedule-an-appointment/" title="Schedule an appointment" class="md-nav__link">
       Schedule an appointment
     </a>
@@ -624,9 +636,38 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Start a sale
+      </label>
+    
     <a href="./" title="Start a sale" class="md-nav__link md-nav__link--active">
       Start a sale
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#add-a-sale-item" title="Add a sale item" class="md-nav__link">
+    Add a sale item
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -2077,8 +2118,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../hardware/barcode-reader/" title="Barcode Reader" class="md-nav__link">
-      Barcode Reader
+    <a href="../../hardware/bar-code-reader/" title="Bar code Reader" class="md-nav__link">
+      Bar code Reader
     </a>
   </li>
 
@@ -2741,6 +2782,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#add-a-sale-item" title="Add a sale item" class="md-nav__link">
+    Add a sale item
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2757,31 +2814,49 @@
                 <h1 id="quick-start-start-a-sale">Quick Start: Start a sale</h1>
 <p>Selina has just finished piercing the client. We have previously started the walk-in service, now it's time to collect payment from the client.</p>
 <ol>
-<li>Return to the Service List View. Find the record for the piercing that was just finished and double click it to open the Service Detail View.</li>
+<li>From the <strong>Today Dashboard</strong> select the service you want to complete.</li>
+<li>
+<p>Click the <strong>Sale</strong> action on the toolbar, or double click the Service to open it if you need to modify it and click the <strong>Sale</strong> action in the Service Detail View.</p>
+<p><img alt="REV23 Desktop" src="../img/today_dashboard_services_sale.png" /></p>
+</li>
 </ol>
+<p>The Sale action will add this service to a sale and open the Sale Detail View. This is the point-of-sale screen for REV23 Desktop where we can add products and services, take payments, etc.. If this service was already added to a sale, it will open that existing sale rather than create a new one.</p>
+<p><img alt="REV23 Desktop" src="../img/sale_detail_view_new_sale.png" /></p>
+<p>You should notice the <strong>Subtotal</strong>, <strong>Tax Amount</strong>, <strong>Total Amount</strong> and <strong>Balance</strong> editors have already added this service and you can find it in the Services tab. So far, the client owes <code>$40.00</code>. But she'd like to add some piercing aftercare.</p>
+<h2 id="add-a-sale-item">Add a sale item</h2>
+<ol>
+<li>
+<p>Click the <strong>Add Sale Item</strong> action.</p>
+<p><img alt="REV23 Desktop" src="../img/sale_detail_view_add_sale_item.png" /></p>
+</li>
+<li>
+<p>In the <strong>Inventory Item</strong> editor, we will select the piercing aftercare spray we created earlier, then click the <strong>OK</strong> button.</p>
+<p><img alt="REV23 Desktop" src="../img/customer_invoice_item_detail_view_spray.png" /></p>
+</li>
+</ol>
+<p>The item is added to the sale, and our totals have been updated. The client now owes <code>$50.00</code>.</p>
+<ol>
+<li>
+<p>The client has everything she needs and is ready to pay. Click the <strong>Take Payment</strong> action. </p>
+<p><img alt="REV23 Desktop Take Payment" src="../img/sale_detail_view_take_payment.png" /></p>
+</li>
+<li>
+<p>The client happens to have a crisp $50.00 bill in her purse and uses it (don't worry, she tipped Selina back at her station)! So leave the pre-set <strong>Amount</strong>, which is the total due, and click the <strong>Cash</strong> tile.</p>
+<p><img alt="REV23 Desktop New Payment" src="../img/new_sale_payment.png" /></p>
 <blockquote>
-<p>Hint: As you continue to use REV23 Desktop, this list will obviously grow very quickly. Try locating the "Today's Services" filter in the ribbon when you're in the Service List View to quickly find things you're working with that current day. Most list views have similar filters.</p>
+<p>You can take a partial payment by altering the Amount in this window.</p>
 </blockquote>
-<ol>
-<li>Click the Sale action to add this piercing to a sale and open the Sale Detail View. This is the point-of-sale screen for REV23 Desktop where we can add products and services, take payments, etc...</li>
-</ol>
-<p>You should notice the Subtotal, Tax Amount, Total Amount and Balance editors have already added this service and you can find it in the Services tab. So far, the client owes $40.00. But she'd like to add some piercing aftercare.</p>
-<ol>
-<li>Click the Add Sale Item action. In the Inventory Item editor, we will select the piercing aftercare spray we created earlier, then click the OK button.</li>
-</ol>
-<p>The item is added to the invoice, and our totals have been updated. The client now owes $50.00.</p>
-<ol>
-<li>
-<p>The client has everything she needs and is ready to pay. Click the Take Payment action. The client happens to have a crisp $50.00 bill in her purse and uses it (don't worry, she tipped Selina back at her station)! So leave the pre-set amount and click the Cash tile.</p>
 </li>
 <li>
-<p>Once fully paid, you'll be prompted to print the receipt and aftercare. You can add/remove the checkboxes from the tiles by clicking the tiles of what you want or don't want to print. Then either click the Print or Skip tiles.</p>
-</li>
-</ol>
+<p>Once fully paid, you'll be prompted to print the receipt and aftercare. You can add/remove the checkboxes from the tiles by clicking the tiles of what you want or don't want to print. Then either click the <strong>Print</strong> or <strong>Skip</strong> tiles.</p>
+<p><img alt="REV23 Desktop Print Sale Receipt" src="../img/print_sale_receipt.png" /></p>
 <blockquote>
 <p>Hint: You can default these choices in Invoicing &amp; Payment Options and Service Options. By setting your defaults to anything other than 'Prompt,' you will never see this screen, and everything should just print automatically, saving you some mouse clicks.</p>
 </blockquote>
-<p>The service Status is now set to Paid. At this point, you can just close the Service Detail View (it was already saved automatically once the invoice was fully paid) or click Save &amp; Close. Save &amp; Close is just a good habit to get into and is one of the most common actions you'll use.</p>
+</li>
+</ol>
+<p>The service <strong>Status</strong> is now set to <code>Paid</code>. </p>
+<p>At this point, you can just close the Service Detail View (it was already saved automatically once the sale was fully paid) or click <strong>Save &amp; Close</strong>. Save &amp; Close is just a good habit to get into and is one of the most common actions you'll use.</p>
 <p>That will wrap up the girl's first day. We got our feet wet in the system and we'll hit it more tomorrow when we join Selina as she clocks-in for the day.</p>
                 
                   
