@@ -17,5 +17,8 @@ In this example, we will demonstrate how to prompt the user to ask the customer 
 
 The name, and custom message template can obviously be customized to your needs, the above are just suggestions.
 
+Now, when attempting to save a new customer, if the **Referred By** property has not been filled out, the user will be prompted to ask. They can ignore this rule and continue saving the customer if necessary.
+
 ## Related
+
 - [Configuration: Required Field Rules](../configuration/required-field-rules.md)

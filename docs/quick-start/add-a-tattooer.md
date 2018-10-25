@@ -26,19 +26,23 @@ Since Harley is the user who installed REV23 Desktop and went through the setup 
 
     ![REV23 Desktop](img/employee_detail_view_pam.png)
 
+4. Click the **Schedule** tab to set this user's schedule. Select the days and times the artist works.
+
+    ![REV23 Desktop](img/employee_detail_view_schedule.png)
+
 ## Assign Roles
 
-[Roles](../security-concepts/roles.md) are security permissions this user will have access to when they log on. In this case, we are going to assign the user to only to the Service Provider role. They will be able to see their own services, and schedule appointments for themselves, but other than that, they do not have much access to the system.
+[Roles](../security-concepts/roles.md) are groups of security permissions the user will be granted. In this case, we are going to assign the user to only to the Service Provider role. They will be able to see their own services, and schedule appointments for themselves, but other than that, they do not have much access to the system.
 
-4. Click the **Add Roles** action in the ribbon.
+5. Click the **Add Roles** action in the ribbon.
 
     ![REV23 Desktop](img/employee_detail_view_ribbon_add_roles.png)
 
-5. Select the **Service Provider** role.
+6. Select the **Service Provider** role.
 
     ![REV23 Desktop](img/add_roles.png)
 
-6. Click **OK**.
+7. Click **OK**.
 
     > Pro Tip: You can select multiple roles by holding down the **CTRL** key on the keyboard while clicking each role.
     
@@ -46,8 +50,8 @@ Since Harley is the user who installed REV23 Desktop and went through the setup 
 
 Since this user is a tattooer, we need to tell REV23 Desktop that she perform the Tattoo service type, as well as how they are paid for it.
 
-7. Click the **Service Types** tab
-8. Click the **New** action in the Service Types Nested List View.
+8. Click the **Service Types** tab
+9. Click the **New** action in the Service Types Nested List View.
 
     ![REV23 Desktop](img/new_service_type.png)
     *The Service Types Nested List View*
@@ -56,21 +60,19 @@ Since this user is a tattooer, we need to tell REV23 Desktop that she perform th
     *The Employee Service Type Detail View*
 
     Set the following properties:
-    -  **Service Type:** Tattoo
-    -  **Commission Type:** Percent
-    -  **Commission Percentage:** 50%
+    -  **Service Type:** `Tattoo`
+    -  **Commission Type:** `Percent`
+    -  **Commission Percentage:** `50%`
 
-9. Click the **Save & Close** action, *or* **CTRL+ENTER** on your keyboard to save this record.
+10. Click the **Save & Close** action, *or* **CTRL+ENTER** on your keyboard to save this record.
 
     ![REV23 Desktop](img/employee_service_type_detail_view_save_and_close.png)
 
-> Obviously, this would be time consuming to add a piercer's service types this way. Don't worry! We will demonstrate a shortcut to this in the next topic when we [add a piercer](add-a-piercer.md).
+    **Save & Close** is one of the most common actions you will use in REV23 Desktop. It saves the current object to the database, but also Closes that window to return to the previous screen.
 
-## Finish up
+    > Obviously, this would be time consuming to add a piercer's service types this way. Don't worry! We will demonstrate a shortcut to this in the next topic when we [add a piercer](add-a-piercer.md).
 
-10. Click the **Schedule** tab to set this user's schedule. Select the days and times they are available in the Fixed Schedule group.
-
-    ![REV23 Desktop](img/employee_detail_view_schedule.png)
+## Finish
 
 11. We're now done with this user. Click the **Save & Close** action, *or* **CTRL+ENTER** on your keyboard to save this record and close the Employee Detail View.
 

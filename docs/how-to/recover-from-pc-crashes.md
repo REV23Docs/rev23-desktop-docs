@@ -10,7 +10,7 @@ What's that? You don't have a database backup? Well, things get a little hairy h
 
 ## Get Hard Drive Access
 
-If you're able to boot into Windows, even in safe-mode, this would be great. From safe-mode, you should be able to take a backup of your database using the REV23 Desktop Control Panel. In a situation where the PC is not booting at all you will need to access the hard drive contents from a PC that is working. If the hard drive is corrupted and not spinning up at all, and you have no external backup then unfortunately, there is nothing you can do to recover your data other than attempt to pay for an expensive data recovery process that may or may not even work.
+If you're able to boot into Windows, even in safe-mode, this would be great. From safe-mode, you should be able to take a backup of your database using the REV23 Desktop Control Panel. In a situation where the PC is not booting at all you will need to access the hard drive contents from a PC that is working. If the hard drive is corrupted, or not spinning up at all, and you have no external backup then unfortunately, there is nothing you can do to recover your data other than attempt to pay for an expensive data recovery process that may or may not even work. Don't let this be you.
 
 ## Local Backup Location
 
@@ -18,9 +18,9 @@ If you were not backing your data up to an external hard drive there is still a 
 
 We automatically take a backup to this path when:
 
-The Backup Service has not been configured.
-Every time you update to a new version of REV23 Desktop.
-When the software is closed and a backup has not been taken for 7 days.
+- The Backup Service has not been configured.
+- Every time you update to a new version of REV23 Desktop.
+- When the software is closed and a backup has not been taken for 7 days.
 
 If you're able to access the contents of the hard drive look to the default backup location.
 
@@ -33,18 +33,16 @@ In this directory you're looking for .bak files that begin with "TattooStudio" a
 
 > If you previously used Tattoo Management Studio and upgraded to REV23 Desktop, you may also check the Program Files directory for the Tattoo Management Studio sub-folder which may also contain backups, though likely much older. 
 
-## Data File Location
+## Data File Recovery
 
 You may also attempt to access the SQL Server data files. These contain your database as it existed before the crash occurs, however re-attaching these files is not always guaranteed to work and a backup is generally the safest bet.
 
-You can attempt to locate these files in the Microsoft SQL Server installation directory.
-
-C:\Program Files\Microsoft SQL Server\MSSQLXX.TATTOOSTUDIO\MSSQL\DATA (where XX is the version of SQL Server).
+You can attempt to locate these files in the Microsoft SQL Server installation directory: `C:\Program Files\Microsoft SQL Server\MSSQLXX.TATTOOSTUDIO\MSSQL\DATA` (where XX is the version of SQL Server).
 
 In this directory you'll need to grab three things.
 
-1) TattooStudio.ExpressApp.mdf (the main database file)
-2) TattooStudio.ExpressApp.ldf (the log file)
-3) The TattooStudio.ExpressApp.Attachments folder (attachments, including signed release forms)
+- TattooStudio.ExpressApp.mdf (the main database file).
+- TattooStudio.ExpressApp.ldf (the log file).
+- The TattooStudio.ExpressApp.Attachments folder (attachments, including signed release forms).
 
-If you're wanting to attempt to restore the data files you will need to contact REV23 Support at support@rev23.com, as this process will be quite a bit more involved and again, may not have a great chance of success.
+If you're wanting to attempt to restore the data files you will need to contact REV23 Support at support@rev23.com, as this process will be quite a bit more involved, and again, may not have a great chance of success.

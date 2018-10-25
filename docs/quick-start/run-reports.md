@@ -1,15 +1,34 @@
 # Quick Start: Run reports
 
-Well, the day is about at a close. Let's run a couple of reports to see how things look.
+Well, the day is about at a close at Gotham City Tattoo & Piercing. Let's run a couple of reports to see how things look.
 
-1. Navigate to Reports -> Reports.
+1. Navigate to **Reports > Reports**.
+2. Double click the Employee Payout report to run it.
 
-2. Double click the Employee Payout report to run it. Supply a Start and End Date in the Parameters panel, and click the Submit action. We will run it for yesterday and today. A two page report appears containing the payout information for both Pam and Selina. Close the Employee Payout Report.
+    ![REV23 Desktop](img/report_preview.png)
 
-3. Double click the Payout Summary. Again, supply a Start and End Date parameter, and click the Submit button. We can see a summary of transactions that occurred, but this doesn't quite give us all the detail we need. Close the Payment Summary Report.
+    Most reports from REV23 will require parameters to be set. Generally, these are dates, to execute the report for a particular date range.
 
-4. Double click the Payment Detail Report. Once again, supply a start and end date, then submit. Now we can see a breakdown of those payments and remember there was a $20.00 cash refund. Close the Payment Detail Report.
+3. Set a **Start Date** and **End Date** in the parameters panel. We will run it for yesterday and today to view everything we've done during this quick start.
+4. Click the **Submit** button.
 
-There is no shortage of reports you can run in REV23 Desktop! 
+    ![REV23 Desktop](img/report_payout.png)
+
+The payout report contains information for each artist and the commissions they've earned during this time period. You can print this out and hand it to each artist with their check.
+
+5. Close the payout report.
+     
+6. Double click the Deposits & Credits report. Again, set a Start and End Date in the Parameters panel, and click the **Submit** button.
+
+    ![REV23 Desktop](img/report_deposits_credits.png)
+    The Deposit & Credit report shows the deposit we took yesterday as well as it being used today.
+
+7. Double click the Payments report. Again, supply a Start and End Date parameter. This time, we will also set **Show Detail** to `Yes` and click the **Submit** button. We can see a list of transactions that occurred.
+
+    ![REV23 Desktop](img/report_payments.png)
+
+    We can balance the cash drawer with this report to ensure that everything is accounted for.
+
+There is no shortage of reports you can run in REV23 Desktop.
 
 After a long day, Selina is itching to get out of here for the night and is ready to clock out.

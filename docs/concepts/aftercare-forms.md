@@ -41,7 +41,7 @@ You can customize the subject of the email that is sent in [**Configuration > Cu
 
 The body that is sent in the email is a template which you can customize.
 
-The template that is used for the email body can be changed in **Configuration > Virtual Receptionist Options** in the **Email Aftercare Instructions Email Options** tab. By default this is the template with key name `REV23_AFTERCARE_EMAIL_BODY`, and is recommended you clone that template if you wish to change this text.
+The template that is used for the email body can be changed in **Configuration > Virtual Receptionist Options** in the **Email Aftercare Instructions Email Options** tab. By default, this is the template with key name `REV23_AFTERCARE_EMAIL_BODY`, and is recommended you clone that template if you wish to change this text.
 
 > The email body should _not_ contain your aftercare instructions, but a more general email along the lines of "*Thank you for coming in to Gotham City Tattoo & Piercing, attached are the aftercare instructions for your new tattoo.*"
 

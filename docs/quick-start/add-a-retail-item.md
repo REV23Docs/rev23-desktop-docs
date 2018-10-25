@@ -6,12 +6,12 @@ The **Inventory Item List View** is a slightly different from other list views, 
 
 1. Navigate to **Inventory > Inventory Items**. 
 2. Ensure that the **Aftercare Products** category is selected in the tree list on the left and click the **New** action.
-3. Enter basic item information such as the **Name**. 
-    - Since the Aftercare Products category was selected when we first created the item, the **Category** is already set for us. 
-    - And since this is a default category, REV23 Desktop already knows the **Department**. 
-    - Set the **Inventory Item Type** editor to *Tattoo*, since this is tattoo specific aftercare. 
+3. Enter basic item information:
+    - **Name**: Name of the item. 
+    - **Category** Since the Aftercare Products category was selected when we first created the item, the **Category** is already set for us. 
+    - **Department:** And since this is a default category, REV23 Desktop already knows the department. 
+    - **Inventory Item Type:** Set to `Piercing`, since this is piercing specific aftercare. 
     - We can also add an [**Image**](../ui/editors.md#image-editors), the **Manufacturer** and **Vendor** information. Again. you can include as little or as much information here as you'd like.
-
 
     ![REV23 Desktop](img/inventory_item_detail_view.png)
 
@@ -25,4 +25,4 @@ The **Inventory Item List View** is a slightly different from other list views, 
 
 5. Click the **Save & Close** action in the Inventory Item Detail View to close and return to the Inventory Item List View.
 
-Our item has been saved and is now visible in the Inventory Item List View Catalog and is ready to be sold. Try creating a new item for piercing aftercare using the same steps.
+Our item has been saved and is now visible in the Inventory Item List View Catalog and is ready to be sold. Try creating a new item for tattoo aftercare using these same steps.

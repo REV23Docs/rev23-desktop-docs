@@ -32,6 +32,7 @@ nav:
       - 'Overview': quick-start/index.md
       - 'Add a tattooer': quick-start/add-a-tattooer.md
       - 'Add a piercer': quick-start/add-a-piercer.md
+      - 'Add a manager': quick-start/add-a-manager.md
       - 'Schedule an appointment': quick-start/schedule-an-appointment.md
       - 'Add a retail item': quick-start/add-a-retail-item.md
       - 'Set service prices': quick-start/set-service-prices.md
@@ -149,7 +150,7 @@ nav:
       - 'Vendors': inventory/vendors.md
     - Hardware:
       - 'Signature Pad': hardware/signature-pad.md
-      - 'Barcode Reader': hardware/barcode-reader.md
+      - 'Bar code Reader': hardware/bar-code-reader.md
       - 'Magstripe Swipe Card Reader': hardware/magstripe-swipe-card-reader.md
       - 'Receipt Printer': hardware/receipt-printer.md
       - 'Cash Drawer': hardware/cash-drawer.md

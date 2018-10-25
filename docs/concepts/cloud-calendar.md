@@ -22,7 +22,7 @@ Tap each link in the received email and choose "Subscribe" when prompted. Depend
 
 ### iOS Auto Fetch
 
-By default, iOS will only sync the calendar manually. To automatically sync,go to Settings, tap "Passwords & Accounts", tap "Fetch New Data", and select the desired interval under the "Fetch" settings.
+By default, iOS will only sync the calendar manually. To automatically sync, go to Settings, tap "Passwords & Accounts", tap "Fetch New Data", and select the desired interval under the "Fetch" settings.
 
 Return to the previous screen and tap the Cloud Calendar in your account list. Ensure that its settings are set to Fetch.
 

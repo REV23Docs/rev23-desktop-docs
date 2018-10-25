@@ -1,8 +1,6 @@
 # Quick Start: Add a piercer
 
-In the previous topic, [Add a tattooer](add-a-tattooer.md), we added Pam as a tattooer to REV23 Desktop. Adding a piercer can be done using these same steps, however, in the [Assign service types](add-a-tattooer.md#assign-service-types) section, when we added the tattoo service type, we added just the single Tattoo service type. The piercing family, having many more types of services would be time consuming. So, you can do that, but, Harley is a busy lady and has better things to do.
-
-Here we will add Selina as a piercer as well as a manager of the studio.
+In the previous topic, [Add a tattooer](add-a-tattooer.md), we added Pam as a tattooer to REV23 Desktop. Adding a piercer can be done using these same steps, however, in the [Assign service types](add-a-tattooer.md#assign-service-types) section, when we added the tattoo service type, we added just the single Tattoo service type. The piercing family, having many more types of services would be time consuming to add one-by-one. So, while you can do that, there is a better way to do it.
 
 ## Using the Add Service Types Action
 
@@ -16,7 +14,7 @@ In the Employee List View, as well as the Employee Detail View, there is an acti
 
 The Add Service Types action allows you to set the usual properties, such as commission type and percentage. The key difference is you're also able to select multiple service types, adding them all to the artist at once.
 
-3. Set the **Commission Type** to *Percent* and the **Commission Percentage** to *50%*.
+3. Set the **Commission Type** to `Percent` and the **Commission Percentage** to `50%`.
 
 4. In the Service Types List we will select every service type *except* Tattoo. To do this, click into the list and hit **CTRL+A** on your keyboard to Select All.
 
@@ -26,4 +24,4 @@ The Add Service Types action allows you to set the usual properties, such as com
 
 6. Click **OK**.
 
-We've now added Selina to all piercing service types in just a couple of clicks. She's also been made a manager.
+We've now added Selina to all piercing service types in just a couple of clicks.

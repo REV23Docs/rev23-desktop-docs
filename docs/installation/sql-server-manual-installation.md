@@ -21,32 +21,30 @@ Depending on your computer, you will either need to download the 32-bit version 
 
 Save the file to your hard drive and once it is complete, execute the downloaded setup file.
 
-Installing SQL Server for REV23 Desktop
+## Installing SQL Server for REV23 Desktop
 
-The first screen is the SQL Server Installation Center. Click “New SQL Server stand-alone installation or add features to an existing installation".
+The first screen is the SQL Server Installation Center. Click "New SQL Server stand-alone installation or add features to an existing installation".
 
-In SQL Server 2014 Setup, on the License Terms Page click the checkbox to accept the license terms, then click “Next”.
+In SQL Server 2014 Setup, on the License Terms Page click the checkbox to accept the license terms, then click "Next".
 
-On the Feature Selection page, make sure all available features are checked,then click “Next”.
+On the Feature Selection page, make sure all available features are checked,then click "Next".
 
-On the Instance Configuration page, check the Named Instance radio button, and type in TATTOOSTUDIO. All uppercase, all one word, just as it appears here, and in the image below, then click “Next”. If this step is not done properly, REV23 Desktop will not recognize that Microsoft SQL Server has been installed.
+On the Instance Configuration page, check the Named Instance radio button, and type in TATTOOSTUDIO. All uppercase, all one word, just as it appears here, and in the image below, then click "Next". If this step is not done properly, REV23 Desktop will not recognize that Microsoft SQL Server has been installed.
 
-On the Service Configuration page, change the Account Name for the SQL Server Database Engine Service, by clicking the drop down arrow in the Account Name column and clicking the “<<Browse…>>” item.
+On the Service Configuration page, change the Account Name for the SQL Server Database Engine Service, by clicking the drop down arrow in the Account Name column and clicking the &lt;&lt;Browse…&gt;&gt; item.
 
-In the “Select User or Group” window that pops up, type the word “SYSTEM” in the bottom box. Then click the “Check Names” button, if there are no errors, click “OK”. This should resolve the Account Name to “NT AUTHORITY\SYSTEM”. If everything looks correct, click the “Next” button.
+In the "Select User or Group" window that pops up, type the word “SYSTEM” in the bottom box. Then click the "Check Names" button, if there are no errors, click "OK". This should resolve the Account Name to “NT AUTHORITY\SYSTEM”. If everything looks correct, click the “Next” button.
 
 On the Database Engine Configuration page, set the Authentication Mode to Mixed Mode (SQL Server authentication and Windows authentication). In the password and confirm password box type a strong password. Keep this password for now. If support from REV23 is required, we may need it. Once everything is up and running you can discard this password.
 
-In the “Specify SQL Server administrators” section, click the “Add…” button,and follow the instructions from the previous step to add NT AUTHORITY\SYSTEM as a SQL Server Administrator. DO NOT CLICK “NEXT” ON THIS SCREEN YET!
+In the "Specify SQL Server administrators" section, click the "Add…" button,and follow the instructions from the previous step to add NT AUTHORITY\SYSTEM as a SQL Server Administrator. DO NOT CLICK "NEXT" ON THIS SCREEN YET!
 
-While still on the Database Engine Configuration page, click the FILESTREAM tab. Check the top checkbox that says “Enable FILESTREAM for Transact-SQL access”. Then click “Next”.
+While still on the Database Engine Configuration page, click the FILESTREAM tab. Check the top checkbox that says “Enable FILESTREAM for Transact-SQL access”. Then click "Next".
 
-On the Error Reporting page, you can either check the checkbox to send error reports to Microsoft, or leave it unchecked, then click “Next.”
+On the Error Reporting page, you can either check the checkbox to send error reports to Microsoft, or leave it unchecked, then click "Next."
 
 Microsoft SQL Server 2014 will now install.
 
-Once complete, if there are no errors (all features have a green check mark)click the “Close” button. Microsoft SQL Server 2014 Express is now installed.
+Once complete, if there are no errors (all features have a green check mark)click the "Close" button. Microsoft SQL Server 2014 Express is now installed.
 
 If the installation fails, please click the link on the bottom of the screen to open the Summary Log File. Email the contents of this file to support@rev23.com so we can further assist you.
-
-

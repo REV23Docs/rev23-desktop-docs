@@ -1,12 +1,19 @@
 # Time Clock
 
-The REV23 Desktop Time Clock can be used to track your employee's time worked and hourly rate. Please note this if for hourly employees, not tattoo artists doing hourly work. There are only three two options for the time clock, which make it one of the easiest features to use in REV23 Desktop.
+The REV23 Desktop Time Clock can be used to track your user's time worked and hourly rate. Please note, this if for hourly employees, not tattoo artists doing hourly work. There are only three two options for the time clock, which make it one of the easiest features to use in REV23 Desktop.
 
-For employees that you wish to use the time clock, you need to only set the "Enable clock-in/clock-out" setting in their profile from the Employee Detail View. You can optionally set the employee's hourly rate if you wish to have REV23 Desktop calculate their pay, or you can just track the hours worked and calculate their pay manually. You can run the Time Clock Detail report to easily acquire this information.
+## Enable the Time Clock for a user
+
+1. Navigate to **Security > Employees**.
+2. Open the user you wish to enable the time clock for.
+3. Check the **Enable clock-in/clock-out** editor.
+4. Optionally, fill in an hourly rate.
+5. Click the **Save & Close** action.
 
 When the time clock is enabled for a user, after they log on with their password they will be prompted if they would like to make an adjustment to their time card. This prompt will appear slightly different depending on their current status.
 
 ## Clocking-in
+
 If a user is clocked out, once they log on with their password they will be prompted to clock-in. This will put them on the clock and track their time until they clock-out. To clock in, the user can chose one of three options. 
 
 **Clock-in & log on:** Creates a new time card entry with the current date & time and REV23 Desktop will continue to the Main Window. The user can use REV23 Desktop as usual. This option is only visible if the user has been assigned one or more Roles.
@@ -34,8 +41,8 @@ Go to the Time Clock List view, create a new Time Entry using the New action. Se
 
 ### User clocked-in late
 Go to the Time Clock List View. Locate the record and modify the clocked-in date/time property to the necessary value.
-Tip: Use the "On the clock now" list view filter to quickly locate the record by looking at only time entries that are currently clocked-in.
+
+> Tip: Use the **On the clock now** list view filter to quickly locate the record by looking at only time entries that are currently clocked-in.
 
 ### User forgot to clock-out
 Go to the Time Clock List View. Locate the record and set the clocked-out date/time property to the necessary value.
-Tip: Use the "On the clock now" list view filter to quickly locate the record by looking at only time entries that are currently clocked-in.

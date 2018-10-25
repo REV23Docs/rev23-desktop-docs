@@ -2,8 +2,6 @@
 
 Appointment Labels are customizable statuses to help you visually identify the nature of an appointment on the Scheduler View. An appointment can have both a Label and a Status (in the Scheduler View as well as the Appointment Detail View this is the property named "Show Time As").
 
-You can customize these labels to be any name and color you'd like with one exception. Labels with an index of zero (0) are built-in and cannot be modified. 
-
 > The appointment labels that are built-in are required by the system and cannot be deleted or renamed. These are the labels with an index of zero (0).
 
 # Properties

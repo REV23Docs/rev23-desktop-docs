@@ -8,14 +8,14 @@ By default, REV23 Desktop comes configured with the most common service types al
 
     ![REV23 Desktop](img/service_types_list_view.png)
    
-3. Double click the Lobe record to open the Service Detail View for the Ear Lobe Service Type. 
+3. Double click the **Lobe** record to open the Service Detail View for the Ear Lobe Service Type. 
 
     ![REV23 Desktop](img/service_type_detail_view.png)
 
 Here is where we configure how each service type behaves in REV23 Desktop, from how it is priced, to changing which template we use for aftercare and release forms. 
 
-1. By default for piercings, the **Default Pricing Type** is set to *Fixed - Location*. This means the price of this service type is always the same and determined by the studio. We will type $20.00 in to the **Amount** editor. Everything else we will leave as defaults for now. 
+4. By default for piercings, the **Default Pricing Type** is set to *Fixed - Location*. This means the price of this service type is always the same and determined by the studio. We will type $20.00 in to the **Amount** editor. Everything else we will leave as defaults for now. 
 
-2. Click the **Save & Close** action to save this change to the database.
+5. Click the **Save & Close** action to save this change to the database.
 
 We're now ready to start piercing some ear lobes! Repeat this process for each of your piercing types. You can also take this time to adjust some other settings, such as tax (if applicable), the default healing times, change-out times or required age, which is the age someone is able to have this service type performed without a guardian.

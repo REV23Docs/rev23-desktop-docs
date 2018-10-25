@@ -15,10 +15,10 @@ For example, your file may have a header name of `First` or `First Name` for the
     
 | Field Type | Allowed Property Names |
 | --- | --- |
-| **Names** | FirstName, MiddleName, LastName, Nickname |
-| **Address** | Street, City, StateProvince, ZipPostal |
-| **Phone Numbers** | HomePhoneNumber, MobilePhoneNumber, EmergencyPhoneNumber, CallbackPhoneNumber, OtherPhoneNumber |
-| **Other** | Email, Birthday, Gender, IdentificationNumber, IdentificationState |
+| **Names** | `FirstName`, `MiddleName`, `LastName`, `Nickname` |
+| **Address** | `Street`, `City`, `StateProvince`, `ZipPostal` |
+| **Phone Numbers** | `HomePhoneNumber`, `MobilePhoneNumber`, `EmergencyPhoneNumber`, `CallbackPhoneNumber`, `OtherPhoneNumber` |
+| **Other** | `Email`, `Birthday`, [`Gender`](#genders), `IdentificationNumber`, `IdentificationState` |
 
 ### File Example
 
