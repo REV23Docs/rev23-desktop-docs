@@ -42,7 +42,7 @@
     
     
       
-        <title>Alter release & aftercare forms - REV23 Desktop Docs</title>
+        <title>Modify consent form - REV23 Desktop Docs</title>
       
     
     
@@ -130,7 +130,7 @@
                 REV23 Desktop Docs
               </span>
               <span class="md-header-nav__topic">
-                Alter release & aftercare forms
+                Modify consent form
               </span>
             
           
@@ -532,8 +532,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../" title="Overview" class="md-nav__link">
-      Overview
+    <a href="../" title="Quick Start Overview" class="md-nav__link">
+      Quick Start Overview
     </a>
   </li>
 
@@ -685,11 +685,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Alter release & aftercare forms
+        Modify consent form
       </label>
     
-    <a href="./" title="Alter release & aftercare forms" class="md-nav__link md-nav__link--active">
-      Alter release & aftercare forms
+    <a href="./" title="Modify consent form" class="md-nav__link md-nav__link--active">
+      Modify consent form
     </a>
     
       
@@ -790,11 +790,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
     <label class="md-nav__link" for="nav-6">
-      Quick Start Vol 2
+      Quick Start Vol. 2
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-6">
-        Quick Start Vol 2
+        Quick Start Vol. 2
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -805,8 +805,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../quick-start-2/" title="Overview" class="md-nav__link">
-      Overview
+    <a href="../../quick-start-2/" title="Quick Start Vol. 2 Overview" class="md-nav__link">
+      Quick Start Vol. 2 Overview
     </a>
   </li>
 
@@ -841,18 +841,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../../quick-start-2/reward-points/" title="Reward clients with points" class="md-nav__link">
-      Reward clients with points
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../../quick-start-2/discount-multiple-piercings/" title="Discount multiple piercings" class="md-nav__link">
       Discount multiple piercings
     </a>
@@ -867,18 +855,6 @@
   <li class="md-nav__item">
     <a href="../../quick-start-2/incentivize-artists/" title="Incentivize artists" class="md-nav__link">
       Incentivize artists
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../quick-start-2/add-a-new-service-type/" title="Add a new service type" class="md-nav__link">
-      Add a new service type
     </a>
   </li>
 
@@ -2845,8 +2821,6 @@
 <li>
 <p>Click the <strong>Show Template Designer</strong> action on the ribbon to open the Template Designer.</p>
 <p><img alt="REV23 Desktop" src="../img/template_detail_view_show_template_designer.png" /></p>
-</li>
-</ol>
 <p>The Template designer is a full word processor that allows you to format your templates however you'd like, as well as insert fields that are populated from the database. The Template Designer itself is a complex topic, so here we will only cover the basics and make a couple of changes.</p>
 <p><img alt="REV23 Desktop Template Designer" src="../img/template_designer_tattoo_consent_form.png" /></p>
 <p>Looking at the Template Designer, we can see some data already exists from a service we created earlier. These are only <strong>previews</strong> of the Service records we created earlier and will not be saved when you save the template. It will randomly show you a record so that you can see what the template looks like with actual data. This is useful so you can see what longer names or larger IDs do to the formatting of the template and make sure to adjust for them. Don't worry, this data is not saved to the template and is only there for preview purposes.</p>
@@ -2854,17 +2828,15 @@
 <p>Even though we are modifying the Tattoo Consent Form you may see a piercing service. That's ok. You can change the record you're looking at by using the <strong>Mail Merge</strong> tab on the ribbon and changing the <strong>Current Record</strong> editor to scroll through up to 50 records. </p>
 </blockquote>
 <p>We see a couple of changes we'd like to make. First, we can get more text on the form by changing the margins.</p>
-<ol>
+</li>
 <li>
 <p>Click the <strong>Page Layout</strong> tab.</p>
 </li>
 <li>
 <p>Click the <strong>Margins</strong> button and select <em>Narrow</em> as the margin choice.</p>
 <p><img alt="REV23 Desktop" src="../img/template_designer_margins.png" /></p>
-</li>
-</ol>
 <p>Now we'd like to update the consent form to use the <strong>Mobile Phone Number</strong>.</p>
-<ol>
+</li>
 <li>
 <p>Erase the entire line that says <code>Home Phone: &lt;&lt;Customer.HomePhoneNumber&gt;&gt;</code> and replace with <code>Mobile Phone:</code> and leave the cursor blinking in that spot.</p>
 <p><img alt="REV23 Desktop" src="../img/template_designer_tattoo_consent_form_erase_home_phone.png" /></p>
@@ -2872,10 +2844,8 @@
 <li>
 <p>On the right hand side of the Template Designer is the <strong>Data Explorer</strong>. This allows us to insert a field which will read data from the database. In this case, a release form is based on the Service data type, so we can access all properties of a Service here. Scroll to the top of the data explorer window.</p>
 <p><img alt="REV23 Desktop" src="../img/template_designer_data_explorer.png" /></p>
-</li>
-</ol>
 <p>Notice the arrows next to some Properties (those that contain other properties.) For example, the <em>Customer</em> is a property of <em>Service</em>, and <em>Mobile Phone Number</em> is a property of <em>Customer</em>. So, we'll need to expand the Customer property to see what we have access to.</p>
-<ol>
+</li>
 <li>
 <p>Locate the <code>Mobile Phone Number</code> property nested inside the Customer Property (<strong>Service &gt; Customer &gt; Mobile Phone Number</strong>). Double click it to add it to the spot where the cursor is currently blinking. You can also click and drag it to the spot you'd like.</p>
 <p><img alt="REV23 Desktop" src="../img/template_designer_tattoo_consent_form_add_mobile_phone.png" /></p>
@@ -2883,10 +2853,8 @@
 <blockquote>
 <p>If the current record does not have a value for that property you will see the place holder value.</p>
 </blockquote>
-</li>
-</ol>
 <p>Our template looks pretty good, and we can come back to it later at any time to add additional details or formatting. But now, we need to tell REV23 Desktop to use this template instead of the default.</p>
-<ol>
+</li>
 <li>
 <p>Save the Template using the <strong>Save</strong> action in the top left corner of the Template Designer to close it.</p>
 <p><img alt="REV23 Desktop" src="../img/template_designer_save.png" /></p>

@@ -530,8 +530,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../quick-start/" title="Overview" class="md-nav__link">
-      Overview
+    <a href="../../quick-start/" title="Quick Start Overview" class="md-nav__link">
+      Quick Start Overview
     </a>
   </li>
 
@@ -674,8 +674,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../quick-start/modify-consent-form/" title="Alter release & aftercare forms" class="md-nav__link">
-      Alter release & aftercare forms
+    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
+      Modify consent form
     </a>
   </li>
 
@@ -745,11 +745,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
     
     <label class="md-nav__link" for="nav-6">
-      Quick Start Vol 2
+      Quick Start Vol. 2
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-6">
-        Quick Start Vol 2
+        Quick Start Vol. 2
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -760,8 +760,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../" title="Overview" class="md-nav__link">
-      Overview
+    <a href="../" title="Quick Start Vol. 2 Overview" class="md-nav__link">
+      Quick Start Vol. 2 Overview
     </a>
   </li>
 
@@ -794,18 +794,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../reward-points/" title="Reward clients with points" class="md-nav__link">
-      Reward clients with points
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -816,9 +804,45 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Discount multiple piercings
+      </label>
+    
     <a href="./" title="Discount multiple piercings" class="md-nav__link md-nav__link--active">
       Discount multiple piercings
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-the-discount" title="Create the discount" class="md-nav__link">
+    Create the discount
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-the-results" title="Testing the results" class="md-nav__link">
+    Testing the results
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -831,18 +855,6 @@
   <li class="md-nav__item">
     <a href="../incentivize-artists/" title="Incentivize artists" class="md-nav__link">
       Incentivize artists
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../add-a-new-service-type/" title="Add a new service type" class="md-nav__link">
-      Add a new service type
     </a>
   </li>
 
@@ -2753,6 +2765,29 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-the-discount" title="Create the discount" class="md-nav__link">
+    Create the discount
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-the-results" title="Testing the results" class="md-nav__link">
+    Testing the results
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2767,36 +2802,41 @@
                 
                 
                 <h1 id="quick-start-vol-2-discount-multiple-piercings">Quick Start Vol 2: Discount multiple piercings</h1>
-<p>Multi-service discounts
-In Quick Start Vol. 1, Harley set the price of an ear lobe piercing to $20.00. As expected, when Selina performed a walk-in piercing and set the quantity to two (2), the client's total was $40.00. </p>
-<p>Selina has suggested a discount when having two or more piercings done in the same sitting. REV23 Desktop can handle this easily with Service Type Discounts. In this topic, we'll set REV23 Desktop to discount the second piercing by $5.00 automatically once the service is added to a sale.</p>
+<p>In Quick Start Vol. 1, Harley set the price of an ear lobe piercing to $20.00. As expected, when Selina performed a walk-in piercing and set the quantity to two (2), the client's total was $40.00. </p>
+<p>Selina has suggested a discount when having two or more piercings done in the same sitting. REV23 Desktop can handle this easily with <strong>Service Type Discounts</strong>. In this topic, we'll set REV23 Desktop to discount the second piercing by $5.00 automatically once the service is added to a sale.</p>
 <p>You will need to be logged on as the Administrator or a Manager to proceed with this topic.</p>
-<p>Create the discount</p>
+<h2 id="create-the-discount">Create the discount</h2>
 <ol>
 <li>
-<p>Navigate to Configuration -&gt; Service Type Discounts and click the New action to show the Service Type Discount Code Detail View.</p>
+<p>Navigate to <strong>Configuration &gt; Service Type Discounts</strong> and click the <strong>New</strong> action to show the Service Type Discount Code Detail View.</p>
 </li>
 <li>
-<p>Choose a Name for the discount. We'll call ours $5 discount on 2+ piercings</p>
+<p>Provide a Name for the discount. We'll call ours <code>$5 discount on 2+ piercings</code>.</p>
 </li>
 <li>
-<p>Click the New action in the Tiers nested list view to create a new Service Type Discount Tier Detail View.</p>
+<p>Click the <strong>New</strong> action in the Tiers nested list view to create a new Service Type Discount Tier Detail View.</p>
 </li>
-</ol>
-<p>Check the First Is Full Price checkbox editor.
-Set the Start Quantity editor to 2.
-Check the "And up" checkbox editor.
-Set the Discount Type editor to Fixed.
-Set the Discount Amount editor to $5.00.</p>
+<li>
+<p>Check the First Is Full Price checkbox editor.</p>
+</li>
+<li>Set the Start Quantity editor to 2.</li>
+<li>Check the "And up" checkbox editor.</li>
+<li>Set the Discount Type editor to Fixed.</li>
+<li>
+<p>Set the Discount Amount editor to $5.00.</p>
 <p>So, what did we just do? We've created a new tier that in plain english says: When the quantity is two or more, charge full price for the first one, then discount each additional service $5.00. You can create as many tiers as you'd like. For example, 2-4 with a $5.00 discount, 5-7 with a $10.00 discount and 8+ with a $15.00 discount.</p>
 <p>Can you also see how we could have accomplished the same result without the use of the First Is Full Price? If you guessed setting the Discount Amount to $2.50, you'd be correct.</p>
 <p>Configure Service Type to use the discount</p>
 <p>Now we have to tell our service type(s) to use this Discount Code.</p>
-<ol>
-<li>Navigate to Configuration -&gt; Service Types and double click the Lobe service type to open the Service Type Detail View. Set the Discount Code editor to our newly created discount code.</li>
-</ol>
+</li>
+<li>
+<p>Navigate to Configuration -&gt; Service Types and double click the Lobe service type to open the Service Type Detail View. Set the Discount Code editor to our newly created discount code.</p>
+<blockquote>
 <p>Hint:  You can use the same discount code for multiple service types.</p>
-<p>Testing the results</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="testing-the-results">Testing the results</h2>
 <ol>
 <li>
 <p>Begin a new Service, and set the Service Type to Lobe and set the Quantity to two (2). The Service Detail View will show the subtotal is $40.00, which is to be expected, since the discount is applied when we add it to a sale.</p>
@@ -2827,7 +2867,7 @@ Set the Discount Amount editor to $5.00.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../reward-points/" title="Reward clients with points" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../referral-program/" title="Reward clients with referrals" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -2836,7 +2876,7 @@ Set the Discount Amount editor to $5.00.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Reward clients with points
+                Reward clients with referrals
               </span>
             </div>
           </a>
