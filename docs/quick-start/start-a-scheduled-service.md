@@ -8,13 +8,13 @@ Yesterday, as Commissioner Gordon was on a jog, he stopped in and made an appoin
 
     ![REV23 Desktop](img/today_dashboard_agenda_start_service.png)
 
-Now, we're in a service like we were when we created that [walk-in service](start-a-walk-in-service.md). The only difference here is that by using the **Start Service** action, the service knows it created from an appointment (so we can later track walk-in services vs scheduled appointments), and some of the info has been filled out for us already-- but not everything.
+    Now, we're in a service like we were when we created that [walk-in service](start-a-walk-in-service.md). The only difference here is that by using the **Start Service** action, the service knows it created from an appointment (so we can later track walk-in services vs scheduled appointments), and some of the info has been filled out for us already-- but not everything.
 
 3. Because he was just jogging by when he decided to make an appointment, he didn't have his ID for us to scan at the time. We're also missing some important information such as his address. Click the **Open Related Record** action in the Customer editor. This will open the Customer Detail View for that customer.
 
     ![REV23 Desktop](img/service_detail_view_customer_open_object.png)
 
-> Pro-tip: The **Open Related Record** action is *extremely* useful. Learning to incorporate it into your flow will make you much more efficient.
+    > Pro-tip: The **Open Related Record** action is *extremely* useful. Learning to incorporate it into your flow will make you much more efficient.
 
 4. Now that we have his ID, we can click the **Scan/Swipe ID** action in the Customer Detail View on the ribbon to easily and instantly populate the information we didn't get earlier, such as his address and ID number. Now, the next time the client is here, swiping his ID will recall this customer record and we avoid a duplicate record.
 
@@ -24,29 +24,29 @@ Now, we're in a service like we were when we created that [walk-in service](star
 
     ![REV23 Desktop](img/customer_detail_view_complete_customer.png)
 
-5. At this point, this is just as simple as the service we did earlier! Back in the Service Detail View, we still have some additional things we need to set up.
-   
-   ![REV23 Desktop](img/service_detail_view_scheduled_service.png)
+5. At this point, this is just as simple as the service we did earlier! Back in the Service Detail View, we still have some additional things we need to set up.  Add the following properties:
 
-    Add the following properties:
     - **Service Type:** `Tattoo`
     - **Placement Area:** `Back`
     - **Design Description:** `USMC w/ GCPD Badge`
     - **Amount:** `$500`
-
-By default, the *Tattoo* service type is set to a `Custom` pricing type. With this pricing type, we're able to just type that amount in, unlike the walk-in service we did earlier, where the price was automatically set when we selected the service type.
-
+   
+    ![REV23 Desktop](img/service_detail_view_scheduled_service.png)
+    
+    > By default, the *Tattoo* service type is set to a **Custom** pricing type. With this pricing type, we're able to just type that amount in, unlike the walk-in service we did earlier, where the price was automatically set when we selected the service type.
+   
 6. The Signature Pad was delivered this morning and Selina's plugged it in. Click the **Sign Consent Form** action.
 
-   ![REV23 Desktop](img/service_detail_view_sign_consent_form.png)
+    ![REV23 Desktop](img/service_detail_view_sign_consent_form.png)
 
-   The customer will be prompted to join the mailing list (optional) as well as review the Service Agreement (not the actual consent form since the signature pad cannot scroll text), then provide their signature.
-
-   ![REV23 Desktop](img/service_signature_capture.png)
-
+    The customer will be prompted to join the mailing list (optional) as well as review the Service Agreement (not the actual consent form since the signature pad cannot scroll text), then provide their signature.
+    
+    ![REV23 Desktop](img/service_signature_capture.png)
+    
     When the customer signs the consent form, the signed copy will be generated as a PDF and stored digitally in the database. Let's inspect it.
 
 7. Click the **Attachments** tab.
+   
 8. Highlight the consent form and click the **Open** action.
 
     ![REV23 Desktop](img/service_detail_view_attachments_open.png)
@@ -55,9 +55,9 @@ By default, the *Tattoo* service type is set to a `Custom` pricing type. With th
 
     ![REV23 Desktop](img/signed_consent_form.png)
 
-> While you don't need to inspect the release form each time, it's a good idea to check it out every once in a while, especially if you have recently made changes to your release form.
+    > While you don't need to inspect the release form each time, it's a good idea to check it out every once in a while, especially if you have recently made changes to your release form.
 
-9. Click the **Save & Close** action to save this service.
+9.  Click the **Save & Close** action to save this service.
 
 Notice the Appointment has disappeared from the Agenda and is now in the Services list in the **Today Dashboard**.
 

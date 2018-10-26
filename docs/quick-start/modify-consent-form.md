@@ -17,15 +17,15 @@ Consent and Aftercare forms, as well as other various bits of text, such as the 
 
     ![REV23 Desktop](img/template_detail_view_show_template_designer.png)
 
-The Template designer is a full word processor that allows you to format your templates however you'd like, as well as insert fields that are populated from the database. The Template Designer itself is a complex topic, so here we will only cover the basics and make a couple of changes.
+    The Template designer is a full word processor that allows you to format your templates however you'd like, as well as insert fields that are populated from the database. The Template Designer itself is a complex topic, so here we will only cover the basics and make a couple of changes.
 
-![REV23 Desktop Template Designer](img/template_designer_tattoo_consent_form.png)
+    ![REV23 Desktop Template Designer](img/template_designer_tattoo_consent_form.png)
 
-Looking at the Template Designer, we can see some data already exists from a service we created earlier. These are only **previews** of the Service records we created earlier and will not be saved when you save the template. It will randomly show you a record so that you can see what the template looks like with actual data. This is useful so you can see what longer names or larger IDs do to the formatting of the template and make sure to adjust for them. Don't worry, this data is not saved to the template and is only there for preview purposes.
+    Looking at the Template Designer, we can see some data already exists from a service we created earlier. These are only **previews** of the Service records we created earlier and will not be saved when you save the template. It will randomly show you a record so that you can see what the template looks like with actual data. This is useful so you can see what longer names or larger IDs do to the formatting of the template and make sure to adjust for them. Don't worry, this data is not saved to the template and is only there for preview purposes.
 
-> Even though we are modifying the Tattoo Consent Form you may see a piercing service. That's ok. You can change the record you're looking at by using the **Mail Merge** tab on the ribbon and changing the **Current Record** editor to scroll through up to 50 records. 
+    > Even though we are modifying the Tattoo Consent Form you may see a piercing service. That's ok. You can change the record you're looking at by using the **Mail Merge** tab on the ribbon and changing the **Current Record** editor to scroll through up to 50 records. 
 
-We see a couple of changes we'd like to make. First, we can get more text on the form by changing the margins.
+    We see a couple of changes we'd like to make. First, we can get more text on the form by changing the margins.
 
 4. Click the **Page Layout** tab.
    
@@ -33,17 +33,17 @@ We see a couple of changes we'd like to make. First, we can get more text on the
 
     ![REV23 Desktop](img/template_designer_margins.png)
 
-Now we'd like to update the consent form to use the **Mobile Phone Number**.
-
-1. Erase the entire line that says `Home Phone: <<Customer.HomePhoneNumber>>` and replace with `Mobile Phone: ` and leave the cursor blinking in that spot.
+    Now we'd like to update the consent form to use the **Mobile Phone Number**.
+    
+6. Erase the entire line that says `Home Phone: <<Customer.HomePhoneNumber>>` and replace with `Mobile Phone: ` and leave the cursor blinking in that spot.
    
     ![REV23 Desktop](img/template_designer_tattoo_consent_form_erase_home_phone.png)
 
-2. On the right hand side of the Template Designer is the **Data Explorer**. This allows us to insert a field which will read data from the database. In this case, a release form is based on the Service data type, so we can access all properties of a Service here. Scroll to the top of the data explorer window.
+7. On the right hand side of the Template Designer is the **Data Explorer**. This allows us to insert a field which will read data from the database. In this case, a release form is based on the Service data type, so we can access all properties of a Service here. Scroll to the top of the data explorer window.
 
     ![REV23 Desktop](img/template_designer_data_explorer.png)
 
-Notice the arrows next to some Properties (those that contain other properties.) For example, the *Customer* is a property of *Service*, and *Mobile Phone Number* is a property of *Customer*. So, we'll need to expand the Customer property to see what we have access to.
+    Notice the arrows next to some Properties (those that contain other properties.) For example, the *Customer* is a property of *Service*, and *Mobile Phone Number* is a property of *Customer*. So, we'll need to expand the Customer property to see what we have access to.
 
 8. Locate the `Mobile Phone Number` property nested inside the Customer Property (**Service > Customer > Mobile Phone Number**). Double click it to add it to the spot where the cursor is currently blinking. You can also click and drag it to the spot you'd like.
 
@@ -53,7 +53,7 @@ Notice the arrows next to some Properties (those that contain other properties.)
 
     > If the current record does not have a value for that property you will see the place holder value.
 
-Our template looks pretty good, and we can come back to it later at any time to add additional details or formatting. But now, we need to tell REV23 Desktop to use this template instead of the default.
+    Our template looks pretty good, and we can come back to it later at any time to add additional details or formatting. But now, we need to tell REV23 Desktop to use this template instead of the default.
 
 9. Save the Template using the **Save** action in the top left corner of the Template Designer to close it.
 

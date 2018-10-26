@@ -74,6 +74,6 @@ Since this user is a tattooer, we need to tell REV23 Desktop that she perform th
 
 ## Finish
 
-11. We're now done with this user. Click the **Save & Close** action, *or* **CTRL+ENTER** on your keyboard to save this record and close the Employee Detail View.
+We're now done with this user. Click the **Save & Close** action, *or* **CTRL+ENTER** on your keyboard to save this record and close the Employee Detail View.
 
 We've now added a tattooer to REV23 Desktop, and you should have learned some basic concepts about how to navigate around the software, create new objects and save those objects.

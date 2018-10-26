@@ -4,7 +4,7 @@ By default, REV23 Desktop comes configured with the most common service types al
 
 1. Navigate to **Configuration > Service Types** to open the Service Types List View. 
 
-2. Much like the Inventory Item List View you saw when we added a sellable item, the Service Types List View also has a category tree on the left hand side. Expanding the tree allows you to dig into each of the subcategories. Let's expand the **Piercing** category by clicking the arrow to the left of the category, then expand the **Ear** subcategory. This will show us all of the service types in the Ear category on the right.
+2. Much like the Inventory Item List View you saw when we added a retail item, the Service Types List View also has a category tree on the left hand side. Expanding the tree allows you to dig into each of the subcategories. Let's expand the **Piercing** category by clicking the arrow to the left of the category, then expand the **Ear** subcategory. This will show us all of the service types in the Ear category on the right.
 
     ![REV23 Desktop](img/service_types_list_view.png)
    
@@ -12,7 +12,7 @@ By default, REV23 Desktop comes configured with the most common service types al
 
     ![REV23 Desktop](img/service_type_detail_view.png)
 
-Here is where we configure how each service type behaves in REV23 Desktop, from how it is priced, to changing which template we use for aftercare and release forms. 
+    Here is where we configure how each service type behaves in REV23 Desktop, from how it is priced, to changing which template we use for aftercare and release forms. 
 
 4. By default for piercings, the **Default Pricing Type** is set to *Fixed - Location*. This means the price of this service type is always the same and determined by the studio. We will type $20.00 in to the **Amount** editor. Everything else we will leave as defaults for now. 
 

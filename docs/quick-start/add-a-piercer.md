@@ -12,7 +12,7 @@ In the Employee List View, as well as the Employee Detail View, there is an acti
 
     ![REV23 Desktop](img/employee_detail_view_ribbon_add_service_types.png)
 
-The Add Service Types action allows you to set the usual properties, such as commission type and percentage. The key difference is you're also able to select multiple service types, adding them all to the artist at once.
+    The Add Service Types action allows you to set the usual properties, such as commission type and percentage. The key difference is you're also able to select multiple service types, adding them all to the artist at once.
 
 3. Set the **Commission Type** to `Percent` and the **Commission Percentage** to `50%`.
 

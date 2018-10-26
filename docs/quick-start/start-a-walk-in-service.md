@@ -19,11 +19,11 @@ The appointment we scheduled isn't until tomorrow. Business must go on. Luckily,
 
 3. Like we saw when we scheduled an appointment for a customer, we can click the Customer editor to search for a customer by name, or create a new customer by clicking the New action or Scan/Swipe ID action. Since this client has her ID with her, we'll click the **Scan/Swipe ID** action to open the Customer Detail View and pre-fill that data in.
 
-> Hint: If you do not yet have a barcode reader or magstripe stripe swiper, when REV23 Desktop is waiting for you to to scan the ID, press the letter `D` on your keyboard to use demo data, which demonstrates the information that can be extracted from the ID.
+    By swiping the ID, we will obtain the following fields automatically without any typing: First name, middle name, last name, gender, birthday, address, driver's license number and state. We'll add a few more fields such as email and mobile phone + provider.
 
-By swiping the ID, we will obtain the following fields automatically without any typing: First name, middle name, last name, gender, birthday, address, driver's license number and state. We'll add a few more fields such as email and mobile phone + provider.
+    The next time this client returns, swiping the ID will recall this record, including any changes we've  made.
 
-The next time this client returns, swiping the ID will recall this record, including any changes we've  made.
+    > Hint: If you do not yet have a bar code reader or magstripe stripe reader, when REV23 Desktop is waiting for you to to scan the ID, press the letter `D` on your keyboard to use demo data, which demonstrates the information that can be extracted from the ID.
 
 4. Hover over the ID Image Editor. We can click the scan button in the Image Editor to acquire the ID Image from the document scanner.
 
@@ -33,7 +33,7 @@ The next time this client returns, swiping the ID will recall this record, inclu
 
 6. Select `Lobe` as the **Service Type**, and select `Selina` as the **Employee**. Notice that users that are not assigned to the selected Service Type do not show up in the user list, so when we clicked this editor, only Selina appeared because we [added her as a piercer](add-a-piercer.md).
 
-Because we've previously set the Lobe [piercing price](set-service-prices.md) in the previous section, the **Amount** has been defaulted for us and can not be modified.
+    Because we've previously set the Lobe [piercing price](set-service-prices.md) in the previous section, the **Amount** has been defaulted for us and can not be modified.
 
 7. Set the Quantity to 2, since our client wants both of her ear lobes pierced.
 
@@ -43,14 +43,14 @@ Because we've previously set the Lobe [piercing price](set-service-prices.md) in
 
     > Hint: Hold the **SHIFT** key down on your keyboard while the **Print Consent Form** action to preview the consent form instead of printing it directly to the printer.
 
-If you have the Signature Pad, click the **Sign Consent Form** action instead.        
+    If you have the Signature Pad, click the **Sign Consent Form** action instead.        
 
-![REV23 Desktop](img/consent_form_preview.png)
+    ![REV23 Desktop](img/consent_form_preview.png)
 
-The release form looks pretty good. There are a few things that stand out that we would like to fix (the phone number is using Home instead of the preferred Mobile), so we will come back to this later. For now, we have a release form that the client can sign.
+    The release form looks pretty good. There are a few things that stand out that we would like to fix (the phone number is using Home instead of the preferred Mobile), so we will come back to this later. For now, we have a release form that the client can sign.
 
 9. Click the **Save & Close** action to save the record to return to the Service List View.
 
-With the release form signed, Selina can now go do what she does best (well,second best after jewel heists) and pierce the client.
+With the release form signed, Selina can now go do what she does best (well, second best after jewel heists) and pierce the client.
 
 Next, we'll see how to charge the client for the service.

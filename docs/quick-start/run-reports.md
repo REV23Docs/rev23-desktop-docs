@@ -14,7 +14,7 @@ Well, the day is about at a close at Gotham City Tattoo & Piercing. Let's run a 
 
     ![REV23 Desktop](img/report_payout.png)
 
-The payout report contains information for each artist and the commissions they've earned during this time period. You can print this out and hand it to each artist with their check.
+    The payout report contains information for each artist and the commissions they've earned during this time period. You can print this out and hand it to each artist with their check.
 
 5. Close the payout report.
      

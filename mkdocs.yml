@@ -29,7 +29,7 @@ nav:
       - 'Touch Mode': ui/touch-mode.md
       - 'Skins': ui/skins.md
     - Quick Start:
-      - 'Overview': quick-start/index.md
+      - 'Quick Start Overview': quick-start/index.md
       - 'Add a tattooer': quick-start/add-a-tattooer.md
       - 'Add a piercer': quick-start/add-a-piercer.md
       - 'Add a manager': quick-start/add-a-manager.md
@@ -41,19 +41,19 @@ nav:
       - 'Clocking in': quick-start/clocking-in.md
       - 'Start a scheduled service': quick-start/start-a-scheduled-service.md
       - 'Apply a deposit': quick-start/apply-a-deposit.md
-      - 'Alter release & aftercare forms': quick-start/modify-consent-form.md
+      - 'Modify consent form': quick-start/modify-consent-form.md
       - 'Refund an item': quick-start/refund-an-item.md
       - 'Run reports': quick-start/run-reports.md
       - 'Clocking out': quick-start/clocking-out.md
       - 'Conclusion': quick-start/conclusion.md
-    - Quick Start Vol 2:
-      - 'Overview': quick-start-2/index.md
+    - Quick Start Vol. 2:
+      - 'Quick Start Vol. 2 Overview': quick-start-2/index.md
       - 'Sell a gift card': quick-start-2/sell-a-gift-card.md
       - 'Reward clients with referrals': quick-start-2/referral-program.md
-      - 'Reward clients with points': quick-start-2/reward-points.md
+      #- 'Reward clients with points': quick-start-2/reward-points.md
       - 'Discount multiple piercings': quick-start-2/discount-multiple-piercings.md
       - 'Incentivize artists': quick-start-2/incentivize-artists.md
-      - 'Add a new service type': quick-start-2/add-a-new-service-type.md
+      #- 'Add a new service type': quick-start-2/add-a-new-service-type.md
     - Concepts:
       - 'Users': concepts/users.md
       - 'User Service Types': concepts/user-service-types.md

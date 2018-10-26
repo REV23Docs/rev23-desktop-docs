@@ -18,7 +18,7 @@ You will need to be logged on as the Administrator or a Manager to proceed with 
 
 6. Click an empty area in the window to deselect any category that may already be selected, and click the New action to create a new service category and open the Service Category Detail View.
 
-> Hint: If you have a category selected in the tree view before clicking the New action, the newly created category will have the selected category set as its Parent Category, making this a subcategory. In this case, we want our new category to be at the root level, meaning it has no parent. If the Parent Category is already set when the detail view opens, you can click the X button on the right hand side of the Parent Category editor to clear it.
+    > Hint: If you have a category selected in the tree view before clicking the New action, the newly created category will have the selected category set as its Parent Category, making this a subcategory. In this case, we want our new category to be at the root level, meaning it has no parent. If the Parent Category is already set when the detail view opens, you can click the X button on the right hand side of the Parent Category editor to clear it.
 
 7. Specify a name in the Name editor. We'll call it Tattoo Removal.
 
