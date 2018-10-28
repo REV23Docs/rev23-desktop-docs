@@ -14,5 +14,6 @@ The customer property on a Sale has a Default Customer button that you can click
 ## Related
 
 - [Reference: Customers](../reference/customers.md)
+- [Concepts: Email Marketing](email-marketing.md)
 
 

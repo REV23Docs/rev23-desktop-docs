@@ -2,9 +2,11 @@
 Reports can be generated to allow you to easily visualize key business information in a single document that is suitable for printing or exporting. There are two different types of reports in REV23 Desktop. 
 
 ## Standard Reports
+
 Standard Reports are reports that you will run from the Reports List View. The Employee Payout report is an example of a standard report.
 
 ## In-place Reports
+
 In-place reports are not generally not meant to be run by the user, but will be generated at various points in the workflow for a specific object. The invoice receipt, credit card authorization receipt and deposit/credit receipt are all examples of in-place reports. Additionally, where an in-place report exists for a particular object type, you will see the Show In Report action which will allow you to generate a report for the selected object.
 
 ## Reports (Legacy)

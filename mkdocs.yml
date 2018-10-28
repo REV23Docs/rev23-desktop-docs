@@ -3,6 +3,14 @@ site_description: 'REV23 Desktop Docs'
 site_author: 'REV23'
 site_url: 'https://docs.rev23.com/rev23-desktop-docs/'
 
+markdown_extensions:
+  - meta
+  - toc
+  - tables
+  - fenced_code
+  - smarty
+  - sane_lists
+
 # Copyright
 copyright: 'Copyright &copy; 2018 REV23 Development, Inc.'
 
@@ -38,10 +46,10 @@ nav:
       - 'Set service prices': quick-start/set-service-prices.md
       - 'Start a walk-in service': quick-start/start-a-walk-in-service.md
       - 'Start a sale': quick-start/start-a-sale.md
+      - 'Modify consent form': quick-start/modify-consent-form.md
       - 'Clocking in': quick-start/clocking-in.md
       - 'Start a scheduled service': quick-start/start-a-scheduled-service.md
       - 'Apply a deposit': quick-start/apply-a-deposit.md
-      - 'Modify consent form': quick-start/modify-consent-form.md
       - 'Refund an item': quick-start/refund-an-item.md
       - 'Run reports': quick-start/run-reports.md
       - 'Clocking out': quick-start/clocking-out.md

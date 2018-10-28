@@ -12,6 +12,7 @@ The **Inventory Item List View** is a slightly different from other list views, 
     - **Department:** And since this is a default category, REV23 Desktop already knows the department. 
     - **Inventory Item Type:** Set to `Piercing`, since this is piercing specific aftercare. 
     - We can also add an [**Image**](../ui/editors.md#image-editors), the **Manufacturer** and **Vendor** information. Again. you can include as little or as much information here as you'd like.
+    - **UPC Bar code**: If the item has a UPC from the manufacturer, type or scan it in to this field.
 
     ![REV23 Desktop](img/inventory_item_detail_view.png)
 
@@ -25,4 +26,6 @@ The **Inventory Item List View** is a slightly different from other list views, 
 
 5. Click the **Save & Close** action in the Inventory Item Detail View to close and return to the Inventory Item List View.
 
-Our item has been saved and is now visible in the Inventory Item List View Catalog and is ready to be sold. Try creating a new item for tattoo aftercare using these same steps.
+Our item has been saved and is now visible in the Inventory Item List View Catalog and is ready to be sold. 
+
+Try creating a new item for tattoo aftercare using these same steps.

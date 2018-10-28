@@ -23,7 +23,7 @@ You should notice the **Subtotal**, **Tax Amount**, **Total Amount** and **Balan
 
     ![REV23 Desktop](img/customer_invoice_item_detail_view_spray.png)
 
-The item is added to the sale, and our totals have been updated. The client now owes `$50.00`.
+    The item is added to the sale, and our totals have been updated. The client now owes `$50.00`.
 
 5. The client has everything she needs and is ready to pay. Click the **Take Payment** action. 
 

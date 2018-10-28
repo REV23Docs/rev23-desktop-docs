@@ -12,7 +12,6 @@ Since Harley is the user who installed REV23 Desktop and went through the setup 
 
     ![REV23 Desktop](img/employee_list_view_new.png)
 
-
 3. Fill out the basic information for the user. We've filled out the standard details, such as her name and gender and you can get as detailed (or basic) as you want with this information. There are additional properties you can explore now, but are outside of the scope of this quick start. Here are the things you should pay attention to now:
 
     - **User Name:** User name is required. Usually a first name will be acceptable, or first initial + last name. Whatever works for you!

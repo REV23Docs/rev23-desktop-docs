@@ -19,7 +19,7 @@ At a minimum, a **Customer** and **Service Type** are required, however you can 
 
 If the customer has a mobile phone number specified, you can page them (send a text message) when you're ready for them to return to the studio by clicking the **Page Customer** action.
 
-> You can customize the content of the text message in [Configuration: Custom Texts](../configuration/custom-texts.md).
+> You can customize the content of the text message in [Configuration: Custom Texts](../configuration/custom-texts.md) using key names `SERVICEQUEUE_PAGE_SMS_TEXT` and `SERVICEQUEUE_PAGE_SMS_SUBJECT`.
 
 ### Removing a customer from the queue
 
@@ -30,4 +30,5 @@ If the customer does not return or has decided to leave without getting a servic
 When you're ready to perform the service, click the **Start Service** action to copy all relevant information from the queue to a new service record.
 
 ## Related
-[Reference: Walk-ins](../reference/walk-ins.md)
+- [Concepts: Today Dashboard](../concepts/today-dashboard.md)
+- [Reference: Walk-ins](../reference/walk-ins.md)

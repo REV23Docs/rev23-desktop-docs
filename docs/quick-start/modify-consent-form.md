@@ -1,6 +1,6 @@
 # Quick Start: Modify consent form
 
-We noticed a few things on the release forms earlier that we'd like to change, so now seems like a good time to get that taken care of.
+We noticed a few things on the release form earlier that we'd like to change, so now seems like a good time to get that taken care of.
 
 Consent and Aftercare forms, as well as other various bits of text, such as the text message and email appointment reminders, exist as Templates, which we will edit using the **Template Designer**.
 
