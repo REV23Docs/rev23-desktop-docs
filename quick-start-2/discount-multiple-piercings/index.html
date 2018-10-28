@@ -638,6 +638,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
+      Modify consent form
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../quick-start/clocking-in/" title="Clocking in" class="md-nav__link">
       Clocking in
     </a>
@@ -664,18 +676,6 @@
   <li class="md-nav__item">
     <a href="../../quick-start/apply-a-deposit/" title="Apply a deposit" class="md-nav__link">
       Apply a deposit
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
-      Modify consent form
     </a>
   </li>
 
@@ -2802,8 +2802,8 @@
                 
                 
                 <h1 id="quick-start-vol-2-discount-multiple-piercings">Quick Start Vol 2: Discount multiple piercings</h1>
-<p>In Quick Start Vol. 1, Harley set the price of an ear lobe piercing to $20.00. As expected, when Selina performed a walk-in piercing and set the quantity to two (2), the client's total was $40.00. </p>
-<p>Selina has suggested a discount when having two or more piercings done in the same sitting. REV23 Desktop can handle this easily with <strong>Service Type Discounts</strong>. In this topic, we'll set REV23 Desktop to discount the second piercing by $5.00 automatically once the service is added to a sale.</p>
+<p>In Quick Start Vol. 1, Harley set the price of an ear lobe piercing to $20.00. As expected, when Selina performed a walk-in piercing and set the quantity to two (2), the client&rsquo;s total was $40.00. </p>
+<p>Selina has suggested a discount when having two or more piercings done in the same sitting. REV23 Desktop can handle this easily with <strong>Service Type Discounts</strong>. In this topic, we&rsquo;ll set REV23 Desktop to discount the second piercing by $5.00 automatically once the service is added to a sale.</p>
 <p>You will need to be logged on as the Administrator or a Manager to proceed with this topic.</p>
 <h2 id="create-the-discount">Create the discount</h2>
 <ol>
@@ -2811,24 +2811,26 @@
 <p>Navigate to <strong>Configuration &gt; Service Type Discounts</strong> and click the <strong>New</strong> action to show the Service Type Discount Code Detail View.</p>
 </li>
 <li>
-<p>Provide a Name for the discount. We'll call ours <code>$5 discount on 2+ piercings</code>.</p>
+<p>Provide a Name for the discount. We&rsquo;ll call ours <code>$5 discount on 2+ piercings</code>.</p>
 </li>
 <li>
 <p>Click the <strong>New</strong> action in the Tiers nested list view to create a new Service Type Discount Tier Detail View.</p>
 </li>
-<li>
-<p>Check the First Is Full Price checkbox editor.</p>
-</li>
+</ol>
+<ul>
+<li>Check the First Is Full Price checkbox editor.</li>
 <li>Set the Start Quantity editor to 2.</li>
-<li>Check the "And up" checkbox editor.</li>
+<li>Check the &ldquo;And up&rdquo; checkbox editor.</li>
 <li>Set the Discount Type editor to Fixed.</li>
 <li>
 <p>Set the Discount Amount editor to $5.00.</p>
-<p>So, what did we just do? We've created a new tier that in plain english says: When the quantity is two or more, charge full price for the first one, then discount each additional service $5.00. You can create as many tiers as you'd like. For example, 2-4 with a $5.00 discount, 5-7 with a $10.00 discount and 8+ with a $15.00 discount.</p>
-<p>Can you also see how we could have accomplished the same result without the use of the First Is Full Price? If you guessed setting the Discount Amount to $2.50, you'd be correct.</p>
+<p>So, what did we just do? We&rsquo;ve created a new tier that in plain english says: When the quantity is two or more, charge full price for the first one, then discount each additional service $5.00. You can create as many tiers as you&rsquo;d like. For example, 2-4 with a $5.00 discount, 5-7 with a $10.00 discount and 8+ with a $15.00 discount.</p>
+<p>Can you also see how we could have accomplished the same result without the use of the First Is Full Price? If you guessed setting the Discount Amount to $2.50, you&rsquo;d be correct.</p>
 <p>Configure Service Type to use the discount</p>
 <p>Now we have to tell our service type(s) to use this Discount Code.</p>
 </li>
+</ul>
+<ol start="4">
 <li>
 <p>Navigate to Configuration -&gt; Service Types and double click the Lobe service type to open the Service Type Detail View. Set the Discount Code editor to our newly created discount code.</p>
 <blockquote>
@@ -2837,7 +2839,7 @@
 </li>
 </ol>
 <h2 id="testing-the-results">Testing the results</h2>
-<ol>
+<ol start="5">
 <li>
 <p>Begin a new Service, and set the Service Type to Lobe and set the Quantity to two (2). The Service Detail View will show the subtotal is $40.00, which is to be expected, since the discount is applied when we add it to a sale.</p>
 </li>

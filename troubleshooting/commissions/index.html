@@ -638,6 +638,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
+      Modify consent form
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../quick-start/clocking-in/" title="Clocking in" class="md-nav__link">
       Clocking in
     </a>
@@ -664,18 +676,6 @@
   <li class="md-nav__item">
     <a href="../../quick-start/apply-a-deposit/" title="Apply a deposit" class="md-nav__link">
       Apply a deposit
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
-      Modify consent form
     </a>
   </li>
 
@@ -2807,9 +2807,9 @@ When running a payout report, or attempting to payout a user, services are missi
 <h2 id="solution-1">Solution 1</h2>
 <p>The most common cause of this problem is that the user is not properly configured to receive a commission for the missing service type(s). Services where the commission would be zero do not appear on payout reports.</p>
 <p>As the Administrator user, open the Service Detail View of the Service that is missing, and inspect the payout information. Is there a commission set? If not, this user does not have a properly configured Employee Service Type record for the selected service type.</p>
-<p>Note that after you modify the commission for that Employee Service Type, it does not retroactively apply to existing services. If you wish to include the missing services after correcting the user's commission, you can return to each service individually for that user and either modify the Employee or Service Type property, then revert it back to the correct value. This will refresh the configuration for that service, including payout data.</p>
+<p>Note that after you modify the commission for that Employee Service Type, it does not retroactively apply to existing services. If you wish to include the missing services after correcting the user&rsquo;s commission, you can return to each service individually for that user and either modify the Employee or Service Type property, then revert it back to the correct value. This will refresh the configuration for that service, including payout data.</p>
 <h2 id="solution-2">Solution 2</h2>
-<p>If you've verified that the user is being paid a commission on that service but it's still not showing up on payout reports, it is likely being filtered by the Use Business Hours for Reporting option in Locations and My Studio. </p>
+<p>If you&rsquo;ve verified that the user is being paid a commission on that service but it&rsquo;s still not showing up on payout reports, it is likely being filtered by the Use Business Hours for Reporting option in Locations and My Studio. </p>
 <p>This option is primarily used for studios who are open past midnight which need services that occur past midnight to be reported on the previous business day. As a result, when this option is enabled, REV23 Desktop strictly filters services on reporting to those exact business hours. So if your hours at 12PM - 10PM, and a service starts at 10:01 PM, it will be excluded from reports. If you do not require such strict reporting, disable this option, or manually adjust the start time of the service to occur within your business hours.</p>
                 
                   

@@ -638,6 +638,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
+      Modify consent form
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../quick-start/clocking-in/" title="Clocking in" class="md-nav__link">
       Clocking in
     </a>
@@ -664,18 +676,6 @@
   <li class="md-nav__item">
     <a href="../../quick-start/apply-a-deposit/" title="Apply a deposit" class="md-nav__link">
       Apply a deposit
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
-      Modify consent form
     </a>
   </li>
 
@@ -2804,13 +2804,13 @@
                 <h1 id="user-service-types-employee-service-types">User Service Types (Employee Service Types)</h1>
 <p>User Service Types are objects that link a User (Employee) to a particular Service Type, and describes how an artist is paid for each service.</p>
 <h2 id="properties">Properties</h2>
-<p><strong>Service Type:</strong> The service type you're creating or modifying for this employee.</p>
-<p><strong>License Number:</strong> The employee's issued license number to perform this service type.</p>
-<p><strong>License Expiration Date:</strong> The expiration date of this employee's license. When specified, you will be warned when creating a service of this type once the expiration is sixty (60) days away from the current date, then, every ten (10) days afterwords until there is only ten (10) days remaining, at which point you will be warned every day.</p>
-<p><strong>Amount:</strong> The fixed amount to charge for this service when being performed by this artist. This value is only used if the Service Type's Pricing Source is set to 'Fixed - Employee'. This is useful if you have levels of piercers that charge a different amount for the same type of piercing (i.e. master piercer, apprentice, etc...).</p>
-<p><strong>Area Rate:</strong> For tattoos, the rate to charge per square inch, foot, etc... (whichever measurement unit you've decided on). This value is only used when the service's pricing source is set to 'Area'.</p>
-<p><strong>Hourly Rate:</strong> For tattoos, the rate to charge per hour. This is calculated by the service's start and end time.</p>
-<p><strong>Hourly Rate Minimum:</strong> When using an hourly rate, the minimum amount to charge in the event the rate with the service's total time is less than the artist's minimum.</p>
+<p><strong>Service Type:</strong> The service type you&rsquo;re creating or modifying for this employee.</p>
+<p><strong>License Number:</strong> The employee&rsquo;s issued license number to perform this service type.</p>
+<p><strong>License Expiration Date:</strong> The expiration date of this employee&rsquo;s license. When specified, you will be warned when creating a service of this type once the expiration is sixty (60) days away from the current date, then, every ten (10) days afterwords until there is only ten (10) days remaining, at which point you will be warned every day.</p>
+<p><strong>Amount:</strong> The fixed amount to charge for this service when being performed by this artist. This value is only used if the Service Type&rsquo;s Pricing Source is set to &lsquo;Fixed - Employee&rsquo;. This is useful if you have levels of piercers that charge a different amount for the same type of piercing (i.e. master piercer, apprentice, etc&hellip;).</p>
+<p><strong>Area Rate:</strong> For tattoos, the rate to charge per square inch, foot, etc&hellip; (whichever measurement unit you&rsquo;ve decided on). This value is only used when the service&rsquo;s pricing source is set to &lsquo;Area&rsquo;.</p>
+<p><strong>Hourly Rate:</strong> For tattoos, the rate to charge per hour. This is calculated by the service&rsquo;s start and end time.</p>
+<p><strong>Hourly Rate Minimum:</strong> When using an hourly rate, the minimum amount to charge in the event the rate with the service&rsquo;s total time is less than the artist&rsquo;s minimum.</p>
 <p><strong>Rounding Direction:</strong> When the commission is calculated using an hourly rate and the start and end time of the service, you can round the time up or down to the nearest quarter, half or full hour.</p>
 <ul>
 <li><em>None</em>: The total hours will not be rounded, it will be an exact value of time.</li>
@@ -2859,12 +2859,12 @@
 </tbody>
 </table>
 <p>Note: This property is only visible when Rounding Direction is set to Up or Down.</p>
-<p><strong>Commission Type:</strong> The portion of the commission the employee will take when this service is performed in the Employee Payout. Think hard about how your commissions work before choosing this value, as you will configure the artist/piercer commission on their Employee Service Type record, so you'll obviously want everything to match up in the end. For example, setting this value to a percentage of 60%, then having your studio configured at 50% would equal 110%, which obviously wouldn't work, but REV23 Desktop will not stop you in this scenario.</p>
+<p><strong>Commission Type:</strong> The portion of the commission the employee will take when this service is performed in the Employee Payout. Think hard about how your commissions work before choosing this value, as you will configure the artist/piercer commission on their Employee Service Type record, so you&rsquo;ll obviously want everything to match up in the end. For example, setting this value to a percentage of 60%, then having your studio configured at 50% would equal 110%, which obviously wouldn&rsquo;t work, but REV23 Desktop will not stop you in this scenario.</p>
 <ul>
-<li><em>None</em>: No Employee Payout will be calculated. Any remainder left over after the studio's commission has been calculated will be placed in the Remaining Payout.</li>
-<li><em>Fixed</em>: The Employee Payout will be a fixed amount, provided in the Commission Amount property. This option is less common. Any remainder left over after the studio's draw has been calculated will be placed in the Remaining Payout.</li>
-<li><em>Percent</em>: The Employee Payout will be a percentage of the service amount, provided in the Commission Percentage property. Any remainder left over after the studio's draw has been calculated will be placed in the Remaining Payout. This is the most common commission type, as it easily allows you to specify the artist/piercer's commission percentage.</li>
-<li><em>Remainder</em>: The Employee Payout will be whatever amount is remaining after the studio's draw has been calculated.</li>
+<li><em>None</em>: No Employee Payout will be calculated. Any remainder left over after the studio&rsquo;s commission has been calculated will be placed in the Remaining Payout.</li>
+<li><em>Fixed</em>: The Employee Payout will be a fixed amount, provided in the Commission Amount property. This option is less common. Any remainder left over after the studio&rsquo;s draw has been calculated will be placed in the Remaining Payout.</li>
+<li><em>Percent</em>: The Employee Payout will be a percentage of the service amount, provided in the Commission Percentage property. Any remainder left over after the studio&rsquo;s draw has been calculated will be placed in the Remaining Payout. This is the most common commission type, as it easily allows you to specify the artist/piercer&rsquo;s commission percentage.</li>
+<li><em>Remainder</em>: The Employee Payout will be whatever amount is remaining after the studio&rsquo;s draw has been calculated.</li>
 <li><em>Dynamic</em>: The Employee Payout will be dynamically adjusted using the dynamic commission set on this User Service Type.</li>
 </ul>
 <p><strong>Commission Percentage:</strong> The percentage of the employee payout. This property is only visible if the Commission Type is set to Percent.</p>

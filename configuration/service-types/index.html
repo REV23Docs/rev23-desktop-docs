@@ -638,6 +638,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
+      Modify consent form
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../quick-start/clocking-in/" title="Clocking in" class="md-nav__link">
       Clocking in
     </a>
@@ -664,18 +676,6 @@
   <li class="md-nav__item">
     <a href="../../quick-start/apply-a-deposit/" title="Apply a deposit" class="md-nav__link">
       Apply a deposit
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
-      Modify consent form
     </a>
   </li>
 
@@ -2855,7 +2855,7 @@
 - <em>Permanent makeup</em></p>
 <p><strong>Category:</strong> The category of the service type. The category is required.</p>
 <p><strong>Department:</strong> The department of the service type.</p>
-<p><strong>Healing Time:</strong> The typical healing time for this service type. The healing time appears on the default aftercare forms, so while not required, it's a good idea to fill this out. Useful to fill out for adding to <a href="../../concepts/aftercare-forms/">aftercare forms</a>.</p>
+<p><strong>Healing Time:</strong> The typical healing time for this service type. The healing time appears on the default aftercare forms, so while not required, it&rsquo;s a good idea to fill this out. Useful to fill out for adding to <a href="../../concepts/aftercare-forms/">aftercare forms</a>.</p>
 <p><strong>Downsize/Change Out Time:</strong> The typical amount of time before the piercing should be downsized. Useful to fill out for adding to <a href="../../concepts/aftercare-forms/">aftercare forms</a>.</p>
 <p><strong>Required Age:</strong> The minimum age the customer needs to be to provide their consent for this service type.</p>
 <p><strong>Consent Form:</strong> The <a href="../../concepts/consent-forms/">consent form</a> template to be used for this service type.</p>
@@ -2868,27 +2868,27 @@
 <li><em>Custom</em>: The price is determined per service. This is the best option for tattoo service types because the amount is variable.</li>
 <li><em>Fixed - Location</em>: The amount is a fixed shop amount, provided in the Amount property. This option is best if you charge a standard amount for each service of this type and is unaffected by who is performing it.</li>
 <li><em>Fixed - Employee</em>: The amount is predetermined by the Amount property in the Employee Service Type record. This option is best if you have levels of piercers that charge a different amount for the same type of piercing.</li>
-<li><em>Duration</em>: The amount is calculated based on the Employee's hourly rate and the Total Hours that are manually entered in the service.</li>
-<li><em>Time (Start/End)</em>: The amount is calculated based on the Employee's hourly rate and the start and end time of the service.</li>
-<li><em>Area/Size</em>: The amount is calculated based on the Employee Service Type's area rate and the height/width values on the service.</li>
+<li><em>Duration</em>: The amount is calculated based on the Employee&rsquo;s hourly rate and the Total Hours that are manually entered in the service.</li>
+<li><em>Time (Start/End)</em>: The amount is calculated based on the Employee&rsquo;s hourly rate and the start and end time of the service.</li>
+<li><em>Area/Size</em>: The amount is calculated based on the Employee Service Type&rsquo;s area rate and the height/width values on the service.</li>
 </ul>
 <p><strong>Amount:</strong> The amount of this service type. This property is only visible if the <strong>Default Pricing Type</strong> is set to <em>Fixed - Location</em>.</p>
 <blockquote>
-<p>REV23 Recommendation: If you're specifying an amount for a piercing, specify the cost of the piercing only, do not include the price of the jewelry. Instead, you can configure any inventory item to use a special price when it is used as part of a service type. That amount should control inflating the cost. This prevents the need for having to create multiple versions of the same service type just to handle different jewelry (standard vs premium) See the Service Type Inventory Items topic for more information.</p>
+<p>REV23 Recommendation: If you&rsquo;re specifying an amount for a piercing, specify the cost of the piercing only, do not include the price of the jewelry. Instead, you can configure any inventory item to use a special price when it is used as part of a service type. That amount should control inflating the cost. This prevents the need for having to create multiple versions of the same service type just to handle different jewelry (standard vs premium) See the Service Type Inventory Items topic for more information.</p>
 </blockquote>
 <p><strong>Discount Code:</strong> The service type bulk discount code to match when a service of this type is added to an invoice.</p>
 <p><strong>Tax:</strong> If required, specify the tax to be used for this service type and calculated into its total price.</p>
-<p><strong>Draw</strong> Type: The portion of the commission the studio will take when this service is performed in the Location Payout. Think hard about how your commissions work before choosing this value, as you will configure the artist/piercer commission on their Employee Service Type record, so you'll obviously want everything to match up in the end. For example, setting this value to a percentage of 50%, then having an artist configured at 60% would equal 110%, which obviously wouldn't work, but REV23 Desktop will not stop you in this scenario.</p>
+<p><strong>Draw</strong> Type: The portion of the commission the studio will take when this service is performed in the Location Payout. Think hard about how your commissions work before choosing this value, as you will configure the artist/piercer commission on their Employee Service Type record, so you&rsquo;ll obviously want everything to match up in the end. For example, setting this value to a percentage of 50%, then having an artist configured at 60% would equal 110%, which obviously wouldn&rsquo;t work, but REV23 Desktop will not stop you in this scenario.</p>
 <ul>
-<li><em>None</em>: No Location Payout will be calculated. Any remainder left over after the employee's commission has been calculated will be placed in the Remaining Payout.</li>
-<li><em>Fixed</em>: The Location Payout will be a fixed amount, provided in the Draw Amount property. This option is less common. Any remainder left over after the employee's commission has been calculated will be placed in the Remaining Payout.</li>
-<li><em>Percent</em>: The Location Payout will be a percentage of the service amount, provided in the Draw Percentage property. Any remainder left over after the employee's commission has been calculated will be placed in the Remaining Payout.</li>
-<li><em>Remainder</em>: The Location Payout will be whatever amount is remaining after the artist/piercer's commission has been calculated. This is the most common option for draw type, as it easily allows for variable commission rates for each artist/piercer.</li>
+<li><em>None</em>: No Location Payout will be calculated. Any remainder left over after the employee&rsquo;s commission has been calculated will be placed in the Remaining Payout.</li>
+<li><em>Fixed</em>: The Location Payout will be a fixed amount, provided in the Draw Amount property. This option is less common. Any remainder left over after the employee&rsquo;s commission has been calculated will be placed in the Remaining Payout.</li>
+<li><em>Percent</em>: The Location Payout will be a percentage of the service amount, provided in the Draw Percentage property. Any remainder left over after the employee&rsquo;s commission has been calculated will be placed in the Remaining Payout.</li>
+<li><em>Remainder</em>: The Location Payout will be whatever amount is remaining after the artist/piercer&rsquo;s commission has been calculated. This is the most common option for draw type, as it easily allows for variable commission rates for each artist/piercer.</li>
 </ul>
 <p><strong>Draw Percentage:</strong> The percentage of the location payout. This property is only visible if the Draw Type is set to Percent.</p>
 <p><strong>Draw Amount:</strong> The amount of the location payout. This property is only visible if the Draw Type is set to Fixed.</p>
-<p><strong>Dynamic Commission:</strong> If applicable, the dynamic commission to be used for this service type. To use dynamic commissions for this service type, this value is required and the Commission Type on the Employee Service Type must be set to dynamic for the artists/piercers you'd like to participate in dynamic commissions.</p>
-<p><strong>Override Points:</strong> If checked, you can specify a different point structure than provided in your studio's default points. This is useful if you want to structure service points separately from retail points, or want to run limited promotions. For example, you may have a weekend where all ear piercings earn double points. You could then override points on your service types for lobe, tragus, helix, etc..., then remove the override after the promotion has ended.</p>
+<p><strong>Dynamic Commission:</strong> If applicable, the dynamic commission to be used for this service type. To use dynamic commissions for this service type, this value is required and the Commission Type on the Employee Service Type must be set to dynamic for the artists/piercers you&rsquo;d like to participate in dynamic commissions.</p>
+<p><strong>Override Points:</strong> If checked, you can specify a different point structure than provided in your studio&rsquo;s default points. This is useful if you want to structure service points separately from retail points, or want to run limited promotions. For example, you may have a weekend where all ear piercings earn double points. You could then override points on your service types for lobe, tragus, helix, etc&hellip;, then remove the override after the promotion has ended.</p>
 <p><strong>Points Type:</strong> The method for calculating points.</p>
 <ul>
 <li><em>None</em>: No points are awarded to a customer.</li>
@@ -2902,7 +2902,7 @@ Note: This property is only visible if the Points Type is set to Subtotal Multip
 Note: This property is only visible if the Points Type is set to Custom.</p>
 <p><strong>Description:</strong> The description of this service. If you wanted to provide technical information about the procedure to the customer on the aftercare form for example, you could enter that information here.</p>
 <h3 id="follow-up-options">Follow-up Options</h3>
-<p><strong>Follow Up Days:</strong> When a follow up task is created, the task will be set for this many days from the service date. For example, if you'd like to follow up two weeks later, set this value to 14.</p>
+<p><strong>Follow Up Days:</strong> When a follow up task is created, the task will be set for this many days from the service date. For example, if you&rsquo;d like to follow up two weeks later, set this value to 14.</p>
 <p><strong>Create Follow Up Task:</strong> If checked, a task will be created when the service is finished and will be assigned to the artist/piercer for them to follow up with the client.</p>
 <p><strong>Send Text/Email Follow-up:</strong> If checked, the Virtual Receptionist will run its default follow-up flow for text and email reminders for this service type. Uncheck this for service types that do not require follow-ups.</p>
 <p>See <a href="../../concepts/service-follow-ups/">Service Follow-Ups</a> for more information.</p>

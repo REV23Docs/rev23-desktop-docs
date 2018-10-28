@@ -638,6 +638,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
+      Modify consent form
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../quick-start/clocking-in/" title="Clocking in" class="md-nav__link">
       Clocking in
     </a>
@@ -664,18 +676,6 @@
   <li class="md-nav__item">
     <a href="../../quick-start/apply-a-deposit/" title="Apply a deposit" class="md-nav__link">
       Apply a deposit
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
-      Modify consent form
     </a>
   </li>
 
@@ -2788,7 +2788,7 @@
                 
                 
                 <h1 id="quick-start-vol-2-incentivize-artists">Quick Start Vol 2: Incentivize artists</h1>
-<p>Pam has been turning down a lot of tattoo work since the shop opened. The citizens of Gotham City don't seem to share her same affection of floral tattoos, despite how much she tries to convince them otherwise. Harley thinks creating a dynamic commission (also known as a sliding scale commission), which will increase her commission the more she tattoos, may create the incentive Pam needs to stop turning away tattoos that aren't flower and plant themed.</p>
+<p>Pam has been turning down a lot of tattoo work since the shop opened. The citizens of Gotham City don&rsquo;t seem to share her same affection of floral tattoos, despite how much she tries to convince them otherwise. Harley thinks creating a dynamic commission (also known as a sliding scale commission), which will increase her commission the more she tattoos, may create the incentive Pam needs to stop turning away tattoos that aren&rsquo;t flower and plant themed.</p>
 <p>We previously set Pam to have 50% commission on tattoos she performs when we added her as a service provider. We will modify her commission settings to use our new dynamic commission. Using this new commission type, her commission will adjust each week based on her revenue. Her new pay structure will be as follows:</p>
 <ul>
 <li>50% for $0 - $1,999</li>
@@ -2805,13 +2805,13 @@
 <p>Navigate to Configuration -&gt; Dynamic Commissions and click the New action to create a new Dynamic Commission Detail View.</p>
 </li>
 <li>
-<p>Type a Name for this Dynamic Commission. We'll use Tattoo Dynamic Commission.</p>
+<p>Type a Name for this Dynamic Commission. We&rsquo;ll use Tattoo Dynamic Commission.</p>
 </li>
 <li>
 <p>Click the New action in the Tiers nested list view to create a new Dynamic Commission Tier Detail View. The tiers describe each level of this dynamic commission.</p>
 </li>
 <li>
-<p>We need to create each tier for this dynamic commission. We'll start at the lowest first. Set the following editor's values.</p>
+<p>We need to create each tier for this dynamic commission. We&rsquo;ll start at the lowest first. Set the following editor&rsquo;s values.</p>
 </li>
 </ol>
 <p>Commission Percentage: 50%
@@ -2819,7 +2819,7 @@ Start Amount: $0.00
 End Amount: $1,999.99
 And Up: Unchecked</p>
 <p>Save &amp; Close this tier.</p>
-<ol>
+<ol start="5">
 <li>Create two (2) more tiers with the values below. When complete, Save &amp; Close the Dynamic Commission Detail View.</li>
 </ol>
 <p>Commission Percentage: 55%
@@ -2829,23 +2829,23 @@ And Up: Unchecked</p>
 <p>Commission Percentage: 60%
 Start Amount: $3,000.00
 And Up: Checked</p>
-<p>Notice our use of the .99 cents in the End Amount of each tier. While you could leave that off and probably be fine, this ensures we have no gaps as Pay moves from tier to tier. Finally, by checking the And Up editor in the last tier, we're signaling that anything above $2,500 is the final tier, the text equivalent of saying "$2,500+" or "$2,500 and up".</p>
-<p>Now, we need to make a minor change to Pam's Tattoo Employee Service Type record, to signal that rather than paying her a flat percentage commission as we were before, she will participate in this Dynamic Commission.</p>
-<ol>
+<p>Notice our use of the .99 cents in the End Amount of each tier. While you could leave that off and probably be fine, this ensures we have no gaps as Pay moves from tier to tier. Finally, by checking the And Up editor in the last tier, we&rsquo;re signaling that anything above $2,500 is the final tier, the text equivalent of saying &ldquo;$2,500+&rdquo; or &ldquo;$2,500 and up&rdquo;.</p>
+<p>Now, we need to make a minor change to Pam&rsquo;s Tattoo Employee Service Type record, to signal that rather than paying her a flat percentage commission as we were before, she will participate in this Dynamic Commission.</p>
+<ol start="6">
 <li>
 <p>Navigate to Security -&gt; Employees and double click Pam to open her Employee Detail View.</p>
 </li>
 <li>
-<p>Click the Service Types tab to show Pam's Service Types that we configured in the Adding a service provider topic. Double click the Tattoo service type to open the Employee Service Type Detail View.</p>
+<p>Click the Service Types tab to show Pam&rsquo;s Service Types that we configured in the Adding a service provider topic. Double click the Tattoo service type to open the Employee Service Type Detail View.</p>
 </li>
 <li>
 <p>Change the Commission Type editor to Dynamic, and set the Dynamic Commission editor that appears to our newly created Dynamic Commission. Save &amp; Close this detail view, as well as the Employee Detail View.</p>
 </li>
 </ol>
 <blockquote>
-<p>Hint: If all users that perform this service type will use the same dynamic commission, you can instead set the Dynamic Commission property on the Service Type record in Configuration -&gt; Service Types. By setting it on the employee level, as we've done here, we would be able to create different dynamic commissions based on abilities and experience. For example, some studios may have a Class A, Class B, and Class C commission structure, where the demands of Class C are much harder to meet than the Class A tiers. However, in either scenario, you still must change the Dynamic Commission Type for each employee as we've done in this step.</p>
+<p>Hint: If all users that perform this service type will use the same dynamic commission, you can instead set the Dynamic Commission property on the Service Type record in Configuration -&gt; Service Types. By setting it on the employee level, as we&rsquo;ve done here, we would be able to create different dynamic commissions based on abilities and experience. For example, some studios may have a Class A, Class B, and Class C commission structure, where the demands of Class C are much harder to meet than the Class A tiers. However, in either scenario, you still must change the Dynamic Commission Type for each employee as we&rsquo;ve done in this step.</p>
 </blockquote>
-<p>We're done! What you'll notice now is, when you create a new tattoo service for Pam, her Commission Type will be Percent, however, her commission percentage will be set to 0%. Once the service is saved, REV23 Desktop will look at her other services that participate in this same sliding scale commission for that week and adjust the commission amount appropriately. At the beginning of the next week, her totals will reset to $0.00 and she will again be at a 50% commission.</p>
+<p>We&rsquo;re done! What you&rsquo;ll notice now is, when you create a new tattoo service for Pam, her Commission Type will be Percent, however, her commission percentage will be set to 0%. Once the service is saved, REV23 Desktop will look at her other services that participate in this same sliding scale commission for that week and adjust the commission amount appropriately. At the beginning of the next week, her totals will reset to $0.00 and she will again be at a 50% commission.</p>
 <p>Upon creating this Dynamic Commission, it will not immediately update past services for the current week, because at the time those services were created, they did not participate in this dynamic commission. It is advised you wait to enable dynamic commissions until the start of a new week before any services have been performed. As a work around, you could open each Service Detail View for the current week that you wish to update, and change either the service type or employee editors to a different value, then change them back to. Performing this step causes the service to update its commission values to the current configuration for that service type and employee.</p>
                 
                   

@@ -638,6 +638,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
+      Modify consent form
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../quick-start/clocking-in/" title="Clocking in" class="md-nav__link">
       Clocking in
     </a>
@@ -664,18 +676,6 @@
   <li class="md-nav__item">
     <a href="../../quick-start/apply-a-deposit/" title="Apply a deposit" class="md-nav__link">
       Apply a deposit
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../quick-start/modify-consent-form/" title="Modify consent form" class="md-nav__link">
-      Modify consent form
     </a>
   </li>
 
@@ -2838,9 +2838,9 @@
                   <h1>Cloud Calendar</h1>
                 
                 <h2 id="troubleshooting-cloud-calendar">Troubleshooting: Cloud Calendar</h2>
-<p>Cloud Calendar itself is actually a very simple implementation, admittedly created as a temporary work around until a more permanent solution is designed. Because it is a very basic system, there isn't much that can really go wrong on the REV23 Desktop side and issues generally are with the devices themselves.</p>
-<p>First, let's talk a little bit about how Cloud Calendar works so you can better understand how to troubleshoot it.</p>
-<p>When enabled for a user, the REV23 Desktop Integration Service periodically generates a file using the iCal standard format and uploads this file to REV23's Cloud. This file contains user's future appointments and some duration of past appointments. This is where our involvement ends. Your device then "subscribes" to this file and should update its calendar with the contents of this file. We can't control what the device does, so as long as that file exists on our server there isn't much we can do from our side.</p>
+<p>Cloud Calendar itself is actually a very simple implementation, admittedly created as a temporary work around until a more permanent solution is designed. Because it is a very basic system, there isn&rsquo;t much that can really go wrong on the REV23 Desktop side and issues generally are with the devices themselves.</p>
+<p>First, let&rsquo;s talk a little bit about how Cloud Calendar works so you can better understand how to troubleshoot it.</p>
+<p>When enabled for a user, the REV23 Desktop Integration Service periodically generates a file using the iCal standard format and uploads this file to REV23&rsquo;s Cloud. This file contains user&rsquo;s future appointments and some duration of past appointments. This is where our involvement ends. Your device then &ldquo;subscribes&rdquo; to this file and should update its calendar with the contents of this file. We can&rsquo;t control what the device does, so as long as that file exists on our server there isn&rsquo;t much we can do from our side.</p>
 <h3 id="ios-auto-fetch">iOS Auto Fetch</h3>
 <p>Most iOS users simply forget to configure the Fetch settings to automatically update their device. See <a href="../../concepts/cloud-calendar/#ios-auto-fetch">Concepts: Cloud Calendar</a>.</p>
 <h3 id="check-integration-service">Check Integration Service</h3>
