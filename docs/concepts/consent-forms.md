@@ -75,6 +75,20 @@ The template that is used for the email body can be changed in **Configuration >
 
 > The email body should _not_ contain your consent form, but a more general email along the lines of "*Thank you for coming in to Gotham City Tattoo & Piercing, attached is your signed release form.*"
 
+## Template Common Fields
+
+When modifying consent forms in the [Template Designer](template-designer.md), there are several fields that are useful to merge into your template from the Data Explorer.
+
+Name | Field Path | Description
+--- | --- | ---
+**Customer ID** | Service > Customer > Identification Image | The ID image of the customer.
+**Guardian ID** | Service > Guardian > Identification Image | The ID image of the guardian.
+**Customer Signature** | Service > Customer Signature Image | The acquired signature of the | customer.
+**Employee Signature** | Service > Employee Signature Image | The acquired signature of the employee, or the stored signature of the artist from their profile.
+**Guardian Signature** | Service > Guardian Signature Image | The acquired signature of the guardian.
+**Service Type Name** | Service > Service Type > Name | The name of the service type.
+**Age** | Service > Customer Age on Service Date | The age of the customer the date the service was performed. Use this rather than Customer > Age.
+
 ## Related
 
 - [Configuration: Templates](../configuration/templates.md)

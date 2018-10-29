@@ -11,6 +11,21 @@ The Default Customer is:
 
 The customer property on a Sale has a Default Customer button that you can click to set the customer of the sale to the Default Customer.
 
+## Merge Duplicate Customers
+
+There is a tool to merge duplicate customers into a single customer.
+
+For REV23 Desktop to merge two customers, they must have a matching `Last Name` and `Birthday`. Trying to merge customers that do not have this matching data will result in an error.
+
+1. Navigate to the Customer List
+2. Select all duplicates to be merged by clicking each customer while pressing the CTRL key on your keyboard.
+3. Click the **Tools** tab.
+4. Click the **Merge Customers** action.
+
+This process may take several minutes depending on customer history.
+
+> The [audit trail](audit-trail) data is not merged.
+
 ## Related
 
 - [Reference: Customers](../reference/customers.md)

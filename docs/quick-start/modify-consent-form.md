@@ -27,25 +27,25 @@ Consent and Aftercare forms, as well as other various bits of text, such as the 
 
     We see a couple of changes we'd like to make. First, we can get more text on the form by changing the margins.
 
-4. Click the **Page Layout** tab.
+5. Click the **Page Layout** tab.
    
-5. Click the **Margins** button and select *Narrow* as the margin choice.
+6. Click the **Margins** button and select *Narrow* as the margin choice.
 
     ![REV23 Desktop](img/template_designer_margins.png)
 
     Now we'd like to update the consent form to use the **Mobile Phone Number**.
     
-6. Erase the entire line that says `Home Phone: <<Customer.HomePhoneNumber>>` and replace with `Mobile Phone: ` and leave the cursor blinking in that spot.
+7. Erase the entire line that says `Home Phone: <<Customer.HomePhoneNumber>>` and replace with `Mobile Phone: ` and leave the cursor blinking in that spot.
    
     ![REV23 Desktop](img/template_designer_tattoo_consent_form_erase_home_phone.png)
 
-7. On the right hand side of the Template Designer is the **Data Explorer**. This allows us to insert a field which will read data from the database. In this case, a release form is based on the Service data type, so we can access all properties of a Service here. Scroll to the top of the data explorer window.
+8. On the right hand side of the Template Designer is the **Data Explorer**. This allows us to insert a field which will read data from the database. In this case, a release form is based on the Service data type, so we can access all properties of a Service here. Scroll to the top of the data explorer window.
 
     ![REV23 Desktop](img/template_designer_data_explorer.png)
 
-    Notice the arrows next to some Properties (those that contain other properties.) For example, the *Customer* is a property of *Service*, and *Mobile Phone Number* is a property of *Customer*. So, we'll need to expand the Customer property to see what we have access to.
+    Notice the arrows next to some Properties (those that contain other properties.) For example, *Customer* is a property of *Service*, and *Mobile Phone Number* is a property of *Customer*. So, we'll need to expand the Customer property to see what we have access to.
 
-8. Locate the `Mobile Phone Number` property nested inside the Customer Property (**Service > Customer > Mobile Phone Number**). Double click it to add it to the spot where the cursor is currently blinking. You can also click and drag it to the spot you'd like.
+9. Locate the `Mobile Phone Number` property nested inside the Customer Property (**Service > Customer > Mobile Phone Number**). Double click it to add it to the spot where the cursor is currently blinking. You can also click and drag it to the spot you'd like.
 
     ![REV23 Desktop](img/template_designer_tattoo_consent_form_add_mobile_phone.png)
 
