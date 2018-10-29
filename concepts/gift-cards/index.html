@@ -1134,6 +1134,19 @@
     Magstripe specifications
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples-of-well-formed-data" title="Examples of well formed data." class="md-nav__link">
+    Examples of well formed data.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2857,6 +2870,19 @@
     Magstripe specifications
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples-of-well-formed-data" title="Examples of well formed data." class="md-nav__link">
+    Examples of well formed data.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2907,27 +2933,29 @@
 <p>REV23 gift card bar codes should be printed in Code 128 format.</p>
 <h3 id="magstripe-specifications">Magstripe specifications</h3>
 <blockquote>
-<p>If you&rsquo;re not using our partner, it is not recommended you use magnetic stripes and stick with bar codes.</p>
+<p>If you&rsquo;re not using our partner, it is not recommended you use magnetic stripes and stick with bar codes. If you&rsquo;re having magnetic stripes printed from a printer, they should understand what this means. You should be able to simply show them this section and provide your gift card numbers that you acquired from REV23 and they should be able to figure it out.</p>
 </blockquote>
 <p>REV23 gift card magnetic stripes require two tracks. Replace the following fields with your preferred data.</p>
 <p><strong>Track 1:</strong> Must start with <code>%B</code> and end with <code>?</code><br />
 <strong>Track 2:</strong> Must start with <code>;</code> and end with <code>?</code></p>
 <p><code>?%B[GIFTCARDNUMBER]^[ISSUERNAME]^9912023$[AMOUNT]$?</code><br />
 <code>;[GIFTCARDNUMBER]=9912023[AMOUNT]?</code></p>
-<p>Do not include brackets. They are used to show data fields only.</p>
+<blockquote>
+<p><strong><em>Do not include the <code>[</code> <code>]</code> brackets. They are used to show data field placeholders only.</em></strong></p>
+</blockquote>
 <ul>
 <li><strong>GIFTCARDNUMBER</strong>: The gift card number. Numeric only.</li>
-<li><strong>ISSUERNAME</strong>: The name of the card issuer -or- card holder. Alpha-numeric only, formatted as LASTNAME/FIRSTNAME MIDDLE, or just LASTNAME</li>
+<li><strong>ISSUERNAME</strong>: The name of the card issuer -or- card holder. Alpha-numeric only, formatted as LASTNAME/FIRSTNAME MIDDLE, or just LASTNAME.</li>
 <li><strong>AMOUNT</strong>: Denomination of card. Leave as 0 for custom amount, or enter a number between 1 and digits.</li>
 </ul>
-<p>Examples of well formed data.</p>
+<h4 id="examples-of-well-formed-data">Examples of well formed data.</h4>
 <p>The below card is issued from GOTHAM CITY TATTOO with no default amount.<br />
 <code>%B6023456789012345^TATTOO/GOTHAM CITY^9912023$0$?</code>
 <code>;6023456789012345=99120230?</code></p>
 <p>The below card is issued from GOTHAM CITY TATTOO with a $100 amount.<br />
-<code>%B6023456789012345^TATTOO/GOTHAM CITY^9912023$100$? ;6023456789012345=9912023100?</code></p>
+<code>%B6023456789012345^TATTOO/GOTHAM CITY^9912023$100$?  ;6023456789012345=9912023100?</code></p>
 <p>The below card is issued from REV23 with a $500 amount.<br />
-<code>%B6023456789012345^REV23^9912023$500$? ;6023456789012345=9912023500?</code></p>
+<code>%B6023456789012345^REV23^9912023$500$?  ;6023456789012345=9912023500?</code></p>
                 
                   
                 
