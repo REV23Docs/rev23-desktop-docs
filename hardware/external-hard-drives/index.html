@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.6">
     
     
       
@@ -104,7 +104,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../../#external-hard-drives" tabindex="1" class="md-skip">
+      <a href="#external-hard-drives" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -2790,9 +2790,8 @@
                 <h1 id="external-hard-drives">External Hard Drives</h1>
 <p>One of the most important pieces of your REV23 Desktop Server (Main PC), is the external hard drive where the Backup Service should be configured to automatically take database backups on a regular interval. We recommend at least a 1TB external hard drive.</p>
 <h2 id="file-system">File System</h2>
-<p>By default, some external hard drives are pre-configured for the FAT file system. The problem with this is that FAT does not support file sizes greater than 2 GB. As your REV23 Desktop database begins to grow in size, so will your backup. Soon, you will exceed the 2GB file size limit of the FAT file system and backups will begin to fail. </p>
-<p>To prevent this, your external hard drive should be formatted with the NTFS file system, which supports much larger file sizes.</p>
-<p>To format the drive as NTFS:</p>
+<p>By default, some external hard drives are pre-configured for the FAT32 file system. The problem with this is that FAT32 does not support file sizes greater than 2 GB. As your REV23 Desktop database begins to grow in size, so will your backup. Soon, you will exceed the 2GB file size limit of the FAT32 file system and backups will begin to fail. </p>
+<p>To prevent this, your external hard drive should be formatted with the <strong>exFAT</strong> <em>or</em> <strong>NTFS</strong> file systems, which supports much larger file sizes.</p>
 <blockquote>
 <p>CAUTION: When you format the drive, all data will be erased. If you wish to keep files that are already on the drive, you should temporarily move them to another location, format the drive, then move them back.</p>
 </blockquote>
@@ -2801,8 +2800,8 @@
 <li>Locate your external hard drive in the list of Devices &amp; Drives.</li>
 <li>Right click your drive, and select <strong>Format</strong> from the menu. </li>
 <li>Ensure that NTFS is selected as the <strong>File System</strong><ul>
-<li>If the drive is already NTFS, there is nothing left to do.</li>
-<li>If anything other than NTFS is selected, ensure that anything you want to keep from the hard drive is backed up to a different location, set the <strong>File System</strong>, then click the <strong>Format</strong> button.</li>
+<li>If the drive is already exFAT or NTFS, there is nothing left to do.</li>
+<li>If anything other than exFAT or NTFS is selected, ensure that anything you want to keep from the hard drive is backed up to a different location, set the <strong>File System</strong>, then click the <strong>Format</strong> button.</li>
 </ul>
 </li>
 </ol>
@@ -2893,7 +2892,7 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application.583bbe55.js"></script>
+      <script src="../../assets/javascripts/application.5e60981f.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
