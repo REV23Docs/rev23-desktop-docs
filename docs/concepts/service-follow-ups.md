@@ -2,6 +2,14 @@
 
 The Virtual Receptionist is capable of sending service follow up email and text message to your customers a set amount of time after their service has been completed, for example, 14 days later.
 
+## Customize The Follow-up Time
+Each service type can be configured to send a follow-up text/email as well as the amount of days after the service has ended.
+
+1. Navigate to [**Configuration > Service Types](../configuration/service-types.md).
+2. Select the desired service type.
+3. Set the **Follow-up Days** property to the desired amount of time after a service ends before sending the follow-up.
+4. Check the **Send Text/Email Follow-up**.
+
 ## Customizing Service Follow-up Message
 
 1. Navigate to [**Configuration > Templates**](../configuration/templates.md).

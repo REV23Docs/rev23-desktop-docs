@@ -82,3 +82,5 @@ Repeat this process for any additional service types that will use this same tem
 Harley will also modify the piercing consent forms using these same steps, as well as the Aftercare Forms, where you will use th **Guardian Consent Form** and **Aftercare Form** properties of the Service Type.
 
 > Templates are versatile and easily reused. For example, you don't need a different template for each piercing type. Using the values from each service type, you're able to insert fields for the name, healing time, etc.. so don't create more templates than you really need. Now that you have your own copy, any time you edit it, the service type will automatically pick up these changes, and you do not need to repeat the step of setting it in this step.
+
+That will wrap up the girl's first day. We got our feet wet in the system and we'll hit it more tomorrow when we join Selina as she clocks-in for the day.

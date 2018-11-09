@@ -6,7 +6,7 @@ The appointment we scheduled isn't until tomorrow. Business must go on. Luckily,
 
     ![REV23 Desktop Today Dashboard](img/today_dashboard.png)
     
-2. In the Service Detail View, we'll set up the service. For services, we only need a few things to get it rolling. The extent you need to fill this out is up to your health department.
+2. In the Service Detail View, we'll set up the service. For services, we only need a few things to get it rolling. The extent you need to fill this out is up to you and your health department.
 
     ![REV23 Desktop](img/service_detail_view_new.png)
 
@@ -35,15 +35,13 @@ The appointment we scheduled isn't until tomorrow. Business must go on. Luckily,
 
     Because we've previously set the Lobe [piercing price](set-service-prices.md) in the previous section, the **Amount** has been defaulted for us and can not be modified.
 
-7. Set the Quantity to 2, since our client wants both of her ear lobes pierced.
+7. Set the **Quantity** to `2`, since our client wants both of her ear lobes pierced.
 
 8. Click the **Print Consent Form** button to print a consent form for the customer to sign. Unlike other actions we've dealt with so far, these do not appear on the ribbon. Instead, some actions appear in the Detail View itself underneath the main group of editors we just filled out.
    
     ![REV23 Desktop](img/service_detail_view_print_consent_form.png)
 
-    > Hint: Hold the **SHIFT** key down on your keyboard while the **Print Consent Form** action to preview the consent form instead of printing it directly to the printer.
-
-    If you have the Signature Pad, click the **Sign Consent Form** action instead.        
+    > Hint: Hold the **SHIFT** key down on your keyboard while the **Print Consent Form** action to preview the consent form instead of printing it directly to the printer.   
 
     ![REV23 Desktop](img/consent_form_preview.png)
 

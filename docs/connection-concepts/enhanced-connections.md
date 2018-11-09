@@ -4,15 +4,15 @@ By default, REV23 Desktop is configured to only allow the Windows user that inst
 
 ## Network Type
 
-Windows has pre-configured rules for network traffic based on your network type setting. For other PCs to connect to your main PC this needs to be set to **Private** and *not* **Public**. Depending on your version of Windows, there are several ways to accomplish this.
+Windows has pre-configured rules for network traffic based on your network type setting. For other PCs to connect to your main PC this needs to be set to **Private** and *not* **Public**. Depending on your version of Windows, there are several ways to accomplish this. In future versions of REV23 Desktop, this will be handled for you.
 
 ## Set up Enhanced Connections
 
 Enhanced Connections are actually very simple to setup as we do all of the heavy lifting for you!
 
-1) Open the [REV23 Desktop Control Panel](../server-concepts/control-panel.md).
-2) Click the **Database Service** tile.
-3) In the Enhanced Connections section, click **Enable Enhanced Connections**.
+1. Open the [REV23 Desktop Control Panel](../server-concepts/control-panel.md).
+2. Click the **Database Service** tile.
+3. In the Enhanced Connections section, click **Enable Enhanced Connections**.
 
 REV23 Desktop will configure the necessary settings for you. Once complete, the Enhanced Connections Instruction sheet will appear for you to print or save (you should do both). If you're going to be configuring Add-on PCs, this is the information you will need to get connected.
 
@@ -26,9 +26,9 @@ Firewalls keep unwanted traffic out of your PC. Windows Firewall is enabled by d
 
 ### Windows Firewall
 
-1) Open the [REV23 Desktop Control Panel](../server-concepts/control-panel.md).
-2) Click the **Database Service** tile.
-3) In the Enhanced Connections section, click **Allow Enhanced Connections through Windows Firewall**
+1. Open the [REV23 Desktop Control Panel](../server-concepts/control-panel.md).
+2. Click the **Database Service** tile.
+3. In the Enhanced Connections section, click **Allow Enhanced Connections through Windows Firewall**
 
 The Windows Firewall will be configured and Add-on PCs should be able to connect.
 

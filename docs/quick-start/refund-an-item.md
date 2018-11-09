@@ -24,7 +24,7 @@ Shortly before closing time, Harley hears some commotion up front. Commissioner 
 
     ![REV23 Desktop](img/overpayment_refund.png)
 
-    The $20.00 credit on that deposit is now refunded.
+    $20.00 has been refunded to the credit card.
 
     ![REV23 Desktop](img/refund_success.png)
 

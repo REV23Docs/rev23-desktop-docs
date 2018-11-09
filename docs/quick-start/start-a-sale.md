@@ -44,5 +44,3 @@ You should notice the **Subtotal**, **Tax Amount**, **Total Amount** and **Balan
 The service **Status** is now set to `Paid`. 
 
 At this point, you can just close the Service Detail View (it was already saved automatically once the sale was fully paid) or click **Save & Close**. Save & Close is just a good habit to get into and is one of the most common actions you'll use.
-
-That will wrap up the girl's first day. We got our feet wet in the system and we'll hit it more tomorrow when we join Selina as she clocks-in for the day.

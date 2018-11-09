@@ -24,7 +24,7 @@ For REV23 Desktop to merge two customers, they must have a matching `Last Name` 
 
 This process may take several minutes depending on customer history.
 
-> The [audit trail](audit-trail) data is not merged.
+The customer record that was created first will become the new base. Any missing details that other records have will be merged into that customer record. Services, Deposits/Credits, Sales will also be merged and the old customers will be deleted after the process has completed. The [Audit Trail](audit-trail) data is not merged. 
 
 ## Related
 
