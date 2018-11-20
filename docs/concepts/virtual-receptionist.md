@@ -1,8 +1,8 @@
 # Virtual Receptionist
 
-The Virtual Receptionist is a background service that runs "workflows" (complex tasks) when an object is created or meets a specific criteria.
+The Virtual Receptionist is a background service that runs "workflows" (complex tasks) when an object is created or satisfies a specific criteria.
 
-You can activate or deactivate the desired workflows in [Configuration: Virtual Receptionist](../configuration/virtual-receptionist.md). Many of these workflows have their own sets of options that you can configure as well, located in [Configuration: Virtual Receptionist Options](../configuration/virtual-receptionist-options.md).
+You can activate or deactivate the desired workflows in [Configuration: Virtual Receptionist](../configuration/virtual-receptionist.md) to prevent them from executing. Many of these workflows have their own sets of options that you can configure as well, located in [Configuration: Virtual Receptionist Options](../configuration/virtual-receptionist-options.md).
 
 ## Configure Email Settings
 
@@ -20,7 +20,7 @@ The most common use of the Virtual Receptionist is sending emails and text messa
 
 ## Analyze Virtual Receptionist History
 
-Each time a Virtual Receptionist Workflow runs for an object it records information about the execution such as whether it completed (finished) or aborted (failed). If there is ever a question as to whether a particular workflow ran for a specific object (i.e. was the customer sent a text message reminder for this appointment?) you can look at the Virtual Receptionist History to determine what happened.
+Each time a Virtual Receptionist Workflow runs for an object, it records information about the execution such as whether it completed (finished) or aborted (failed). If there is ever a question as to whether a particular workflow ran for a specific object (i.e. was the customer sent a text message reminder for this appointment?) you can look at the Virtual Receptionist History to determine what happened.
 
 1. Select the object you wish to analyze, such as an appointment.
 2. Click the **Show Virtual Receptionist History** action.

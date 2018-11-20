@@ -12,7 +12,7 @@ If you've upgraded your SQL Server license from Express to another edition (see 
 
 You can download directly from Microsoft at the Microsoft SQL Server 2014 download page.
 
-> Download: https://www.microsoft.com/en-us/download/details.aspx?id=53167
+[Download](https://www.microsoft.com/en-us/download/details.aspx?id=53167)
 
 Depending on your computer, you will either need to download the 32-bit version of the 64-bit version. If you're installing manually because the REV23 Desktop Setup instructed you to, it will tell you which file you need to download. Another easy way to tell is open File Explorer and navigate to your C:\ drive. If you see Program Files and Program Files (x86) directories you have a 64-bit PC. If you only see a single Program Files directory, you have a 32-bit PC.
 

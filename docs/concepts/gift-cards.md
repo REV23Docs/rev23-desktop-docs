@@ -35,7 +35,7 @@ REV23 gift card magnetic stripes require two tracks. Replace the following field
 **Track 1:** Must start with `%B` and end with `?`  
 **Track 2:** Must start with `;` and end with `?`
 
-`?%B[GIFTCARDNUMBER]^[ISSUERNAME]^9912023$[AMOUNT]$?`  
+`%B[GIFTCARDNUMBER]^[ISSUERNAME]^9912023$[AMOUNT]$?`  
 `;[GIFTCARDNUMBER]=9912023[AMOUNT]?`
 
 > ***Do not include the `[` `]` brackets. They are used to show data field placeholders only.***

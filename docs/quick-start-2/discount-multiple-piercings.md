@@ -14,11 +14,11 @@ You will need to be logged on as the Administrator or a Manager to proceed with 
 
 3. Click the **New** action in the Tiers nested list view to create a new Service Type Discount Tier Detail View.
 
-- Check the First Is Full Price checkbox editor.
-- Set the Start Quantity editor to 2.
-- Check the "And up" checkbox editor.
-- Set the Discount Type editor to Fixed.
-- Set the Discount Amount editor to $5.00.
+    - Check the **First Is Full Price** checkbox editor.
+    - Set the **Start Quantity** editor to 2.
+    - Check the "**And up**" checkbox editor.
+    - Set the **Discount Type** editor to Fixed.
+    - Set the **Discount Amount** editor to $5.00.
 
     So, what did we just do? We've created a new tier that in plain english says: When the quantity is two or more, charge full price for the first one, then discount each additional service $5.00. You can create as many tiers as you'd like. For example, 2-4 with a $5.00 discount, 5-7 with a $10.00 discount and 8+ with a $15.00 discount.
 

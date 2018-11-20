@@ -14,7 +14,7 @@ Aftercare Forms are Templates that are linked to the **Aftercare Form** property
 6. Navigate to [**Configuration > Service Types**](../configuration/service-types.md).
 7. Double click a Service Type record that you wish to apply your new aftercare template to.
 8. Set the **Aftercare Form** property to your new template.
-9. Click the **Save & Close** action to save the Service Type.
+9.  Click the **Save & Close** action to save the Service Type.
 
 This service type will now use the selected template. Repeat steps 7-9 for each service type you wish to use this aftercare template.
 

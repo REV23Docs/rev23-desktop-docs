@@ -61,7 +61,7 @@ nav:
       #- 'Reward clients with points': quick-start-2/reward-points.md
       - 'Discount multiple piercings': quick-start-2/discount-multiple-piercings.md
       - 'Incentivize artists': quick-start-2/incentivize-artists.md
-      #- 'Add a new service type': quick-start-2/add-a-new-service-type.md
+      - 'Add a new service type': quick-start-2/add-a-new-service-type.md
     - Concepts:
       - 'Users': concepts/users.md
       - 'User Service Types': concepts/user-service-types.md

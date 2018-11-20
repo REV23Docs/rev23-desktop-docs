@@ -12,7 +12,7 @@ They've made the decision to use REV23 Desktop, and they're ready to get started
 
 This quick start is intended to help you see the big picture of REV23 Desktop and get you up and running as quickly as possible by using as much as the defaults as we can.
 
-It is highly recommended you follow this quick start in order, as some of these topics build on each other. As you start to learn the patterns of how REV23 Desktop works, there will be less guidance with screenshots and less specific information on basic tasks such as where exactly to click, as you'll be expected to know these concepts as you progress.
+It is highly recommended you follow this quick start in order, as some of these topics build on each other. As you start to learn the patterns of how REV23 Desktop works, there will be less guidance with screenshots and less specific information on basic tasks, such as where exactly to click, as you'll be expected to know these concepts as you progress.
 
 ### Quick Start Prerequisites
 
@@ -21,8 +21,6 @@ It is highly recommended you follow this quick start in order, as some of these 
 
 <hr>
 
-Batman by Bob Kane with Bill Finger  
+Batman created by Bob Kane with Bill Finger  
 Harley Quinn created by Paul Dini and Bruce Timm  
 Characters property of DC Comics
-
-

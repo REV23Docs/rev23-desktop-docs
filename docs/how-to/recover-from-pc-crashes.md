@@ -26,12 +26,17 @@ If you're able to access the contents of the hard drive look to the default back
 
 OS Version| Location
 --- | ---
-Windows 64-bit | C:\Program Files (x86)\REV23 Desktop\Backup
-Windows 32-bit | C:\Program Files\REV23 Desktop\Backup
+**Windows 64-bit** | C:\Program Files (x86)\REV23 Desktop\Backup
+**Windows 32-bit** | C:\Program Files\REV23 Desktop\Backup
 
 In this directory you're looking for .bak files that begin with "TattooStudio" and then a time stamp containing the year, month and date the backup was taken. Recover as many of these as you can just in case, but you'll obviously want to attempt to restore the most recent backup copy.
 
-> If you previously used Tattoo Management Studio and upgraded to REV23 Desktop, you may also check the Program Files directory for the Tattoo Management Studio sub-folder which may also contain backups, though likely much older. 
+If you previously used Tattoo Management Studio and upgraded to REV23 Desktop, you should also check the Program Files directory for the Tattoo Management Studio as the Backup Service may be pointed to that directory
+ 
+OS Version| Location
+--- | ---
+**Windows 64-bit** | C:\Program Files (x86)\Tattoo Management Studio\Backup
+**Windows 32-bit** | C:\Program Files\Tattoo Management Studio\Backup
 
 ## Data File Recovery
 
@@ -39,7 +44,7 @@ You may also attempt to access the SQL Server data files. These contain your dat
 
 You can attempt to locate these files in the Microsoft SQL Server installation directory: `C:\Program Files\Microsoft SQL Server\MSSQLXX.TATTOOSTUDIO\MSSQL\DATA` (where XX is the version of SQL Server).
 
-In this directory you'll need to grab three things.
+In this directory you'll need to copy three things.
 
 - TattooStudio.ExpressApp.mdf (the main database file).
 - TattooStudio.ExpressApp.ldf (the log file).
