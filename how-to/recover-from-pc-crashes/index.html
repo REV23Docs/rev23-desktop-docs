@@ -812,6 +812,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../quick-start-2/add-a-new-service-type/" title="Add a new service type" class="md-nav__link">
+      Add a new service type
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -2840,23 +2852,39 @@
 </thead>
 <tbody>
 <tr>
-<td>Windows 64-bit</td>
+<td><strong>Windows 64-bit</strong></td>
 <td>C:\Program Files (x86)\REV23 Desktop\Backup</td>
 </tr>
 <tr>
-<td>Windows 32-bit</td>
+<td><strong>Windows 32-bit</strong></td>
 <td>C:\Program Files\REV23 Desktop\Backup</td>
 </tr>
 </tbody>
 </table>
 <p>In this directory you&rsquo;re looking for .bak files that begin with &ldquo;TattooStudio&rdquo; and then a time stamp containing the year, month and date the backup was taken. Recover as many of these as you can just in case, but you&rsquo;ll obviously want to attempt to restore the most recent backup copy.</p>
-<blockquote>
-<p>If you previously used Tattoo Management Studio and upgraded to REV23 Desktop, you may also check the Program Files directory for the Tattoo Management Studio sub-folder which may also contain backups, though likely much older. </p>
-</blockquote>
+<p>If you previously used Tattoo Management Studio and upgraded to REV23 Desktop, you should also check the Program Files directory for the Tattoo Management Studio as the Backup Service may be pointed to that directory</p>
+<table>
+<thead>
+<tr>
+<th>OS Version</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Windows 64-bit</strong></td>
+<td>C:\Program Files (x86)\Tattoo Management Studio\Backup</td>
+</tr>
+<tr>
+<td><strong>Windows 32-bit</strong></td>
+<td>C:\Program Files\Tattoo Management Studio\Backup</td>
+</tr>
+</tbody>
+</table>
 <h2 id="data-file-recovery">Data File Recovery</h2>
 <p>You may also attempt to access the SQL Server data files. These contain your database as it existed before the crash occurs, however re-attaching these files is not always guaranteed to work and a backup is generally the safest bet.</p>
 <p>You can attempt to locate these files in the Microsoft SQL Server installation directory: <code>C:\Program Files\Microsoft SQL Server\MSSQLXX.TATTOOSTUDIO\MSSQL\DATA</code> (where XX is the version of SQL Server).</p>
-<p>In this directory you&rsquo;ll need to grab three things.</p>
+<p>In this directory you&rsquo;ll need to copy three things.</p>
 <ul>
 <li>TattooStudio.ExpressApp.mdf (the main database file).</li>
 <li>TattooStudio.ExpressApp.ldf (the log file).</li>

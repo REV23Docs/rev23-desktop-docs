@@ -812,6 +812,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../quick-start-2/add-a-new-service-type/" title="Add a new service type" class="md-nav__link">
+      Add a new service type
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -2251,8 +2263,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#check-the-email-account-settings" title="Check the email account settings." class="md-nav__link">
-    Check the email account settings.
+  <a href="#determine-the-cause" title="Determine the cause" class="md-nav__link">
+    Determine the cause
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-your-email-account-settings" title="Check your email account settings" class="md-nav__link">
+    Check your email account settings
   </a>
   
 </li>
@@ -2769,8 +2788,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#check-the-email-account-settings" title="Check the email account settings." class="md-nav__link">
-    Check the email account settings.
+  <a href="#determine-the-cause" title="Determine the cause" class="md-nav__link">
+    Determine the cause
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-your-email-account-settings" title="Check your email account settings" class="md-nav__link">
+    Check your email account settings
   </a>
   
 </li>
@@ -2802,8 +2828,20 @@
                 
                 
                 <h1 id="troubleshooting-virtual-receptionist">Troubleshooting: Virtual Receptionist</h1>
-<p>This topic covers common issues that might cause the Virtual Receptionist to stop working properly.</p>
-<h2 id="check-the-email-account-settings">Check the email account settings.</h2>
+<p>This topic covers common issues that might cause the Virtual Receptionist to stop working properly or not send messages.</p>
+<h2 id="determine-the-cause">Determine the cause</h2>
+<p>If an email or text message was not sent as expected, it is first useful to determine if it was not sent at all, or attempted and failed. Since the most common scenario is a customer not receiving a text/email reminder for an appointment, we will start there.</p>
+<ol>
+<li>First, navigate to <a href="../../reference/system-messages/"><strong>Home &gt; System Messages</strong></a> to look for any error messages. This may reveal the reason.</li>
+<li>Navigate to <a href="../../concepts/appointments/"><strong>Home &gt; Appointments</strong></a>.</li>
+<li>Locate the appointment in question and click the <strong>Show Virtual Receptionist History</strong> action.<ul>
+<li>If there are records in this view, inspect the <strong>State</strong> column. A state of <strong>Aborted</strong> means it attempted and failed to run the workflow. The most common cause of failures are invalid email settings or an error when attempting to send the email from your email provider. <a href="#check-your-email-account-settings">Check your email account settings</a>.</li>
+<li>If there are no records in this view, this means the Virtual Receptionist did not try to run a workflow for this object. This would indicate either the Virtual Receptionist Service is not running and you should <a href="#check-virtual-receptionist-service">Check the Virtual Receptionist Service</a>. Or, the proper criteria was not met for this object to have a workflow run, for example, the customer did not have an email or phone number.</li>
+</ul>
+</li>
+</ol>
+<p>See <a href="../../concepts/virtual-receptionist/#analyze-virtual-receptionist-history">Analyze Virtual Receptionist History</a> for more information.</p>
+<h2 id="check-your-email-account-settings">Check your email account settings</h2>
 <p>The number one most frequent cause of the Virtual Receptionist not performing correctly is that someone has changed the password to the email account which your SMTP server uses to send emails.</p>
 <ol>
 <li>Navigate to <strong>Configuration &gt; Virtual Receptionist Options</strong>.</li>
@@ -2817,7 +2855,7 @@
 <li>Click the <strong>Virtual Receptionist Service</strong> tile and ensure it is started.</li>
 <li>Click the <strong>Open Event Viewer</strong> button to examine any logs. You can copy the logs and send to REV23 support for evaluation if needed.</li>
 </ol>
-<p>If the Virtual Receptionist Service fails to start, or starts then stops immediatley, this would indicate there is an error in one of the Virtual Receptionist Workflows. Did you recently try to create your own or modify one? Try deactivating any non-standard workflows in <a href="../../configuration/virtual-receptionist/"><strong>Configuration &gt; Virtual Receptionist</strong></a> and try again.</p>
+<p>If the Virtual Receptionist Service fails to start, or starts then stops immediately, this would indicate there is an error in one of the Virtual Receptionist Workflows. Did you recently try to create your own or modify one? Try deactivating any non-standard workflows in <a href="../../configuration/virtual-receptionist/"><strong>Configuration &gt; Virtual Receptionist</strong></a> and try again.</p>
                 
                   
                 

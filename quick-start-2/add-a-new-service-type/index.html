@@ -42,7 +42,7 @@
     
     
       
-        <title>Quick Start Vol 2: Add a new service type - REV23 Desktop Docs</title>
+        <title>Add a new service type - REV23 Desktop Docs</title>
       
     
     
@@ -130,7 +130,7 @@
                 REV23 Desktop Docs
               </span>
               <span class="md-header-nav__topic">
-                Quick Start Vol 2: Add a new service type
+                Add a new service type
               </span>
             
           
@@ -737,10 +737,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
     
     <label class="md-nav__link" for="nav-6">
       Quick Start Vol. 2
@@ -809,6 +811,70 @@
     <a href="../incentivize-artists/" title="Incentivize artists" class="md-nav__link">
       Incentivize artists
     </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Add a new service type
+      </label>
+    
+    <a href="./" title="Add a new service type" class="md-nav__link md-nav__link--active">
+      Add a new service type
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-consent-and-aftercare-forms" title="Create Consent and Aftercare Forms" class="md-nav__link">
+    Create Consent and Aftercare Forms
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-new-service-category-and-department" title="Create a new Service Category and Department" class="md-nav__link">
+    Create a new Service Category and Department
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-the-service-type" title="Create the Service Type" class="md-nav__link">
+    Create the Service Type
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -2718,6 +2784,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-consent-and-aftercare-forms" title="Create Consent and Aftercare Forms" class="md-nav__link">
+    Create Consent and Aftercare Forms
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-new-service-category-and-department" title="Create a new Service Category and Department" class="md-nav__link">
+    Create a new Service Category and Department
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-the-service-type" title="Create the Service Type" class="md-nav__link">
+    Create the Service Type
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2732,52 +2828,75 @@
                 
                 
                 <h1 id="quick-start-vol-2-add-a-new-service-type">Quick Start Vol 2: Add a new service type</h1>
-<p>Unfortunately, many of the tattoos that exist in Gotham City were performed by some less than reputable sources. Harley thinks adding a removal service will be beneficial, so they can start making room for some better pieces on their new clientele. Tattoo removal comes in a variety of forms these days, but the girls know from experience, when you want a tattoo removed there is no better way than their magical acquaintance, Zatanna!</p>
-<p>Since removal is neither really tattooing, nor piercing, we will first create a brand new department and category for this service type. The steps below will seem slightly longer than some previous categories only because we are first going to create these two new objects first, then create the new Service Type.</p>
-<p>You will need to be logged on as the Administrator or a Manager to proceed with this topic.</p>
-<ol>
-<li>
-<p>Navigate to Configuration -&gt; Service Departments.</p>
-</li>
-<li>
-<p>Click the New action to create a new Service Department and open the Service Department Detail View. </p>
-</li>
-<li>
-<p>Type a name for the department, we&rsquo;ll use Tattoo Removal.</p>
-</li>
-<li>
-<p>Save &amp; Close the Service Department Detail View to return to the Service Department List View.</p>
-</li>
-<li>
-<p>Navigate to Configuration -&gt; Service Categories.</p>
-</li>
-<li>
-<p>Click an empty area in the window to deselect any category that may already be selected, and click the New action to create a new service category and open the Service Category Detail View.</p>
+<p>Unfortunately, many of the tattoos that were made in Gotham City were performed by some&hellip; less than reputable sources. Harley thinks adding a removal service will be beneficial so they can start making room for some better pieces on their new clientele. Tattoo removal comes in a variety of forms these days, but the girls know from experience, when you want a tattoo removed, there is no better way than their magical acquaintance, Zatanna!</p>
 <blockquote>
+<p>You will need to be logged on as the Administrator or a Manager to proceed with this topic.</p>
+</blockquote>
+<h2 id="create-consent-and-aftercare-forms">Create Consent and Aftercare Forms</h2>
+<p>Since this is a brand new service type we will need to create a release form and aftercare form for the removal.</p>
+<ol>
+<li>Navigate to <strong>Configuration &gt; Templates</strong>.</li>
+<li>Click the <strong>New</strong> action.<blockquote>
+<p>Alternatively, you could <strong>Clone</strong> an existing template and customize it as needed rather than starting from a blank template.</p>
+</blockquote>
+</li>
+<li>Fill out properties of the Template.<ul>
+<li><strong>Name:</strong> <code>Consent Form for Tattoo Removal</code>.</li>
+<li><strong>Data Type:</strong> <code>Service</code></li>
+</ul>
+</li>
+<li>Click the <strong>Show Template Designer</strong> action.</li>
+<li>Create the document that will become the template. See <a href="../../concepts/templates/">Templates</a> or <a href="../../quick-start/modify-consent-form/">Modify Consent Form</a> for guidance.</li>
+<li>Click the <strong>Save</strong> action in the Template Designer to save your changes.</li>
+<li>Click the <strong>Save &amp; Close</strong> action on the Template Detail View.</li>
+</ol>
+<p>Repeat this process to create an Aftercare Form for this service type.</p>
+<h2 id="create-a-new-service-category-and-department">Create a new Service Category and Department</h2>
+<p>Since removal is neither a tattoo nor piercing, we should separate it into its own category and department for ease of use as well as better reporting.</p>
+<blockquote>
+<p>If you are creating a new Piercing, or some other Service Type that applies to an existing Category or Department, you would otherwise skip these steps.</p>
+</blockquote>
+<ol>
+<li>Navigate to <strong>Configuration &gt; Service Departments</strong>.</li>
+<li>Click the <strong>New</strong> action to create a new Service Department.</li>
+<li>Type a <strong>Name</strong> for the department. We&rsquo;ll use <code>Tattoo Removal</code>.</li>
+<li>Click the <strong>Save &amp; Close</strong> action to save the Service Department.</li>
+<li>Navigate to <strong>Configuration &gt; Service Categories</strong>.</li>
+<li>Click the <strong>New</strong> action to create a new Service Category.<blockquote>
 <p>Hint: If you have a category selected in the tree view before clicking the New action, the newly created category will have the selected category set as its Parent Category, making this a subcategory. In this case, we want our new category to be at the root level, meaning it has no parent. If the Parent Category is already set when the detail view opens, you can click the X button on the right hand side of the Parent Category editor to clear it.</p>
 </blockquote>
 </li>
-<li>
-<p>Specify a name in the Name editor. We&rsquo;ll call it Tattoo Removal.</p>
-</li>
-<li>
-<p>Click the Default Service Department editor to show the Service Department Lookup List View. Select the department we created in the previous step.</p>
-</li>
-<li>
-<p>Save &amp; Close the Service Category Detail View to return to the Service Categories Tree View.</p>
-</li>
-<li>
-<p>Navigate to Configuration -&gt;  Service Types.</p>
-</li>
-<li>
-<p>In the Category tree list on the left hand side of the Service Type List View select our newly created Tattoo Removal category.</p>
-</li>
-<li>
-<p>Click the New action to create a new Service Type and open a Service Type Detail View. Take note of two things:</p>
-</li>
+<li>Type a <strong>Name</strong> for the category, we&rsquo;ll use <code>Tattoo Removal</code>.</li>
+<li>Since we want Removal to be it&rsquo;s own category, ensure there is no value set for the <strong>Parent Category</strong> property. Click the X button on the Parent Category editor to clear any value there.</li>
+<li>Select our newly created <code>Tattoo Removal</code> Department for the <strong>Default Service Department</strong> value.</li>
+<li>Click the <strong>Save &amp; Close</strong> action to save the Service Category.</li>
 </ol>
-<p>Because we has selected the category before we clicked the New action, the category is already set.
- Because when we created the category in the previous step and set the Default Service Department property, the Department property is already set.</p>
+<h2 id="create-the-service-type">Create the Service Type</h2>
+<p>Now we need to create the actual Service Type which directs REV23 Desktop on how to handle the pricing, commission, consent forms and all other behaviors of this service type.</p>
+<ol>
+<li>Navigate to <strong>Configuration &gt; Service Types</strong>.</li>
+<li>Select our newly created <code>Tattoo Removal</code> category we created in the previous section.</li>
+<li>Click the <strong>New</strong> action to create a new Service Type.<blockquote>
+<p>Notice after clicking new, both the <strong>Category</strong> is selected, as well as the <strong>Department</strong>. This happened because we previously set the <strong>Default Service Department</strong> value when we created this category, which means any service type we create in this category will automatically use this <strong>Department</strong>.</p>
+</blockquote>
+</li>
+<li>Fill out the following properties:<ul>
+<li><strong>Name:</strong> <code>Zatanna's Mystical Tattoo Removal</code></li>
+<li><strong>Required Age:</strong> <code>18</code></li>
+<li><strong>Healing Time</strong> <code>24 hours</code> <em>It is mystical after all</em>.</li>
+<li><strong>Consent Form:</strong> Select the newly created <code>Consent Form for Tattoo Removal</code> created in the previous section.</li>
+<li><strong>Aftercare Form:</strong> Select the newly created <code>Aftercare Form for Tattoo Removal</code> created in the previous section.</li>
+<li><strong>Default Pricing Type:</strong> <code>Fixed Location</code> which means each session will always be a set amount.</li>
+<li><strong>Amount:</strong> <code>$200.00</code></li>
+<li><strong>Draw Type:</strong> <code>Remainder</code>. This means the shop will draw whatever is remaining after the User&rsquo;s commission.</li>
+<li></li>
+</ul>
+</li>
+<li>Click <strong>Save &amp; Close</strong> to save this record.</li>
+</ol>
+<p>Of course there is one final last and important step after we&rsquo;ve created this Service Type. Are you able to identify it?</p>
+<p>If you&rsquo;ve guessed <em>&ldquo;You need to add Zatanna as a Service Provider for this service type&rdquo;</em> you&rsquo;re right! Since Zatanna is doing the heavy lifting with her magical abilities, and doesn&rsquo;t require supplies, Harley is letting her keep 80% of each removal.</p>
+<p><a href="../../quick-start/add-a-tattooer/">Add Zatanna as a Service Provider</a> for the Tattoo Removal service type, giving her a <strong>Commission Percentage</strong> of <code>80%</code>.</p>
                 
                   
                 
@@ -2794,6 +2913,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../incentivize-artists/" title="Incentivize artists" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Incentivize artists
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../concepts/users/" title="Users" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Users
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
