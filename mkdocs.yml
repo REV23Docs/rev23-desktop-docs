@@ -231,6 +231,7 @@ extra:
       link: 'https://facebook.com/rev23dev'
     - type: 'github'
       link: 'https://github.com/rev23docs'
+  disqus: 'rev23docs'
 
 # Google Analytics
 google_analytics:
