@@ -55,7 +55,6 @@ Now we need to create the actual Service Type which directs REV23 Desktop on how
     + **Default Pricing Type:** `Fixed Location` which means each session will always be a set amount.
     + **Amount:** `$200.00`
     + **Draw Type:** `Remainder`. This means the shop will draw whatever is remaining after the User's commission.
-    + 
 5. Click **Save & Close** to save this record.
 
 Of course there is one final last and important step after we've created this Service Type. Are you able to identify it?

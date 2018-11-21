@@ -58,7 +58,7 @@ nav:
       - 'Quick Start Vol. 2 Overview': quick-start-2/index.md
       - 'Sell a gift card': quick-start-2/sell-a-gift-card.md
       - 'Reward clients with referrals': quick-start-2/referral-program.md
-      #- 'Reward clients with points': quick-start-2/reward-points.md
+      - 'Reward clients with points': quick-start-2/reward-points.md
       - 'Discount multiple piercings': quick-start-2/discount-multiple-piercings.md
       - 'Incentivize artists': quick-start-2/incentivize-artists.md
       - 'Add a new service type': quick-start-2/add-a-new-service-type.md

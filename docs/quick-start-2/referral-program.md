@@ -16,7 +16,7 @@ Business at Gotham City Tattoo & Piercing hasn't quite picked up as planned. As 
 
 5. Now let's set it in action. Create a new customer and in the Customer Detail View set the **Referred By** editor to the customer that referred them, then Save & Close the Customer Detail View.
 
-    > Note: This only works if the customer is new and the referred by property has been set before you save the customer. You cannot retroactively go set this property to begin accumulating referral credits. This is a security feature, so if you're doing a referral program, ensure that you always ask this before saving the new customer.
+> Note: This only works if the customer is new and the referred by property has been set before you save the customer. You cannot retroactively go set this property to begin accumulating referral credits. This is a security feature, so if you're doing a referral program, ensure that you always ask this before saving the new customer.
 
 6. Open the Customer Detail View of the customer that referred this new customer and click the **Deposits & Credits** tab.
 
