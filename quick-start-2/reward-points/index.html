@@ -42,7 +42,7 @@
     
     
       
-        <title>Quick Start Vol 2: Reward points - REV23 Desktop Docs</title>
+        <title>Reward clients with points - REV23 Desktop Docs</title>
       
     
     
@@ -130,7 +130,7 @@
                 REV23 Desktop Docs
               </span>
               <span class="md-header-nav__topic">
-                Quick Start Vol 2: Reward points
+                Reward clients with points
               </span>
             
           
@@ -737,10 +737,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
     
     <label class="md-nav__link" for="nav-6">
       Quick Start Vol. 2
@@ -785,6 +787,27 @@
     <a href="../referral-program/" title="Reward clients with referrals" class="md-nav__link">
       Reward clients with referrals
     </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Reward clients with points" class="md-nav__link md-nav__link--active">
+      Reward clients with points
+    </a>
+    
   </li>
 
         
@@ -2744,7 +2767,37 @@
                 
                 
                 <h1 id="quick-start-vol-2-reward-points">Quick Start Vol 2: Reward points</h1>
-<p>The referral program seems to be helping drive traffic into the studio, and Gotham&rsquo;s citizens are finally starting to accept the girl&rsquo;s new venture and receiving some awesome tattoos and piercings. Harley wants to reward her loyal customers by enabling Reward Points. By doing so, for each purchase, a client will receive points. Once enough points have been earned, they will automatically convert into a credit that can be used just like a deposit or referral credit.</p>
+<p>The referral program seems to be helping drive traffic into the studio, and Gotham&rsquo;s citizens are finally starting to accept the girl&rsquo;s new venture and receiving some awesome tattoos and piercings. Harley wants to reward her loyal customers by enabling Reward Points.</p>
+<p>Rewards work like this: For each purchase a customer is awarded a certain number of points, generally based on the subtotal of a purchase. For example, $100.00 = 100 points, though you can customize this.</p>
+<p>After a customer has earned enough points they will be redeemed for a credit that can be used just like a <a href="../concepts/deposits-and-credits">Deposit/Credit</a>.</p>
+<p>Configuration is simple once you figure out these things.</p>
+<ul>
+<li><strong>A:</strong> How much will the redeemed credit be worth?</li>
+<li><strong>B:</strong> How much does the client need to spend to earn that credit?</li>
+</ul>
+<p>REV23 requires the conversion rate of a point to an actual dollar. Which is <strong>A</strong> <em>divided by</em> <strong>B</strong>, <em>multipled by</em> <strong>100</strong>.</p>
+<p><code>(A / B) * 100</code></p>
+<p>In the case of Gotham City Tattoo, Harley will reward a customer with $5.00 for every $100.00 they spend.</p>
+<p>So, five (dollars) divided by one-hundred (dollars)</p>
+<p><code>$5.00 / $100.00 = 0.05</code></p>
+<p>Take the result or 0.05 and multiply by 100.</p>
+<p><code>0.05 * 100 = 5.00%</code></p>
+<p>So <strong>5%</strong> is our conversion rate which we will need to configure REV23 Desktop.</p>
+<ol>
+<li>Navigate to <strong>Configuration &gt; My Studio</strong>.</li>
+<li>Click the <strong>Options</strong> tab.</li>
+<li>Click the <strong>Points</strong> tab.</li>
+<li>Set the following properties:<ul>
+<li><strong>Enable Points:</strong> <code>Yes</code></li>
+<li><strong>Default Points Type:</strong> <code>Subtotal</code></li>
+<li><strong>Point Conversion Rate:</strong> <code>5%</code></li>
+<li><strong>Auto Redeem Points Threshold:</strong> <code>$5.00</code></li>
+</ul>
+</li>
+<li>Click the <strong>Save &amp; Close</strong> action.</li>
+</ol>
+<p>Points are accumulated for each sale. You can configure each service type and retail item to override how their Points Type works. For example, if one weekend you want to offer double points on all Nose piercings, you could set that service type&rsquo;s <strong>Points Type</strong> to <code>Subtotal multiple</code> and set the <strong>Multiplier</strong> to <code>2</code>.</p>
+<p>Once the customer has enough points to redeem the $5.00 credit, the points will be &ldquo;cashed out&rdquo; and a new credit will be created.</p>
                 
                   
                 
@@ -2777,6 +2830,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../referral-program/" title="Reward clients with referrals" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Reward clients with referrals
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../discount-multiple-piercings/" title="Discount multiple piercings" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Discount multiple piercings
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
