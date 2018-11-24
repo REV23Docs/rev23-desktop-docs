@@ -31,22 +31,23 @@ Use these guidelines to help you determine what might be a better fit for you. T
 
 ### Connected Studios
 
-Are your studios geographically close together where a customer may go to one or the other?
-Do you have artists that travel between your studios?
-Would you like to check inventory at another one of your studios without calling them?
-Do all studios have high speed internet that is reliable and always on?
++ Are your studios geographically close together where a customer may go to one or the other?
++ Do you have artists that travel between your studios?
++ Would you like to check inventory at another one of your studios without calling them?
++ Do all studios have high speed internet that is reliable and always on?
 
 If some of all of these are true, Connected Studios might be for you. 
 
 ### Isolated Studios
 
-Are your studios geographically far apart?
-Would it be improbable that an artist would travel between your studios?
-Is your internet at one or more studios slow or unreliable?
-Are your studios completely separate businesses?
-Are you the managing owner of one studio, while a partner mostly owns another studio?
++ Are your studios geographically far apart?
++ Would it be unlikely that an artist would travel between your studios?
++ Is your internet at one or more studios slow or unreliable?
++ Are your studios completely separate businesses?
++ Are you the managing owner of one studio, while a partner mostly owns another studio?
 
 If some or all of these are true, Isolated Studios are probably the way to go.
 
-Mix and Match
+### Mix and Match
+
 You may have studios that meet a little bit of each criteria. For example, you might have a few studio's geographically close where the artists do travel between them, and then have one on the other side of the country. Consider that you could use connected studios on one set, then isolate the others. The choice is completely up to you.

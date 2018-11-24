@@ -16,13 +16,15 @@ The Wacom STU Display application is an optional download that allows you to run
 
  - [**Download STU Display**](http://gsdt.wacom.eu/download/Wacom-STU-Display.xml)
 
-After installing, you'll find a new **Wacom STU Display** applet in your Windows Control Panel. Click the tab matching your model number to configure the slideshow and see the path of where to put your images.
+1. After installing, you'll find a new **Wacom STU Display** applet in your Windows Control Panel. Click the tab matching your model number to configure options for the slideshow.
+
+2. Using **File Explorer**, add/remove pictures from `C:\Users\Public\Pictures\Wacom STU Display\STU530`.
 
 Technical support for this application is not provided by REV23.
 
 ## ePad-ink
 
-> The ePad-ink is deprecated in REV23 Desktop and no longer supported. This section exists only for previous versions. Users should not acquire an ePad-ink device as a new device or replacement for an old device.
+> The ePad-ink is deprecated in REV23 Desktop and no longer supported. This section exists only for previous versions. Users should not acquire an ePad-ink as a new device or replacement for an old device.
 
 ### Universal Installer
 
