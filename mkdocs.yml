@@ -68,6 +68,7 @@ nav:
       - 'Today Dashboard': concepts/today-dashboard.md
       - 'Customers': concepts/customers.md
       - 'Appointments': concepts/appointments.md
+      - 'Appointment Confirmations & Reminders': concepts/appointment-confirmations-reminders.md
       - 'Cloud Calendar': concepts/cloud-calendar.md
       - 'Deposits & Credits': concepts/deposits-and-credits.md      
       - 'Services': concepts/services.md

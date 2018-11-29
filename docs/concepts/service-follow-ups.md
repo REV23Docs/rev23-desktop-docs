@@ -2,6 +2,18 @@
 
 The Virtual Receptionist is capable of sending service follow up email and text message to your customers a set amount of time after their service has been completed, for example, 14 days later.
 
+## Virtual Receptionist Configuration
+The [Virtual Receptionist](virtual-receptionist.md) must be configured to send emails using your email account for follow-up messages to be sent and the [Virtual Receptionist Service](../server-concepts/virtual-receptionist-service.md) must be running.
+
+## Enable/Disable Service Follow-up
+You can enable/disable this feature entirely or select to send only emails or only text messages.
+
+1. Navigate to [**Configuration > Virtual Receptionist**](../configuration/virtual-receptionist.md).
+2. There are two workflows that send follow-up messages:
+    + `Send service follow up email to customer` 
+    + `Send service follow up text message to customer`
+3. Click the **Activate** or **Deactivate** actions to enable/disable the desired workflow(s).
+
 ## Customize The Follow-up Time
 Each service type can be configured to send a follow-up text/email as well as the amount of days after the service has ended.
 
@@ -26,3 +38,6 @@ Each service type can be configured to send a follow-up text/email as well as th
 ### Customize the Follow Up Email and Text Message Subjects
 
 You can customize the subject of the email and text that is sent in [**Configuration > Custom Texts**](../configuration/custom-texts.md) by modifying the custom texts with key names `WORKFLOW_SERVICE_FOLLOW_UP_EMAIL_SUBJECT` and `WORKFLOW_SERVICE_FOLLOW_UP_SMS_SUBJECT`.
+
+### Troubleshooting
+See [Troubleshooting: Virtual Receptionist](../troubleshooting/virtual-receptionist.md)
