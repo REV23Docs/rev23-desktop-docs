@@ -23,6 +23,8 @@ You can order custom printed gift cards from our partner [here](http://www.print
 ## Gift Card Lots
 If you do not want to order gift cards from our gift card partner you can order Gift Card Lots directly from REV23. These lots are batches of valid gift card numbers which you can use to print your own gift cards or gift certificates.
 
++ [**Purchase Gift Card Lots on REV23.com**](https://www.rev23.com/products/other/rev23-gift-card-numbers-lot-of-100/)
+
 ### Bar code specifications
 REV23 gift card bar codes should be printed in Code 128 format.
 
@@ -42,7 +44,7 @@ REV23 gift card magnetic stripes require two tracks. Replace the following field
 
 - **GIFTCARDNUMBER**: The gift card number. Numeric only.
 - **ISSUERNAME**: The name of the card issuer -or- card holder. Alpha-numeric only, formatted as LASTNAME/FIRSTNAME MIDDLE, or just LASTNAME.
-- **AMOUNT**: Denomination of card. Leave as 0 for custom amount, or enter a number between 1 and digits.
+- **AMOUNT**: Denomination of card. Leave as 0 for custom amount, or enter a number between 1 and N digits.
 
 #### Examples of well formed data.
 

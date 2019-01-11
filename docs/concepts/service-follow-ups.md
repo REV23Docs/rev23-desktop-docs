@@ -17,7 +17,7 @@ You can enable/disable this feature entirely or select to send only emails or on
 ## Customize The Follow-up Time
 Each service type can be configured to send a follow-up text/email as well as the amount of days after the service has ended.
 
-1. Navigate to [**Configuration > Service Types](../configuration/service-types.md).
+1. Navigate to [**Configuration > Service Types**](../configuration/service-types.md).
 2. Select the desired service type.
 3. Set the **Follow-up Days** property to the desired amount of time after a service ends before sending the follow-up.
 4. Check the **Send Text/Email Follow-up**.
@@ -33,7 +33,7 @@ Each service type can be configured to send a follow-up text/email as well as th
 7. Navigate to [**Configuration > Virtual Receptionist Options**](../configuration/virtual-receptionist-options.md).
 8. Click the **Service Follow Up Options** tab.
 9. Set the **Service Follow Up Email Template** and/or the **Service Follow Up Text Message Template** properties to your new template(s).
-10. Click the **Save & Close** action to save the Virtual Receptionist Options
+10. Click the **Save & Close** action to save the Virtual Receptionist Options.
 
 ### Customize the Follow Up Email and Text Message Subjects
 
