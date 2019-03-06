@@ -53,10 +53,8 @@ Since this user is a tattooer, we need to tell REV23 Desktop that she perform th
 9. Click the **New** action in the Service Types Nested List View.
 
     ![REV23 Desktop](img/new_service_type.png)
-    *The Service Types Nested List View*
 
     ![REV23 Desktop](img/employee_service_type_detail_view.png)
-    *The Employee Service Type Detail View*
 
     Set the following properties:
     -  **Service Type:** `Tattoo`

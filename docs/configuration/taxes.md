@@ -8,6 +8,11 @@ Tax configuration allows you to define the various tax rates that you must colle
 
 **Rate:** The tax rate for this tax.
 
+**Calculation Type:** The method used to apply taxes to a sale or service.
+
++ _Before Discounts_: The tax will be calculated after discounts.
++ _After Discounts_: The tax will be calculated before discounts are applied.
+
 ## Actions
 
 ### Tools

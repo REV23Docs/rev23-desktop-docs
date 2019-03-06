@@ -14,7 +14,7 @@ In the Employee List View, as well as the Employee Detail View, there is an acti
 
 3. Set the **Commission Type** to `Percent` and the **Commission Percentage** to `50%`.
 
-4. In the **Service Types** list, we want to select every service type *except* Tattoo. To do this, click into the list and hit **CTRL+A** on your keyboard to Select All.
+4. In the **Service Types** list, we want to select every service type *except* Tattoo. To do this, click into the list and press **CTRL+A** on your keyboard to Select All.
 
 5. Scroll near the bottom of the list and find Tattoo. While holding the **CTRL** key on the keyboard, click *Tattoo* to deselect it. If done properly, every service type *except* Tattoo will now be highlighted.
 
