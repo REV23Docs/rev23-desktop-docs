@@ -12,7 +12,7 @@ markdown_extensions:
   - sane_lists
 
 # Copyright
-copyright: 'Copyright &copy; 2018 REV23 Development, Inc.'
+copyright: 'Copyright &copy; 2019 REV23'
 
 #Navigation
 nav:
