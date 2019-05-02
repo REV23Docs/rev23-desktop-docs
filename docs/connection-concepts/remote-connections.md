@@ -10,13 +10,12 @@ By enabling [Enhanced Connections](enhanced-connections.md) you've done most of 
 
 + Ensure the network type in Windows settings is set to **Private**.
 
-+ From your router, create two port forwarding rules to your main PC.
++ From your router, create one port forwarding rule to your main PC.
 
     | Rule Name | Port | Protocol |
     | --- | --- | --- |
     | SQL Server (REV23) | 1533 | TCP |
-    | SQL Browser | 1434 | UDP |
 
-+ On your add-on PC, the hostname is your public IP address, followed by a comma, then port 1533. For example, "23.23.23.23,1533"
++ On your add-on PC, the hostname is your public IP address, followed by a comma, then port 1533. For example, "23.23.23.23,1533" You can check your public IP at [https://checkip.rev23.com](https://checkip.rev23.com).
 
 + It is recommended you either have a static IP address from your ISP, or, create a dynamic DNS hostname (i.e., dyndns.org). Most routers have support for these third party services (extra fees may apply), to keep your public IP address changes. In this case, you will use your hostname, followed by a comma, then port 1533. For example, my.dnshost.com,1533
