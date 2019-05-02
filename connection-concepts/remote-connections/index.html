@@ -2813,7 +2813,7 @@
 <p>Ensure the network type in Windows settings is set to <strong>Private</strong>.</p>
 </li>
 <li>
-<p>From your router, create two port forwarding rules to your main PC.</p>
+<p>From your router, create one port forwarding rule to your main PC.</p>
 <table>
 <thead>
 <tr>
@@ -2828,16 +2828,11 @@
 <td>1533</td>
 <td>TCP</td>
 </tr>
-<tr>
-<td>SQL Browser</td>
-<td>1434</td>
-<td>UDP</td>
-</tr>
 </tbody>
 </table>
 </li>
 <li>
-<p>On your add-on PC, the hostname is your public IP address, followed by a comma, then port 1533. For example, &ldquo;23.23.23.23,1533&rdquo;</p>
+<p>On your add-on PC, the hostname is your public IP address, followed by a comma, then port 1533. For example, &ldquo;23.23.23.23,1533&rdquo; You can check your public IP at <a href="https://checkip.rev23.com">https://checkip.rev23.com</a>.</p>
 </li>
 <li>
 <p>It is recommended you either have a static IP address from your ISP, or, create a dynamic DNS hostname (i.e., dyndns.org). Most routers have support for these third party services (extra fees may apply), to keep your public IP address changes. In this case, you will use your hostname, followed by a comma, then port 1533. For example, my.dnshost.com,1533</p>
