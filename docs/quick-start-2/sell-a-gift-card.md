@@ -12,7 +12,7 @@ Our good friend Commissioner Gordon has popped in again. It's a good thing we're
 
 3. Click the **Add Gift Card** action and swipe a fresh gift card to open a new Gift Card Detail View.
 
-    > Hint: If you do not yet have REV23 Desktop compatible gift cards or magstripe stripe swiper, when REV23 Desktop is waiting for you to to swipe the gift card, press the letter 'G' on your keyboard to use demo data, which demonstrates a compatible pre-loaded card being swiped.
+    > Hint: If you do not yet have REV23 Desktop compatible gift cards or hardware, when REV23 Desktop is waiting for you to to swipe the gift card, press the letter 'G' on your keyboard to use demo data, which demonstrates a compatible pre-loaded card being swiped. You can also use the number `6023456789012345`. **DO NOT SELL THE DEMO GIFT CARD TO A REAL CUSTOMER. THE DEMO CARD IS FOR TEST PURPOSES ONLY.**
 
 4. Set the **Amount** editor to the desired amount and click **OK**. You can order pre-denominated gift cards that have this amount already specified in the magnetic stripe. If you've used the demo data, this value is already set.  Notice the Is Active checkbox editor is unchecked. Right now the gift card is not yet activated for use. You can leave this unchecked, and REV23 Desktop will activate it once it has been paid for.
 
