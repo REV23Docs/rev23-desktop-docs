@@ -4,8 +4,6 @@
 
 > See [**Persons**](persons.md) for shared properties of the customer object.
 
-**Send Email:** If checked, the customer has authorized you to send them email messages.
-
 **Source:** The source where the customer heard about your business.
 
 **Referred By:** If applicable, the customer that referred this customer. This must be filled out for the referring customer to get their referral credit.
@@ -17,8 +15,6 @@
 **Available Deposits/Credits:** The available deposits and/or credits this customer has to use.
 
 **Customer Number:** The customer's custom or auto assigned entity number.
-
-**Mailing List:** If checked, the customer is opting in to receive marketing mail. Mailing labels generated will only include customer's who are on the mailing list.
 
 ### Identification
 

@@ -38,6 +38,8 @@ OS Version| Location
 **Windows 64-bit** | C:\Program Files (x86)\Tattoo Management Studio\Backup
 **Windows 32-bit** | C:\Program Files\Tattoo Management Studio\Backup
 
+If you're able to recover a backup file you can proceed with [Restoring your database](restore-your-database.md).
+
 ## Data File Recovery
 
 You may also attempt to access the SQL Server data files. These contain your database as it existed before the crash occurs, however re-attaching these files is not always guaranteed to work and a backup is generally the safest bet.
