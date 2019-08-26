@@ -15,9 +15,9 @@ Inventory Items in REV23 Desktop represent sellable and disposable items in your
 - Tattoo: An item specific for tattooing.
 - Piercing: An item specific for piercing which will have more properties in the Piercing Item Specifications property.
 
-**Piercing Item Specifications:** Additional properties used to describe a piercing inventory item (jewelry, needles). To access them, click the ellipses button on the editor (...) to show the tattoo item specifications detail view. This property is only visible when the inventory item type is set to Piercing.
+**Jewelry Details:** Additional properties used to describe a jewelry item. To access them, click the ellipses button on the editor (...) to show the jewelry detail view. This property is only visible when the inventory item type is set to Piercing.
 
-> If you leave the inventory item name blank, after setting the piercing item specifications a name will be automatically generated for you. It will also look at other properties such as material to generate this name, so fill out all details in the Inventory Item detail view first, then move onto this view to generate a standardized name. This is particularly useful for jewelry.
+> If you leave the inventory item name blank, after setting the jewelry item specifications a name will be automatically generated for you. It will also look at other properties such as material to generate this name, so fill out all details in the Inventory Item detail view first, then move onto this view to generate a standardized name. This is particularly useful for jewelry.
 
 **Quantity Per Unit:** The usable or sellable quantity in this item. If you buy this as a single item, the quantity per unit is one (1). If however, you purchase this in a case of twenty four (24), the usable quantity will be twenty four (24). Likewise a single box of gloves would likely have a quantity per unit of one hundred (100). This is an important factor in determining cost per unit pricing, as well as reordering. For example, if its a case, when you receive two cases, it will at 48 to your quantity on hand. So this is an important value not to get wrong, so think about how you use and sell the item before setting this value.
 
@@ -39,13 +39,8 @@ Inventory Items in REV23 Desktop represent sellable and disposable items in your
 
 **Locations:** Location Inventory Items for this item. Which are a list of your connected studios that also use this item. In this nested list view you're able to see inventory quantity information for the same item in your other connected studios.
 
-### Piercing Item Specifications
-By clicking the ellipses (...) button in the Piercing Item Specifications editor, you will create/edit the item as a piercing inventory item.
-
-**Piercing Inventory Item Type:** The type of piercing item.
-
-- Needle
-- Jewelry
+### Jewelry Details
+By clicking the ellipses (...) button in the Jewelry editor, you will create/edit the item as a jewelry inventory item.
 
 **Jewelry Type:** The jewelry type of this item.
 
@@ -53,33 +48,7 @@ By clicking the ellipses (...) button in the Piercing Item Specifications editor
 
 **Length/Diameter:** The length of needle or length/diameter of the jewelry.
 
-**Curved:** If checked, the jewelry or needle is curved.
-
-**Non Sterilized:** If checked, the jewelry or needle has not been sterilized by the manufacturer.
-
-**Anodized:** If checked, the jewelry is anodized.
-
-**Ball Configuration:** The ball configuration of the jewelry.
-
-**Gem Configuration:** The gem configuration of the jewelry.
-
-**Threading:** The threading type of this piece of jewelry.
-
-- None
-- Internal
-- External
-
-**Plug/Tunnel Flare:** The flare type if the jewelry is a plug/tunnel.
-
-- None
-- Screw
-- Single
-- Double
-- Double Screw
-- Tapered
-- Double Tapered
-
-**Anchor Rise:** The rise of the anchor if applicable. This is a filtered length/diameter value.
+**Gem Setting:** The gem configuration of the jewelry.
 
 ### Ordering
 

@@ -13,6 +13,13 @@ Tax configuration allows you to define the various tax rates that you must colle
 + _Before Discounts_: The tax will be calculated after discounts.
 + _After Discounts_: The tax will be calculated before discounts are applied.
 
+**Midpoint Rounding:** The method used to round the tax when between two numbers.
+
+Consider a tax with rate of 8.25% and an item priced at $10.00. 
+
++ _To nearest even number_: The tax would be $0.82.
++ _Away from zero_: The total would be $0.83.
+
 ## Actions
 
 ### Tools
