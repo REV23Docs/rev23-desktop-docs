@@ -146,11 +146,10 @@ nav:
       - 'Items': inventory/inventory-items.md
       - 'Categories': inventory/inventory-categories.md
       - 'Departments': inventory/inventory-departments.md
-      - 'Ball Configurations': inventory/ball-configurations.md
       - 'Bulk Discount Codes': inventory/bulk-discount-codes.md
       - 'Bulk Discount Code Tiers': inventory/bulk-discount-code-tiers.md
       - 'Colors': inventory/colors.md
-      - 'Gem Configurations': inventory/gem-configurations.md
+      - 'Gem Settings': inventory/gem-settings.md
       - 'Gauges': inventory/gauges.md
       - 'Jewelry Types': inventory/jewelry-types.md
       - 'Lengths & Diameters': inventory/lengths-diameters.md
