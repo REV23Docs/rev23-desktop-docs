@@ -9,7 +9,7 @@ The Epson T88V Advanced Printer Driver is required. As of the time of this writi
 
 You can download this version directly from us at the link below.
 
-- [**Recommended REV23 Download**](http://download.rev23.com/public/hardware/apd_505r1_t88v_ewm.zip)
+- [**Recommended REV23 Download**](https://download.rev23.com/public/hardware/apd_505r1_t88v_ewm.zip)
 - [EPSON Download](https://epson.com/Support/Point-of-Sale/Receipt-Printers/Epson-TM-T88V/s/SPT_C31CA85011)
 - [EPSON Website](http://www.epson.com)
 

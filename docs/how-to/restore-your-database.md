@@ -4,7 +4,7 @@ There are several reasons you may need to restore a backup of your REV23 Desktop
 
 > WARNING: Restoring a database backup overwrites the current database on the PC. If you have changes to the current database that have not been backed up before you restore, those will be lost.
 
-> Some PCs may encounter an error when trying to restore that BatchParser.dll is missing. In this case, please download and install [Microsoft SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
+> Some PCs may encounter an error when trying to restore that BatchParser.dll is missing. In this case, please download and install [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784). You will need to install the *vcredist_x86.exe* package.
 
 1. Open the [REV23 Desktop Control Panel](../server-concepts/control-panel.md).
 2. Click the **Backup/Restore Database** tile.
