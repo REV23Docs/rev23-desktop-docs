@@ -12,10 +12,11 @@ Please note, this is for moving your main PC only. This process is pretty straig
 
 **Come to the new PC**
 
+> Some PCs may encounter an error when trying to restore that BatchParser.dll is missing. In this case, please download and install [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784). You will need to install the *vcredist_x86.exe* package.
+
 1. Install REV23 Desktop. If it opens after the installation, close the software at this time.
 2. Open the REV23 Desktop Control Panel.
 3. Restore the backup file that you just created.
-    > Some PCs may encounter an error when trying to restore that BatchParser.dll is missing. In this case, please download and install [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784). You will need to install the *vcredist_x86.exe* package.
 4. Log onto your account on www.rev23.com and unlock your license from your old PC. You will need this available to activate your license on the new PC.
 5. Open REV23 Desktop and activate when prompted.
 6. Verify that you are able to log on and all of your data is as expected.
