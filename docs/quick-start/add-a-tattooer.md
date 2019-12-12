@@ -47,7 +47,7 @@ Since Harley is the user who installed REV23 Desktop and went through the setup 
     
 ## Assign Service Types
 
-Since this user is a tattooer, we need to tell REV23 Desktop that she perform the Tattoo service type, as well as how they are paid for it.
+Since this user is a tattooer, we need to tell REV23 Desktop that she performs the Tattoo service type, as well as how they are paid for it.
 
 8. Click the **Service Types** tab
 9. Click the **New** action in the Service Types Nested List View.
