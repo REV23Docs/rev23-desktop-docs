@@ -12,7 +12,7 @@ markdown_extensions:
   - sane_lists
 
 # Copyright
-copyright: 'Copyright &copy; 2019 REV23'
+copyright: 'Copyright &copy; 2020 REV23'
 
 #Navigation
 nav:
@@ -226,11 +226,11 @@ repo_url: 'https://github.com/rev23docs/rev23-desktop-docs'
 # Customization
 extra:
   social:
-    - type: 'instagram'
+    - icon: 'fontawesome/brands/instagram'
       link: 'https://instagram.com/rev23dev'
-    - type: 'facebook'
+    - icon: 'fontawesome/brands/facebook'
       link: 'https://facebook.com/rev23dev'
-    - type: 'github'
+    - icon: 'fontawesome/brands/github'
       link: 'https://github.com/rev23docs'
   disqus: 'rev23docs'
 
