@@ -1,891 +1,713 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/introduction/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/installation/main-pc/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/installation/add-on-pc/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/installation/sql-server-manual-installation/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/installation/sql-server-edition-upgrade/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/terminology/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/actions/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/main-window/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/navigation-bar/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/ribbon/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/list-views/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/detail-views/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/common-actions/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/editors/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/scheduler/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/touch-mode/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/ui/skins/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/add-a-tattooer/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/add-a-piercer/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/add-a-manager/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/schedule-an-appointment/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/add-a-retail-item/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/set-service-prices/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/start-a-walk-in-service/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/start-a-sale/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/modify-consent-form/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/clocking-in/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/start-a-scheduled-service/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/apply-a-deposit/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/refund-an-item/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/run-reports/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/clocking-out/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start/conclusion/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start-2/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start-2/sell-a-gift-card/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start-2/referral-program/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start-2/reward-points/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start-2/discount-multiple-piercings/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start-2/incentivize-artists/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/quick-start-2/add-a-new-service-type/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/users/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/user-service-types/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/today-dashboard/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/customers/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/appointments/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/appointment-confirmations-reminders/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/cloud-calendar/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/deposits-and-credits/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/services/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/dynamic-commissions/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/templates/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/template-designer/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/aftercare-forms/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/consent-forms/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/service-follow-ups/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/walk-in-queue/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/payments/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/sales-and-invoices/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/credit-cards/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/gift-cards/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/refunds/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/waiting-list/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/rotating-schedules/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/points/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/referrals/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/payouts/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/time-clock/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/tasks/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/inventory/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/walk-outs/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/reports/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/dashboards/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/key-performance-indicators-kpi/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/virtual-receptionist/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/email-marketing/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/concepts/audit-trail/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/server-concepts/database/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/server-concepts/control-panel/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/server-concepts/database-service/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/server-concepts/integration-service/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/server-concepts/backup-service/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/server-concepts/virtual-receptionist-service/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/server-concepts/sql-server/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/connection-concepts/enhanced-connections/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/connection-concepts/remote-connections/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/connection-concepts/connected-studios/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/security-concepts/administrator/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/security-concepts/roles/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/my-studio/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/credit-cards/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/appointment-labels/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/custom-texts/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/dynamic-commissions/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/languages/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/medical-conditions/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/p2pe-devices/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/payment-types/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/return-refund-reasons/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/required-field-rules/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/rotating-schedules/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/service-categories/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/service-departments/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/service-types/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/service-type-discounts/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/service-type-discount-tiers/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/sms-gateways/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/sources/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/styles/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/taxes/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/templates/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/walk-out-reasons/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/virtual-receptionist/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/virtual-receptionist-options/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/device-options/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/configuration/date-time-format-codes/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/inventory-items/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/inventory-categories/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/inventory-departments/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/bulk-discount-codes/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/bulk-discount-code-tiers/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/colors/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/gem-settings/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/gauges/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/jewelry-types/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/lengths-diameters/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/manufacturers/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/materials/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/vendors/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/inventory/service-type-inventory-items/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/hardware/signature-pad/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/hardware/bar-code-reader/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/hardware/magstripe-swipe-card-reader/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/hardware/receipt-printer/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/hardware/cash-drawer/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/hardware/webcams/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/hardware/document-and-photo-scanners/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/hardware/inkjet-and-laser-printers/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/hardware/external-hard-drives/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/troubleshooting/general/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/troubleshooting/commissions/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/troubleshooting/hardware/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/troubleshooting/cloud-calendar/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/troubleshooting/virtual-receptionist/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/troubleshooting/health-inspector/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/how-to/import-customers/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/how-to/add-required-fields/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/how-to/backup-your-database-manually/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/how-to/automate-backups/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/how-to/restore-your-database/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/how-to/migrate-data-to-a-new-pc/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/how-to/recover-from-pc-crashes/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/how-to/reset-user-interface-defaults/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/appointments/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/customers/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/deposits-credits/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/deposit-credit-history-items/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/file-attachments/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/gift-cards/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/gift-card-history-items/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/news/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/notes/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/persons/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/roles/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/sales-invoices/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/services/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/system-messages/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/tasks/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/time-clock-entries/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/users/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/user-service-types/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/waiting-list-items/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/walk-ins/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/reference/walk-outs/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/tattoo-management-studio/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/license/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.rev23.com/rev23-desktop-docs/release-notes/</loc>
      <lastmod>2020-04-23</lastmod>
      <changefreq>daily</changefreq>
