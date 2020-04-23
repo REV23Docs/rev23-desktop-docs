@@ -156,6 +156,7 @@ nav:
       - 'Manufacturers': inventory/manufacturers.md
       - 'Materials': inventory/materials.md
       - 'Vendors': inventory/vendors.md
+      - 'Service Type Inventory Items': inventory/service-type-inventory-items.md
     - Hardware:
       - 'Signature Pad': hardware/signature-pad.md
       - 'Bar code Reader': hardware/bar-code-reader.md
