@@ -19,8 +19,6 @@ Inventory Items in REV23 Desktop represent sellable and disposable items in your
 
 > If you leave the inventory item name blank, after setting the jewelry item specifications a name will be automatically generated for you. It will also look at other properties such as material to generate this name, so fill out all details in the Inventory Item detail view first, then move onto this view to generate a standardized name. This is particularly useful for jewelry.
 
-**Quantity Per Unit:** The usable or sellable quantity in this item. If you buy this as a single item, the quantity per unit is one (1). If however, you purchase this in a case of twenty four (24), the usable quantity will be twenty four (24). Likewise a single box of gloves would likely have a quantity per unit of one hundred (100). This is an important factor in determining cost per unit pricing, as well as reordering. For example, if its a case, when you receive two cases, it will at 48 to your quantity on hand. So this is an important value not to get wrong, so think about how you use and sell the item before setting this value.
-
 **Color:** The primary color of this inventory item.
 
 **Material:** The primary material of this inventory item.
@@ -33,9 +31,17 @@ Inventory Items in REV23 Desktop represent sellable and disposable items in your
 
 **UPC Barcode:** The Universal Product Code, printed on the item (if applicable). When the cursor is in this property, quickly scan the item with the barcode scanner to populate it. If no barcode exists, don't worry, a barcode will be created for you automatically when creating the Location Inventory Item. If supplied, this will be used when scanning barcodes to add items to a sale with the barcode scanner.
 
-**Vendors:** Vendor Inventory Items for this item. Which are a list of vendors that you purchase this item from and their prices. Add them from the "Add Vendor" action.
+**Active:** If checked, the item is active in your studio. If you no longer use or sell the item, you can un-check this box.
 
-**Employees:** Employee Inventory Items for this item. Which are a list of employees that use this item in your studio for their own needs along with information about how they're used.
+### Vendor
+
+**Vendor:** The vendor you purchase this item from.
+
+**Vendor Part Number:** The vendor's internal part number for this item.
+
+**Vendor Price:** The average price you purchase this item for.
+
+**Quantity Per Unit:** The usable or sellable quantity in this item. If you buy this as a single item, the quantity per unit is one (1). If however, you purchase this in a case of twenty four (24), the usable quantity will be twenty four (24). This is an important factor in determining cost per unit pricing, as well as reordering. For example, if its a case, when you receive two cases, it will add 48 to your quantity on hand. This is an important value not to get wrong, so think about how you use and sell the item before setting this value.
 
 **Locations:** Location Inventory Items for this item. Which are a list of your connected studios that also use this item. In this nested list view you're able to see inventory quantity information for the same item in your other connected studios.
 
@@ -50,27 +56,24 @@ By clicking the ellipses (...) button in the Jewelry editor, you will create/edi
 
 **Gem Setting:** The gem configuration of the jewelry.
 
-### Ordering
-
-**Primary Vendor:** The primary vendor you purchase this item from. A vendor inventory item must exist for that vendor to be available in this list.
-
-**Barcode:** An automatically generated barcode for this item. When a UPC does not exist for the inventory item, this barcode will be used when printing barcodes and scanning the item.
+### Sales
 
 **Sellable:** If checked, the item is a sellable item. Items must be sellable for them to be added to a sale/invoice.
 
 **Sale Price:** The sale price of this item.
 
+**Tax:** The sales tax to apply when this item is sold.
+
+**Barcode:** An automatically generated barcode for this item. When a UPC does not exist for the inventory item, this barcode will be used when printing barcodes and scanning the item.
+
 **Markup:** The calculated markup for this item using the primary vendor's price for this item.
 
 **Markup Percentage:** The calculated markup percentage for this item using the primary vendor's price for this item.
 
-**Tax:** The sales tax to apply when this item is sold.
+**Discount Code:** The bulk discount code for this item.
 
-**Active:** If checked, the item is active in your studio. If you no longer use or sell the item, you can un-check this box.
 
-**Stock Keeping Unit:** Your studio's internal SKU for this item if applicable.
-
-**Bulk Discount Code:** The bulk discount code for this item.
+### Commission
 
 **Commissionable:** If checked, employees are eligible for a commission on this item and will use their preset merchandise commission.
 
@@ -89,6 +92,26 @@ Note: This property is only visible if the Commission Type is set to Percent (Su
 **Commission Amount:** The overridden commission amount.
 This property is only visible if the Commission Type is set to Fixed.
 
+### Stock
+
+**Stock Keeping Unit:** Your studio's internal SKU for this item if applicable.
+
+**On Hand:** How many of this item you currently have in inventory.
+
+**Reorder Point:** The value at which when the on hand count is less than or equal to this value, you would like to reorder more.
+
+**Reorder Units:** How many units you generally reorder.
+
+**Units On Order:** How many units of this item you currently have on order.
+
+**Quantity In Order:** This calculated value displays what will go back into your inventory with the specified reorder units. It is calculated as Quantity Per Unit * Reorder Units as a visual reference for you to see if your quantity per unit, as well as reorder units values are correctly configured.
+
+**Use Automatic Ordering:** If checked, when the on hand value is less than or equal to the reorder point, the Units On Order will automatically update itself to be the Reorder Units value. REV23 Desktop assumes you'll have ordered the item, and will add it to your items to be received.
+
+**Use Reorder Notification:** If checked, a task will be created for anyone in the built-in Inventory Manager role when the on hand value is less than or equal to the reorder point to notify them they should reorder more.
+
+### Points
+
 **Override Points:** If checked, you can specify a different point structure than provided in your studio's default points. This is useful if you want to structure retail points separately from service points, or want to run limited promotions, such as all gold jewelry earns double points.
 
 **Points Type:** The method for calculating points.
@@ -104,43 +127,24 @@ Note: This property is only visible if the Points Type is set to Subtotal Multip
 **Points Custom:** The static point value for each item and service on an invoice when the Default Card Points Type is set to Custom.
 Note: This property is only visible if the Points Type is set to Custom.
 
-### Ordering
+### Service Types
+A list of service type inventory items linked to this  item. See [Service Type Inventory Items](service-type-inventory-items.md)..
 
-**Quantity Per Unit:** The inventory item's quantity per unit property, re-displayed here for reference. This value cannot be modified.
-
-**Reorder Point:** The value at which when the on hand count is less than or equal to this value, you would like to reorder more.
-
-**Reorder Units:** How many units you generally reorder.
-
-**Quantity In Order:** This calculated value displays what will go back into your inventory with the specified reorder units. It is calculated as Quantity Per Unit * Reorder Units as a visual reference for you to see if your quantity per unit, as well as reorder units values are correctly configured.
-
-**On Hand:** How many of this item you currently have in inventory.
-
-**Units On Order:** How many units of this item you currently have on order.
-
-**Use Automatic Ordering:** If checked, when the on hand value is less than or equal to the reorder point, the Units On Order will automatically update itself to be the Reorder Units value. REV23 Desktop assumes you'll have ordered the item, and will add it to your items to be received.
-
-**Use Reorder Notification:** If checked, a task will be created for anyone in the built-in Inventory Manager role when the on hand value is less than or equal to the reorder point to notify them they should reorder more.
-
-**Service Types:** A list of service type inventory items linked to this  item.
-
-**History:** A list of history for this item's on hand value. Here you can see when and why the on hand value changed, whether it was sold, a manual change, etc...
-
-> Do you need to put all of this stuff in?
-Nope. It's totally up to you.  We realize this is a whole lot of information, but we offer it for those studios who want very in-depth reporting of their inventory. This level of inventory customization allows you to questions such as  "does anodized jewelry sell better than non anodized?" So it all depends on what you as a shop owner are interested in. If you don't care about such things, don't put this information in.
+### History
+A list of history for this item's on hand value. Here you can see when and why the on hand value changed, whether it was sold, a manual change, etc...
 
 ## Actions
 
 ### Records Creation Actions
 
-**Receive Order:**
+**Receive Order Items:**
 
 ### Tools Actions
 
-**Move To Category:**
+**Move To Category:** Move the selected item(s) to a different category.
 
-**Assign Department:**
+**Assign Department:** Move the selected item(s) to a different department.
 
-**Add Inventory Items To Location Service Types:**
+**Add Inventory Items To Service Types:** Add the selected item(s) to service types. See [Service Type Inventory Items](service-type-inventory-items.md).
 
-**Connect Inventory Items:**
+**Connect Inventory Items:** Add items from another connected studio to the current studio.
