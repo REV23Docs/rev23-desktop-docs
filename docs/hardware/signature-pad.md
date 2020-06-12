@@ -1,11 +1,11 @@
 # Signature Pad
 This topic discusses download and installation instructions of Signature Pads. For usage please see Signature Capture.
 
-## Wacom STU-530
+## Wacom STU-530 & STU-540
 
 ### Wacom STU Tablet Driver
 
-The Wacom STU-530 requires no device drivers or additional setup in REV23 Desktop. If you're using Windows 7 or 10, it is recommended you download and install the proper driver to enhance the display speed of the device.
+The Wacom STU requires no device drivers or additional setup in REV23 Desktop. If you're using Windows 7 or 10, it is recommended you download and install the proper driver to enhance the display speed of the device.
 
 - [**Download Tablet Driver**](http://gsdt.wacom.eu/download/Wacom-STU-Tablet-Driver.xml)
 - [Wacom Signature Website](http://signature.wacom.us)
@@ -18,7 +18,8 @@ The Wacom STU Display application is an optional download that allows you to run
 
 1. After installing, you'll find a new **Wacom STU Display** applet in your Windows Control Panel. Click the tab matching your model number to configure options for the slideshow.
 
-2. Using **File Explorer**, add/remove pictures from `C:\Users\Public\Pictures\Wacom STU Display\STU530`.
+2. Using **File Explorer**, add/remove pictures from `C:\Users\Public\Pictures\Wacom STU Display\STU530` or 
+`C:\Users\Public\Pictures\Wacom STU Display\STU540` depending on the model of your STU.
 
 Technical support for this application is not provided by REV23.
 
