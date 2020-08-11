@@ -18,15 +18,19 @@ Cash payouts are actually incredibly simple to do and a highlight feature of REV
 
 ### How cash payouts are calculated?
 
-Because REV23 Desktop uses some advanced formulas to calculate cash distribution, it may not always be obvious what it is doing. But you can trust that its behaving as designed. At a high level, we look at Services and Deposits (if you advance deposits to your artists) that were paid in cash each day. On the surface, and for the most basic scenarios, this works exactly as you'd expect it to. A $200 tattoo at 50% commission, paid all in cash, the artist is eligible for $100 cash, their entire commission, or $50 cash, depending on your Default Cash Payout Mode setting in your studio's invoicing & payment options).
+> See the **Default Cash Payout Mode** setting in [Sales & Payments Options](../configuration/my-studio#payouts) which alters how cash payouts are distributed.
 
-However, take into account when a deposit is used to reduce the balance. That same $200 tattoo with a $125 deposit, with the remaining $75 paid in cash. In this case there isn't enough cash in the drawer to payout the full commission, so it will payout what it can. And imagine an even more complex scenario, in which a husband and wife are tattooed by separate artists, deposits are used, some aftercare is purchased, they put some on credit card, maybe some on a gift card, and pay with a little bit of cash. Who gets what part of the small amount of cash here? A real head scratcher, right? Not for REV23 Desktop.
+Because REV23 Desktop uses some advanced formulas to calculate cash distribution, it may not always be obvious what it is doing. But you can trust that its behaving as designed. At a high level, we look at Services that were paid in cash each day. On the surface, and for the most basic scenarios, this works exactly as you'd expect it to. A $200 tattoo at 50% commission, paid all in cash, the artist is eligible for $100 cash, their entire commission; or $50 cash, depending on the Default Cash Payout Mode studio setting.
 
-In short, Cash Payouts only look at the cash portion of the transaction. It then sets aside retail sales and tax, leaving behind only what should be split amongst services. It then determines the amount each artist is able to claim, using their percentage of the total invoice amount, and splits it proportionally, then rounds down to the nearest dollar so you're not attempting to split change, leaving their remaining commission for a check payout.
+However, let's look at a fairly common scenario which would complicate a cash payout. 
+
+We will use that same $200 tattoo but instead of all cash, there is a $125 deposit applied and the remaining $75 is paid in cash.
+
+In this case, there isn't enough cash in the drawer to payout the full commission ($100), so it will payout what it can. And imagine an even more complex scenario, in which a husband and wife are tattooed by separate artists, deposits are used, some aftercare is purchased, they put some on credit card, maybe some on a gift card, and pay with a little bit of cash. Who gets what part of the small amount of cash here? A real head scratcher, right? Not for REV23 Desktop.
+
+In short, Cash Payouts only look at the cash portion of the transaction. It then sets aside retail sales and tax, leaving behind only what should be split amongst services. It then determines the amount each artist is able to claim, using their contribution percentage of the total sale amount, and splits it proportionally, then rounds down to the nearest dollar so you're not attempting to split change, leaving their remaining commission for a check payout.
 
 As a result of this method, you'll often see some numbers that might not make sense at first glance. When you run into a question such as "why am I paying out $22.00 in cash to Dave on a $500.00 tattoo when his commission is 60%?" you can trust that it's simply because that's all the cash there was to hand out for that particular transaction. REV23 Desktop ensures that you aren't paying out more cash than is in the drawer.
-
-In your studio's Invoicing & Payment Options there is a "Default Cash Payout Mode" setting which controls how cash is paid out. You can read more about it in the invoicing & payment options topic.
 
 ## Paybacks
 

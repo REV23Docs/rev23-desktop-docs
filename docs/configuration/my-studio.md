@@ -198,15 +198,11 @@ This property can be a number, or even a short bit of text. For example, the bar
 
 ### Payouts
 
-**Default Service Cash Payout Mode:** The default behavior for how to distribute cash during Service Cash Payouts.
+**Default Cash Payout Mode:** The default behavior for how to distribute cash during Cash Payouts.
 
-**Payout as much cash as possible to employee:** The employee will be paid out as much cash as they brought in. Example, if the artist does a $100.00 tattoo at 60% paid in cash, they'll receive the full 60% ($60.00) in cash.
-Payout cash proportional to employee's commission: The employee will be paid out cash proportional to their commission. Example, if the artist does a $100.00 tattoo at 60% paid in cash, they'll receive 60% of their commission in cash which would be $36.00.
++ *Payout as much cash as possible to employee:* The employee will be paid out as much cash as they brought in. Example, if the artist does a $100.00 tattoo at 60% paid in cash, they'll receive the full 60% ($60.00) in cash.
 
-**Default Deposit Cash Payout Mode:** The default behavior for how to distribute cash during Deposit Cash Payouts.
-
-**Payout as much cash as possible to employee:** The employee will be paid out as much cash as they brought in. Example, if the artist does a $100.00 at 60% paid in cash, they'll receive the full 60% ($60.00) in cash.
-Payout cash proportional to employee's commission: The employee will be paid out cash proportional to their commission. Example, if the artist does a $100.00 tattoo at 60% paid in cash, they'll receive 60% of their commission in cash which would be $36.00.
++ *Payout cash proportional to employee's commission*: The employee will be paid out cash proportional to their commission. Example, if the artist does a $100.00 tattoo at 60% paid in cash, they'll receive 60% of their commission in cash which would be $36.00.
 
 ## Marketing Options
 
