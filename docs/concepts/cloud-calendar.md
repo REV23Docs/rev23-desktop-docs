@@ -24,7 +24,7 @@ Tap each link in the received email and choose "Subscribe" when prompted. Depend
 
 By default, iOS will only sync the calendar manually.
 
-See [How to: Setup an iOS Device to fetch Cloud Calendar automatically](../how-to/cloud-calendar-iphone-fetch.md) to setup your device to keep everything in sync.
+See [How to: Setup an iOS Device to fetch Cloud Calendar automatically](../how-to/cloud-calendar-ios-fetch.md) to setup your device to keep everything in sync.
 
 However, even with those settings, sometimes you'll find you just need to refresh the calendar manually. To do so, open the Calendar app, tap "Calendars" in the bottom middle of the screen, then pull down and release to refresh. This should force the calendar app to fetch a fresh version of your Cloud Calendar file.
 
