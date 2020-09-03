@@ -9,6 +9,7 @@ On occasion, you may find it necessary to selectively payout one (or a few) indi
 To accomplish this, open the detail view for the desired service and use the **Payout Employee** action.
 
 ## Check Payouts
+This topic is under construction.
 
 ## Cash Payouts
 

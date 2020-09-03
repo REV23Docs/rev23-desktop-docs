@@ -22,9 +22,9 @@ Tap each link in the received email and choose "Subscribe" when prompted. Depend
 
 ### iOS Auto Fetch
 
-By default, iOS will only sync the calendar manually. To automatically sync, go to Settings, tap "Passwords & Accounts", tap "Fetch New Data", and select the desired interval under the "Fetch" settings.
+By default, iOS will only sync the calendar manually.
 
-Return to the previous screen and tap the Cloud Calendar in your account list. Ensure that its settings are set to Fetch.
+See [How to: Setup an iOS Device to fetch Cloud Calendar automatically](../how-to/cloud-calendar-iphone-fetch.md) to setup your device to keep everything in sync.
 
 However, even with those settings, sometimes you'll find you just need to refresh the calendar manually. To do so, open the Calendar app, tap "Calendars" in the bottom middle of the screen, then pull down and release to refresh. This should force the calendar app to fetch a fresh version of your Cloud Calendar file.
 
@@ -42,7 +42,7 @@ You may be able to find apps in your devices app store that support subscription
 
 + **Microsoft Windows:** Outlook, included as a part of Microsoft Office, allows you to add internet calendars.
   
-+ **Android:** ICSDroid is a paid app, in no way affiliated with REV23, that helps eliminate the delay of Google Calendar updating your REV23 Cloud Calendar. This app allows you to sync an internet calendar directly to the device, and many REV23 users have reported success with it.
++ **Android:** 	ICSx⁵ is a paid app, in no way affiliated with REV23, that helps eliminate the delay of Google Calendar updating your REV23 Cloud Calendar. This app allows you to sync an internet calendar directly to the device, and many REV23 users have reported success with it.
 
 ## Related
 - [Concepts: Users](users.md)

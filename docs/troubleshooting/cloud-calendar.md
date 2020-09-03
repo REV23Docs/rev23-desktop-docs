@@ -7,7 +7,7 @@ First, let's talk a little bit about how Cloud Calendar works so you can better 
 When enabled for a user, the REV23 Desktop Integration Service periodically generates a file using the iCal standard format and uploads this file to REV23's Cloud. This file contains user's future appointments and some duration of past appointments. This is where our involvement ends. Your device then "subscribes" to this file and should update its calendar with the contents of this file. We can't control what the device does, so as long as that file exists on our server there isn't much we can do from our side.
 
 ### iOS Auto Fetch
-Most iOS users simply forget to configure the Fetch settings to automatically update their device. See [Concepts: Cloud Calendar](../concepts/cloud-calendar.md#ios-auto-fetch).
+Most iOS users simply forget to configure the Fetch settings to automatically update their device. See [How to: Setup an iOS Device to fetch Cloud Calendar automatically](../how-to/cloud-calendar-iphone-fetch.md).
 
 ### Check Integration Service
 
