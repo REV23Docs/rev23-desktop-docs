@@ -18,6 +18,8 @@ Follow these steps to make sure your device is always in sync!
 
 ![REV23 Desktop](img/cloud-calendar-ios-fetch-3.jpg)
 
+## Configure Fetch
+
 Here are the important steps to ensure your device stays up to date!
 
 4. Open the Settings app on your device.
