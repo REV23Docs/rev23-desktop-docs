@@ -1492,9 +1492,10 @@
     Via Direct SQL Connection
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Via Direct SQL Connection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#preparation" class="md-nav__link">
     Preparation
   </a>
@@ -1527,25 +1528,30 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configuration" class="md-nav__link">
     Configuration
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#add-on-pc-configuration" class="md-nav__link">
     Add-on PC Configuration
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#troubleshooting" class="md-nav__link">
     Troubleshooting
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2935,9 +2941,10 @@
     Via Direct SQL Connection
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Via Direct SQL Connection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#preparation" class="md-nav__link">
     Preparation
   </a>
@@ -2970,25 +2977,30 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configuration" class="md-nav__link">
     Configuration
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#add-on-pc-configuration" class="md-nav__link">
     Add-on PC Configuration
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#troubleshooting" class="md-nav__link">
     Troubleshooting
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -3022,13 +3034,13 @@
 <blockquote>
 <p>REV23 can configure remote connections via direct SQL connection for you as a paid service by clicking <a href="https://www.rev23.com/cart/addtocart?productVariantId=7e6e8981-6ed4-4227-bc71-cf6f73abe445">here</a>, or you can use the guidance below.</p>
 </blockquote>
-<h2 id="preparation">Preparation</h2>
+<h3 id="preparation">Preparation</h3>
 <p>The following preparation should take place on your Main PC. If you decide to pay REV23 to perform this configuration for you, you will still need to perform these pre-requisites first.</p>
-<h3 id="connection">Connection</h3>
+<h4 id="connection">Connection</h4>
 <ul>
 <li>Your Main PC should be plugged into ethernet if possible and not using Wi-Fi. Note that if you set this up on Wi-Fi, then later change to ethernet, this configuration will need to be changed on the router. Wi-Fi speeds for remote connections are much slower than if hard wired.</li>
 </ul>
-<h3 id="isp">ISP</h3>
+<h4 id="isp">ISP</h4>
 <ul>
 <li>
 <p>You should get a static IP from your ISP. This is a paid feature of your internet service, however it makes things more consistent and stable.</p>
@@ -3037,7 +3049,7 @@
 <p>Or, if you chose not to get a static IP from your ISP you will need some type of dynamic DNS service, such as <a href="https://account.dyn.com/">Dyn</a> or no-ip.org. Check which (if any) your router supports, and select from that list. Otherwise, <a href="https://account.dyn.com/">Dyn</a> offers a Windows Update Client that runs in the background on your main PC and will update your hostname with any changes to your public IP address. If REV23 performs this config, we usually assist you with setting up <a href="https://account.dyn.com/">Dyn</a>.</p>
 </li>
 </ul>
-<h3 id="router-login-information">Router Login Information</h3>
+<h4 id="router-login-information">Router Login Information</h4>
 <ul>
 <li>
 <p>Ensure you can log onto your router&rsquo;s administrative page. In the majority of cases you&rsquo;ll find this by opening a browser to http://192.168.1.1 or http://10.1.10.1. You can also do an internet search for your make/model of router and find that information easily. If neither of these work you can find this with the following steps.</p>
@@ -3057,7 +3069,7 @@
 </ol>
 </li>
 </ul>
-<h2 id="configuration">Configuration</h2>
+<h3 id="configuration">Configuration</h3>
 <ol>
 <li>
 <p>Ensure the Network Profile in Windows settings is set to <strong>Private</strong>. In the latest versions of Windows 10 this can be done by clicking the Network icon in the bottom right corner, selecting Properties on the network you are connected to, then making sure this is set to Private and not Public.</p>
@@ -3098,7 +3110,7 @@
 </li>
 </ol>
 <p>If your test succeeds you are finished! You will now need to configure your add-on PC with the proper connection information for accessing your main PC from outside of the studio.</p>
-<h2 id="add-on-pc-configuration">Add-on PC Configuration</h2>
+<h3 id="add-on-pc-configuration">Add-on PC Configuration</h3>
 <p>If you are already at the screen asking for connection details this information is the same as the information that was provided to you when you setup <a href="../enhanced-connections/">Enhanced Connections</a> with one difference. You will need to set the Server Name to be your public static IP address or your dynamic DNS hostname, followed by a comma, then the number 1533.</p>
 <p>For example:</p>
 <ul>
@@ -3115,7 +3127,7 @@
 <li>Click OK and close the connection dialog.</li>
 </ol>
 <p>When you open REV23 Desktop again you will be prompted for which connection to use. Select the appropriate one for the environment you are in (in studio or out of studio).</p>
-<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="troubleshooting">Troubleshooting</h3>
 <ul>
 <li>
 <p>If you&rsquo;re running separate security software on your main PC disable it and try again. If the connection works you will need to independently configure it to allow these connections.</p>
