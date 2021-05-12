@@ -182,7 +182,8 @@ nav:
       - 'How to: Restore your database': how-to/restore-your-database.md
       - 'How to: Migrate data to a new PC': how-to/migrate-data-to-a-new-pc.md
       - 'How to: Recover from PC crashes': how-to/recover-from-pc-crashes.md
-      - 'How to: Reset user interface to defaults': how-to/reset-user-interface-defaults.md  
+      - 'How to: Reset user interface to defaults': how-to/reset-user-interface-defaults.md
+      - 'How to: Configure iOS for Cloud Calendar': how-to\cloud-calendar-ios-fetch.md
     - Reference:
       - 'Appointments': reference/appointments.md
       - 'Customers': reference/customers.md

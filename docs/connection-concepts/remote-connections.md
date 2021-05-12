@@ -4,25 +4,32 @@ In order for you to connect to your REV23 Desktop database from an add-on PC whi
 
 By enabling [Enhanced Connections](enhanced-connections.md) you've done most of the heavy lifting. The remaining process must happen on your router where the main PC is located (most commonly, at your studio). This guide gives a very high level overview of how to perform this configuration. 
 
+## Via VPN (Virtual Private Network)
+VPN is the recommended method for remote connections for REV23 Desktop, however this is more complex and cannot be setup by REV23;  you will need to find someone to assist you with this. When connecting with VPN there are no extra steps from [Enhanced Connections](enhanced-connections.md).
+
+## Via Direct SQL Connection
+
+> While easier to configure (and the only way REV23 can assist with), this method is not recommended for security purposes. VPN is the recommended approach for studio's connecting remotely.
+
 **If you are not confident in performing these steps do not proceed on your own. Most local 'computer guys' will be able to follow this guide with ease and help you.**
 
-> REV23 can configure this for you as a paid service by clicking [here](https://www.rev23.com/cart/addtocart?productVariantId=7e6e8981-6ed4-4227-bc71-cf6f73abe445), or you can use the guidance below.
+> REV23 can configure remote connections via direct SQL connection for you as a paid service by clicking [here](https://www.rev23.com/cart/addtocart?productVariantId=7e6e8981-6ed4-4227-bc71-cf6f73abe445), or you can use the guidance below.
 
-## Preparation
+### Preparation
 
 The following preparation should take place on your Main PC. If you decide to pay REV23 to perform this configuration for you, you will still need to perform these pre-requisites first.
 
-### Connection
+#### Connection
 
 + Your Main PC should be plugged into ethernet if possible and not using Wi-Fi. Note that if you set this up on Wi-Fi, then later change to ethernet, this configuration will need to be changed on the router. Wi-Fi speeds for remote connections are much slower than if hard wired.
 
-### ISP
+#### ISP
 
 + You should get a static IP from your ISP. This is a paid feature of your internet service, however it makes things more consistent and stable.
 
 + Or, if you chose not to get a static IP from your ISP you will need some type of dynamic DNS service, such as [Dyn](https://account.dyn.com/) or no-ip.org. Check which (if any) your router supports, and select from that list. Otherwise, [Dyn](https://account.dyn.com/) offers a Windows Update Client that runs in the background on your main PC and will update your hostname with any changes to your public IP address. If REV23 performs this config, we usually assist you with setting up [Dyn](https://account.dyn.com/).
 
-### Router Login Information
+#### Router Login Information
 
 + Ensure you can log onto your router's administrative page. In the majority of cases you'll find this by opening a browser to http://192.168.1.1 or http://10.1.10.1. You can also do an internet search for your make/model of router and find that information easily. If neither of these work you can find this with the following steps.
 
@@ -35,7 +42,7 @@ The following preparation should take place on your Main PC. If you decide to pa
 
     5. Ensure you know the admin username and password. In most cases, this is `admin` and `password` respectively. If this is the case, you should also take the time to change this password.
 
-## Configuration
+### Configuration
 
 1. Ensure the Network Profile in Windows settings is set to **Private**. In the latest versions of Windows 10 this can be done by clicking the Network icon in the bottom right corner, selecting Properties on the network you are connected to, then making sure this is set to Private and not Public.
 
@@ -57,7 +64,7 @@ The following preparation should take place on your Main PC. If you decide to pa
 
 If your test succeeds you are finished! You will now need to configure your add-on PC with the proper connection information for accessing your main PC from outside of the studio.
 
-## Add-on PC Configuration
+### Add-on PC Configuration
 
 If you are already at the screen asking for connection details this information is the same as the information that was provided to you when you setup [Enhanced Connections](enhanced-connections.md) with one difference. You will need to set the Server Name to be your public static IP address or your dynamic DNS hostname, followed by a comma, then the number 1533.
 
@@ -77,7 +84,7 @@ If you attempt this in the studio and it fails, this is most likely because your
 
 When you open REV23 Desktop again you will be prompted for which connection to use. Select the appropriate one for the environment you are in (in studio or out of studio).
 
-## Troubleshooting
+### Troubleshooting
 
 + If you're running separate security software on your main PC disable it and try again. If the connection works you will need to independently configure it to allow these connections.
 
