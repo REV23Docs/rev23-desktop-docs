@@ -3,7 +3,7 @@
 Well, the day is about at a close at Gotham City Tattoo & Piercing. Let's run a couple of reports to see how things look.
 
 1. Navigate to **Reports > Reports**.
-2. Double click the Employee Payout report to run it.
+2. Double click the Commissions report to run it.
 
     ![REV23 Desktop](img/report_preview.png)
 
@@ -14,9 +14,9 @@ Well, the day is about at a close at Gotham City Tattoo & Piercing. Let's run a 
 
     ![REV23 Desktop](img/report_payout.png)
 
-    The payout report contains information for each artist and the commissions they've earned during this time period. You can print this out and hand it to each artist with their check.
+    The Commissions Report contains information for each artist and the commissions they've earned during this time period. You can print this out and hand it to each artist with their check.
 
-5. Close the payout report.
+5. Close the Commissions report.
      
 6. Double click the Deposits & Credits report. Again, set a Start and End Date in the Parameters panel, and click the **Submit** button.
 
