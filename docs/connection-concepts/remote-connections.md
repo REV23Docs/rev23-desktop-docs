@@ -4,16 +4,16 @@ In order for you to connect to your REV23 Desktop database from an add-on PC whi
 
 By enabling [Enhanced Connections](enhanced-connections.md) you've done most of the heavy lifting. The remaining process must happen on your router where the main PC is located (most commonly, at your studio). This guide gives a very high level overview of how to perform this configuration. 
 
+**REV23 CANNOT PROVIDE FURTHER SUPPORT ON THIS THAN IS PROVIDED IN THIS DOCUMENTATION. CONSULT A LOCAL PC/NETWORK TECHNICIAN FOR FURTHER ASSISTANCE. THESE STEPS ARE EASILY ACCOMPLISHED WITH ONLY MINOR KNOWLEDGE OF YOUR ROUTER.**
+
 ## Via VPN (Virtual Private Network)
-VPN is the recommended method for remote connections for REV23 Desktop, however this is more complex and cannot be setup by REV23;  you will need to find someone to assist you with this. When connecting with VPN there are no extra steps from [Enhanced Connections](enhanced-connections.md).
+VPN is the recommended, though less common method for remote connections for REV23 Desktop. When connecting with VPN there should be no extra steps from [Enhanced Connections](enhanced-connections.md).
 
 ## Via Direct SQL Connection
 
-> While easier to configure (and the only way REV23 can assist with), this method is not recommended for security purposes. VPN is the recommended approach for studio's connecting remotely.
+While easier to configure and the most common, this method is not recommended for security purposes. VPN is the recommended approach for studio's connecting remotely.
 
 **If you are not confident in performing these steps do not proceed on your own. Most local 'computer guys' will be able to follow this guide with ease and help you.**
-
-> REV23 can configure remote connections via direct SQL connection for you as a paid service by clicking [here](https://www.rev23.com/cart/addtocart?productVariantId=7e6e8981-6ed4-4227-bc71-cf6f73abe445), or you can use the guidance below.
 
 ### Preparation
 
@@ -89,5 +89,3 @@ When you open REV23 Desktop again you will be prompted for which connection to u
 + If you're running separate security software on your main PC disable it and try again. If the connection works you will need to independently configure it to allow these connections.
 
 + If your connection used to work and is suddenly broken, verify this configuration again. Generally this is caused by the Windows network profile changing, or a change to your public IP address (which is why you should get a static IP).
-
-> REV23 can assist you with this process as a paid service by clicking [here](https://www.rev23.com/cart/addtocart?productVariantId=7e6e8981-6ed4-4227-bc71-cf6f73abe445). We cannot provide troubleshooting through TeamViewer without charging for it as it takes way too much of our time.
