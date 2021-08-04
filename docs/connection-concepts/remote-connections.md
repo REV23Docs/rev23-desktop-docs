@@ -17,7 +17,7 @@ While easier to configure and the most common, this method is not recommended fo
 
 ### Preparation
 
-The following preparation should take place on your Main PC. If you decide to pay REV23 to perform this configuration for you, you will still need to perform these pre-requisites first.
+The following preparation should take place on your Main PC.
 
 #### Connection
 
@@ -27,7 +27,7 @@ The following preparation should take place on your Main PC. If you decide to pa
 
 + You should get a static IP from your ISP. This is a paid feature of your internet service, however it makes things more consistent and stable.
 
-+ Or, if you chose not to get a static IP from your ISP you will need some type of dynamic DNS service, such as [Dyn](https://account.dyn.com/) or no-ip.org. Check which (if any) your router supports, and select from that list. Otherwise, [Dyn](https://account.dyn.com/) offers a Windows Update Client that runs in the background on your main PC and will update your hostname with any changes to your public IP address. If REV23 performs this config, we usually assist you with setting up [Dyn](https://account.dyn.com/).
++ Or, if you chose not to get a static IP from your ISP you will need some type of dynamic DNS service, such as [Dyn](https://account.dyn.com/) or no-ip.org. Check which (if any) your router supports, and select from that list. Otherwise, [Dyn](https://account.dyn.com/) offers a Windows Update Client that runs in the background on your main PC and will update your hostname with any changes to your public IP address.
 
 #### Router Login Information
 
