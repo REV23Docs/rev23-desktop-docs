@@ -30,7 +30,7 @@ Provider | Host | Port | Use SSL | Requires Auth | Notes
 --- | --- | --- | --- | --- | ---
 Outlook/Hotmail | smtp.live.com | 587 | Yes | Yes |
 Office 365 | smtp.office365.com | 587 | Yes | Yes |
-Gmail | smtp.gmail.com | 587 | Yes | Yes | You will need to enable Less Secure Apps in your Google Account in order to send emails from REV23 Desktop. See [Less Secure Apps](https://www.google.com/settings/security/lesssecureapps) on Google.
+Gmail | smtp.gmail.com | 587 | Yes | Yes | You will need to enable 2-Step Verification and use an App Password to send email from REV23 Desktop. See [Sign In With App Passwords](https://support.google.com/accounts/answer/185833).
 Yahoo! | smtp.mail.yahoo.com | 587 | Yes | Yes | You will need to enable Less Secure Apps in your Yahoo Account in order to send emails from REV23 Desktop. See [Less Secure Apps](https://login.yahoo.com/account/security) on Yahoo.
 
 ## Connected Studio Behavior

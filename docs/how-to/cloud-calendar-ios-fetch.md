@@ -26,23 +26,25 @@ Here are the important steps to ensure your device stays up to date!
 
 ![REV23 Desktop](img/cloud-calendar-ios-fetch-4.jpg)
 
-5. Tap 'Passwords & Accounts'
+5. Tap 'Calendar'
 
-![REV23 Desktop](img/cloud-calendar-ios-fetch-5.jpg)
+6. Tap 'Accounts'
 
-6. Tap 'Fetch New Data' at the bottom of this screen.
+> Apple tends to move this around every iOS release. This document is for iOS v15.4. In previous versions this was in "Passwords & Accounts" Some screenshots may not always match.
+
+7. Tap 'Fetch New Data' at the bottom of this screen.
 
 ![REV23 Desktop](img/cloud-calendar-ios-fetch-6.jpg)
 
-7. In the Fetch New Data screen, set the schedule to the desired time to sync. Hourly, Every 30 minutes, or Every 15 minutes. This must be set. Selecting 'Automatically' will not keep your REV23 Desktop Cloud Calendar in sync!!!
+8. In the Fetch New Data screen, set the schedule to the desired time to sync. Hourly, Every 30 minutes, or Every 15 minutes. This must be set. Selecting 'Automatically' will not keep your REV23 Desktop Cloud Calendar in sync!!!
 
 ![REV23 Desktop](img/cloud-calendar-ios-fetch-7.jpg)
 
-8. Next, tap your REV23 Desktop Cloud Calendar in the list of subscribed calendars.
+9. Next, tap your REV23 Desktop Cloud Calendar in the list of subscribed calendars.
 
 ![REV23 Desktop](img/cloud-calendar-ios-fetch-8.jpg)
 
-9. Change this the Schedule to 'Fetch'
+10. Change this the Schedule to 'Fetch'
 
 ![REV23 Desktop](img/cloud-calendar-ios-fetch-9.jpg)
 
