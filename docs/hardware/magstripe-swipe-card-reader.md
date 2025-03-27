@@ -8,13 +8,9 @@ No device driver is necessary for the Magstripe Swipe Card Reader for use in REV
 
 In order to work properly with REV23 Desktop, the Magstripe Swipe Card Reader must be using Keyboard Emulation, not HID  (Human Interface Device). Most magstripe swipe card readers shipped by REV23 are already configured for Keyboard Emulation, but every once in a while, we will ship one pre-configured for HID based on our stock status.
 
-You can test if your magstripe swipe card reader is using Keyboard Emulation mode by opening Notepad (notepad.exe) and swiping a card. Does text 'type' into the window? If not, the device may be in HID mode. Luckily, this is easily fixed using one of the methods below.
+You can test if your magstripe swipe card reader is using Keyboard Emulation mode by opening Notepad (notepad.exe) and swiping a card. Does text 'type' into the window? If not, the device may be in HID mode. Luckily, this is easily fixed using one of the method below.
 
-### Method #1
-Using Internet Explorer only, https://www.magtek.com/changemode/ and use the Change device mode button. Once complete, test in Notepad again. Everything should be configured properly. If this fails, proceed to Method 2.
-
-### Method #2
-Sometimes, Method #1 doesn't work for various reasons. Here is the slightly longer work around. Follow the directions carefully.
+Follow the directions carefully.
 
  Download Demo Program Direct: https://www.magtek.com/Content/SoftwarePackages/99510026.exe
  Alternate (Download the Demo Program): https://www.magtek.com/support/sureswipe?tab=software
@@ -25,7 +21,7 @@ Sometimes, Method #1 doesn't work for various reasons. Here is the slightly long
 
     | Operating System | Instructions |
     | --- | --- |
-    | **Windows 10** | Type USBMSR Demo in the search box on the taskbar, and then select USBMSR Demo. | 
+    | **Windows 10/11** | Type USBMSR Demo in the search box on the taskbar, and then select USBMSR Demo. | 
     | **Windows 8.1** | Swipe in from the right edge of the screen, tap Search (or if you're using a mouse, point to the lower-right corner of the screen, move the mouse pointer up, and then click Search), enter USBMSR Demo in the search box, and then tap or click USBMSR Demo. |
     | **Windows 7** | Click the Start button. In the search box, type USBMSR Demo, and then, in the list of results, click USBMSR Demo. |
 
