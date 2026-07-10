@@ -93,7 +93,7 @@ Note: This property is only visible if the Points Type is set to Custom.
 
 **Create Follow Up Task:** If checked, a task will be created when the service is finished and will be assigned to the artist/piercer for them to follow up with the client.
 
-**Send Text/Email Follow-up:** If checked, the Virtual Receptionist will run its default follow-up flow for text and email reminders for this service type. Uncheck this for service types that do not require follow-ups.
+**Send Text/Email Follow-up:** If checked, the Virtual Receptionist will run its default follow-up flow for email reminders for this service type. Uncheck this for service types that do not require follow-ups.
 
 See [Service Follow-Ups](../concepts/service-follow-ups.md) for more information.
 

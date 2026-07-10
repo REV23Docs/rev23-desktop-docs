@@ -56,7 +56,7 @@ Customers and Employees are both based on a Person object and share several comm
 
 **Mobile:** The person's mobile phone number.
 
-**Mobile Provider:** The person's SMS gateway. This, along with their mobile phone number is required in order to send text messages to the person.
+**Mobile Provider:** The person's SMS gateway, previously used to send text messages. [REV23 Desktop can no longer send text messages](../how-to/create-twilio-account.md).
 
 **Emergency:** An emergency contact number for the person.
 

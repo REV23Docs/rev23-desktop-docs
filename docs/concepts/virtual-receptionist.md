@@ -6,7 +6,7 @@ You can activate or deactivate the desired workflows in [Configuration: Virtual 
 
 ## Configure Email Settings
 
-The most common use of the Virtual Receptionist is sending emails and text messages. These messages are sent via your own email accounts SMTP server and the virtual receptionist needs to be configured with that information. You can easily obtain your SMTP settings from your provider (they will know what this means). There is also a list of common providers in [Configuration: Virtual Receptionist Options](../configuration/virtual-receptionist-options.md#common-smtp-settings).
+The most common use of the Virtual Receptionist is sending emails. These messages are sent via your own email account's SMTP server and the virtual receptionist needs to be configured with that information. You can easily obtain your SMTP settings from your provider (they will know what this means). There is also a list of common providers in [Configuration: Virtual Receptionist Options](../configuration/virtual-receptionist-options.md#common-smtp-settings).
 
 1. Navigate to **Configuration > Virtual Receptionist Options** and supply your SMTP information. You can attempt to use the **Detect Email Settings** button to automatically detect these settings.
 
@@ -20,7 +20,7 @@ The most common use of the Virtual Receptionist is sending emails and text messa
 
 ## Analyze Virtual Receptionist History
 
-Each time a Virtual Receptionist Workflow runs for an object, it records information about the execution such as whether it completed (finished) or aborted (failed). If there is ever a question as to whether a particular workflow ran for a specific object (i.e. was the customer sent a text message reminder for this appointment?) you can look at the Virtual Receptionist History to determine what happened.
+Each time a Virtual Receptionist Workflow runs for an object, it records information about the execution such as whether it completed (finished) or aborted (failed). If there is ever a question as to whether a particular workflow ran for a specific object (i.e. was the customer sent an email reminder for this appointment?) you can look at the Virtual Receptionist History to determine what happened.
 
 1. Select the object you wish to analyze, such as an appointment.
 2. Click the **Show Virtual Receptionist History** action.

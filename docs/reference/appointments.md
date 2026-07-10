@@ -24,7 +24,7 @@
 
 **Send Email Reminder:**
 
-**Send Text Message Reminder**
+**Send Text Message Reminder:** Text messaging is no longer available in REV23 Desktop. See [Text messaging in REV23 Desktop](../how-to/create-twilio-account.md).
 
 **Notes:**
 

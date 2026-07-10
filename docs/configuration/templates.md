@@ -14,10 +14,10 @@ Templates are special documents in REV23 Desktop that contain placeholders (fiel
 
 **Data Type:** The data type indicates what type of object the template will be used for. This value  controls which property will show up in the Template Designer.
 
-+ _Appointment_: Used for templates such as email & text message appointment reminders. Gives you access to properties related to a single appointment.
++ _Appointment_: Used for templates such as email appointment reminders. Gives you access to properties related to a single appointment.
 + _Customer_: Generic template for a customer record, such as a letter directly to the customer.
 + _Service_: Used for consent forms and aftercare instructions. Gives you access to properties related to a single service.
-+ _Special Order Item_: Used for email & text message communications for alerting customers that their special order has arrived.
++ _Special Order Item_: Used for email communications for alerting customers that their special order has arrived.
 
 ## Actions
 

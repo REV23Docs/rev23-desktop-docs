@@ -54,7 +54,7 @@ Open Related Record is only available on properties that are a link to another o
 
 You can find the Show Virtual Receptionist History action in the Home tab of the ribbon in the Workflow group of any list view or detail view.
 
-This is useful if you are alerted by a customer that they did not receive their text message or email appointment reminder. You can find their appointment, execute this action and see if that workflow ran or not and if so if it Completed, meaning they should have received it, or Aborted, meaning there was a problem when that workflow was run.
+This is useful if you are alerted by a customer that they did not receive their email appointment reminder. You can find their appointment, execute this action and see if that workflow ran or not and if so if it Completed, meaning they should have received it, or Aborted, meaning there was a problem when that workflow was run.
 
 ## Records Navigation
 

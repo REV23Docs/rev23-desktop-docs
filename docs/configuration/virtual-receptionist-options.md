@@ -4,7 +4,7 @@ The Virtual Receptionist Options configuration allows you to provide additional 
 
 ## SMTP Server
 
-SMTP Servers are outgoing mail servers, supplied by your email provider, which allow you to send email from your smartphone, desktop email clients such as Outlook, or in this case, REV23 Desktop. An SMTP server is required to send emails and text messages from the Virtual Receptionist. You can add an SMTP server, or multiple servers if you have more than one studio sharing your database, and assign it to your Virtual Receptionist Options. REV23 Desktop can attempt to detect these settings for you, or you can enter them yourself. These settings should be easily discoverable by checking with your email provider. You can also check our list of Common SMTP Server Settings.
+SMTP Servers are outgoing mail servers, supplied by your email provider, which allow you to send email from your smartphone, desktop email clients such as Outlook, or in this case, REV23 Desktop. An SMTP server is required to send emails from the Virtual Receptionist. You can add an SMTP server, or multiple servers if you have more than one studio sharing your database, and assign it to your Virtual Receptionist Options. REV23 Desktop can attempt to detect these settings for you, or you can enter them yourself. These settings should be easily discoverable by checking with your email provider. You can also check our list of Common SMTP Server Settings.
 
 ### Properties
 

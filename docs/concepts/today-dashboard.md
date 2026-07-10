@@ -8,7 +8,7 @@ The Today Dashboard is the default view when opening REV23 Desktop.
 The agenda view shows scheduled appointments for the current day. Once an appointment has been started using the **Start Service** action, it will be removed from the Agenda.
 
 ## Queue
-The queue shows current items in the [walk-in queue](walk-in-queue.md). You can quickly add a new walk-in using the **New Walk-In (Queued)** action. From the queue you can Page the customer by sending them a text message, or remove them from the queue if they changed their mind or did not return.
+The queue shows current items in the [walk-in queue](walk-in-queue.md). You can quickly add a new walk-in using the **New Walk-In (Queued)** action, or remove customers from the queue if they changed their mind or did not return.
 
 ## Services
 The services list shows services that are currently in progress or have completed for the day.

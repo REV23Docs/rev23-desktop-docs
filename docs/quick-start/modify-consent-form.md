@@ -2,7 +2,7 @@
 
 We noticed a few things on the release form earlier that we'd like to change, so now seems like a good time to get that taken care of.
 
-Consent and Aftercare forms, as well as other various bits of text, such as the text message and email appointment reminders, exist as Templates, which we will edit using the **Template Designer**.
+Consent and Aftercare forms, as well as other various bits of text, such as the email appointment reminders, exist as Templates, which we will edit using the **Template Designer**.
 
 > You must be logged in as the Administrator user or a user having the Manager role assigned to proceed with this topic.
 

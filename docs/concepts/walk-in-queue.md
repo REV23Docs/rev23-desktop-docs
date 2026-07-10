@@ -1,6 +1,6 @@
 # Walk-in Queue
 
-The Walk-in Queue is a feature intended for shops with medium to high volume to help you manage customers currently in your studio waiting for walk-in availability. If you customer has left the building while waiting you can send them a text message page to summon them back to your studio. When ready to perform the service you can start a Service record directly from the queue to copy all relevant details and remove the item from the queue.
+The Walk-in Queue is a feature intended for shops with medium to high volume to help you manage customers currently in your studio waiting for walk-in availability. When ready to perform the service you can start a Service record directly from the queue to copy all relevant details and remove the item from the queue.
 
 If your studio does not need the benefits of the Walk-in Queue, you can disable it in [Configuration: My Studio: Options](../configuration/my-studio.md/#service-options).
 
@@ -17,9 +17,8 @@ At a minimum, a **Customer** and **Service Type** are required, however you can 
 
 ### Paging a customer
 
-If the customer has a mobile phone number specified, you can page them (send a text message) when you're ready for them to return to the studio by clicking the **Page Customer** action.
-
-> You can customize the content of the text message in [Configuration: Custom Texts](../configuration/custom-texts.md) using key names `SERVICEQUEUE_PAGE_SMS_TEXT` and `SERVICEQUEUE_PAGE_SMS_SUBJECT`.
+!!! warning "Text message paging is no longer available"
+    The **Page Customer** action sent a text message to summon a waiting customer back to your studio. Because [REV23 Desktop can no longer send text messages](../how-to/create-twilio-account.md) due to carrier A2P 10DLC requirements, this feature no longer works. Text-based customer communication is fully supported in [REV23 Cloud](https://cloud.rev23.com).
 
 ### Removing a customer from the queue
 

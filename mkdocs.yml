@@ -176,7 +176,7 @@ nav:
       - 'Email (SMTP)': troubleshooting/smtp.md
       - 'Health Inspector': troubleshooting/health-inspector.md
     - Task Based Help:
-      - 'How to: Create a Twilio Account': how-to/create-twilio-account.md
+      - 'Text messaging in REV23 Desktop': how-to/create-twilio-account.md
       - 'How to: Import customers': how-to/import-customers.md
       - 'How to: Add required fields': how-to/add-required-fields.md
       - 'How to: Backup your database': how-to/backup-your-database-manually.md

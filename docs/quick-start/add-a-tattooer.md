@@ -16,7 +16,7 @@ Since Harley is the user who installed REV23 Desktop and went through the setup 
 
     - **User Name:** User name is required. Usually a first name will be acceptable, or first initial + last name. Whatever works for you!
     - **Email address:** Preferably one they can check using their mobile device. If you're going to set them up to see their schedule from their phone, this is the email address the instructions will go to.
-    - **Mobile Phone + Provider:** This will allow this user to receive text messages from the system, for example if a client cancels an appointment within 24-hours, the artist can be notified by text.
+    - **Mobile Phone + Provider:** The user's mobile phone number and carrier.
     - **Use Calendar:** Whether this person will be visible on the shop's calendar.
     - **Display Color:** The appearance of this user on the schedule.
     - **Display Order:** The order in which the user will appear on the schedule. The lower the number, the earlier they appear.

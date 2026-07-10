@@ -30,7 +30,7 @@ Gotham City Police Commissioner, Jim Gordon was out for a run when he passed the
     - **Name:** Required. First and Last Name.
     - **Birthday**: Recommended. By obtaining this now, we can avoid having a scenario later when he comes in to get tattooed and REV23 Desktop thinks he is underage and requires a guardian. However, there is an easy fix for that!
     - **Email:** Recommended for email reminders.
-    - **Mobile phone + Provider:** Recommended for text message reminders.
+    - **Mobile phone + Provider:** The customer's mobile phone number and carrier.
     - **Source**: Ask where the customer heard about your studio.
 
     ![REV23 Desktop](img/customer_detail_view_new_appointment.png)
@@ -51,7 +51,7 @@ We have a created a new appointment and a new customer that was added directly i
 
 > When creating new objects from another object, as we did with the customer in the appointment, if you were to Save the customer, however, discard the appointment before saving it, the customer record would *not* be saved to the database.
 
-We've now returned to the Scheduler. We can see icons on the appointment indicating a deposit was taken, and that the customer wants an email and text message reminder. If you've setup your email settings successfully in the Setup Wizard when you first installed REV23 Desktop, per the default settings, this client should receive a confirmation immediately once the appointment is saved, as well as another reminder 24 hours in advance of the appointment.
+We've now returned to the Scheduler. We can see icons on the appointment indicating a deposit was taken, and that the customer wants an email reminder. If you've setup your email settings successfully in the Setup Wizard when you first installed REV23 Desktop, per the default settings, this client should receive a confirmation immediately once the appointment is saved, as well as another reminder 24 hours in advance of the appointment.
 
 ![REV23 Desktop](img/scheduler_new_appointment_complete.png)
 
