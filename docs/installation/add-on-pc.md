@@ -17,6 +17,12 @@ See [Enhanced Connections](../connection-concepts/enhanced-connections.md) to ge
 If for some reason you need to alter the connect information (REV23 Desktop database was moved to another PC, need to change remote information, etc...) you can follow the steps below.
 
 1. **Close** REV23 Desktop.
+2. Hold the SHIFT key down on your keyboard.
+3. While holding the SHIFT key, open REV23 Desktop, keeping it held down until the Connection Information dialog appears, where you can update your connection.
+
+If you struggle with the SHIFT key method, you can follow this alternative method.
+
+1. **Close** REV23 Desktop.
 2. Open **File Explorer** on your PC and navigate to `C:\Program Files (x86)\REV23 Desktop`.
 3. In the file list of that directory locate `ResetConnection.cmd` and double-click to run.
 
