@@ -1,0 +1,19 @@
+---
+title: "How To: Automate backups"
+sidebar:
+  label: "How to: Automate backups"
+  order: 4
+---
+The REV23 Desktop database exists on the Main PC that REV23 is installed, not in the cloud. Users are responsible for their own backup. REV23 Desktop makes automated backups easy with the [Backup Service](/rev23-desktop-docs/server-concepts/backup-service/).
+
+1. Plug in an external USB hard drive to your main PC. 
+> Don't have an external hard drive? Buy one from REV23 [here](https://www.rev23.com/products/hardware/western-digital-wd-my-book-3-tb-external-hard-drive/).
+2. Ensure the external hard drive is formatted as **exFAT** or **NTFS**. See [External Hard Drives](/rev23-desktop-docs/hardware/external-hard-drives/#file-system).
+2. Open the [REV23 Desktop Control Panel](/rev23-desktop-docs/server-concepts/control-panel/).
+3. Click the **Backup Service** tile.
+4. Click the ellipses button `[...]` on the File Path editor.
+5. Select your external hard drive from the drive list.
+6. Click the New Folder button and create a new folder called REV23 Backups
+7. Click **OK**.
+
+Additionally, set the frequency which you want backups to be taken and any other options. See [Backup Service](/rev23-desktop-docs/server-concepts/backup-service/) for more information on these options.

@@ -1,0 +1,60 @@
+---
+import { logos } from 'virtual:starlight/user-images';
+import config from 'virtual:starlight/user-config';
+
+const { siteTitle, siteTitleHref } = Astro.locals.starlightRoute;
+---
+
+<a href={siteTitleHref} class="site-title sl-flex" aria-label={siteTitle}>
+	{
+		config.logo && logos.dark && (
+			<>
+				<img
+					class:list={{ 'light:sl-hidden print:hidden': !('src' in config.logo) }}
+					alt={config.logo.alt}
+					src={logos.dark.src}
+					width={logos.dark.width}
+					height={logos.dark.height}
+				/>
+				{!('src' in config.logo) && (
+					<img
+						class="dark:sl-hidden print:block"
+						alt={config.logo.alt}
+						src={logos.light?.src}
+						width={logos.light?.width}
+						height={logos.light?.height}
+					/>
+				)}
+			</>
+		)
+	}
+	<span class="product-label" translate="no">Desktop</span>
+</a>
+
+<style>
+	@layer starlight.core {
+		.site-title {
+			align-items: center;
+			gap: 0.75rem;
+			color: var(--sl-color-text);
+			text-decoration: none;
+			white-space: nowrap;
+			min-width: 0;
+		}
+		img {
+			height: 1.5rem;
+			width: auto;
+			max-width: 100%;
+			object-fit: contain;
+			object-position: 0 50%;
+		}
+		.product-label {
+			border-inline-start: 1px solid var(--sl-color-hairline);
+			padding-inline-start: 0.75rem;
+			font-size: var(--sl-text-sm);
+			font-weight: 500;
+			letter-spacing: -0.01em;
+			color: var(--sl-color-gray-2);
+		}
+	}
+</style>

@@ -331,3 +331,18 @@ ASALocalRun/
 
 # MKDocs site folder
 site/
+
+# Astro build output
+dist/
+.astro/
+
+# Node dependencies and logs
+node_modules/
+npm-debug.log*
+
+# Local environment files
+.env
+.env.production
+
+# macOS
+.DS_Store
