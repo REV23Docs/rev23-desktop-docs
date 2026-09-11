@@ -15,7 +15,9 @@ You can create a new walk-in by either:
 - Clicking the New Walk-in (Queued) action from the [Today Dashboard](/rev23-desktop-docs/concepts/today-dashboard/).
 - Clicking the New action in the Walk-in Queue List View.
 
-At a minimum, a **Customer** and **Service Type** are required, however you can fill out as much information as you'd like including **Placement Area** and **Design Description**. Any information you add here will be copied to the Service once its started.
+At a minimum, a **Customer** and **Service Type** are required. However, you can fill out as much information as you'd like, including **Placement Area** and **Design Description**. Any information you add here will be copied to the Service once it's started.
+
+When a customer is waiting for more than one service type, add the other requested procedures to **Additional Service Types**. This enables the **Start Services** action for starting them together as a [Service Group](/rev23-desktop-docs/concepts/service-groups/).
 
 ## Managing the queue
 
@@ -33,6 +35,12 @@ If the customer does not return or has decided to leave without getting a servic
 
 When you're ready to perform the service, click the **Start Service** action to copy all relevant information from the queue to a new service record.
 
+### Starting multiple services
+
+For a queue item with additional service types, click **Start Services**. REV23 Desktop opens the Service Group window with the customer, employee, guardian, and requested service types already selected. After the services are created, the queue item's status changes to **Started**.
+
 ## Related
+
 - [Concepts: Today Dashboard](/rev23-desktop-docs/concepts/today-dashboard/)
+- [Concepts: Service Groups](/rev23-desktop-docs/concepts/service-groups/)
 - [Reference: Walk-ins](/rev23-desktop-docs/reference/walk-ins/)

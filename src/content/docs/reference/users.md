@@ -8,6 +8,10 @@ sidebar:
 
 > See [**Persons**](/rev23-desktop-docs/reference/persons/) for shared properties of the user/employee object.
 
+**Enable clock-in/clock-out:** Enables Time Clock entries for this employee at the current studio.
+
+**Eligible for Tip Share:** Includes the employee in automatic tip-share distributions while they are clocked in at the current studio. This option is available when clock-in/clock-out is enabled. See [Tip Sharing](/rev23-desktop-docs/concepts/tip-sharing/).
+
 ## Actions
 
 ### Records Creation

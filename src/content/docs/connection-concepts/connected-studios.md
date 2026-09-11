@@ -17,9 +17,9 @@ In this scenario, both studios in California and New York are isolated and you c
 
 ## What is a Connected Studio?
 
-Connected studios are when a REV23 Desktop server is setup at one studio, and your other studios connect to it with Add-on PCs via Remote Connections.
+Connected studios use a REV23 Desktop server set up at one studio, while your other studios connect to it with Add-on PCs via Remote Connections.
 
-The big benefits to connected studios is the ability to share customers, employees, vendors, inventory items, templates, notes etc... as well as optionally making deposits and gift cards redeemable at any of your businesses. Even when connected, you can treat the studios as isolated if you'd prefer, meaning you don't have to mingle things, but the options are there for you should you chose to do so.
+The big benefits of connected studios are the ability to share customers, employees, vendors, inventory items, templates, notes, etc., as well as the option to make deposits and gift cards redeemable at any of your businesses. Even when connected, you can treat the studios as isolated if you'd prefer, meaning you don't have to mingle things, but the options are there should you choose to do so.
 
 There are some possible negative side effects when using connected studios, however. Because the database is physically in a different location, the connected studios that exist outside of the walls of the database are often a bit slower to perform tasks. There is a lot of data going back and forth, so the internet has to be fast and it has to be stable. When connected, there is only one database serving all locations from one physical location, one REV23 Desktop Control Panel and the Virtual Receptionist, Integration Service and Backup Service all handle each studio.
 
@@ -29,7 +29,7 @@ When working with connected studios you will choose the location in the same dat
 
 ## Deciding between Isolated or Connected studios
 
-Now, you have to decide how you want to setup each one. Once you chose a path it's not particularly easy to shift should you decide to change it later.
+Now, you have to decide how you want to set up each one. Once you choose a path, it's not particularly easy to shift should you decide to change it later.
 
 Use these guidelines to help you determine what might be a better fit for you. These are only guidelines, you're free to choose whichever implementation you'd like.
 
@@ -54,4 +54,4 @@ If some or all of these are true, Isolated Studios are probably the way to go.
 
 ### Mix and Match
 
-You may have studios that meet a little bit of each criteria. For example, you might have a few studio's geographically close where the artists do travel between them, and then have one on the other side of the country. Consider that you could use connected studios on one set, then isolate the others. The choice is completely up to you.
+You may have studios that meet a little bit of each criterion. For example, you might have a few studios geographically close to one another where the artists travel between them, and then have one on the other side of the country. You could use connected studios for one set, then isolate the others. The choice is completely up to you.

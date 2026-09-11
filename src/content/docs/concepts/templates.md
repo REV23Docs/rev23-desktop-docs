@@ -4,7 +4,7 @@ sidebar:
   label: "Templates"
   order: 10
 ---
-Templates are special documents in REV23 Desktop that contain placeholders (fields), which are filled with properties from a particular object. For example, consent forms are templates which contain fields from a service object, such as the customer's name, address, driver's licenses, etc... 
+Templates are special documents in REV23 Desktop that contain placeholders (fields), which are filled with properties from a particular object. For example, consent forms are templates that contain fields from a service object, such as the customer's name, address, driver's license, etc.
 
 Unlike most objects in REV23 Desktop, you create and edit a template's text using the [Template Designer](/rev23-desktop-docs/concepts/template-designer/) and do very little with the Template Detail View itself.
 
@@ -16,7 +16,7 @@ Unlike most objects in REV23 Desktop, you create and edit a template's text usin
 
 ## Translations
 
-Each Template can have a translated value for the recipients preferred language. To create a translation, click the New button in the Translations nested list view of the Template you wish to translate, select the Language and enter the value to use for that language. Then, use the Show Template Designer action on the each translation.
+Each Template can have a translated value for the recipient's preferred language. To create a translation, click the New button in the Translations nested list view of the Template you wish to translate, select the Language, and enter the value to use for that language. Then, use the Show Template Designer action on each translation.
 
 ## Related Topics
 

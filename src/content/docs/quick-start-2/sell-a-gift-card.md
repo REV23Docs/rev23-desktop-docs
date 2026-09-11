@@ -4,7 +4,7 @@ sidebar:
   label: "Sell a gift card"
   order: 1
 ---
-Our good friend Commissioner Gordon has popped in again. It's a good thing we're on his regular jogging route! His daughter, Barbara Gordon, has a birthday coming up. He overheard her talking with her friends about replacing her old naval ring with a some higher quality jewelry, and he'd like to purchase a Gotham City Tattoo & Piercing Gift Card for her as a gift.
+Our good friend Commissioner Gordon has popped in again. It's a good thing we're on his regular jogging route! His daughter, Barbara Gordon, has a birthday coming up. He overheard her talking with her friends about replacing her old navel ring with some higher quality jewelry, and he'd like to purchase a Gotham City Tattoo & Piercing Gift Card for her as a gift.
 
 > Note: REV23 Desktop compatible gift cards are required for this process. Find out more in the [Gift Cards](/rev23-desktop-docs/concepts/gift-cards/) topic.
 
@@ -16,7 +16,7 @@ Our good friend Commissioner Gordon has popped in again. It's a good thing we're
 
 3. Click the **Add Gift Card** action and swipe a fresh gift card to open a new Gift Card Detail View.
 
-    > Hint: If you do not yet have REV23 Desktop compatible gift cards or hardware, when REV23 Desktop is waiting for you to to swipe the gift card, press the letter 'G' on your keyboard to use demo data, which demonstrates a compatible pre-loaded card being swiped. You can also use the number `6023456789012345`. **DO NOT SELL THE DEMO GIFT CARD TO A REAL CUSTOMER. THE DEMO CARD IS FOR TEST PURPOSES ONLY.**
+    > Hint: If you do not yet have REV23 Desktop-compatible gift cards or hardware, when REV23 Desktop is waiting for you to swipe the gift card, press the letter 'G' on your keyboard to use demo data, which demonstrates a compatible preloaded card being swiped. You can also use the number `6023456789012345`. **DO NOT SELL THE DEMO GIFT CARD TO A REAL CUSTOMER. THE DEMO CARD IS FOR TEST PURPOSES ONLY.**
 
 4. Set the **Amount** editor to the desired amount and click **OK**. You can order pre-denominated gift cards that have this amount already specified in the magnetic stripe. If you've used the demo data, this value is already set.  Notice the Is Active checkbox editor is unchecked. As of right now, the gift card is not yet activated for use. You can leave this unchecked and REV23 Desktop will activate it once it has been paid for.
 

@@ -23,6 +23,12 @@ Customers and Employees are both based on a Person object and share several comm
 + Male
 + Female
 
+**Pronoun:** The person's pronouns. This setting is independent of the **Gender** property.
+
++ They/Them/Theirs
++ She/Her/Hers
++ He/Him/His
+
 **Ethnicity:** The ethnicity of the customer. Required by some health departments.
 
 + White

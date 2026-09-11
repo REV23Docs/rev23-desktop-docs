@@ -4,47 +4,44 @@ sidebar:
   label: "Deposits & Credits"
   order: 7
 ---
-REV23 combines the concepts of deposits and credits into a single object type for ease of use.
-
-While used the same, there are slight differences in how these different types behave and how they're created, but they both have the same goal, to reduce the balance of a sale.
-
-Each deposit/credit has a customer, as well as a starting balance.
-
-## Credits
-
-A credit is money that exists on a customer account that can be used towards the purchase of a tattoo, piercing or retail item. They can be created manually in the Deposits & Credits list view, or more commonly issued as part of a refund as an in-store credit.
+Deposits and credits hold value on a customer's account. Both can reduce the balance of a sale, but they enter the account in different ways.
 
 ## Deposits
 
-Deposits behave similar to credits with one key difference, in order to be created, the customer must make a payment in exchange for the deposit. Deposits can be created manually in the Deposits & Credits list view if it is floating (it does not have an appointment associated with it), or more commonly created as part of creating an appointment.
+A deposit is value the customer paid for in advance. It can be attached to an appointment or left floating on the customer's account. Creating a deposit requires a payment.
 
-## Reward Credits
+## In-store credits
 
-Reward credits are the same as credits with the exception that they are only created automatically by the [Points](/rev23-desktop-docs/concepts/points/) system. Reward credits cannot be created manually.
+An in-store credit is value issued by the studio. Credits can be created directly, issued during a refund, or created by the [referral program](/rev23-desktop-docs/concepts/referrals/).
 
-## Deposit/Credit History
+## Reward credits
 
-Each deposit/credit has a list of history items (found in the History tab). Each history item has an adjustment amount which alters the Available Balance of the deposit/credit. For instance, If a deposit started at $200, a history item of *Funds Removed* with an adjustment amount of *$50*, would reduce the **Available Balance** to $150.
+A reward credit is created automatically when the customer reaches the configured [points](/rev23-desktop-docs/concepts/points/) threshold. It cannot be created manually.
 
-You can manually create history items to adjust the balance as needed, but more commonly they will be created in a few ways.
+## Balance and history
 
-- Redeeming all or part of a deposit/credit on a sale.
-- Forfeiting a deposit/credit. For example, when a customer doesn't show up for an appointment.
-- Tipping an artist. The customer may choose to a remaining balance of their deposit as a tip for the artist.
+The original amount is the starting balance. Every later change is recorded as a history item, including funds applied to a sale, funds removed, a forfeiture, a refund, or a tip.
 
-## Deposit Policy
+Do not edit the original amount to correct the current balance. Add the appropriate history item so the reason and amount remain visible.
 
-The Deposit Policy is a custom text that appears on the deposit receipt.
+An expiration date makes the available balance $0 after that date. The [Deposits & Credits report](/rev23-desktop-docs/concepts/reports/#deposits--credits) shows the balance that expired.
 
-You can customize this text by navigating to **Configuration > Custom Texts** and altering the custom text with key name `DEPOSIT_POLICY`.
+## Deposit policy and agreement
 
-## Deposit Agreement
+The **Deposit Policy** is printed on the deposit receipt. Edit the custom text whose key is `DEPOSIT_POLICY` under **Configuration > Custom Texts**.
 
-You can optionally require a customer to sign a deposit agreement, using the signature pad, when taking a deposit with the Sign Deposit Agreement action. The deposit agreement provides the user with your defined terms of the deposit (such as no refunds or any other policies you have) and forces them to acknowledge and agree to them, they then provide their signature. The signature is stored in the database and printed on the deposit/credit receipt.
+**Sign Deposit Agreement** captures the customer's signature and stores it with the deposit. The agreement screen uses the custom text whose key is `SIGNATURE_PAD_DEPOSIT_AGREEMENT`.
 
-The text which appears on the signature pad that the customer must first acknowledge is defined by custom text using the `SIGNATURE_PAD_DEPOSIT_AGREEMENT` key name.
+If that custom text is empty, REV23 Desktop skips the agreement screen and goes directly to signature capture. This lets you collect a signature without presenting a separate acknowledgement on the pad.
+
+## Backdate a deposit or credit
+
+You can set **Date/Time** while creating the record. Changing it after the record has been saved requires a role with **Can Backdate**. The permission changes the date only; the balance must still be changed through history.
+
+Backdating changes the reports and business period that contain the deposit or credit. Verify the affected reports after the correction.
 
 ## Related
 
-- [Reference: Deposits/Credits](/rev23-desktop-docs/reference/deposits-credits/)
-- [Reference: Deposit/Credit History Items](/rev23-desktop-docs/reference/deposit-credit-history-items/)
+- [Deposit/Credit reference](/rev23-desktop-docs/reference/deposits-credits/)
+- [Deposit/Credit History Item reference](/rev23-desktop-docs/reference/deposit-credit-history-items/)
+- [Apply a deposit](/rev23-desktop-docs/quick-start/apply-a-deposit/)

@@ -35,7 +35,7 @@ Since Harley is the user who installed REV23 Desktop and went through the setup 
 
 ## Assign Roles
 
-[Roles](/rev23-desktop-docs/security-concepts/roles/) are groups of security permissions the user will be granted. In this case, we are going to assign the user to only to the Service Provider role. They will be able to see their own services, and schedule appointments for themselves, but other than that, they do not have much access to the system.
+[Roles](/rev23-desktop-docs/security-concepts/roles/) are groups of security permissions the user will be granted. In this case, we are going to assign the user only to the Service Provider role. They will be able to see their own services and schedule appointments for themselves, but other than that, they do not have much access to the system.
 
 5. Click the **Add Roles** action in the ribbon.
 
@@ -71,7 +71,7 @@ Since this user is a tattooer, we need to tell REV23 Desktop that she performs t
 
     **Save & Close** is one of the most common actions you will use in REV23 Desktop. It saves the current object to the database, but also Closes that window to return to the previous screen.
 
-    > Obviously, this would be time consuming to add a piercer's service types this way. Don't worry! We will demonstrate a shortcut to this in the next topic when we [add a piercer](/rev23-desktop-docs/quick-start/add-a-piercer/).
+    > Obviously, this would be time-consuming to add a piercer's service types this way. Don't worry! We will demonstrate a shortcut in the next topic when we [add a piercer](/rev23-desktop-docs/quick-start/add-a-piercer/).
 
 ## Finish
 

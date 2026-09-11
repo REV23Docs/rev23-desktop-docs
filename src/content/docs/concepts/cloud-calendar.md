@@ -15,7 +15,7 @@ REV23 Cloud Calendar is a feature that allows your artists to see, but not modif
 5. Optionally, check the **Customer contact information visible in Cloud Calendar** checkbox if you would like a client's email address and phone number to be visible in the schedule.
 6. Click the **Send Cloud Calendar Email** button.
 
-An email will be sent to the artist containing a unique link resembling the below link, as well as instructions on how to setup their device.
+An email will be sent to the artist containing a unique link resembling the one below, as well as instructions on how to set up their device.
 
 > **Sample Cloud Calendar Link:**  
 `webcal://blob.mytattoostudio.com/calendars/00000000-0000-0000-0000-000000000000.ics`
@@ -28,7 +28,7 @@ Tap each link in the received email and choose "Subscribe" when prompted. Depend
 
 By default, iOS will only sync the calendar manually.
 
-See [How to: Setup an iOS Device to fetch Cloud Calendar automatically](/rev23-desktop-docs/how-to/cloud-calendar-ios-fetch/) to setup your device to keep everything in sync.
+See [How to: Set Up an iOS Device to Fetch Cloud Calendar Automatically](/rev23-desktop-docs/how-to/cloud-calendar-ios-fetch/) to set up your device and keep everything in sync.
 
 However, even with those settings, sometimes you'll find you just need to refresh the calendar manually. To do so, open the Calendar app, tap "Calendars" in the bottom middle of the screen, then pull down and release to refresh. This should force the calendar app to fetch a fresh version of your Cloud Calendar file.
 

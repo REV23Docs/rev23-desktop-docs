@@ -4,26 +4,44 @@ sidebar:
   label: "Payments"
   order: 16
 ---
-Payments represent the money going in and out of your studio's cash drawer. 
+A payment records money entering or leaving the studio. Most payments are created while collecting a sale balance, taking a deposit, issuing a refund, or paying an employee.
 
-## Taking a payment
+The Payments list is the register for those transactions. Use it to review the amount, payment type, date, user, computer, reference, and the record that caused the payment.
 
-## Voiding payments
+## Take a payment
 
-## Payment Actions
+From a sale or deposit, click **Take Payment** and choose the payment type. REV23 Desktop creates the payment and links it to that sale or deposit.
 
-Payment actions will appear in the Payment List View and/or Payment Detail View.
+You can also create a payment from the Payments list when you need a standalone register entry. Confirm the direction, amount, payment type, and memo before saving it.
 
-### Records Creation Actions
+For integrated card processing, see [Credit Cards](/rev23-desktop-docs/concepts/credit-cards/).
 
-**Check Payout:** Beings a new check payout.
+## Void a payment
 
-**Cash Payout:** Begins a new cash payout.
+Use **Void** to correct a payment without deleting its history. For an integrated CardPointe transaction, REV23 Desktop also sends the void request to CardPointe. A transaction that can no longer be voided must be handled through the appropriate refund workflow.
 
-**No Sale:** Opens the cash drawer and records the no sale transaction in the register.
+## Backdate a payment
 
-**Void:** Voids the selected transaction. For credit card transactions, this action is only available if the transaction has not yet been settled.
+The **Date/Time** field can be set while creating a payment. Changing it after the payment has been saved requires a role with **Can Backdate**. The built-in Administrator, Manager, and Accountant roles include that permission.
 
-### View Actions
+Backdating changes the date range and business-hours period that contains the payment. Verify the affected register and reports after making the correction.
 
-**Open Payment Origin:** If a payment originates from another object, such as an invoice or deposit, this action will open the origin object. This action is only available if the payment has an origin object.
+## Payment actions
+
+**Check Payout:** Opens a full employee payout.
+
+**Cash Payout:** Opens a payout limited to eligible cash.
+
+**Tip Payout:** Opens a payout limited to tips.
+
+**No Sale:** Opens the cash drawer, when configured, and records a $0 no-sale entry.
+
+**Void:** Voids the selected payment.
+
+**Open Payment Origin:** Opens the sale, deposit, or payout that created the payment. The action appears only when an origin record exists.
+
+## Related
+
+- [Payouts](/rev23-desktop-docs/concepts/payouts/)
+- [Reports](/rev23-desktop-docs/concepts/reports/#payments)
+- [Roles](/rev23-desktop-docs/security-concepts/roles/#can-backdate)

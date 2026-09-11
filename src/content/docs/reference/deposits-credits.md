@@ -6,13 +6,13 @@ sidebar:
 ---
 ## Properties
 
-**Date/Time:** The date and time the deposit/credit was created. 
+**Date/Time:** The date and time assigned to the deposit/credit. After the record has been saved, changing this field requires **Can Backdate** permission.
 
 **Customer:** The customer that the deposit/credit was created for. 
 
 **Employee:** The user the deposit is intended for (who will be paid if the deposit is forfeit). This field is required for deposits only.
 
-**Type:** The type of the Deposit/Credit Object. It's value will be either **Deposit**, **In-Store Credit**, or **Reward Credit**. This field cannot be edited.
+**Type:** The type of the Deposit/Credit Object. Its value will be either **Deposit**, **In-Store Credit**, or **Reward Credit**. This field cannot be edited.
 
 **Amount:** The original amount of this deposit/credit. Do not edit this amount to alter the balance. Its balance should only be altered via its history.
 
@@ -30,16 +30,16 @@ sidebar:
 
 ### Record Edit
 
-**Refund Deposit**
+**Refund Deposit:** Starts a refund for the unused, refundable deposit balance.
 
 ### View
 
-**Show Payment**
+**Show Payment:** Opens the payment taken when the deposit was created.
 
 ### Detail View
 
-**Sign Deposit Agreement**
+**Sign Deposit Agreement:** Captures the customer's signature. If `SIGNATURE_PAD_DEPOSIT_AGREEMENT` is empty, REV23 Desktop skips the agreement text and opens signature capture directly.
 
 ### Print
 
-**Print Deposit/Credit Receipt**
+**Print Deposit/Credit Receipt:** Prints the receipt, including the deposit policy and captured signature when available.

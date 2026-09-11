@@ -4,7 +4,7 @@ sidebar:
   label: "Actions"
   order: 1
 ---
-Actions are clickable controls, generally buttons, but not always which perform a particular action. The most common actions you will use in REV23 Desktop are the New action, which will create a new record, and the Save & Close action, which will save the current record to the database and close that record's detail view.
+Actions are clickable controls, generally buttons but not always, that perform a particular action. The most common actions you will use in REV23 Desktop are the New action, which will create a new record, and the Save & Close action, which will save the current record to the database and close that record's detail view.
  
 Some common actions appear mostly everywhere. Other actions may be specific to the type of object you're working with.
  

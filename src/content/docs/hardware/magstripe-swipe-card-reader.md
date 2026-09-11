@@ -42,4 +42,4 @@ Follow the directions carefully.
 
 Your MagTek Swipe Card reader should now be set to Keyboard Emulation mode, which is the proper mode for REV23 Desktop.
 
-Once you've verified everything is working properly, you may uninstall the MakTek USBMSR Demo from your PC using the Windows Control Panel.
+Once you've verified everything is working properly, you may uninstall the MagTek USBMSR Demo from your PC using the Windows Control Panel.

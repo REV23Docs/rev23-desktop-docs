@@ -4,7 +4,7 @@ sidebar:
   label: "How to: Migrate data to a new PC"
   order: 6
 ---
-It's not an uncommon for a user to get a new PC or need to temporarily install REV23 Desktop on a different PC while having your primary PC repaired. This topic will go over the necessary steps move your data to another PC.
+It's not uncommon for a user to get a new PC or need to temporarily install REV23 Desktop on a different PC while having their primary PC repaired. This topic will go over the necessary steps to move your data to another PC.
 
 Please note, this is for moving your main PC only. This process is pretty straight forward provided you follow these directions in order.
 

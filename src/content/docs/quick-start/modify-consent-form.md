@@ -51,13 +51,13 @@ Consent and Aftercare forms, as well as other various bits of text, such as the 
 
     Notice the arrows next to some Properties (those that contain other properties.) For example, *Customer* is a property of *Service*, and *Mobile Phone Number* is a property of *Customer*. So, we'll need to expand the Customer property to see what we have access to.
 
-9. Locate the `Mobile Phone Number` property nested inside the Customer Property (**Service > Customer > Mobile Phone Number**). Double click it to add it to the spot where the cursor is currently blinking. You can also click and drag it to the spot you'd like.
+9. Locate the `Mobile Phone Number` property nested inside the Customer Property (**Service > Customer > Mobile Phone Number**). Double-click it to add it to the spot where the cursor is currently blinking. You can also click and drag it to the spot you'd like.
 
     ![REV23 Desktop](img/template_designer_tattoo_consent_form_add_mobile_phone.png)
 
     We're now properly displaying the mobile phone number.
 
-    > If the current record does not have a value for that property you will see the place holder value.
+    > If the current record does not have a value for that property, you will see the placeholder value.
 
     Our template looks pretty good, and we can come back to it later at any time to add additional details or formatting. But now, we need to tell REV23 Desktop to use this template instead of the default.
 
@@ -73,7 +73,7 @@ Now we need to instruct REV23 Desktop to use our custom release form instead of 
     
 11.  Navigate to **Configuration > Service Types**
 
-12.  Locate the `Tattoo` service type in the Service Type List View and double click it to open the Service Type Detail View. This detail view should look familiar as we saw it earlier when we were setting service prices.
+12. Locate the `Tattoo` service type in the Service Type List View and double-click it to open the Service Type Detail View. This detail view should look familiar, as we saw it earlier when we were setting service prices.
 
 13. Change the **Consent Form** property to the new template we just created.
 
@@ -87,6 +87,6 @@ Repeat this process for any additional service types that will use this same tem
 
 Harley will also modify the piercing consent forms using these same steps, as well as the Aftercare Forms, where you will use th **Guardian Consent Form** and **Aftercare Form** properties of the Service Type.
 
-> Templates are versatile and easily reused. For example, you don't need a different template for each piercing type. Using the values from each service type, you're able to insert fields for the name, healing time, etc.. so don't create more templates than you really need. Now that you have your own copy, any time you edit it, the service type will automatically pick up these changes, and you do not need to repeat the step of setting it in this step.
+> Templates are versatile and easily reused. For example, you don't need a different template for each piercing type. Using the values from each service type, you're able to insert fields for the name, healing time, etc., so don't create more templates than you really need. Now that you have your own copy, any time you edit it, the service type will automatically pick up these changes, and you do not need to set it again.
 
 That will wrap up the girl's first day. We got our feet wet in the system and we'll hit it more tomorrow when we join Selina as she clocks-in for the day.

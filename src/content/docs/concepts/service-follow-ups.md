@@ -4,7 +4,7 @@ sidebar:
   label: "Service Follow-ups"
   order: 14
 ---
-The Virtual Receptionist is capable of sending a service follow up email to your customers a set amount of time after their service has been completed, for example, 14 days later.
+The Virtual Receptionist is capable of sending a service follow-up email to your customers a set amount of time after their service has been completed, for example, 14 days later.
 
 :::caution[Text message follow-ups are no longer available]
 REV23 Desktop can no longer send text messages due to carrier A2P 10DLC requirements. See [Text messaging in REV23 Desktop](/rev23-desktop-docs/how-to/create-twilio-account/) for details. Text follow-ups are fully supported in [REV23 Cloud](https://cloud.rev23.com).
@@ -32,7 +32,7 @@ Each service type can be configured to send a follow-up email as well as the amo
 ## Customizing Service Follow-up Message
 
 1. Navigate to [**Configuration > Templates**](/rev23-desktop-docs/configuration/templates/).
-2. Select the Follow up email template with key name `REV23_FOLLOW_UP_EMAIL`.
+2. Select the Follow-up email template with key name `REV23_FOLLOW_UP_EMAIL`.
 3. Click the **Clone** action to create your own copy.
 4. Click the **Show Template Designer** action.
 5. Make your desired changes in the [Template Designer](/rev23-desktop-docs/concepts/template-designer/) and save.

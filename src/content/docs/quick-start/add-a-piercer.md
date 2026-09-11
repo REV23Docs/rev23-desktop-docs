@@ -4,7 +4,7 @@ sidebar:
   label: "Add a piercer"
   order: 2
 ---
-In the previous topic, we [added a tattooer](/rev23-desktop-docs/quick-start/add-a-tattooer/) to REV23 Desktop. Adding a piercer can be done using these same steps, however, in the [Assign service types](/rev23-desktop-docs/quick-start/add-a-tattooer/#assign-service-types) section, we added Pam to just the one Tattoo service type. The piercing family, having many more types of services, would be time consuming to add one-by-one. So, while you can do that if you'd like, there is a better way to add multiple service types all at once.
+In the previous topic, we [added a tattooer](/rev23-desktop-docs/quick-start/add-a-tattooer/) to REV23 Desktop. Adding a piercer can be done using these same steps. However, in the [Assign service types](/rev23-desktop-docs/quick-start/add-a-tattooer/#assign-service-types) section, we added Pam to just the one Tattoo service type. The piercing family, having many more types of services, would be time-consuming to add one by one. So, while you can do that if you'd like, there is a better way to add multiple service types all at once.
 
 ## Using the Add Service Types Action
 

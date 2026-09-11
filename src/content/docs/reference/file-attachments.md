@@ -10,7 +10,7 @@ You can manually attach files, or in some cases, like Services, attachments will
 
 Anywhere you can add an attachment you can either add it from a file on your file system, or add it directly from your document scanner. Additionally you can of course open the file, or save it from your database to another location. See File Attachment Actions for more information.
 
-You can double click a file attachment to open it's detail view. To open the attachment itself, use the Open action on the toolbar or right click menu.
+You can double-click a file attachment to open its detail view. To open the attachment itself, use the Open action on the toolbar or right-click menu.
 
 ## Properties
 

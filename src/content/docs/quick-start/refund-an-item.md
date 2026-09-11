@@ -8,7 +8,7 @@ No other appointments were scheduled for the day and no one else came in, so the
 
 Shortly before closing time, Harley hears some commotion up front. Commissioner Gordon has returned a few hours after he left from getting his new tattoo, and he is furious. It turns out, *Poison Ivy's Miracle Tattoo Aftercare* has caused him to break out with a terrible ivy-like rash. Pam was just having a little harmless fun, but Harley wants to keep him happy and agrees to refund the Commissioner for the item.
 
-1. Navigate to **Home > Sales & Invoices** and locate the sale. Double click to open it.
+1. Navigate to **Home > Sales & Invoices** and locate the sale. Double-click to open it.
 
 2. Click the **Items** tab, and select the item we want to refund.
 

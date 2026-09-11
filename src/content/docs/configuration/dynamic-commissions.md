@@ -4,9 +4,9 @@ sidebar:
   label: "Dynamic Commissions"
   order: 4
 ---
-Dynamic Commissions, often referred to as sliding scale commissions, are an optional way to handle your artists commissions based on their the total revenue they have brought in for the week. They create an incentive for your artists to work all week long, bringing in as much revenue as they can, in order to increase their commission each week.
+Dynamic Commissions, often referred to as sliding-scale commissions, are an optional way to handle your artists' commissions based on the total revenue they have brought in for the week. They create an incentive for your artists to work all week long, bringing in as much revenue as they can in order to increase their commission each week.
 
-They work like this: You create a Dynamic Commission, and add tiers to it. Each tier represents a commission percentage, and the dollar range required to achieve that commission. As an artist begins tattooing for the week, they start at their base  commission. As the week progresses, the more tattoos they do, the higher the commission they can earn as they move through each tier. Once they enter a new tier, all of the week's previous tattoos will then adjust to reflect the new commission.
+They work like this: You create a Dynamic Commission and add tiers to it. Each tier represents a commission percentage and the dollar range required to achieve that commission. As an artist begins tattooing for the week, they start at their base commission. As the week progresses, the more tattoos they do, the higher the commission they can earn as they move through each tier. Once they enter a new tier, all of the week's previous tattoos will then adjust to reflect the new commission.
 
 Finally, at the beginning of the week, they restart back at zero and will start over again.
 
@@ -21,6 +21,7 @@ After creating a dynamic commission you must set the Dynamic Commission property
 **Dynamic Commission Mode:** The behavior to use when calculating a dynamic commission tier.
 
 - ***Day***: The target values must be accomplished in a single day. Services for that day will all adjust their commission to the appropriate tier. These totals will reset at the end of each working day.
+- ***Day Forward***: The target values must be accomplished in a single day. When the employee reaches a new tier, that tier applies to the current and subsequent services for the day; earlier services are not recalculated. These totals reset at the end of each working day.
 - ***Week to Date***: Target values must be accomplished in a single week. Services for that week will all adjust their commission to the appropriate tier. These totals will reset at the end of each week.
 - ***Week Forward***: Target values must be accomplished in a single week. Service commissions will only adjust to the new commission going forward for the week, rather than adjusting each previous service. These totals will reset at the end of each week.
 

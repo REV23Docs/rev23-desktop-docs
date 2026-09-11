@@ -27,7 +27,7 @@ The appointment we scheduled isn't until tomorrow. Business must go on. Luckily,
 
     The next time this client returns, swiping the ID will recall this record, including any changes we've  made.
 
-    > Hint: If you do not yet have a bar code reader or magstripe stripe reader, when REV23 Desktop is waiting for you to to scan the ID, press the letter `D` on your keyboard to use demo data, which demonstrates the information that can be extracted from the ID.
+    > Hint: If you do not yet have a bar code reader or magstripe reader, when REV23 Desktop is waiting for you to scan the ID, press the letter `D` on your keyboard to use demo data, which demonstrates the information that can be extracted from the ID.
 
 4. Hover over the ID Image Editor. We can click the scan button in the Image Editor to acquire the ID Image from the document scanner.
 
@@ -37,7 +37,7 @@ The appointment we scheduled isn't until tomorrow. Business must go on. Luckily,
 
 6. Select `Lobe` as the **Service Type**, and select `Selina` as the **Employee**. Notice that users that are not assigned to the selected Service Type do not show up in the user list, so when we clicked this editor, only Selina appeared because we [added her as a piercer](/rev23-desktop-docs/quick-start/add-a-piercer/).
 
-    Because we've previously set the Lobe [piercing price](/rev23-desktop-docs/quick-start/set-service-prices/) in the previous section, the **Amount** has been defaulted for us and can not be modified.
+    Because we've previously set the Lobe [piercing price](/rev23-desktop-docs/quick-start/set-service-prices/) in the previous section, the **Amount** has been defaulted for us and cannot be modified.
 
 7. Set the **Quantity** to `2`, since our client wants both of her ear lobes pierced.
 
@@ -45,7 +45,7 @@ The appointment we scheduled isn't until tomorrow. Business must go on. Luckily,
    
     ![REV23 Desktop](img/service_detail_view_print_consent_form.png)
 
-    > Hint: Hold the **SHIFT** key down on your keyboard while the **Print Consent Form** action to preview the consent form instead of printing it directly to the printer.   
+    > Hint: Hold the **SHIFT** key down on your keyboard while clicking the **Print Consent Form** action to preview the consent form instead of printing it directly to the printer.
 
     ![REV23 Desktop](img/consent_form_preview.png)
 

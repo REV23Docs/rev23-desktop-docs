@@ -30,6 +30,17 @@ The customer record that was created first will become the new base. Any missing
 
 This process may take several minutes depending on customer history.
 
+## Export customers to REV23 CloudApp
+
+The **Export to CloudApp** action creates a CSV containing the customers connected to the current studio.
+
+1. Open the Customer List View.
+2. Click **Export to CloudApp** in the **Export** action group.
+3. Choose where to save `REV23_CloudApp_Export.csv`.
+4. In REV23 CloudApp, begin a customer import and select the **REV23 CloudApp** file type. Do not select the REV23 Desktop file type for this generated CSV.
+
+The export includes customer names, nickname, gender, pronoun, email, preferred phone number, birth date, address, occupation, and identification number and issuer. Because the file contains personal information, store it securely and delete it when the migration is complete.
+
 ## Related
 
 - [Reference: Customers](/rev23-desktop-docs/reference/customers/)

@@ -10,7 +10,7 @@ sidebar:
 
 **Source:** The source where the customer heard about your business.
 
-**Referred By:** If applicable, the customer that referred this customer. This must be filled out for the referring customer to get their referral credit.
+**Referred By:** The customer who made the referral. How and when that customer receives a credit depends on the studio's [referral credit mode](/rev23-desktop-docs/concepts/referrals/).
 
 **Flag:** An optional flag for the customer. Flags can be used by your studio in any way you'd like. Obviously red could mean bad, green could be good, etc... but this scheme is completely up to you.
 
@@ -60,7 +60,7 @@ sidebar:
 
 **Ineligible For Points:** If checked, the customer will not earn points on services or purchases.
 
-**Ineligible For Referral Credits:** If checked, the customer will not earn referral credits if selected as the referring customer for another customer record.
+**Ineligible For Referral Credits:** This setting is displayed on the customer record, but current versions do not apply it when creating automatic referral credits.
 
 ### Lists
 
@@ -98,11 +98,11 @@ sidebar:
 
 ### Print
 
-**Print Customer Labels:** Use the print labels action to print your mailing list customers onto address labels, such as the Avery 8160 template.
+**Print Customer Labels:** Prints customer addresses on the configured label report, such as an Avery 8160 layout.
 
 ### Export
 
-**Export Mailing List to CSV:** Exports your email marketing mailing list to a CSV file for importing into a third-party email marketing service. See [Email Marketing](/rev23-desktop-docs/concepts/email-marketing/).
+**Export Mailing List to CSV:** Exports current-studio customers who have an email address. REV23 Desktop does not store marketing opt-in status, so review the file against the recipient and suppression lists in your marketing service. See [Email Marketing](/rev23-desktop-docs/concepts/email-marketing/).
 
 **Sign up for Email Marketing:** Allows you to sign up for [Constant Contact](http://www.constantcontact.com/index.jsp?pn=rev23dev) Email Marketing.
 
@@ -111,9 +111,11 @@ sidebar:
 
 **Connect Customers:** For connected studios only, the connect customers action will allow you to import all or selected customer records from your connected studios into the current studio. This action is available in the customer list view only.
 
-**Merge Customers:** Using the merge customers action you can combine two or more duplicate customers into a single customer record, including all of their history. To use this action you will highlight two or more customer rows in the list view, then click this action. All selected customer's birthdays and last name must match in order to merge them. This action is available in the customer list view only.
+**Merge Customers:** Using the merge customers action, you can combine two or more duplicate customers into a single customer record, including all of their history. To use this action, highlight two or more customer rows in the list view, then click this action. All selected customers' birthdays and last names must match in order to merge them. This action is available in the customer list view only.
 
 **Import Customers:** This action will allow you to import customers from a CSV (comma separated values) file. See Importing Customers.
+
+**Export to CloudApp:** Exports the customers connected to the current studio to `REV23_CloudApp_Export.csv`. When importing that file into REV23 CloudApp, select the **REV23 CloudApp** file type rather than the REV23 Desktop file type. See [Export customers to REV23 CloudApp](/rev23-desktop-docs/concepts/customers/#export-customers-to-rev23-cloudapp).
 
 ## Connected Studio Behavior
 

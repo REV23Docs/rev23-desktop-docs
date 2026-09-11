@@ -4,34 +4,54 @@ sidebar:
   label: "Reports"
   order: 30
 ---
-Reports can be generated to allow you to easily visualize key business information in a single document that is suitable for printing or exporting. There are two different types of reports in REV23 Desktop. 
+Reports turn REV23 Desktop records into documents you can review, print, or export. Open **Reports** from the navigation bar, select a report, and click **Execute Report**. Double-clicking the report does the same thing.
 
-## Standard Reports
+Most reports ask for a date range or another filter before they run. A report reflects the data and filters used at that moment; it does not change the underlying records.
 
-Standard Reports are reports that you will run from the Reports List View. The Employee Payout report is an example of a standard report.
+## Standard reports
 
-## In-place Reports
+Standard reports appear in the **Reports** list and are meant to be run directly.
 
-In-place reports are not generally not meant to be run by the user, but will be generated at various points in the workflow for a specific object. The invoice receipt, credit card authorization receipt and deposit/credit receipt are all examples of in-place reports. Additionally, where an in-place report exists for a particular object type, you will see the Show In Report action which will allow you to generate a report for the selected object.
+### Commissions and Services
 
-## Reports (Legacy)
+Use **Commissions** to review employee commissions, payouts, tips, and balances. It replaces the reports whose names begin with **[DO NOT USE - See Commissions Report]**.
 
-Reports that have yet to be upgraded to our current version of reporting, including old custom reports, will be found in the Reports (Legacy) navbar item. If no legacy reports exist, this item will not be visible.
+Use **Services** for service activity and revenue. It replaces the legacy **Service Payout Detail** report.
 
-## Report Designer
+### Payments
 
-The Report Designer allows you to create and edit reports in REV23 Desktop. In fact, all reports that are distributed with REV23 Desktop are created with this very tool, so all of the power of our reports are at your finger tips.
+The **Payments** report can group its results by:
 
-Creating and editing reports in the report designer is outside of the scope of these docs. If you would like assistance creating or modifying reports, you can contact REV23 support and we'll be happy to help.
+- **Payment Type:** Cash, credit card, check, or another configured payment type.
+- **Data Type:** The kind of record that created the payment, such as a sale or deposit.
+- **Computer Name:** The PC where the payment was recorded. Use this to reconcile separate registers or front-desk computers.
 
-## Report Actions
+The report also identifies the REV23 Desktop user who recorded the payment when that information is available.
 
-### Records Creation Actions
+### Deposits & Credits
 
-**Import Reports:** You can import reports that were delivered to you by REV23 to add them to your system without the need for a new version of REV23 Desktop.
+The **Deposits & Credits** report includes activity for new, used, forfeited, refunded, and expired deposits and credits. The expired section shows the balance that remained when the record expired, rather than treating it as a new payment or forfeiture.
 
-### View Actions
+Use **Deposits & Credits Snapshot** when you need the available balances as of the report date instead of activity over a period.
 
-**Show Report Designer:** Opens the Report Designer to edit the selected report.
+### Order List
 
-**Execute Report:** Executes or runs the selected report. This is the same as double clicking the report in the report list view.
+The **Order List** report uses each inventory item's reorder settings and primary vendor. Its Vendor parameter accepts more than one vendor, so one run can produce a combined order list grouped by vendor.
+
+## In-place reports
+
+An in-place report belongs to a specific record and is usually generated during a workflow. Sale receipts, deposit/credit receipts, and consent forms are examples.
+
+When a record supports it, **Show In Report** creates the report again for the selected record.
+
+## Legacy reports
+
+Older built-in reports and custom reports that have not been migrated appear under **Reports (Legacy)**. The navigation item stays hidden when no legacy reports exist.
+
+## Report actions
+
+**Execute Report:** Runs the selected report.
+
+**Import Reports:** Adds a report file supplied by REV23 without waiting for a Desktop update.
+
+**Show Report Designer:** Opens the selected report for editing. The designer can change calculations and data selection as well as layout. Clone or back up a report before making changes, and contact [REV23 Support](mailto:support@rev23.com) when the requested change affects report logic.

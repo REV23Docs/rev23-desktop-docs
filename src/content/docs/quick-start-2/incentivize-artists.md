@@ -48,9 +48,9 @@ Notice our use of the .99 cents in the End Amount of each tier. While you could 
 
 Now, we need to make a minor change to Pam's Tattoo Employee Service Type record, to signal that rather than paying her a flat percentage commission as we were before, she will participate in this Dynamic Commission.
 
-6. Navigate to Security -> Employees and double click Pam to open her Employee Detail View.
+6. Navigate to Security -> Employees and double-click Pam to open her Employee Detail View.
 
-7. Click the Service Types tab to show Pam's Service Types that we configured in the Adding a service provider topic. Double click the Tattoo service type to open the Employee Service Type Detail View.
+7. Click the Service Types tab to show Pam's Service Types that we configured in the Adding a service provider topic. Double-click the Tattoo service type to open the Employee Service Type Detail View.
 
 8. Change the Commission Type editor to Dynamic, and set the Dynamic Commission editor that appears to our newly created Dynamic Commission. Save & Close this detail view, as well as the Employee Detail View.
 
@@ -58,4 +58,4 @@ Now, we need to make a minor change to Pam's Tattoo Employee Service Type record
 
 We're done! What you'll notice now is, when you create a new tattoo service for Pam, her Commission Type will be Percent, however, her commission percentage will be set to 0%. Once the service is saved, REV23 Desktop will look at her other services that participate in this same sliding scale commission for that week and adjust the commission amount appropriately. At the beginning of the next week, her totals will reset to $0.00 and she will again be at a 50% commission.
 
-Upon creating this Dynamic Commission, it will not immediately update past services for the current week, because at the time those services were created, they did not participate in this dynamic commission. It is advised you wait to enable dynamic commissions until the start of a new week before any services have been performed. As a work around, you could open each Service Detail View for the current week that you wish to update, and change either the service type or employee editors to a different value, then change them back to. Performing this step causes the service to update its commission values to the current configuration for that service type and employee.
+Upon creating this Dynamic Commission, it will not immediately update past services for the current week because, at the time those services were created, they did not participate in this dynamic commission. We advise waiting to enable dynamic commissions until the start of a new week, before any services have been performed. As a workaround, you could open each Service Detail View for the current week that you wish to update and change either the service type or employee editors to a different value, then change them back. Performing this step causes the service to update its commission values to the current configuration for that service type and employee.

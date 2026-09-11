@@ -1,37 +1,37 @@
 ---
 title: "Credit Cards"
 sidebar:
-  label: "CardConnect"
+  label: "CardPointe"
   order: 1
 ---
-REV23 Desktop can process credit cards with integration from CardConnect. You can click [here](https://cardconnect.com/partner/rev23) to get started with a REV23 + CardConnect account.
+REV23 Desktop processes integrated credit card payments through REV23's Fiserv partnership and the CardPointe platform. Visit the [REV23 credit-card partner page](https://www.rev23.com/partners/credit-cards/) to get started with a REV23 + Fiserv account.
 
-## Configuring CardConnect
+## Configuring CardPointe
 
-If you already have your CardConnect account and terminal, you can configure REV23 Desktop for use with your CardConnect account. This can be accomplished one of two ways.
+If you already have your merchant account and integrated terminal, you can start configuration in either of these ways:
 
-+ Attempting to take a credit card payment before CardConnect has been configured.
++ Attempt to take a credit card payment before CardPointe has been configured.
 
-+ Navigating to [**Configuration > P2PE Devices**](/rev23-desktop-docs/configuration/p2pe-devices/) and clicking the **Configure CardConnect** action.
++ Navigate to [**Configuration > Credit Card Terminals**](/rev23-desktop-docs/configuration/p2pe-devices/) and click **Configure CardPointe**.
 
-You will be presented with the CardConnect configuration dialog. Enter your Merchant ID and specify which options to use for your terminals.
+In the **REV23 + Fiserv** window, enter your CardPointe Merchant ID and specify the initial terminal options. REV23 Desktop retrieves the integrated terminals registered to that merchant account.
 
 | Option | Description |
 | --- | --- |
 | Allow Device Beep | If turned on, the terminal will beep to prompt the customer to insert/remove their credit card. This is disabled by default because it is **loud**.|
-| Banner Display Text | Your CardConnect terminal has the ability to display text underneath your logo. For example, _"Welcome to Gotham City Tattoo"_. The text you enter here will be displayed after each activity completes and you return to the logo screen. You may enter text or leave this blank.
+| Banner Display Text | The terminal can display text underneath your logo. For example, _"Welcome to Gotham City Tattoo"_. The text reappears when a transaction completes and the terminal returns to its idle screen. You may enter text or leave this blank.
 | Friendly Name | By default, your terminal is identified by its serial number. You can specify a friendly name such as _Front Counter_. |
 
-> The Friendly Name, as well as changing the above options can be specified in [**Configuration > P2PE Devices**](/rev23-desktop-docs/configuration/p2pe-devices/) after your CardConnect devices have been added to REV23 Desktop using one of the methods above.
+> You can change the Friendly Name, beep, and banner options later in [**Configuration > Credit Card Terminals**](/rev23-desktop-docs/configuration/p2pe-devices/).
 
-> You can configure an optional credit card options such as surcharge and tip presets in [**Configuration > My Studio > Options > Sales & Payments**](/rev23-desktop-docs/configuration/my-studio/).
+> You can configure optional credit card settings such as surcharges and tip presets in [**Configuration > My Studio > Options > Sales & Payments**](/rev23-desktop-docs/configuration/my-studio/).
 
 
-## Processing a credit card with CardConnect
+## Processing an integrated credit card
 
 1. When taking a payment, enter the amount and click the **Credit Card** tile as the payment method.
 
-2. Select which device you would like to run the transaction on and click **EMV/Swipe** or **Manual Entry**.
+2. Select the terminal and choose **Insert/Swipe/Tap**, **Manual**, or **Reference**.
 
     > If you have multiple terminals, your choice will be the saved and defaulted for the next transaction per PC.
 
@@ -39,32 +39,9 @@ The terminal will take over from here. Your customer will be guided through the 
 
 ## Custom Terminal Logo/Theme
 
-Your device allows you to specify a custom logo and theme colors. Follow the requirements below and send an email to CardConnect to update your device.
-
-### Image Requirements
-
-Ensure that your image meets the following requirements:
-
-Format | Device | Max Size | Dimensions (X) x (Y)
---- | --- | --- | ---
-JPEG or PNG | iSC250 | 1MB | 480 x 272 pixels
-JPEG or PNG | iPP350 | 1MB | 320 x 240 pixels
-JPEG or PNG | iPP320 | 1MB | 128 x 64 pixels
-
-### Theme Requirements
-
-Attribute | Format
---- | ---
-Banner/Footer Color | Hex to RGB
-Banner/Footer Font Color | Hex to RGB
-
-To add an image or modify the color of the header, footer or font, email [ISVdelivery@cardconnect.com](mailto:ISVdelivery@cardconnect.com) with the:
-
-+ Associated merchant ID
-
-+ Image file
-
-+ Hex to RGB color code(s)
+Logo and theme support depends on the terminal model. Contact CardPointe support at [ISVhelpdesk@fiserv.com](mailto:ISVhelpdesk@fiserv.com) and include your Merchant ID to confirm the image dimensions and theme options for your device.
 
 ## Related
-- [P2PE Devices](/rev23-desktop-docs/configuration/p2pe-devices/)
+
+- [Integrated Terminals](/rev23-desktop-docs/configuration/p2pe-devices/)
+- [Credit Card Concepts](/rev23-desktop-docs/concepts/credit-cards/)

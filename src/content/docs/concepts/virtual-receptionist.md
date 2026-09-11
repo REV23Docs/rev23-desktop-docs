@@ -4,7 +4,7 @@ sidebar:
   label: "Virtual Receptionist"
   order: 33
 ---
-The Virtual Receptionist is a background service that runs "workflows" (complex tasks) when an object is created or satisfies a specific criteria.
+The Virtual Receptionist is a background service that runs "workflows" (complex tasks) when an object is created or satisfies specific criteria.
 
 You can activate or deactivate the desired workflows in [Configuration: Virtual Receptionist](/rev23-desktop-docs/configuration/virtual-receptionist/) to prevent them from executing. Many of these workflows have their own sets of options that you can configure as well, located in [Configuration: Virtual Receptionist Options](/rev23-desktop-docs/configuration/virtual-receptionist-options/).
 

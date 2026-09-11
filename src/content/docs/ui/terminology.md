@@ -11,7 +11,7 @@ There are several important elements that make up the REV23 Desktop user interfa
 In this brief topic, we will talk about the terminology we use to refer to different areas of the user interface. Understanding this terminology will be valuable as you go through these docs.
  
 ## UI
-Short hand for user interface.
+Shorthand for user interface.
  
 ## Main Window 
 The primary UI of REV23 Desktop. This window is where you will switch between area's of the software, generally to different list views.
@@ -35,7 +35,7 @@ A column vertical (up & down) data in a list view. For example, the First Name p
 A row is horizontal (left & right) data in a list view. For example, one single and specific customer in the Customer list view.
  
 ## Detail View
-A detail view is a separate window from the main window which presents the data of a single object. For example, double clicking a row in the Customer list view will open that customer's detail view. This is where you will edit that record's data such as entering a first and last name.
+A detail view is a separate window from the main window that presents the data of a single object. For example, double-clicking a row in the Customer list view will open that customer's detail view. This is where you will edit that record's data, such as entering a first and last name.
  
 ## Property
 A property of the object in a detail view. For example, the First Name of a customer.

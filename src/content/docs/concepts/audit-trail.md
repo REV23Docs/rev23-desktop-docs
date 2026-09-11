@@ -4,19 +4,28 @@ sidebar:
   label: "Audit Trail"
   order: 35
 ---
-The Audit Trail (Change History) are records written to the database behind the scenes each time an object is created or modified. The Audit Trail records information about when, who and how an object changed.
+The Audit Trail, shown in REV23 Desktop as **Change History**, records who created or changed a record, when the change happened, and the values involved.
 
-> Because the Audit Trail records which user created or modified, if you want an accurate representation of who made what changes, it is important that each user log into their own account for daily activities. Having a generic user that all staff logs on to defeats the purpose of the Audit Trail.
+Each person must use their own employee account for the user name in Change History to be useful. A shared front-desk login records the shared account, not the person at the keyboard.
 
-## Analyze the Audit Trail
+## Review change history
 
-1. Select the object you wish to analyze.
-2. Click the **Show Change History** action.
+1. Select or open the record.
+2. Click **Show Change History**.
+3. Review the timestamp, user, operation, property, old value, and new value.
 
-In the dialog that appears, you will see records with a time stamp, as well as an operation type, such as `ObjectCreated`, `ObjectModified` and `InitialValueAssigned`. If the object was changed you will also see values for `Old Value` and `New Value`, meaning what the value was, and what it was changed to.
+Operations can include `ObjectCreated`, `ObjectModified`, and `InitialValueAssigned`. Not every internal or calculated value is presented in the same way, so use the record itself and its related history when reconstructing a workflow.
 
-## Erase Audit Trail
+## Auditing mode
 
-Because the Audit Trail can get quite large and inflate your database size, it's a good idea to purge it every once in a while.
+Current installations use **Lightweight** object auditing by default. The application configuration also accepts **Full** and **CreationOnly** modes through `AuditTrailObjectAuditingMode`.
 
-The Administrator user can use the **Erase Change History** action in the Tools tab, and select a date to delete objects before that time. This process can take many hours to complete, so it is recommended you do it during off hours only.  You should also take a backup of your database before you perform this action.
+This is an advanced support setting, not a normal studio option. Changing it alters the amount and shape of future audit data and can increase database growth. Change it only when REV23 Support gives you a specific reason and value.
+
+## Erase old change history
+
+Audit data grows with the database. An Administrator can use **Erase Change History** under **Tools** to permanently remove entries older than a selected date.
+
+The cutoff must be at least one year before the current date. The operation can take a long time on a large database and cannot restore the deleted history.
+
+Run a verified [database backup](/rev23-desktop-docs/server-concepts/backup-service/) first, then perform the cleanup when the studio is not using REV23 Desktop.

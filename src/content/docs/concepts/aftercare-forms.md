@@ -16,7 +16,7 @@ Aftercare Forms are Templates that are linked to the **Aftercare Form** property
 4. Click the **Show Template Designer** action.
 5. Make your desired changes in the [Template Designer](/rev23-desktop-docs/concepts/template-designer/) and save.
 6. Navigate to [**Configuration > Service Types**](/rev23-desktop-docs/configuration/service-types/).
-7. Double click a Service Type record that you wish to apply your new aftercare template to.
+7. Double-click a Service Type record that you wish to apply your new aftercare template to.
 8. Set the **Aftercare Form** property to your new template.
 9.  Click the **Save & Close** action to save the Service Type.
 

@@ -4,7 +4,7 @@ sidebar:
   label: "Gift Cards"
   order: 19
 ---
-> The Gift Cards feature requires REV23 encoded gift cards or a specifically generated gift card numbers. You can acquire these from rev23.com.
+> The Gift Cards feature requires REV23-encoded gift cards or specifically generated gift card numbers. You can acquire these from rev23.com.
 
 ## Sell a gift card
 Use the **Add Gift Card** action in a sale. Take payment as usual.
@@ -47,10 +47,10 @@ REV23 gift card magnetic stripes require two tracks. Replace the following field
 > ***Do not include the `[` `]` brackets. They are used to show data field placeholders only.***
 
 - **GIFTCARDNUMBER**: The gift card number. Numeric only.
-- **ISSUERNAME**: The name of the card issuer -or- card holder. Alpha-numeric only, formatted as LASTNAME/FIRSTNAME MIDDLE, or just LASTNAME.
+- **ISSUERNAME**: The name of the card issuer -or- cardholder. Alphanumeric only, formatted as LASTNAME/FIRSTNAME MIDDLE, or just LASTNAME.
 - **AMOUNT**: Denomination of card. Leave as 0 for custom amount, or enter a number between 1 and N digits.
 
-#### Examples of well formed data.
+#### Examples of well-formed data.
 
 The below card is issued from GOTHAM CITY TATTOO with no default amount.  
 `%B6023456789012345^TATTOO/GOTHAM CITY^9912023$0$?`

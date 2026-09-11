@@ -4,7 +4,7 @@ sidebar:
   label: "Credit Cards"
   order: 18
 ---
-This topic focuses only on credit card payments processed through [CardConnect](https://cardconnect.com/partner/rev23). For information on non-integrated credit card payments, see the [Payments](/rev23-desktop-docs/concepts/payments/) topic.
+This topic focuses on integrated credit card payments through REV23's Fiserv partnership and CardPointe platform. For non-integrated credit card payments, see the [Payments](/rev23-desktop-docs/concepts/payments/) topic.
 
 ## Set up
 
@@ -14,7 +14,7 @@ See [Configuration: Credit Cards](/rev23-desktop-docs/configuration/credit-cards
 
 ### Taking a credit card payment
 
-A payment using your CardConnect terminal can be initiated in a few ways:
+A payment using a CardPointe integrated terminal can be initiated in a few ways:
 
 #### From a sale
 
@@ -22,11 +22,15 @@ Click the **Take Payment** action. When prompted for the payment type, click the
 
 #### From the Payment Detail View
 
-When taking a payment by clicking the **New** action, there will be a P2PE Device button on the **Payment Type** editor. Click it to initiate a new transaction using the CardConnect terminal.
+When taking a payment by clicking the **New** action, use the integrated-terminal button on the **Payment Type** editor to initiate a transaction on the CardPointe terminal.
 
 #### From the Deposit/Credit Detail View
 
 Same as Payment Detail View.
+
+#### Let the cardholder enter the amount
+
+If an integrated credit-card payment starts with an amount of $0, the terminal asks the cardholder to enter the amount. After approval, REV23 Desktop updates the payment to the terminal's approved total. Use the normal sale or deposit balance when REV23 Desktop already knows how much is due.
 
 ### Read Card Method
 
@@ -36,7 +40,7 @@ Before initializing the terminal, you will be prompted for the **Read Card Metho
 
 - **Manual:** Type in the card number. You will also be prompted to type in the expiration date, security code and postal code.
 
-- **Reference:** Download a previously recorded transaction using the CardConnect reference number.
+- **Reference:** Download a previously recorded transaction using its CardPointe reference number.
 
 ### Tips
 
@@ -47,7 +51,10 @@ To configure tipping behavior:
 1. Navigate to **Configuration > My Studio**.
 2. Click the **Options** tab.
 3. Click the **Sales & Payments** tab.
-4. 
+4. Set **Credit Card Tip Prompt Mode** to **Always**, **Services only**, or **Never**.
+5. Optionally enable **Show Recommended Tip Amounts** and configure the three tip-preset percentages.
+
+To divide part of each tip among eligible clocked-in employees, also configure [Tip Sharing](/rev23-desktop-docs/concepts/tip-sharing/).
 
 ### Surcharges
 
@@ -72,14 +79,14 @@ To configure the surcharge:
 
 ### Managing transactions on CardPointe
 
-You can log onto https://www.cardpointe.com to manage your account as well as see reports and manage transactions.
+You can log on to [CardPointe](https://www.cardpointe.com) to manage your account, view reports, and manage transactions.
 
 ### Hosted Payment Page
 
-CardConnect can set up a Hosted Payment Page for your to accept payments from a website for things such as online deposits.
+Fiserv can set up a CardPointe Hosted Payment Page for accepting payments from a website, such as online deposits.
 
 These transactions can be entered into REV23 Desktop by clicking the **Reference** tile when taking a new payment and entering the transaction number.
 
 ### Related Topics
 - [Configuration: Credit Cards](/rev23-desktop-docs/configuration/credit-cards/)
-- [Configuration: P2PE Devices](/rev23-desktop-docs/configuration/p2pe-devices/)
+- [Configuration: Integrated Terminals](/rev23-desktop-docs/configuration/p2pe-devices/)

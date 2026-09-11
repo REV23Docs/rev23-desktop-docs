@@ -4,7 +4,7 @@ sidebar:
   label: "Rotating Schedules"
   order: 22
 ---
-**Scenario:** We have three tattoo artists, Dave, Mike and Casey. Our studio is open 7 days a week, Sunday through Saturday. Each of the artists want weekends off. This is easily solvable with a rotating schedule.
+**Scenario:** We have three tattoo artists, Dave, Mike, and Casey. Our studio is open 7 days a week, Sunday through Saturday. Each of the artists wants weekends off. This is easily solvable with a rotating schedule.
 
 - On week 1, Dave will have Saturday and Sunday off. Mike will have Monday and Tuesday off, and Casey will have Wednesday and Thursday off.
 - On week 2, Dave will have Monday and Tuesday off, Mike will have Wednesday and Thursday off, and Casey will have Saturday and Sunday off.
@@ -18,7 +18,7 @@ To accomplish this scenario we will need three rotating schedules, each one assi
 
 ### Set it up
 
-We will setup some rotating schedules to solve the "I want weekends off!" dilemma.
+We will set up some rotating schedules to solve the "I want weekends off!" dilemma.
 
 1. Create a new Rotating Schedule and name it "Artist Schedule 1".
 2. Set the rotation start date to any Sunday (past, present, future, it doesn't matter) where you want the first week to begin. We'll pick December 1st, 2013.

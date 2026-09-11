@@ -18,7 +18,7 @@ Selina has arrived and is ready to start work for the day. In addition to pierci
 
     ![REV23 Desktop](img/change_password_on_first_log_on.png)
 
-4. Because Selina is set up to use the Time Clock, each time she logs on, she will be prompted with what to do with her time card. REV23 Desktop indicates she is currently clocked out. She has following options.
+4. Because Selina is set up to use the Time Clock, each time she logs on, she will be prompted with what to do with her time card. REV23 Desktop indicates she is currently clocked out. She has the following options.
 
     - **Clock-in & log on:** This will clock her into the system and continue to the Main Window with her being the currently active user.
     - **Clock-in only:** This will clock her into the system, but return to the log on screen.

@@ -4,151 +4,131 @@ sidebar:
   label: "Items"
   order: 0
 ---
-Inventory Items in REV23 Desktop represent sellable and disposable items in your studio. The REV23 Desktop Inventory system is unmatched by competitors for how specific it is to our industry. Along with real time inventory tracking, automated bulk discounts and more, REV23 Desktop includes powerful options to associate items to specific service types, allowing full control on how to automate inventory when dealing with particular procedures. For example, discounting a piece of jewelry because it was done with a particular piercing type, including free aftercare that is automatically added (and discounted) on the sale during particular service types, or even reducing your disposables (gloves, needles, tubes, etc...), after completing a service.
+An inventory item can be something you sell, something you consume during a service, or both. REV23 Desktop tracks the shared item description separately from studio-specific stock, price, vendor, commission, and reorder values.
 
-## Properties
+That split matters in connected studios: changing the item's name or jewelry specification changes the shared item, while changing **On Hand** or **Sale Price** changes the current studio's inventory record.
 
-**Name:** The name of the inventory item. The name is required, and should be descriptive as this will be the main identifier of the item in REV23 Desktop and printed on sale receipts.
+## Identity and organization
 
-**Category:** The inventory category of this item. The category is required. Categories are used mostly for organization of your items for quick access.
+**Name:** The description used in lists and on sale receipts. It is required.
 
-**Department:** The inventory department of this item. The department is optional but recommended. Departments are useful for reporting at a high level (i.e. how much aftercare have you sold, regardless of brand or type).
+**Description:** Additional internal detail about the item.
 
-**Inventory Item Type:** The particular type of item (if applicable).
-- General: A general use item that is not specific to tattooing or piercing such as gloves or a t-shirt.
-- Tattoo: An item specific for tattooing.
-- Piercing: An item specific for piercing which will have more properties in the Piercing Item Specifications property.
+**Category:** The required category used to organize item selection. Choosing a category can also supply its default department and item type.
 
-**Jewelry Details:** Additional properties used to describe a jewelry item. To access them, click the ellipses button on the editor (...) to show the jewelry detail view. This property is only visible when the inventory item type is set to Piercing.
+**Department:** An optional higher-level reporting group, such as Aftercare or Jewelry.
 
-> If you leave the inventory item name blank, after setting the jewelry item specifications a name will be automatically generated for you. It will also look at other properties such as material to generate this name, so fill out all details in the Inventory Item detail view first, then move onto this view to generate a standardized name. This is particularly useful for jewelry.
+**Inventory Item Type:** **General**, **Tattoo**, or **Piercing**. Piercing items can use structured jewelry details.
 
-**Color:** The primary color of this inventory item.
+**Manufacturer / Model Number:** The maker and its model identifier.
 
-**Material:** The primary material of this inventory item.
+**Color / Material / Size:** Shared descriptive values. Use **Size** for a general value such as XL or 1.5 oz; piercing gauge and dimensions belong under Jewelry Details.
 
-**Size:** The size of this inventory item. This form is free form, you can type anything from XL for an extra large shirt, or 1.5oz to describe fluid ounces.
+**UPC Barcode:** The barcode printed by the manufacturer. Scan it while the field is active, or leave it empty and use REV23 Desktop's generated barcode.
 
-**Manufacturer:** The manufacturer of this item.
+**Active:** Clear this when the current studio no longer uses the item.
 
-**Model Number:** The manufacturer's model number for this item.
+## Jewelry details
 
-**UPC Barcode:** The Universal Product Code, printed on the item (if applicable). When the cursor is in this property, quickly scan the item with the barcode scanner to populate it. If no barcode exists, don't worry, a barcode will be created for you automatically when creating the Location Inventory Item. If supplied, this will be used when scanning barcodes to add items to a sale with the barcode scanner.
+For a Piercing item, open **Jewelry Details** to set the jewelry type, gauge, length or diameter, and gem setting.
 
-**Active:** If checked, the item is active in your studio. If you no longer use or sell the item, you can un-check this box.
+If **Name** is still empty, REV23 Desktop can build a consistent name from the jewelry details and other item properties. Enter the material and other identifying values before opening Jewelry Details when you want to use the generated name.
 
-### Vendor
+## Vendor and purchasing
 
-**Vendor:** The vendor you purchase this item from.
+**Primary Vendor:** The current studio's usual vendor for this item. The Order List report groups items by this vendor.
 
-**Vendor Part Number:** The vendor's internal part number for this item.
+**Vendor Part Number:** The vendor's identifier.
 
-**Vendor Price:** The average price you purchase this item for.
+**Vendor Price:** The price paid for one purchasing unit.
 
-**Quantity Per Unit:** The usable or sellable quantity in this item. If you buy this as a single item, the quantity per unit is one (1). If however, you purchase this in a case of twenty four (24), the usable quantity will be twenty four (24). This is an important factor in determining cost per unit pricing, as well as reordering. For example, if its a case, when you receive two cases, it will add 48 to your quantity on hand. This is an important value not to get wrong, so think about how you use and sell the item before setting this value.
+**Quantity Per Unit:** The number of usable items in one purchasing unit. A single piece is 1. A case containing 24 pieces is 24.
 
-**Locations:** Location Inventory Items for this item. Which are a list of your connected studios that also use this item. In this nested list view you're able to see inventory quantity information for the same item in your other connected studios.
+Quantity Per Unit affects cost and receiving. If **Units On Order** is 2 and **Quantity Per Unit** is 24, receiving the order adds 48 to **On Hand**.
 
-### Jewelry Details
-By clicking the ellipses (...) button in the Jewelry editor, you will create/edit the item as a jewelry inventory item.
+## Sales
 
-**Jewelry Type:** The jewelry type of this item.
+**Sellable:** Allows the item to be added to a sale.
 
-**Gauge:** The gauge of this jewelry or needle.
+**Sale Price:** The price for one item at the current studio.
 
-**Length/Diameter:** The length of needle or length/diameter of the jewelry.
+**Tax:** The tax applied when the item is sold.
 
-**Gem Setting:** The gem configuration of the jewelry.
+**Barcode:** The studio barcode generated by REV23 Desktop when a manufacturer UPC is not available.
 
-### Sales
+**Markup / Markup Percentage:** Read-only values calculated from Sale Price and the cost of one usable item.
 
-**Sellable:** If checked, the item is a sellable item. Items must be sellable for them to be added to a sale/invoice.
+**Discount Code:** The bulk-discount code applied to the item.
 
-**Sale Price:** The sale price of this item.
+## Commission
 
-**Tax:** The sales tax to apply when this item is sold.
+**Commissionable:** Allows the sales employee to earn merchandise commission.
 
-**Barcode:** An automatically generated barcode for this item. When a UPC does not exist for the inventory item, this barcode will be used when printing barcodes and scanning the item.
+**Override Employee Commission:** Uses the item's commission instead of the employee's normal merchandise commission.
 
-**Markup:** The calculated markup for this item using the primary vendor's price for this item.
+**Commission Type:** The override can be a fixed amount, a percentage of subtotal, or a percentage of markup.
 
-**Markup Percentage:** The calculated markup percentage for this item using the primary vendor's price for this item.
+**Commission Percentage / Commission Amount:** The value used by the selected commission type.
 
-**Discount Code:** The bulk discount code for this item.
+An Inventory Department can assign a default sales person. Items from that department use the default when no sales person has already been chosen.
 
+## Stock and ordering
 
-### Commission
+**Stock Keeping Unit:** The current studio's SKU. It appears in **Receive Order Items** so similar products can be distinguished before stock is changed.
 
-**Commissionable:** If checked, employees are eligible for a commission on this item and will use their preset merchandise commission.
+**On Hand:** The number of usable items in stock. For one case of 10, enter 10, not 1.
 
-**Override Employee Commission:** If checked, this item will use it's own preset commission rather than what is set per employee. This is useful if you want to distribute a different commission for particular items.
+**Reorder Point:** The on-hand quantity at which the item should be reordered.
 
-**Commission Type:** If the commission is being overridden, how the commission is calculated.
+**Reorder Units:** The usual number of purchasing units ordered.
 
-- *None*: This item is not eligible for commission.
-- *Fixed*: The commission for this item will be a fixed amount, defined in the commission amount property below.
-- *Percent (Subtotal*): The commission for this item will be a percentage of the sale price, defined in the commission percentage property below.
-- *Percent (Markup)*: The commission for this item will be a percentage of the item's markup value, defined in the commission percentage property below.
+**Units On Order:** The purchasing units currently expected from the vendor.
 
-**Commission Percentage:** The overridden commission percentage.
-Note: This property is only visible if the Commission Type is set to Percent (Subtotal) or Percent (Markup).
+**Quantity In Order:** A reference value calculated as Reorder Units × Quantity Per Unit.
 
-**Commission Amount:** The overridden commission amount.
-This property is only visible if the Commission Type is set to Fixed.
+**Quantity On Order:** A reference value calculated as Units On Order × Quantity Per Unit.
 
-### Stock
+**Use Automatic Ordering:** When stock reaches the reorder point, REV23 Desktop adds the configured reorder units to Units On Order.
 
-**Stock Keeping Unit:** Your studio's internal SKU for this item if applicable.
+**Use Reorder Notification:** When stock reaches the reorder point, REV23 Desktop creates a task for Inventory Managers. The task completes after stock is replenished to the configured level.
 
-**On Hand:** How many of this item you currently have in inventory.
+## Points
 
-**Reorder Point:** The value at which when the on hand count is less than or equal to this value, you would like to reorder more.
+**Override Points:** Uses item-specific point rules instead of the studio defaults.
 
-**Reorder Units:** How many units you generally reorder.
+**Points Type:** **None**, **Subtotal**, **Subtotal Multiple**, or **Custom**.
 
-**Units On Order:** How many units of this item you currently have on order.
+- **Subtotal** awards points equal to the item's subtotal.
+- **Subtotal Multiple** multiplies the subtotal by **Points Subtotal Multiplier**.
+- **Custom** awards the fixed **Points Custom** value.
 
-**Quantity In Order:** This calculated value displays what will go back into your inventory with the specified reorder units. It is calculated as Quantity Per Unit * Reorder Units as a visual reference for you to see if your quantity per unit, as well as reorder units values are correctly configured.
+## Related lists
 
-**Use Automatic Ordering:** If checked, when the on hand value is less than or equal to the reorder point, the Units On Order will automatically update itself to be the Reorder Units value. REV23 Desktop assumes you'll have ordered the item, and will add it to your items to be received.
+**Locations:** Shows the inventory record for each connected studio that uses the item.
 
-**Use Reorder Notification:** If checked, a task will be created for anyone in the built-in Inventory Manager role when the on hand value is less than or equal to the reorder point to notify them they should reorder more.
+**Service Types:** Shows rules that add or consume the item for particular services. See [Service Type Inventory Items](/rev23-desktop-docs/inventory/service-type-inventory-items/).
 
-### Points
+**History:** Shows each change to On Hand and the reason, including sales, manual adjustments, and received orders.
 
-**Override Points:** If checked, you can specify a different point structure than provided in your studio's default points. This is useful if you want to structure retail points separately from service points, or want to run limited promotions, such as all gold jewelry earns double points.
+## Receive an order
 
-**Points Type:** The method for calculating points.
+1. Open the Inventory Items list and click **Receive Order Items**.
+2. Review the item name, SKU, and Units On Order.
+3. Check each item that arrived.
+4. Click **OK**.
 
-- *None*: No points are awarded to a customer.
-- *Subtotal*: Points are awarded to a customer based on the subtotal. For example, a 200.00 invoice will earn 200.00 points.
-- *Subtotal Multiple*: Points are awarded to a customer based on the subtotal then multiplied by the Points Subtotal Multiple property. For example a subtotal of 200.00 on an invoice with a subtotal multiplier of 2 will earn 400.00 points.
-- *Custom*: The amount of points awarded is the static value in the Points Custom property. For example, a 200.00 service with a custom value of 1 will earn 1 point.
+REV23 Desktop shows only current-studio items whose **Units On Order** is greater than zero. For every checked row, it adds Units On Order × Quantity Per Unit to On Hand, sets Units On Order to zero, and writes an **Order Received** history entry.
 
-**Points Subtotal Multiplier:** The multiplier to apply to the invoice subtotal when the Default Points Type is set to Subtotal Multiple.
-Note: This property is only visible if the Points Type is set to Subtotal Multiple.
+Only check an item when the full listed quantity has arrived. For a partial shipment, correct **Units On Order** on the inventory item before receiving it.
 
-**Points Custom:** The static point value for each item and service on an invoice when the Default Card Points Type is set to Custom.
-Note: This property is only visible if the Points Type is set to Custom.
+## Other actions
 
-### Service Types
-A list of service type inventory items linked to this  item. See [Service Type Inventory Items](/rev23-desktop-docs/inventory/service-type-inventory-items/)..
+**Move To Category:** Assigns the selected items to another category.
 
-### History
-A list of history for this item's on hand value. Here you can see when and why the on hand value changed, whether it was sold, a manual change, etc...
+**Assign Department:** Assigns the selected items to another department.
 
-## Actions
+**Add Inventory Items To Service Types:** Creates service-type inventory rules for the selected items.
 
-### Records Creation Actions
+**Connect Inventory Items:** Adds items from a connected studio to the current studio.
 
-**Receive Order Items:**
-
-### Tools Actions
-
-**Move To Category:** Move the selected item(s) to a different category.
-
-**Assign Department:** Move the selected item(s) to a different department.
-
-**Add Inventory Items To Service Types:** Add the selected item(s) to service types. See [Service Type Inventory Items](/rev23-desktop-docs/inventory/service-type-inventory-items/).
-
-**Connect Inventory Items:** Add items from another connected studio to the current studio.
+The [Order List report](/rev23-desktop-docs/concepts/reports/#order-list) can include several vendors in one run.

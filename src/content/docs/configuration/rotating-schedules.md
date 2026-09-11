@@ -4,7 +4,7 @@ sidebar:
   label: "Rotating Schedules"
   order: 11
 ---
-Rotating schedules have two main purposes. The first is to allow your artists flexibility to have weekends off if desired. Additionally, they enable you to have more artists than you may possibly have stations in your studio making your shop more versatile and more profitable.
+Rotating schedules have two main purposes. The first is to allow your artists' schedules the flexibility to include weekends off if desired. Additionally, they enable you to have more artists than stations in your studio, making your shop more versatile and more profitable.
 
 Imagine the following scenarios:
 

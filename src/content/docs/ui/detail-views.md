@@ -9,7 +9,7 @@ A detail view is a view in REV23 Desktop which displays a single object in your 
 Unlike the power of List Views, most Detail Views are fairly straight forward. However some can be complex with multiple tabs and buttons and actions in the Ribbon.
 
 
-The Customer Detail View. Because of the large number of objects that can be associated with a customer's history (appointments, invoices, deposits, services, medical conditions, notes, etc... these nested list views appear in tabs in the detail view.)
+The Customer Detail View. Because of the large number of objects that can be associated with a customer's history—appointments, invoices, deposits, services, medical conditions, notes, and more—these nested list views appear in tabs in the detail view.
 
 Creating a new record
 To create a new record, which will invoke the detail view for that object, go to the List View for that object type and click the New button. For example, to create a new customer, navigate to the Customer List View and click the New button. This will create a new record and show the detail view for you to enter data into.
@@ -22,7 +22,7 @@ Hint: Hit CTRL+N on your keyboard to create a new object. When you're in a list 
 The optional popup menu for the New button.
 
 Editing an existing record
-To edit an existing record, find the desired record in the list view and double click it or hit the ENTER key on your keyboard.
+To edit an existing record, find the desired record in the list view and double-click it or hit the ENTER key on your keyboard.
 
 Saving your changes in a detail view
 After you've made changes to an object you'll obviously want to save those changes back to the database. 

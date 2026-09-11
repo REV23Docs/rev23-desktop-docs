@@ -4,7 +4,7 @@ sidebar:
   label: "Virtual Receptionist Options"
   order: 24
 ---
-The Virtual Receptionist Options configuration allows you to provide additional settings for each of the built in workflow definitions.
+The Virtual Receptionist Options configuration allows you to provide additional settings for each of the built-in workflow definitions.
 
 ## SMTP Server
 
@@ -18,7 +18,7 @@ SMTP Servers are outgoing mail servers, supplied by your email provider, which a
 
 **Host**: The host name of the SMTP Server.
 
-**Port**: The port to communicate with with SMTP Server on.
+**Port**: The port used to communicate with the SMTP server.
 
 **Use SSL**: If checked, REV23 Desktop will communicate with this SMTP Server over a secured connection if your SMTP Server requires it.
 

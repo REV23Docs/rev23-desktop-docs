@@ -47,7 +47,7 @@ On your PC open Control Panel and navigate to "Devices and Printers."
 
 Devices and Printers Control Panel applet.
 
-1. Right click the Epson T88V Receipt Printer and select "Printing preferences."
+1. Right-click the Epson T88V Receipt Printer and select "Printing preferences."
 
 2. Click the Advanced button on the layout tab to open the printer's Advanced Options.
 
@@ -57,7 +57,7 @@ Devices and Printers Control Panel applet.
 
 5. Click the "Advanced Settings" button.
 
-6. Navigate to "Printing Control" and change the the Paper width setting to match your previous selection in step 4 and click the "Set" button.
+6. Navigate to "Printing Control" and change the Paper width setting to match your previous selection in step 4, then click the "Set" button.
 
 7. Close this dialog. You should be good to go!
 

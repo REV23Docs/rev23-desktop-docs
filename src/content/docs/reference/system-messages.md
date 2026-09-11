@@ -8,7 +8,7 @@ System Messages provide insights into the health of your REV23 Desktop system. M
 
 The System Messages navigation bar item appears in the Home navbar group and appears only for certain managerial roles.
 
-System Messages that appear bold are considered unread. Once you acknowledge the message, you should mark it as being read manually by using the Mark as Read action, you should then go correct the error.
+System Messages that appear bold are considered unread. Once you acknowledge the message, you should mark it as read manually by using the Mark as Read action, then go correct the error.
 
 The number of unread system messages will appear next to the System Message item in the navigation bar.
 

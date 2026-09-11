@@ -12,7 +12,7 @@ By default, REV23 Desktop comes configured with the most common service types al
 
     ![REV23 Desktop](img/service_types_list_view.png)
    
-3. Double click the **Lobe** record to open the Service Detail View for the Ear Lobe Service Type. 
+3. Double-click the **Lobe** record to open the Service Detail View for the Ear Lobe Service Type.
 
     ![REV23 Desktop](img/service_type_detail_view.png)
 

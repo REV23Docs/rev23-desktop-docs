@@ -15,7 +15,7 @@ Configuration is simple once you figure out these things.
 - **A:** How much will the redeemed credit be worth?
 - **B:** How much does the client need to spend to earn that credit?
 
-REV23 requires the conversion rate of a point to an actual dollar. Which is **A** *divided by* **B**, *multipled by* **100**.
+REV23 requires the conversion rate of a point to an actual dollar. The conversion rate is **A** *divided by* **B**, *multiplied by* **100**.
 
 `(A / B) * 100`
 

@@ -1,10 +1,12 @@
 ---
 title: "SQL Server Edition Upgrade"
 sidebar:
-  label: "Advanced: SQL Sever Edition Upgrade"
-  order: 3
+  label: "Advanced: SQL Server Edition Upgrade"
+  order: 4
 ---
-REV23 Desktop ships with Microsoft SQL Server Express, the free version of their SQL Server database engine. Due to limits imposed by Microsoft, not REV23, SQL Server Express can currently only handle databases up to 10GB in size. You can see your current usage of that 10GB limit in the Database Service module of the REV23 Desktop Control Panel.
+REV23 Desktop ships with Microsoft SQL Server Express, the free edition of Microsoft's SQL Server database engine. SQL Server 2025 Express has a 50 GB database limit; SQL Server 2022 Express and earlier have a 10 GB limit. The Database Service module of the REV23 Desktop Control Panel displays the installed SQL Server version and measures usage against the corresponding limit.
+
+This page describes changing an existing SQL Server installation from Express to a paid edition. It does not describe upgrading the database-engine version. To replace SQL Server 2014 Express with SQL Server 2025 Express, follow [Upgrade SQL Server 2014 to SQL Server 2025 Express](/rev23-desktop-docs/installation/sql-server-2014-to-2025-upgrade/).
 
 After you hit this limit (or probably soon before ideally), you will need to upgrade your edition of SQL Server from Express to a version without this limit. We invite you to email us at support@rev23.com for suggestions on this.
 

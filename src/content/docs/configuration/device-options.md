@@ -33,4 +33,4 @@ See the [Cash Drawer](/rev23-desktop-docs/hardware/cash-drawer/) topic for more 
 **Test Cash Drawer:**
 Clicking this button will attempt to open the cash drawer to verify your settings.
 
-**Auto Export Path (Override):** If configured to auto-export Consent Forms, each PC can override the path via this settings. For example, if you wish to export to a cloud provider such as OneDrive or Dropbox, this path may not be exactly the same on each PC, even though it will go to the same cloud destination.
+**Auto Export Path (Override):** If configured to auto-export Consent Forms, each PC can override the path via these settings. For example, if you wish to export to a cloud provider such as OneDrive or Dropbox, this path may not be exactly the same on each PC, even though it will go to the same cloud destination.

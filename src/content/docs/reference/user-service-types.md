@@ -4,7 +4,7 @@ sidebar:
   label: "User Service Types"
   order: 17
 ---
-User Service Types are objects that link a User (Employee) to a particular Service Type, and describes how an artist is paid for each service.
+User Service Types are objects that link a User (Employee) to a particular Service Type and describe how an artist is paid for each service.
 
 ## Properties
 
@@ -12,7 +12,7 @@ User Service Types are objects that link a User (Employee) to a particular Servi
 
 **License Number:** The employee's issued license number to perform this service type.
 
-**License Expiration Date:** The expiration date of this employee's license. When specified, you will be warned when creating a service of this type once the expiration is sixty (60) days away from the current date, then, every ten (10) days afterwords until there is only ten (10) days remaining, at which point you will be warned every day.
+**License Expiration Date:** The expiration date of this employee's license. When specified, you will be warned when creating a service of this type once the expiration is sixty (60) days away from the current date, then every ten (10) days afterward until there are only ten (10) days remaining, at which point you will be warned every day.
 
 **Amount:** The fixed amount to charge for this service when being performed by this artist. This value is only used if the Service Type's Pricing Source is set to 'Fixed - Employee'. This is useful if you have levels of piercers that charge a different amount for the same type of piercing (i.e. master piercer, apprentice, etc...).
 

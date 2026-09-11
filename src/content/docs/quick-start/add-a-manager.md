@@ -11,7 +11,7 @@ REV23 guidance is to *not* use the Administrator account unless you're making co
 In addition to hiring Selina as a piercer, Harley has also made her the shop manager.
 
 1. Navigate to **Security > Employees**.
-2. Double click the user.
+2. Double-click the user.
 3. Click the **Add Roles** action.
 4. Select the **Manager** role and click **OK**.
    > You do not need to add a manager or owner to every role available. The Manager role is a special role which contains all permissions and in fact, having other roles in addition to the Manager role can result in degraded permissions.

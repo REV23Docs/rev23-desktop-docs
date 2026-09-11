@@ -43,7 +43,7 @@ Yesterday, as Commissioner Gordon was on a jog, he stopped in and made an appoin
 
     ![REV23 Desktop](img/service_detail_view_sign_consent_form.png)
 
-    The customer will be prompted to join the mailing list (optional) as well as review the Service Agreement (not the actual consent form since the signature pad cannot scroll text), then provide their signature.
+    The signature pad shows the configured Service Agreement, then asks for the required signatures. If the service agreement custom text is empty, REV23 Desktop skips that screen and opens signature capture directly. The full consent form comes from the template assigned to the service type.
     
     ![REV23 Desktop](img/service_signature_capture.png)
     

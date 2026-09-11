@@ -40,10 +40,10 @@ Vendors represent the businesses you purchase your inventory items from. A vendo
 
 **Business Fax:** The vendor's fax number.
 
-**Inventory Items:** A list of of this vendor's Vendor Inventory Items.
+**Inventory Items:** A list of this vendor's Vendor Inventory Items.
 
 **Notes:** Notes that have been added for this vendor.
 
 ## Connected studio behavior
 
-Vendors are location aware. You can connect vendors from other studio's to the current studio using the Connect Vendors action in the tools tab of the vendor list view.
+Vendors are location-aware. You can connect vendors from other studios to the current studio using the Connect Vendors action in the tools tab of the vendor list view.

@@ -42,7 +42,7 @@ You can enable/disable this feature entirely.
     + **Appointment Reminder Email Template**
 10. Click the **Save & Close** action to save the Virtual Receptionist Options
 
-> If you wish to create a brand new template rather than cloning an existing, the template's **Data Type** must be set to *Appointment*.
+> If you wish to create a brand-new template rather than cloning an existing one, the template's **Data Type** must be set to *Appointment*.
 
 ### Built-in Templates
 

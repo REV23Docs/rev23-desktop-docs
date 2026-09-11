@@ -4,7 +4,7 @@ sidebar:
   label: "How to: Configure iOS for Cloud Calendar"
   order: 9
 ---
-On an iPhone or iPad, REV23 Desktop Cloud Calendar needs to be setup to fetch the automatically to keep the device in sync with the calendar. If these steps are not performed, the calendar on your device will be out of date with your REV23 Desktop calendar, causing you to potentially miss, or double book appointments!
+On an iPhone or iPad, REV23 Desktop Cloud Calendar needs to be set to fetch automatically to keep the device in sync with the calendar. If these steps are not performed, the calendar on your device will be out of date with your REV23 Desktop calendar, potentially causing you to miss or double-book appointments!
 
 Follow these steps to make sure your device is always in sync!
 

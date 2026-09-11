@@ -4,15 +4,15 @@ sidebar:
   label: "Enhanced Connections"
   order: 0
 ---
-By default, REV23 Desktop is configured to only allow the Windows user that installed the software to connect to the database. Enhanced connections alter the security to allow not only other Windows users on the same PC to use REV23 Desktop, but Add-on PC's on the same network to connect as well. Additionally, with extra setup, Enhanced Connections can be enabled for Remote Connections, connections from REV23 Desktop Add-on PCs from outside your local network, for example from another studio or from your home.
+By default, REV23 Desktop is configured to only allow the Windows user who installed the software to connect to the database. Enhanced connections alter the security to allow not only other Windows users on the same PC to use REV23 Desktop, but Add-on PCs on the same network to connect as well. Additionally, with extra setup, Enhanced Connections can be enabled for Remote Connections from REV23 Desktop Add-on PCs outside your local network, for example from another studio or from your home.
 
 ## Network Type
 
-Windows has pre-configured rules for network traffic based on your network type setting. For other PCs to connect to your main PC this needs to be set to **Private** and *not* **Public**. Depending on your version of Windows, there are several ways to accomplish this. In future versions of REV23 Desktop, this will be handled for you.
+Windows has pre-configured rules for network traffic based on your network type setting. For other PCs to connect to your Main PC, the network needs to be set to **Private**, not **Public**. When you enable the network option for Enhanced Connections, the REV23 Desktop Control Panel changes connected non-domain networks to Private. If Windows prevents that change, the Control Panel displays an error so you can correct the network profile manually.
 
 ## Set up Enhanced Connections
 
-Enhanced Connections are actually very simple to setup as we do all of the heavy lifting for you!
+Enhanced Connections are actually very simple to set up, as we do all of the heavy lifting for you!
 
 1. Open the [REV23 Desktop Control Panel](/rev23-desktop-docs/server-concepts/control-panel/).
 2. Click the **Database Service** tile.

@@ -15,7 +15,7 @@ VPN is the recommended, though less common method for remote connections for REV
 
 ## Via Direct SQL Connection
 
-While easier to configure and the most common, this method is not recommended for security purposes. VPN is the recommended approach for studio's connecting remotely.
+While easier to configure and the most common, this method is not recommended for security purposes. VPN is the recommended approach for studios connecting remotely.
 
 **If you are not confident in performing these steps do not proceed on your own. Most local 'computer guys' will be able to follow this guide with ease and help you.**
 
@@ -25,7 +25,7 @@ The following preparation should take place on your Main PC.
 
 #### Connection
 
-+ Your Main PC should be plugged into ethernet if possible and not using Wi-Fi. Note that if you set this up on Wi-Fi, then later change to ethernet, this configuration will need to be changed on the router. Wi-Fi speeds for remote connections are much slower than if hard wired.
++ Your Main PC should be plugged into ethernet if possible and not using Wi-Fi. Note that if you set this up on Wi-Fi, then later change to ethernet, this configuration will need to be changed on the router. Wi-Fi speeds for remote connections are much slower than hard-wired speeds.
 
 #### ISP
 
@@ -54,7 +54,7 @@ The following preparation should take place on your Main PC.
 
 3. Log into your router's administrative panel.
 
-4. Find DHCP Reservations and reserve your Main PC's current IP address to its physical MAC address. You can also chose an IP address, sometimes REV23 support will assign something like 192.168.1.23 to the main PC (if its not already in use).
+4. Find DHCP Reservations and reserve your Main PC's current IP address to its physical MAC address. You can also choose an IP address. Sometimes REV23 Support will assign something like 192.168.1.23 to the main PC (if it's not already in use).
 
 5. Create one Port Forwarding rule to your main PC's private IP address (the one which was reserved in step 3).
 
@@ -70,7 +70,7 @@ If your test succeeds you are finished! You will now need to configure your add-
 
 ### Add-on PC Configuration
 
-If you are already at the screen asking for connection details this information is the same as the information that was provided to you when you setup [Enhanced Connections](/rev23-desktop-docs/connection-concepts/enhanced-connections/) with one difference. You will need to set the Server Name to be your public static IP address or your dynamic DNS hostname, followed by a comma, then the number 1533.
+If you are already at the screen asking for connection details, this information is the same as the information that was provided to you when you set up [Enhanced Connections](/rev23-desktop-docs/connection-concepts/enhanced-connections/), with one difference. You will need to set the Server Name to your public static IP address or your dynamic DNS hostname, followed by a comma and then the number 1533.
 
 For example:
 

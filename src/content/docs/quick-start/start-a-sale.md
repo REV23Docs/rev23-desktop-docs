@@ -7,11 +7,11 @@ sidebar:
 Selina has just finished piercing the client. We have previously started the walk-in service, now it's time to collect payment from the client.
 
 1. From the **Today Dashboard** select the service you want to complete.
-2. Click the **Sale** action on the toolbar, or double click the Service to open it if you need to modify it and click the **Sale** action in the Service Detail View.
+2. Click the **Sale** action on the toolbar, or double-click the Service to open it if you need to modify it and click the **Sale** action in the Service Detail View.
 
     ![REV23 Desktop](img/today_dashboard_services_sale.png)
 
-The Sale action will add this service to a sale and open the Sale Detail View. This is the point-of-sale screen for REV23 Desktop where we can add products and services, take payments, etc.. If this service was already added to a sale, it will open that existing sale rather than create a new one.
+The Sale action will add this service to a sale and open the Sale Detail View. This is the point-of-sale screen for REV23 Desktop where we can add products and services, take payments, etc. If this service was already added to a sale, it will open that existing sale rather than create a new one.
 
 ![REV23 Desktop](img/sale_detail_view_new_sale.png)
 

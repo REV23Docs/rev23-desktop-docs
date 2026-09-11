@@ -4,52 +4,53 @@ sidebar:
   label: "Add-On PC"
   order: 1
 ---
-The Add-on PC installer is an additional setup package for add-on PCs you have in your studio, in an additional studio, or at home. The Add-on PC installer only installs the REV23 Desktop application (client) that will connect to a database that is hosted on the computer where the Server installer was installed.
+An Add-on PC runs REV23 Desktop while using the database hosted by the Main PC. Use it for another workstation in the studio or for an approved remote connection.
 
-Add-on PC's must be the same version as the server version. If you update one you will have to update the other in order for things to work properly.
+The Add-on PC and Main PC must run the same REV23 Desktop version. Update both before trying to reconnect after an upgrade.
 
-Find out more about setting up add-on PCs in the Add-on PCs topic.
+There is no separate trial installation for an Add-on PC.
 
-> There is no trial version of the Add-on PC installer.
+## Windows and virtual machines
 
-## Connecting to a REV23 Main PC
+REV23 Desktop 26.1.1.1498 and later allow the Add-on PC installer to run in supported Windows environments such as Parallels and other virtual machines without the installer's former x64-only check.
 
-See [Enhanced Connections](/rev23-desktop-docs/connection-concepts/enhanced-connections/) to get the connection information.
+Windows must still be able to run REV23 Desktop and reach the Main PC. A current Main PC remains 64-bit because it hosts SQL Server 2025.
 
-## Changing Add-on PC Connection Information
+## Connect to the Main PC
 
-If for some reason you need to alter the connect information (REV23 Desktop database was moved to another PC, need to change remote information, etc...) you can follow the steps below.
+Configure [Enhanced Connections](/rev23-desktop-docs/connection-concepts/enhanced-connections/) on the Main PC and use the server name, user name, and password printed in those instructions.
 
-1. **Close** REV23 Desktop.
-2. Hold the SHIFT key down on your keyboard.
-3. While holding the SHIFT key, open REV23 Desktop, keeping it held down until the Connection Information dialog appears, where you can update your connection.
+Keep the Main PC awake and connected to the network. An Add-on PC cannot open the database when the Main PC, SQL Server, or network connection is unavailable.
 
-If you struggle with the SHIFT key method, you can follow this alternative method.
+## Change a saved connection
 
-1. **Close** REV23 Desktop.
-2. Open **File Explorer** on your PC and navigate to `C:\Program Files (x86)\REV23 Desktop`.
-3. In the file list of that directory locate `ResetConnection.cmd` and double-click to run.
+Use the connection manager after the database moves, the Main PC name changes, or you need another connection profile.
 
-You can update your connection's hostname, username and password as necessary.
+1. Close REV23 Desktop.
+2. Hold **Shift** while opening REV23 Desktop.
+3. Keep holding the key until the Connection dialog appears.
+4. Update the server name, user name, or password, then save the connection.
 
-If you don't remember your connection info, see how to Reprint Enhanced Connection Instructions in the [Enhanced Connections](/rev23-desktop-docs/connection-concepts/enhanced-connections/) topic.
+If the shortcut does not open the dialog:
 
-## Switching a Main PC to an Add-on PC
+1. Close REV23 Desktop.
+2. Open `C:\Program Files (x86)\REV23 Desktop` in File Explorer.
+3. Run `ResetConnection.cmd`.
+4. Open REV23 Desktop and enter the connection again.
 
-There are some cases where you may need to change a PC that previously had the REV23 Desktop Main PC to an Add-on PC. This commonly occurs if:
+Reprint the [Enhanced Connections](/rev23-desktop-docs/connection-concepts/enhanced-connections/) instructions when the connection details are no longer available.
 
-- You've acquired a better PC and want to make that your main, and the old main an add-on.
-- You've installed the trial version on a PC at home and are ready to install the main PC at the studio and make your PC an Add-on.
-- You messed up and installed the wrong version.
+The connection manager can also store separate profiles, such as an in-studio profile and a VPN profile. REV23 Desktop asks which profile to use when more than one is configured.
 
-Because REV23 Desktop retains connection information even after being uninstalled, you will need to take an additional step to clear it out.
+## Convert an old Main PC to an Add-on PC
 
-1. **Uninstall** REV23 Desktop from the Windows Control Panel.
-   > If you've already installed the Add-on PC you can skip this step.
-2. Open **File Explorer**.
-3. Navigate to `C:\Program Files (x86)\REV23 Desktop`
-4. **Delete** the file `connectionStrings.config`.
-5. Install REV23 Desktop Add-on PC Setup.
-    > If you've already installed the Add-On PC, run this setup again and choose the **Repair** option.
+Do this only after the database has been backed up, restored on the new Main PC, and tested from another workstation. See [Migrate data to a new PC](/rev23-desktop-docs/how-to/migrate-data-to-a-new-pc/) for that sequence.
 
-You should additionally uninstall the Microsoft SQL Server from the *old* main PC via the Windows Control Panel.
+After the migration is verified:
+
+1. Uninstall REV23 Desktop from the old Main PC.
+2. If the file remains, remove `C:\Program Files (x86)\REV23 Desktop\connectionStrings.config` so the old Main PC settings are not reused.
+3. Install the Add-on PC package. If it is already installed, run the installer and choose **Repair**.
+4. Enter the new Main PC's Enhanced Connection details.
+
+Leave SQL Server installed until the migrated database and backups have been verified. It can be removed from the old PC later if no other application uses that SQL Server instance.

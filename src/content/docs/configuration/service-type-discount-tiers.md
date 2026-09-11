@@ -7,7 +7,7 @@ sidebar:
 ## Service Type Discount Tiers
 
 
-**First is full price:** If checked, the discount will adjust itself to ensure the first service is full price. If unchecked, the discount will apply to all services it finds in this code. For example, lets take a $20 lobe piercing. You may want to do a promotion where the second piercing is half off. If this is unchecked, the 50% discount would apply to both (meaning two for the price of one), however, when it's checked only the second piercing will be discounted.
+**First is full price:** If checked, the discount will adjust itself to ensure the first service is full price. If unchecked, the discount will apply to all services it finds in this code. For example, let's take a $20 lobe piercing. You may want to do a promotion where the second piercing is half off. If this is unchecked, the 50% discount would apply to both (meaning two for the price of one); however, when it's checked, only the second piercing will be discounted.
 
 **Discount Type:** The type of discount to be applied.
 

@@ -4,45 +4,61 @@ sidebar:
   label: "Payouts"
   order: 25
 ---
-Payouts in REV23 Desktop are flexible to your needs. You can payout cash nightly, write checks weekly, payout individual services. Each method will be covered in its own topic.
+Payouts record money owed to an employee as paid. REV23 Desktop supports a full check payout, a cash-only payout, a tip-only payout, and a payout for one service.
 
-## Service Payouts
+Payout actions are available from the **Payments** list. The user must have access through a management role or the additive **+ Payouts** role.
 
-On occasion, you may find it necessary to selectively payout one (or a few) individual services or their tips. Perhaps the artist received a large tip today, or they need an advance to repair their car before their check that you're willing to help them out on by paying them out cash, or cutting them a check for what they've earned.
+## Date ranges follow business hours
 
-To accomplish this, open the detail view for the desired service and use the **Payout Employee** action.
+The start and end dates in check, cash, and tip payouts use the studio's opening and closing times. If a studio is open from noon until 2:00 AM, an end date includes activity through 2:00 AM the following calendar day.
 
-## Check Payouts
-This topic is under construction.
+Review the hours in **Configuration > My Studio** before using a date range. Incorrect hours can leave otherwise eligible work outside the payout.
 
-## Cash Payouts
+## Check payout
 
-Cash payouts in REV23 Desktop are an optional payout method for shops that like to payout cash nightly to their artists. The cash payout feature looks at several factors when determining what amount each artist can be paid in cash and there are some settings that you can use to customize it to your needs.
+Use **Check Payout** to clear an employee's outstanding commission and tip balances for a period.
 
-Cash payouts are actually incredibly simple to do and a highlight feature of REV23 Desktop, so don't let the length of this topic fool you into thinking it's complicated. It is important that you understand how they're being calculated in the background so you can explain to your artists why they're receiving the amount of cash they're receiving.
+1. Open **Payments** and click **Check Payout**.
+2. Select the employee.
+3. Enter a start date, end date, or both. Leave both blank to include every outstanding balance through the current date.
+4. Select the payment type used for the payout and enter a reference, such as a check number.
+5. Review the services, tips, deposits, invoice items, special orders, and refunds included in the window.
+6. Confirm the payout.
 
-### How cash payouts are calculated?
+The subtotal includes eligible unpaid commissions and tips. **Payback Amount** is deducted before REV23 Desktop calculates the final payout.
 
-> See the **Default Cash Payout Mode** setting in [Sales & Payments Options](/rev23-desktop-docs/configuration/my-studio/#payouts) which alters how cash payouts are distributed.
+## Cash payout
 
-Because REV23 Desktop uses some advanced formulas to calculate cash distribution, it may not always be obvious what it is doing. But you can trust that its behaving as designed. At a high level, we look at Services that were paid in cash each day. On the surface, and for the most basic scenarios, this works exactly as you'd expect it to. A $200 tattoo at 50% commission, paid all in cash, the artist is eligible for $100 cash, their entire commission; or $50 cash, depending on the Default Cash Payout Mode studio setting.
+Use **Cash Payout** when you pay an employee from cash collected at the studio. It includes eligible service cash and tips paid in cash for the selected employee and period.
 
-However, let's look at a fairly common scenario which would complicate a cash payout. 
+REV23 Desktop does not assume the entire commission is available in the drawer. It separates tax and retail amounts, then assigns the cash available to services according to their share of the sale. The result is capped by the employee's remaining commission and rounded down so the payout does not require coins. Any unpaid commission remains available for a later payout.
 
-We will use that same $200 tattoo but instead of all cash, there is a $125 deposit applied and the remaining $75 is paid in cash.
+For example, a $200 service at 50% commission has a $100 total commission. If $125 was covered by a deposit and only $75 entered the drawer as cash, the cash payout cannot simply remove the full $100 commission from that drawer.
 
-In this case, there isn't enough cash in the drawer to payout the full commission ($100), so it will payout what it can. And imagine an even more complex scenario, in which a husband and wife are tattooed by separate artists, deposits are used, some aftercare is purchased, they put some on credit card, maybe some on a gift card, and pay with a little bit of cash. Who gets what part of the small amount of cash here? A real head scratcher, right? Not for REV23 Desktop.
+The **Default Service Cash Payout Mode** under [My Studio payout settings](/rev23-desktop-docs/configuration/my-studio/#payouts) controls whether REV23 Desktop pays as much eligible cash as possible or keeps the cash payout proportional to the employee's commission.
 
-In short, Cash Payouts only look at the cash portion of the transaction. It then sets aside retail sales and tax, leaving behind only what should be split amongst services. It then determines the amount each artist is able to claim, using their contribution percentage of the total sale amount, and splits it proportionally, then rounds down to the nearest dollar so you're not attempting to split change, leaving their remaining commission for a check payout.
+## Tip payout
 
-As a result of this method, you'll often see some numbers that might not make sense at first glance. When you run into a question such as "why am I paying out $22.00 in cash to Dave on a $500.00 tattoo when his commission is 60%?" you can trust that it's simply because that's all the cash there was to hand out for that particular transaction. REV23 Desktop ensures that you aren't paying out more cash than is in the drawer.
+Use **Tip Payout** when you only want to clear tip balances.
+
+After selecting an employee and date range, you can limit the payout to tips paid in cash or to payments recorded on the current computer. Review the listed tips before confirming the payout.
+
+Tips assigned through [Tip Sharing](/rev23-desktop-docs/concepts/tip-sharing/) belong to the receiving employee's tip balance and are included here.
+
+## Pay out one service
+
+Open the service and click **Payout Employee** to clear that service's remaining employee payout without running a broader payout. Use this when a single service needs to be settled separately.
 
 ## Paybacks
 
-Paybacks are money that an employee owes back to the studio. These can happen for two reasons. First, deposit advances that were paid out will be paid back when the deposit is used so that the artist isn't paid twice for that deposit. Paybacks also occur if a return/refund has occurred and the commission that was paid out will be recollected.
+A payback is money the employee owes back to the studio. It can be created when a paid commission is reversed by a return or refund, or when an advance must be recovered. Check payouts subtract outstanding paybacks from the employee's payout total.
 
-## Payouts vs Payroll
+## Payouts are not payroll
 
-For a variety of reasons, we do not include, nor plan to include full payroll features in REV23 Desktop. We easily provide you with your artist's and employee's gross pay information based on their commissions on services, sales, deposits, etc... as well as hourly rate that you can pass over to an accounting software package or your accountant, but we do not calculate payroll taxes or print payroll checks.
+REV23 Desktop calculates commissions, tips, paybacks, and hourly information. It does not calculate payroll taxes or produce payroll checks. Use the [Commissions report](/rev23-desktop-docs/concepts/reports/#commissions-and-services) as input for your payroll or accounting process.
 
-Here's the main reason: products like QuickBooks pretty much have this area covered and are trusted solutions. Breaking character of "anonymous user manual guy" and speaking as the developer of REV23 Desktop, I wouldn't personally trust packages outside of true accounting packages like QuickBooks to deal with this. We're aware of the fact that some competitors offer these features, but our tax system (at least in the United States) is complex. Tax laws change, updates have to be made yearly, etc... this is a maintenance nightmare for us and not an area we're planning on exploring. On top of ever changing laws, you need a particular certification to be "accounting software". This is not something we're interested in. My advice is to use true accounting software or an accountant for payroll.
+## Related
+
+- [Troubleshoot missing commissions](/rev23-desktop-docs/troubleshooting/commissions/)
+- [Payments](/rev23-desktop-docs/concepts/payments/)
+- [Roles](/rev23-desktop-docs/security-concepts/roles/)

@@ -4,17 +4,28 @@ sidebar:
   label: "Commissions"
   order: 1
 ---
-Problem
-When running a payout report, or attempting to payout a user, services are missing.
+Use this page when a service is missing from the Commissions report or from an employee payout.
 
-## Solution 1
-The most common cause of this problem is that the user is not properly configured to receive a commission for the missing service type(s). Services where the commission would be zero do not appear on payout reports.
+## Check the service commission
 
-As the Administrator user, open the Service Detail View of the Service that is missing, and inspect the payout information. Is there a commission set? If not, this user does not have a properly configured Employee Service Type record for the selected service type.
+Open the service as an Administrator and review its payout values. A service with no employee commission does not have a payout balance to report.
 
-Note that after you modify the commission for that Employee Service Type, it does not retroactively apply to existing services. If you wish to include the missing services after correcting the user's commission, you can return to each service individually for that user and either modify the Employee or Service Type property, then revert it back to the correct value. This will refresh the configuration for that service, including payout data.
+If the commission is zero, open the employee and check the Employee Service Type for that service type. Correct the employee's commission setup before creating more services.
 
-## Solution 2
-If you've verified that the user is being paid a commission on that service but it's still not showing up on payout reports, it is likely being filtered by the Use Business Hours for Reporting option in Locations and My Studio. 
+Changing an Employee Service Type does not recalculate older services. To refresh an affected service, change its Employee or Service Type, then set it back to the correct value and save. Review the recalculated commission before running the report again.
 
-This option is primarily used for studios who are open past midnight which need services that occur past midnight to be reported on the previous business day. As a result, when this option is enabled, REV23 Desktop strictly filters services on reporting to those exact business hours. So if your hours at 12PM - 10PM, and a service starts at 10:01 PM, it will be excluded from reports. If you do not require such strict reporting, disable this option, or manually adjust the start time of the service to occur within your business hours.
+## Check business hours and the date range
+
+When **Use business hours when running reports** is enabled under **Configuration > My Studio**, REV23 Desktop uses the studio's exact opening and closing time for each selected date.
+
+For example, if Friday's hours are noon to 10:00 PM, a service starting at 10:01 PM falls outside Friday's reporting window. This can also happen when the stored hours are wrong or a late-night service belongs to the next business period.
+
+Correct the studio hours or the service time when either is inaccurate. Disable the setting only when the studio intends to report by calendar day instead.
+
+Check, cash, and tip payout date ranges always use studio hours. Confirm those hours even when you are troubleshooting the payout window rather than a report.
+
+## Check whether it was already paid
+
+The Commissions report can show payout activity and remaining balances, but a payout window only includes amounts that are still eligible. Open the service and review its payout records when the commission exists but no balance remains.
+
+See [Payouts](/rev23-desktop-docs/concepts/payouts/) for the records included by each payout type.

@@ -10,11 +10,11 @@ REV23 Desktop interprets this code and replaces it with the date time value to t
  
 For example, if the code is yyyyMMdd and the date to be formatted is March 14, 2013, REV23 Desktop will replace this value with 20130314. This works as follows:
  
-yyyy = The four digit year
-MM = The two digit month
-dd = The two digit date
+yyyy = The four-digit year
+MM = The two-digit month
+dd = The two-digit date
  
-This is case sensitive, so you must be careful. For example, using mm rather than MM would be the date/time's minute value, rather than the month.
+This is case-sensitive, so you must be careful. For example, using mm rather than MM would be the date/time's minute value rather than the month.
  
 You can use the table below to design your own date/time formats for use in REV23 Desktop.
 

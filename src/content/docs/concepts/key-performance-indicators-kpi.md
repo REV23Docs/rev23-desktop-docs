@@ -1,6 +1,6 @@
 ---
 title: "Key Performance Indicators (KPI)"
 sidebar:
-  label: "Key Perfomance Indicators (KPI)"
+  label: "Key Performance Indicators (KPI)"
   order: 32
 ---

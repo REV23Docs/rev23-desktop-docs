@@ -24,7 +24,7 @@ You will need to be logged on as the Administrator or a Manager to proceed with 
     - Set the **Discount Type** editor to Fixed.
     - Set the **Discount Amount** editor to $5.00.
 
-    So, what did we just do? We've created a new tier that in plain english says: When the quantity is two or more, charge full price for the first one, then discount each additional service $5.00. You can create as many tiers as you'd like. For example, 2-4 with a $5.00 discount, 5-7 with a $10.00 discount and 8+ with a $15.00 discount.
+    So, what did we just do? We've created a new tier that, in plain English, says: When the quantity is two or more, charge full price for the first one, then discount each additional service by $5.00. You can create as many tiers as you'd like. For example, 2-4 with a $5.00 discount, 5-7 with a $10.00 discount, and 8+ with a $15.00 discount.
 
     Can you also see how we could have accomplished the same result without the use of the First Is Full Price? If you guessed setting the Discount Amount to $2.50, you'd be correct.
 
@@ -32,7 +32,7 @@ You will need to be logged on as the Administrator or a Manager to proceed with 
 
     Now we have to tell our service type(s) to use this Discount Code.
 
-4. Navigate to Configuration -> Service Types and double click the Lobe service type to open the Service Type Detail View. Set the Discount Code editor to our newly created discount code.
+4. Navigate to Configuration -> Service Types and double-click the Lobe service type to open the Service Type Detail View. Set the Discount Code editor to our newly created discount code.
 
     > Hint:  You can use the same discount code for multiple service types.
 

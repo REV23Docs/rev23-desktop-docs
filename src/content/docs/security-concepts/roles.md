@@ -4,29 +4,35 @@ sidebar:
   label: "Roles"
   order: 1
 ---
-Roles are sets of individual permissions that control what your users are able to see and do in REV23 Desktop. An employee must be assigned one or more roles in order to log on to REV23 Desktop.
+Roles control what a user can see and do in REV23 Desktop. A user needs at least one role in the studio before they can log in there.
 
-Each role contains settings such as the ability to print and export, as well as a list of type permissions (appointments, services, customers all being different types). Along with each type you're able to specify what users in that role are able to do: Read (see data), Write (save data), Create (create new records), Delete (delete records) and/or Navigate (visible in the navbar).
+A role can grant access to an area, allow records to be read or changed, and enable broader abilities such as printing, exporting, or backdating. The same role definitions are shared by connected studios, but a user can have different role assignments in each studio.
 
-Roles also evaluate permissions from the bottom up, meaning the lowest level permission always wins. As an example, you assign a user to the manager role, then assign them to a lower role such as cashier, some things may be disallowed. For this reason, if you want to assign a user to the manager role that should be the only role they're assigned to.
+## Use built-in roles when they fit
 
-Several roles for the most common scenarios are built-in and should mostly suit your needs. If you need to modify roles at any time you should not modify the built-in roles as they are overwritten with each REV23 Desktop update and your changes would be lost. Instead you can either clone an existing role to make minor tweaks, or create a new role entirely, which will remain untouched during system updates. Roles can get quite complex, and this topic will only cover the very basics. If you're interested in modifying roles you should first contact REV23 Support, to explain what you would like to do so we can assist you.
+REV23 Desktop includes roles for common jobs, including Manager, Cashier, Service Provider, Inventory Manager, Accountant, and Report Viewer. Assign the narrowest role that covers the person's work.
 
-> The roles that are built-in are required by the system and cannot be deleted or renamed.
+Built-in roles are maintained by REV23 Desktop. An update can replace changes made directly to them, and they cannot be renamed or deleted.
 
-## Role Additives
+If a built-in role is close but not exact, contact [REV23 Support](mailto:support@rev23.com) before cloning it. A custom role does not automatically receive permissions for record types introduced by future updates.
 
-Some roles are known as Additive roles. These can be distinguished by the plus symbol (+) in front of their name. For example, the + Discounts, and + Payouts roles.
+## Additive roles
 
-Additive roles are not full roles themselves, and only add functionality to existing roles. For example, be default, only the Manager role can add discounts to services and retail items. By adding the + Discounts role to a user in the cashier role, that user will now be able to discount services and items.
+An additive role begins with a plus sign and adds one focused ability to the user's main role.
 
+- **+ Discounts** allows discount actions.
+- **+ Payouts** allows check, cash, tip, and individual payout actions.
 
-## A warning about creating custom roles
+For example, a Cashier who also needs to run payouts can keep the Cashier role and receive **+ Payouts**. An additive role is not a complete login role by itself.
 
-There are some drawbacks to creating/cloning your own roles. If a type permission does not exist in a role, it will deny access completely. So, take the built-in Inventory Manager role for example. It contains all of the types used for inventory configuration and management. Lets say you like the Inventory Manager as it is, but want to make one minor change... you want to prevent those users from deleting inventory items. You could clone the role, remove the delete permission from the Inventory Item type and then assign the new role to your users and everything will work great. However, if in a new version of REV23 Desktop we introduce a new inventory configuration object, our built-in Inventory Manager role would include that new type, but your cloned version would not. Because of this you would not immediately see the new object type (or perhaps not even know that it exists at all), until you manually add the type to your custom role. For this reason we recommend sticking to the default roles or creating additive roles.
+## Combining roles
 
-If you have suggestions on how we can improve the default roles, please let us know.
+Permissions are evaluated together, and a denial can override an allowance from another role. Avoid stacking several full roles to build a job one permission at a time. Start with one full role, then add an additive role when needed.
 
-## Connected Studio Behavior
+## Can Backdate
 
-Roles are global and do not differ between your connected studios. However, users can exist in different roles in each of your studios. So you could have a piercer that travels between two of your studios in the service provider role, but also exist in the manager role in their primary studio.
+The **Can Backdate** setting allows a user to change the **Date/Time** of a saved payment, sale/invoice, or deposit/credit. It does not unlock the rest of a saved record.
+
+The built-in Administrator, Manager, and Accountant roles include this permission. Backdating changes the business period and date-based reports that contain the record, so grant it only to people responsible for correcting financial dates.
+
+See the [Role reference](/rev23-desktop-docs/reference/roles/) for individual fields.

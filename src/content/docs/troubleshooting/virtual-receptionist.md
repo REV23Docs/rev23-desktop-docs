@@ -14,7 +14,7 @@ If an email was not sent as expected, it is first useful to determine if it was 
 2. Navigate to [**Home > Appointments**](/rev23-desktop-docs/concepts/appointments/).
 3. Locate the appointment in question and click the **Show Virtual Receptionist History** action.
     - If there are records in this view, inspect the **State** column. A state of **Aborted** means it attempted and failed to run the workflow. The most common cause of failures are invalid email settings or an error when attempting to send the email from your email provider. [Check your email account settings](#check-your-email-account-settings).
-    - If there are no records in this view, this means the Virtual Receptionist did not try to run a workflow for this object. This would indicate either the Virtual Receptionist Service is not running and you should [Check the Virtual Receptionist Service](#check-virtual-receptionist-service). Or, the proper criteria was not met for this object to have a workflow run, for example, the customer did not have an email address.
+    - If there are no records in this view, this means the Virtual Receptionist did not try to run a workflow for this object. This indicates either that the Virtual Receptionist Service is not running, in which case you should [Check the Virtual Receptionist Service](#check-virtual-receptionist-service), or that the proper criteria were not met for this object to have a workflow run—for example, the customer did not have an email address.
 
 See [Analyze Virtual Receptionist History](/rev23-desktop-docs/concepts/virtual-receptionist/#analyze-virtual-receptionist-history) for more information.
 

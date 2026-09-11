@@ -4,51 +4,51 @@ sidebar:
   label: "Advanced: SQL Server Manual Installation"
   order: 2
 ---
-Microsoft SQL Server is a relational database management system developed by Microsoft, which is required by REV23 Desktop. REV23 Desktop attempts to download and install Microsoft SQL Server Express, However, sometimes, for various reasons, the installation of SQL Server may fail and will need to be installed manually by the user in order to properly install REV23 Desktop. Additionally, you may have upgraded your copy of SQL Server from Express to another edition. In which case you would want to install it using these instructions before attempting to install REV23 Desktop.
+Microsoft SQL Server is the database engine required by REV23 Desktop. The Main PC installer normally downloads and configures SQL Server automatically. Use these manual steps only when setup specifically directs you to do so, when REV23 Support asks you to, or when you are installing a licensed SQL Server edition instead of Express.
 
-Every step must be exact, otherwise, REV23 Desktop will not run and you will have to uninstall the installed SQL Server and start the process over.
+Do not use this procedure to install a second instance over an existing SQL Server 2014 installation. Follow the staged [SQL Server 2014 to SQL Server 2025 Express upgrade](/rev23-desktop-docs/installation/sql-server-2014-to-2025-upgrade/) instead.
+
+:::caution
+The instance name and security settings must be exact. An incorrectly configured instance will not be recognized by REV23 Desktop. If you are unsure, contact [REV23 Support](mailto:support@rev23.com) before continuing.
+:::
 
 ## Downloading SQL Server
 
-Before you can begin, you need to download the appropriate version of Microsoft SQL Server. The current version of Microsoft SQL Server required by REV23 Desktop is Microsoft SQL Server 2014 Express SP2.
+Current Main PC installations use 64-bit Microsoft SQL Server 2025. Download **SQL Server 2025 Express** from the [official Microsoft SQL Server downloads page](https://www.microsoft.com/en-us/sql-server/sql-server-downloads).
 
-If you've upgraded your SQL Server license from Express to another edition (see the SQL Server Edition Upgrade topic), please download your appropriate version from where you purchased it and skip to the next section "Installing SQL Server for REV23 Desktop"
+If you own a paid SQL Server 2025 edition, use the installation media supplied for that edition and follow the same instance configuration below.
 
-You can download directly from Microsoft at the Microsoft SQL Server 2014 download page.
+SQL Server 2025 is 64-bit. If the Main PC cannot run the 64-bit installer, it cannot host a current REV23 Desktop server installation. The [Add-on PC installer](/rev23-desktop-docs/installation/add-on-pc/) does not install SQL Server.
 
-[Download](https://www.microsoft.com/en-us/download/details.aspx?id=53167)
-
-Depending on your computer, you will either need to download the 32-bit version of the 64-bit version. If you're installing manually because the REV23 Desktop Setup instructed you to, it will tell you which file you need to download. Another easy way to tell is open File Explorer and navigate to your C:\ drive. If you see Program Files and Program Files (x86) directories you have a 64-bit PC. If you only see a single Program Files directory, you have a 32-bit PC.
-
-+ For 64-bit computers, download the file SQLEXPR_x64_ENU.exe.
-+ For 32-bit computers, download the file SQLEXPR32_x86_ENU.exe.
-
-Save the file to your hard drive and once it is complete, execute the downloaded setup file.
+Run the downloaded installer and choose the option that lets you customize the installation or download the Express installation media. Open the SQL Server Installation Center from that media.
 
 ## Installing SQL Server for REV23 Desktop
 
-The first screen is the SQL Server Installation Center. Click "New SQL Server stand-alone installation or add features to an existing installation".
+1. Click **New SQL Server stand-alone installation or add features to an existing installation**.
 
-In SQL Server 2014 Setup, on the License Terms Page click the checkbox to accept the license terms, then click "Next".
+2. Accept the license terms and continue through the setup and update checks.
 
-On the Feature Selection page, make sure all available features are checked,then click "Next".
+3. On **Feature Selection**, select **Database Engine Services**. Other features are not required by REV23 Desktop.
 
-On the Instance Configuration page, check the Named Instance radio button, and type in TATTOOSTUDIO. All uppercase, all one word, just as it appears here, and in the image below, then click "Next". If this step is not done properly, REV23 Desktop will not recognize that Microsoft SQL Server has been installed.
+4. On **Instance Configuration**, select **Named instance** and enter `TATTOOSTUDIO` in uppercase with no spaces.
 
-On the Service Configuration page, change the Account Name for the SQL Server Database Engine Service, by clicking the drop down arrow in the Account Name column and clicking the &lt;&lt;Browse…&gt;&gt; item.
+5. On **Server Configuration**, configure the SQL Server Database Engine service as follows:
 
-In the "Select User or Group" window that pops up, type the word “SYSTEM” in the bottom box. Then click the "Check Names" button, if there are no errors, click "OK". This should resolve the Account Name to “NT AUTHORITY\SYSTEM”. If everything looks correct, click the “Next” button.
+   - Account name: `NT AUTHORITY\SYSTEM`
+   - Startup type: **Automatic**
 
-On the Database Engine Configuration page, set the Authentication Mode to Mixed Mode (SQL Server authentication and Windows authentication). In the password and confirm password box type a strong password. Keep this password for now. If support from REV23 is required, we may need it. Once everything is up and running you can discard this password.
+6. On **Database Engine Configuration**, select **Mixed Mode (SQL Server authentication and Windows authentication)** and enter a strong `sa` password. Keep it secure while setup is being completed.
 
-In the "Specify SQL Server administrators" section, click the "Add…" button,and follow the instructions from the previous step to add NT AUTHORITY\SYSTEM as a SQL Server Administrator. DO NOT CLICK "NEXT" ON THIS SCREEN YET!
+7. In **Specify SQL Server administrators**, add:
 
-While still on the Database Engine Configuration page, click the FILESTREAM tab. Check the top checkbox that says “Enable FILESTREAM for Transact-SQL access”. Then click "Next".
+   - The current Windows administrator
+   - The local **Administrators** group
+   - `NT AUTHORITY\SYSTEM`
 
-On the Error Reporting page, you can either check the checkbox to send error reports to Microsoft, or leave it unchecked, then click "Next."
+8. While still on **Database Engine Configuration**, open the **FILESTREAM** tab and check **Enable FILESTREAM for Transact-SQL access**.
 
-Microsoft SQL Server 2014 will now install.
+9. Continue through the remaining pages and install SQL Server.
 
-Once complete, if there are no errors (all features have a green check mark)click the "Close" button. Microsoft SQL Server 2014 Express is now installed.
+10. When setup completes without errors, close SQL Server Setup and run the REV23 Desktop Main PC installer again.
 
-If the installation fails, please click the link on the bottom of the screen to open the Summary Log File. Email the contents of this file to support@rev23.com so we can further assist you.
+If SQL Server setup fails, open the setup summary log and send it to [REV23 Support](mailto:support@rev23.com) with the error shown by the REV23 Desktop installer.

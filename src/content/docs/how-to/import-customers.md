@@ -26,7 +26,7 @@ For example, your file may have a header name of `First` or `First Name` for the
 
 ### File Example
 
-Below is an example of well formed expected input. Obviously, your data will likely have many more fields that are not used by REV23.
+Below is an example of well-formed expected input. Obviously, your data will likely have many more fields that are not used by REV23.
 
 ```
 FirstName,MiddleName,LastName,Gender,Street,City,StateProvince,ZipPostal,Birthday,HomePhoneNumber,MobilePhoneNumber,OtherPhoneNumber,CallbackPhoneNumber,EmergencyPhoneNumber,Nickname,IdentificationNumber,IdentificationState,Email
@@ -48,7 +48,7 @@ The import may take several minutes to complete. Please be patient.
 
 ### Duplicate processing
 
-The import will attempt to skip over customers that already exist in the system. A customer is considered a duplicate if the first and last name match as well as having the same birthday or the the same street address (not including city, state, etc...)
+The import will attempt to skip over customers that already exist in the system. A customer is considered a duplicate if the first and last names match and the customer has either the same birthday or the same street address (not including city, state, etc.).
 
 ### Genders
 

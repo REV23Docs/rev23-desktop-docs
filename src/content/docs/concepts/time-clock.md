@@ -4,7 +4,7 @@ sidebar:
   label: "Time Clock"
   order: 26
 ---
-The REV23 Desktop Time Clock can be used to track your user's time worked and hourly rate. Please note, this if for hourly employees, not tattoo artists doing hourly work. There are only three two options for the time clock, which make it one of the easiest features to use in REV23 Desktop.
+The REV23 Desktop Time Clock can be used to track your users' time worked and hourly rates. Please note, this is for hourly employees, not tattoo artists doing hourly work. There are only three options for the time clock, which makes it one of the easiest features to use in REV23 Desktop.
 
 ## Enable the Time Clock for a user
 
@@ -18,7 +18,7 @@ When the time clock is enabled for a user, after they log on with their password
 
 ## Clocking-in
 
-If a user is clocked out, once they log on with their password they will be prompted to clock-in. This will put them on the clock and track their time until they clock-out. To clock in, the user can chose one of three options. 
+If a user is clocked out, once they log on with their password they will be prompted to clock in. This will put them on the clock and track their time until they clock out. To clock in, the user can choose one of three options.
 
 **Clock-in & log on:** Creates a new time card entry with the current date & time and REV23 Desktop will continue to the Main Window. The user can use REV23 Desktop as usual. This option is only visible if the user has been assigned one or more Roles.
 
@@ -28,7 +28,7 @@ If a user is clocked out, once they log on with their password they will be prom
 
 ## Clocking-out
 
-If a user is clocked in, once they log on with their password they will be prompted to clock-out. This will end their current time entry and stop tracking their time. To clock out, the user can chose one of two options. Note: If the user is currently using REV23 Desktop they will need to log off, then log on again with their password in order to clock out. This is done so other users cannot clock-out a user and makes the process password protected.
+If a user is clocked in, once they log on with their password they will be prompted to clock out. This will end their current time entry and stop tracking their time. To clock out, the user can choose one of two options. Note: If the user is currently using REV23 Desktop, they will need to log off, then log on again with their password in order to clock out. This prevents other users from clocking out a user and keeps the process password protected.
 
 **Clock-out:** Modifies the user's current time card and sets the clock out time to the current date & time and REV23 Desktop will return to the log on screen.
 
@@ -50,3 +50,7 @@ Go to the Time Clock List View. Locate the record and modify the clocked-in date
 
 ### User forgot to clock-out
 Go to the Time Clock List View. Locate the record and set the clocked-out date/time property to the necessary value.
+
+## Tip Sharing
+
+The Time Clock also determines which employees are present for [Tip Sharing](/rev23-desktop-docs/concepts/tip-sharing/). An employee must have both clock-in/clock-out and **Eligible for Tip Share** enabled for the current studio, and must be clocked in when the payment is processed.

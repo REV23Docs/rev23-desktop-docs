@@ -14,7 +14,7 @@ We will use the same steps as when we [started a sale](/rev23-desktop-docs/quick
 
     ![REV23 Desktop](img/customer_invoice_item_detail_view_ivy.png)
 
-3. Click the **Take Payment** action. This time you will see a new tile showing available deposits/credits. You can chose to apply these deposits, or roll them forward if you're doing session work. We will apply it since Pam has finished this tattoo.
+3. Click the **Take Payment** action. This time you will see a new tile showing available deposits/credits. You can choose to apply these deposits or roll them forward if you're doing session work. We will apply it since Pam has finished this tattoo.
 
     ![REV23 Desktop](img/new_sale_payment_with_deposit.png)
 
@@ -24,7 +24,7 @@ We will use the same steps as when we [started a sale](/rev23-desktop-docs/quick
     
     After applying the deposit (or taking a payment), if there is still a balance, the New Payment window will open again. This time, you'll notice there are no deposits or credits to use. You can split the sale into as many payments as you need, for example, multiple credit cards, until the balance is zero.
 
-5. The client will put it on his Visa card. Harley already set up her CardConnect account and and will click the **Credit Card** tile. If you have not yet set up your integrated processing account or are in a currently unsupported region, you can click the **Other** tile and select the card type.
+5. The client will put it on his Visa card. Harley already set up her REV23 + Fiserv account and will click the **Credit Card** tile. If you have not yet set up your integrated processing account or are in a currently unsupported region, you can click the **Other** tile and select the card type.
 
     ![REV23 Desktop](img/credit_card_read_card_method.png)
 

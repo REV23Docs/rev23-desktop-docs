@@ -6,7 +6,7 @@ sidebar:
 ---
 Your tattoo and/or body piercing studio in REV23 Desktop is referred to as a Location. There are many options in the Location that control how you want REV23 Desktop to behave in your studio.
 
-REV23 Desktop supports business models that have multiple studios either in close proximity or across the country. If you have multiple studios you can chose to have them each have their own separate database, or share a single database. If shared, you will have some additional elements in the user interface to allow for location aware data.
+REV23 Desktop supports business models that have multiple studios either in close proximity or across the country. If you have multiple studios, you can choose to give each its own separate database or share a single database. If the database is shared, you will have some additional elements in the user interface to allow for location-aware data.
 
 The Location Detail View (accessible for the studio you're currently logged into from the My Studio item in the Configuration navbar group) contains the basic information for your studio such as the name, phone number, address, etc... as well as a variety of options that control the behavior of REV23 Desktop.
 
@@ -23,7 +23,7 @@ The Location Detail View (accessible for the studio you're currently logged into
 
 **Employer Identification Number:** Your federal Employer Identification Number (EIN). This property is currently for reference only and unused by REV23 Desktop, however it may be utilized in future versions.
 
-**Logo:** Your studio's logo. Right click the image area and select "Load" from the popup menu. Your logo should be small in file size and a height/width that would look appropriate on printed materials such as receipts and aftercare instructions. To save ink your logo should have a white or transparent background.
+**Logo:** Your studio's logo. Right-click the image area and select "Load" from the popup menu. Your logo should be small in file size and have a height/width that would look appropriate on printed materials such as receipts and aftercare instructions. To save ink, your logo should have a white or transparent background.
 
 **Street:** Your studio's street address.
 
@@ -67,13 +67,13 @@ The Location Detail View (accessible for the studio you're currently logged into
 
 **Scheduler First Day Of Week:** This setting controls which day of the week appears on the scheduler when in week/work week mode. You can select Sunday through Saturday or System, which will use your settings from Microsoft Windows.
 
-**Show off-hours watermark on scheduler:** If checked, the scheduler will show a water mark that says "Closed" over time cells where the studio is closed, or "Off" when viewing the scheduler by Resource and the time cell is the over the user's off hours. If unchecked, the time cells where you're not open are still shaded darker indicating business hours, however this is not always apparent to all users.
+**Show off-hours watermark on scheduler:** If checked, the scheduler will show a watermark that says "Closed" over time cells where the studio is closed, or "Off" when viewing the scheduler by Resource and the time cell is over the user's off hours. If unchecked, the time cells where you're not open are still shaded darker to indicate business hours; however, this is not always apparent to all users.
 
 **Show confirmation when dragging and dropping an appointment:** If checked, you will be prompted to confirm the change when dragging and dropping an appointment between time cells on the scheduler.
 
 **Show display pictures on scheduler:** If checked, display picture for each user will appear on the scheduler header.
 
-**Enable Deposit Suggestions:** If enabled, deposit suggestions will appear when scheduling an appointment for a customers. If the customer already has an available balance with the artist being scheduled, you will not be prompted for a deposit.
+**Enable Deposit Suggestions:** If enabled, deposit suggestions will appear when scheduling an appointment for a customer. If the customer already has an available balance with the artist being scheduled, you will not be prompted for a deposit.
 
 ## Deposit & Credit Options
 
@@ -88,6 +88,14 @@ The Location Detail View (accessible for the studio you're currently logged into
 + *Skip*: You will not be prompted to print this document and it will not print automatically. If you'd like to print it you will have to print it manually from the Application Button.
 
 **Default Deposit/Credit Expiration Days:** The default number of days a deposit/credit is valid for before it expires. Check your local law to determine if expiring a deposit is legal. Set to zero if your deposits/credits do not expire. You can override the expiration date on each deposit/credit. This provides the default only.
+
+**Deposit Credit Card Tip Prompt Mode:** Controls whether the integrated credit card terminal requests a tip while taking an appointment deposit and which employee receives it.
+
++ *Never*: Do not prompt for a tip when taking the deposit.
++ *Current Employee*: Prompt for a tip and assign it to the employee currently logged in. Built-in accounts such as Administrator are not eligible recipients.
++ *Deposit Employee*: Prompt for a tip and assign it to the employee scheduled on the appointment.
+
+Deposit tips are not automatically included in [Tip Sharing](/rev23-desktop-docs/concepts/tip-sharing/).
 
 ## Entity Number Generation Options
 
@@ -143,7 +151,7 @@ Note: This property is only visible if the Gift Card Points Type is not set to S
 
 > This property is only visible if the Gift Card Points Type is not set to Custom.
 
-**Default Gift Card Point Application Type**: The person who will earn points when a gift card is purchased or redeemed. This option can be overridden for each gift card sold. For example, if your default setting is to award the purchaser of the gift card points that is what will be used when you create a new gift card. However, lets say the mother of a friend of the studio comes in to buy a gift card, you may decide to give the points to the friend of the studio, rather than his mother who may never be back in.
+**Default Gift Card Point Application Type**: The person who will earn points when a gift card is purchased or redeemed. This option can be overridden for each gift card sold. For example, if your default setting is to award points to the purchaser of the gift card, that is what will be used when you create a new gift card. However, let's say the mother of a friend of the studio comes in to buy a gift card. You may decide to give the points to the friend of the studio rather than his mother, who may never be back in.
 
 + *None*: Neither party earns points when a gift card is purchased or redeemed.
 + *Purchaser*: The customer who purchased the gift card will earn points at the time the gift card is purchased.
@@ -176,7 +184,7 @@ This property can be a number, or even a short bit of text. For example, the bar
 **Default Invoice Discount Payout Adjustment**: The default behavior for how to adjust commissions when discounting an invoice. This behavior can be overridden on each item if necessary, this provides the default value.
 
 + *Reduce both payouts based on subtotal*: The commission/draw for both the studio and employee will calculate on the new subtotal, but their percentages will remain the same.
-+ *Location absorbs discount amount in payou*t: The location's draw will be reduced to absorb the discount. The employee will retain their full commission amount.
++ *Location absorbs discount amount in payout*: The location's draw will be reduced to absorb the discount. The employee will retain their full commission amount.
 + *Employee absorbs discount amount in payout*: The employee's commission will be reduced to absorb the discount. The location will retain the full draw configured.
 
 **Automatically use the default customer for new sales:** If checked, new invoices will automatically set the Default Customer as the selected customer.
@@ -186,9 +194,11 @@ This property can be a number, or even a short bit of text. For example, the bar
 + *Invoice is Paid*: The items will be removed immediately when the sale/invoice is fully paid.
 + *Invoice is Saved*: The items will be removed immediately when the sale/invoice is saved.
 
+**Tip Share Percent:** The percentage of a tip that REV23 Desktop divides among eligible employees who are clocked in at the current studio. Set this to zero to disable Tip Sharing. See [Tip Sharing](/rev23-desktop-docs/concepts/tip-sharing/) for setup and calculation details.
+
 ### Credit Cards
 
-> The settings in this section require CardConnect.
+> The settings in this section require a REV23 + Fiserv account and CardPointe integrated terminal.
 
 **Credit Card Surcharge:** An additional surcharge to add to credit card fees. If set to 2%, charging $100.00 will add an additional $2.00. The customer will be prompted on the terminal to agree to this charge. Check with your states laws regarding credit card surcharges.
 
@@ -202,17 +212,11 @@ This property can be a number, or even a short bit of text. For example, the bar
 
 ### Payouts
 
-**Default Cash Payout Mode:** The default behavior for how to distribute cash during Cash Payouts.
+**Default Service Cash Payout Mode:** The default behavior for how to distribute cash from service payments during Cash Payouts.
 
 + *Payout as much cash as possible to employee:* The employee will be paid out as much cash as they brought in. Example, if the artist does a $100.00 tattoo at 60% paid in cash, they'll receive the full 60% ($60.00) in cash.
 
 + *Payout cash proportional to employee's commission*: The employee will be paid out cash proportional to their commission. Example, if the artist does a $100.00 tattoo at 60% paid in cash, they'll receive 60% of their commission in cash which would be $36.00.
-
-## Marketing Options
-
-**Add new customers to mailing list:** If checked, any new customer you create will automatically be added to the mailing list by default. If you use this option, you must respect opt-out requests if you use something other than Constant Contact to manage your mailing list.
-
-**Default Mobile Provider:** If selected, this will automatically be set as a new customer's mobile provider. Only recommended if there are few options for mobile providers in your area.
 
 ## Point Options
 
@@ -237,7 +241,7 @@ Note: This property is only visible if the Default Points Type is set to Custom.
 
 **Points Required To Redeem:** A read only value that shows you how many points a customer will need to earn for their points to exchange to a credit.
 
-**Point Expiration Days:** How many days points are valid before they go stale,meaning points that haven't converted to a credit yet. Set this to zero if your points do not expire.
+**Point Expiration Days:** How many days points are valid before they go stale, meaning they haven't converted to a credit yet. Set this to zero if your points do not expire.
 
 **Points Credit Expiration Days:** How many days reward credits are valid once the points have been exchanged. Set this to zero if your credits earned from points do not expire.
 
@@ -246,10 +250,10 @@ Note: This property is only visible if the Default Points Type is set to Custom.
 **Referral Credit Mode:** How you award referral credits to referring customers.
 
 + *None*: Your studio does not offer referral credits.
-+ *Per Customer*: For each new customer that you create, the referring customer will receive the Referral Credit Amount after they're saved.
-+ *Per Service*: For each new service that you create, the referring customer will receive the Referral Credit Amount. This means that if Jack refers Sally, each time Sally has a service done, Jack will receive the Referral Credit Amount.
++ *Per Customer*: The referring customer receives one credit when a customer with **Referred By** is saved. The referred customer can be new or already on file.
++ *Per Service*: The referring customer receives a credit each time a new service is saved for the referred customer.
 
-**Referral Credit Amount:** The amount that will be created as a new credit for the referring customer for each new referral. Each time a referral happens a credit in this amount will be created for the referring customer.
+**Referral Credit Amount:** The amount of each in-store credit issued to the referring customer. See [Referrals](/rev23-desktop-docs/concepts/referrals/) for the complete workflow.
 
 ## Service Options
 
@@ -280,7 +284,7 @@ Note: This property is only visible if the Default Points Type is set to Custom.
 
 **Consent Form File Name Generation Mode:** The file name of the generated PDF when a signature is captured and the consent form is saved. 
 
-Consider the following service: Tattoo for Jane L. Doe on October 31, 2013. The following options will give demonstrate the output for the generated file name.
+Consider the following service: Tattoo for Jane L. Doe on October 31, 2013. The following options demonstrate the output for the generated file name.
 
 + *Default*: Consent Form.pdf
 + *[Full Name]*: Jane L. Doe.pdf
@@ -292,9 +296,7 @@ Consider the following service: Tattoo for Jane L. Doe on October 31, 2013. The 
 
 **Consent Form File Name Date/Time Format:** The format to use for the date/time property of the file name if a Consent Form File Name Generation Mode with a [Date Time] option is selected.
 
-> This property is only visible if the Consent Form File Name Generator Mode contains a date/time place holder. See [Date/Time Format Codes](/rev23-desktop-docs/configuration/date-time-format-codes/) for more information.
-
-**Show Mailing List Opt-In:** If checked, the signature pad will display a prompt asking the customer if they'd like to join the mailing list. If customer is already on the mailing list, this prompt is skipped.
+> This property is only visible if the Consent Form File Name Generator Mode contains a date/time placeholder. See [Date/Time Format Codes](/rev23-desktop-docs/configuration/date-time-format-codes/) for more information.
 
 **Enable Signature Capture Auto Close:** If checked, once all signatures have been obtained from the signature pad the signature capture window will auto close after 5 seconds.
 

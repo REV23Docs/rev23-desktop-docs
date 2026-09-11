@@ -4,31 +4,30 @@ sidebar:
   label: "Taxes"
   order: 20
 ---
-Tax configuration allows you to define the various tax rates that you must collect on services and sale items. You can define multiple tax rates and select which to use for each service type and location inventory item.
+A tax record defines a rate and the calculation rules that REV23 Desktop applies to taxable services and inventory items. Create each rate once, then assign it to the service types and current-studio inventory items that use it.
 
 ## Properties
 
-**Name:** The name of the Tax. The name is required and must be unique.
+**Name:** A required, unique name that makes the rate easy to identify.
 
-**Rate:** The tax rate for this tax.
+**Rate:** The tax percentage.
 
-**Calculation Type:** The method used to apply taxes to a sale or service.
+**Discount Calculation:** Controls which amount is taxed.
 
-+ _Before Discounts_: The tax will be calculated after discounts.
-+ _After Discounts_: The tax will be calculated before discounts are applied.
+- **After discounts (subtotal):** Calculates tax on the discounted subtotal.
+- **Before discounts (total):** Calculates tax on the original amount before discounts.
 
-**Midpoint Rounding:** The method used to round the tax when between two numbers.
+Choose the rule required for the studio's jurisdiction and confirm the result with the person responsible for its tax reporting.
 
-Consider a tax with rate of 8.25% and an item priced at $10.00. 
+**Midpoint Rounding:** Controls what happens when the calculated tax is exactly halfway between two currency values.
 
-+ _To nearest even number_: The tax would be $0.82.
-+ _Away from zero_: The total would be $0.83.
+- **To nearest even number:** Uses the even result. At 8.25% on $10.00, the tax is $0.82.
+- **Away from zero:** Uses the value farther from zero. In the same example, the tax is $0.83.
 
-## Actions
+The setting affects each calculation at a midpoint and can change a total by one cent. Keep it consistent with the studio's required accounting method.
 
-### Tools
+## Connected studios
 
-**Connect Taxes:** Use this action to display taxes from other connected studios that you which to connect to the current studio you're logged into. This is useful if you have two or more studios that share the same tax rate. If it ever increases, you need to only update the tax once, and the others will use the updated rate.
+Taxes are location-aware. Use the Locations list on the tax record to link or unlink studios that share it.
 
-## Connected Studio Behavior
-Taxes are location aware. You can add or remove a tax to multiple locations using the Link/Unlink actions in the nested list view without needing to create another tax record for the other studio. You can also use the Connect Taxes action in the tools tab of the tax list view.
+**Connect Taxes** shows taxes from connected studios and links the selected records to the current studio. Once linked, editing the shared rate changes it for every linked studio, while each studio can decide which service types and inventory items use it.

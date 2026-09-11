@@ -4,96 +4,80 @@ sidebar:
   label: "Consent Forms"
   order: 13
 ---
-Consent Forms are Templates that are linked to the **Consent Form** and **Guardian Consent Form** properties of a [Service Type](/rev23-desktop-docs/configuration/service-types/). Consent Forms can be printed and signed, or signed electronically with the [Signature Pad](/rev23-desktop-docs/hardware/signature-pad/).
+A consent form is a service template that combines the service, customer, identification, and captured signatures into one document. Each service type can have an adult form and a guardian form.
 
-> It is recommended you familiarize yourself with the [Templates](/rev23-desktop-docs/concepts/templates/) topic before proceeding with this topic.
+Read [Templates](/rev23-desktop-docs/concepts/templates/) before changing a consent form. The printed form and the short agreement shown on the signature pad are separate pieces of content.
 
-## Using the Signature Pad
+## Assign forms to a service type
 
-Using the [Signature Pad](/rev23-desktop-docs/hardware/signature-pad/) you can capture signatures for your release forms and store them digitally.
+1. Open **Configuration > Templates**.
+2. Select a built-in consent form and click **Clone**.
+3. Give the copy a clear name, then click **Show Template Designer**.
+4. Make the required changes and save the template.
+5. Open **Configuration > Service Types**.
+6. Open a service type and set **Consent Form**, **Guardian Consent Form**, or both to your template.
+7. Click **Save & Close**.
 
-To initiate a client signature for a release form, click the **Sign Consent Form** action in a service.
+A consent-form template must use the **Service** data type. One template can serve several service types because service fields, including the service type name, can be merged into the document.
 
-> The signature pad cannot scroll text, so customers cannot read your entire release form on the pad. Users will generally have a laminated copy for their release form for customers to read and acknowledge.
+Keep the signature image fields in any customized form that needs to show signatures:
 
-## Customizing Consent Forms
+- `Service > Customer Signature Image`
+- `Service > Employee Signature Image`
+- `Service > Guardian Signature Image`
 
-1. Navigate to [**Configuration > Templates**](/rev23-desktop-docs/configuration/templates/).
-2. Select a built-in consent form template provided by REV23.
-3. Click the **Clone** action to create your own copy.
-4. Click the **Show Template Designer** action.
-5. Make your desired changes in the [Template Designer](/rev23-desktop-docs/concepts/template-designer/) and save.
-6. Navigate to **Configuration > Service Types**.
-7. Double click a Service Type record that you wish to apply your new aftercare template to.
-8. Set the **Consent Form** and/or the **Guardian Consent Form** property to your new template.
-9. Click the **Save & Close** action to save the Service Type.
+## Capture signatures
 
-This service type will now use the selected template. Repeat steps 7-9 for each service type you wish to use this consent form template.
+Open a service and click **Sign Consent Form**. REV23 Desktop selects the consent form from the service type, collects each required signature, generates the signed document, and stores it with the service.
 
-It's important to note that you do not need to create a separate consent form for each individual service type. Any property that exists on the service type, such as Service Ty, can be merged into the aftercare form template, so in most cases, you can reuse the same template across multiple service types such as all of your piercings.
+The signature pad can show a short service agreement before the signature step. Edit the custom text whose key is `SIGNATURE_PAD_SERVICE_AGREEMENT` under **Configuration > Custom Texts**.
 
-> If you wish to create an empty template for your consent form rather than cloning an existing one, consent forms require a Template with the Data Type of *Service*.
+If the service agreement text is empty, REV23 Desktop skips that screen and goes directly to signature capture. The consent-form document is still generated from the service type's template.
 
-> If customizing the consent form template, ensure that you add the properties for the images of the signatures, otherwise they will not appear on the generated copy.
-> - `Service > Customer Signature Image`
-> - `Service > Employee Signature Image`
-> - `Service > Guardian Signature Image`
+## Guardians and minors
 
+When the customer is younger than the service type's **Required Age**, REV23 Desktop requires a guardian and uses the **Guardian Consent Form**. The service cannot proceed when a guardian form is required but none is assigned.
 
-## Auto Export
+## Print or open a signed form
 
-After a release form is signed, it can optionally be automatically exported to a hard drive for extra protection. Ideally this hard drive should be an external hard drive.
+Use **Print Consent Form** from the service to print the current form. Signed forms also appear in the service's attachments, where they can be opened again.
 
-Another extra benefit of auto exporting is the ability to save to a cloud storage service such as OneDrive, Dropbox or Google Drive by setting your export path to a synced folder.
+Check a signed form after changing a template. Confirm that identification images, signatures, long text, and page breaks appear where expected before using it with customers.
 
-You can configure auto export in [Configuration: My Studio: Options: Signature Pad](/rev23-desktop-docs/configuration/my-studio/#signature-capture-options), and override the export path in [Device Options](/rev23-desktop-docs/configuration/device-options/).
+## Automatic export
 
-## Guardian & Minor Consent Forms
+REV23 Desktop can export a copy after the form is signed. Configure the studio path under [My Studio signature capture options](/rev23-desktop-docs/configuration/my-studio/#signature-capture-options), then use [Device Options](/rev23-desktop-docs/configuration/device-options/) when one computer needs a different path.
 
-When a customer does not meet the **Required Age** property of the service's service type, REV23 Desktop will attempt to use the Guardian Consent Form configured for that service type. If a value is not set, you will not be able to proceed with the service.
+An export is an additional copy, not a database backup. Keep the [REV23 Desktop backup service](/rev23-desktop-docs/server-concepts/backup-service/) configured separately.
 
-## Printing Consent Forms
+## Email a signed copy
 
-You can print a consent form from a Service by clicking the **Print Consent Form** action.
+The Virtual Receptionist can email the customer a PDF copy after signing.
 
-## Emailing Consent Forms
+1. Open [Configuration > Virtual Receptionist](/rev23-desktop-docs/configuration/virtual-receptionist/).
+2. Enable the **Email consent form** workflow.
+3. Under **Configuration > Virtual Receptionist Options**, confirm the template used for **Consent Form Customer Copy Email Options**.
 
-The Virtual Receptionist can email a copy of a signed consent form to your customers immediately after a they has been signed. An email will be sent to the customer containing a body, and a PDF attachment of the signed consent form.
+The default email-body template is `REV23_CONSENTFORM_EMAIL_BODY`. Clone it before making studio-specific changes. The email body should introduce the attachment; the consent language belongs in the attached consent-form template.
 
-1. Navigate to [**Configuration > Virtual Receptionist**](/rev23-desktop-docs/configuration/virtual-receptionist/).
-2. Ensure that the __Email consent form__ workflow is active.
+The subject comes from the custom text `WORKFLOW_CONSENT_FORM_CUSTOMER_COPY_EMAIL_SUBJECT`.
 
-This workflow will execute automatically for customers that have an email address.
+## Useful template fields
 
-If you wish to disable this feature, simply deactivate the __Email consent form__ workflow.
+| Name | Field path | Use |
+| --- | --- | --- |
+| Customer ID | `Service > Customer > Identification Image` | Customer identification image |
+| Guardian ID | `Service > Guardian > Identification Image` | Guardian identification image |
+| Customer signature | `Service > Customer Signature Image` | Captured customer signature |
+| Employee signature | `Service > Employee Signature Image` | Captured or stored employee signature |
+| Guardian signature | `Service > Guardian Signature Image` | Captured guardian signature |
+| Service type | `Service > Service Type > Name` | Service type name |
+| Age on service date | `Service > Customer Age on Service Date` | Customer age when the service occurred |
 
-### Customize the Email Subject
-
-You can customize the subject of the email that is sent in [**Configuration > Custom Texts**](/rev23-desktop-docs/configuration/custom-texts/) by modifying the custom text with key name `WORKFLOW_CONSENT_FORM_CUSTOMER_COPY_EMAIL_SUBJECT`.
-
-### Customize the Email Body
-
-The body that is sent in the email is a template which you can customize.
-
-The template that is used for the email body can be changed in **Configuration > Virtual Receptionist Options** in the **Consent Form Customer Copy Email Options** tab. By default this is the template with key name `REV23_CONSENTFORM_EMAIL_BODY`, and is recommended you clone that template if you wish to change this text.
-
-> The email body should _not_ contain your consent form, but a more general email along the lines of "*Thank you for coming in to Gotham City Tattoo & Piercing, attached is your signed release form.*"
-
-## Template Common Fields
-
-When modifying consent forms in the [Template Designer](/rev23-desktop-docs/concepts/template-designer/), there are several fields that are useful to merge into your template from the Data Explorer.
-
-Name | Field Path | Description
---- | --- | ---
-**Customer ID** | Service > Customer > Identification Image | The ID image of the customer.
-**Guardian ID** | Service > Guardian > Identification Image | The ID image of the guardian.
-**Customer Signature** | Service > Customer Signature Image | The acquired signature of the | customer.
-**Employee Signature** | Service > Employee Signature Image | The acquired signature of the employee, or the stored signature of the artist from their profile.
-**Guardian Signature** | Service > Guardian Signature Image | The acquired signature of the guardian.
-**Service Type Name** | Service > Service Type > Name | The name of the service type.
-**Age** | Service > Customer Age on Service Date | The age of the customer the date the service was performed. Use this rather than Customer > Age.
+Use **Customer Age on Service Date** instead of the customer's current age so an older record continues to show the correct age.
 
 ## Related
 
-- [Configuration: Templates](/rev23-desktop-docs/configuration/templates/)
-- [Configuration: Service Types](/rev23-desktop-docs/configuration/service-types/)
+- [Templates configuration](/rev23-desktop-docs/configuration/templates/)
+- [Service Types configuration](/rev23-desktop-docs/configuration/service-types/)
+- [Template Designer](/rev23-desktop-docs/concepts/template-designer/)

@@ -16,7 +16,7 @@ To prevent this, your external hard drive should be formatted with the **exFAT**
 
 1. Open **File Explorer** in Windows.
 2. Locate your external hard drive in the list of Devices & Drives.
-3. Right click your drive, and select **Format** from the menu. 
+3. Right-click your drive and select **Format** from the menu.
 4. Ensure that NTFS is selected as the **File System**
     - If the drive is already exFAT or NTFS, there is nothing left to do.
     - If anything other than exFAT or NTFS is selected, ensure that anything you want to keep from the hard drive is backed up to a different location, set the **File System**, then click the **Format** button.

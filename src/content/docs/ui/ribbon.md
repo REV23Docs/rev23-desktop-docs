@@ -22,7 +22,7 @@ The Ribbon in a generic Detail View. Notice the Detail View specific actions 'Sa
 
 ## Minimizing the Ribbon
 
-If you'd like to collapse the ribbon to save room on your screen you can double click on one of the ribbon tabs and the ribbon will minimize (only the application button and tabs will be visible). To access the actions in the ribbon when it is minimized, single click a tab and the ribbon will drop down allowing you temporary access to the full ribbon. After you execute an action the ribbon will minimize itself again. To expand the ribbon, just double click the tab again.
+If you'd like to collapse the ribbon to save room on your screen, you can double-click one of the ribbon tabs, and the ribbon will minimize (only the application button and tabs will be visible). To access the actions in the ribbon when it is minimized, single-click a tab, and the ribbon will drop down, allowing you temporary access to the full ribbon. After you execute an action, the ribbon will minimize itself again. To expand the ribbon, just double-click the tab again.
 
 There is also an arrow on the far right that allows you to collapse and expand the ribbon.
 
@@ -31,7 +31,7 @@ There is also an arrow on the far right that allows you to collapse and expand t
 The ribbon in its minimized state. Notice the arrow on the right hand side that allows you to minimize and expand the ribbon as desired.
 
 ## Collapsed Groups
-In some situations when there are more items to display on the ribbon than it can fit on your screen, groups will collapse. These groups are recognizable by an arrow pointing down. In order to access that groups items you need to click the group and a popup window will appear allowing you access to those items.
+In some situations, when there are more items to display on the ribbon than can fit on your screen, groups will collapse. These groups are recognizable by an arrow pointing down. In order to access that group's items, click the group, and a popup window will appear with those items.
 
 
 Notice in this example the Workflow, Full Text Search groups are collapsed, while the View group's icon sizes have been reduced.
@@ -49,7 +49,7 @@ The file menu button. Depending on your selected skin the button may appear diff
 The application button's standard menu.
 
 ## Quick Access Toolbar
-Also part of the ribbon is the Quick Access Toolbar, which as you might guess allows you quick access to your favorite actions. By default, it appears in the top left hand corner of the ribbon. However it's position can be moved to below the ribbon if desired by clicking the 'Customize Quick Access Toolbar' button which appears on the right hand side of the list.
+Also part of the ribbon is the Quick Access Toolbar, which, as you might guess, gives you quick access to your favorite actions. By default, it appears in the top-left corner of the ribbon. However, its position can be moved below the ribbon by clicking the 'Customize Quick Access Toolbar' button, which appears on the right-hand side of the list.
 
 
 The Quick Access Toolbar shows the Refresh, Previous Record, Next Record, Log Off and Touch Mode actions by default.
@@ -57,11 +57,11 @@ The Quick Access Toolbar shows the Refresh, Previous Record, Next Record, Log Of
 
 The Quick Access Toolbar displayed below the Ribbon.
 
-Any action can be added to the Quick Access Toolbar by right clicking it and select the 'Add to Quick Access Toolbar' item.  Alternatively you can remove items from the quick access toolbar by right clicking the action and selecting the 'Remove from Quick Access Toolbar' item.
+Any action can be added to the Quick Access Toolbar by right-clicking it and selecting the 'Add to Quick Access Toolbar' item. Alternatively, you can remove items from the Quick Access Toolbar by right-clicking the action and selecting the 'Remove from Quick Access Toolbar' item.
 
 
 
-Right clicking an action such as the search box will show a popup menu that allows you to add an item to the Quick Access Toolbar.
+Right-clicking an action such as the search box will show a popup menu that allows you to add an item to the Quick Access Toolbar.
 
 
 Now the Quick Access Toolbar gives us fast access to the Search Box.

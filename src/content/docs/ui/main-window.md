@@ -36,4 +36,4 @@ There are actions in the main window that aren't available in other views, they 
 
 ### Diagnostics
 
-**Remote Support**: Initializes a remote support session with REV23 Support. You will need to give the provided ID to the support analyst. We will then be able to remotely control your computer assist you with any problems or questions you may have.
+**Remote Support**: Initializes a remote support session with REV23 Support. You will need to give the provided ID to the support analyst. We will then be able to remotely control your computer and assist you with any problems or questions you may have.

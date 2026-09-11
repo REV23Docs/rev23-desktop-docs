@@ -7,7 +7,7 @@ sidebar:
 Well, the day is about at a close at Gotham City Tattoo & Piercing. Let's run a couple of reports to see how things look.
 
 1. Navigate to **Reports > Reports**.
-2. Double click the Commissions report to run it.
+2. Double-click the Commissions report to run it.
 
     ![REV23 Desktop](img/report_preview.png)
 
@@ -22,12 +22,12 @@ Well, the day is about at a close at Gotham City Tattoo & Piercing. Let's run a 
 
 5. Close the Commissions report.
      
-6. Double click the Deposits & Credits report. Again, set a Start and End Date in the Parameters panel, and click the **Submit** button.
+6. Double-click the Deposits & Credits report. Again, set a Start and End Date in the Parameters panel, and click the **Submit** button.
 
     ![REV23 Desktop](img/report_deposits_credits.png)
     The Deposit & Credit report shows the deposit we took yesterday as well as it being used today.
 
-7. Double click the Payments report. Again, supply a Start and End Date parameter. This time, we will also set **Show Detail** to `Yes` and click the **Submit** button. We can see a list of transactions that occurred.
+7. Double-click the Payments report. Again, supply a Start and End Date parameter. This time, we will also set **Show Detail** to `Yes` and click the **Submit** button. We can see a list of transactions that occurred.
 
     ![REV23 Desktop](img/report_payments.png)
 

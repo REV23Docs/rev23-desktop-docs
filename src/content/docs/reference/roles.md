@@ -13,8 +13,8 @@ sidebar:
 **Permission Policy:** A description of the role to easily understand the purpose of the role.
 
 + *Deny all by default*: All permissions to all objects are disallowed. You then individually assign type permissions to what is allowed.
-+ *Read only all by default*: All objects are allowed to be viewed, but not + modified.
-+ *Allow all by default*: All permissions to all objects are allowed. You can individually assigned type permissions to what is disallowed.
++ *Read only all by default*: All objects are allowed to be viewed, but not modified.
++ *Allow all by default*: All permissions to all objects are allowed. You can individually assign type permissions to what is disallowed.
 
 **Is Administrative:** If checked, the role is an administrative role, meaning the role has full access to everything. Using this is not advised.
 
@@ -25,5 +25,7 @@ sidebar:
 **Can Print:** If checked, users in this role will be able to print list views and detail views from the File menu.
 
 **Can Export:** If checked, users in this role will be able to export lists to XLS, PDF, etc...
+
+**Can Backdate:** If checked, users in this role can change the **Date/Time** of a saved payment, sale/invoice, or deposit/credit. It does not make the other fields of those records editable.
 
 **Users:** The users assigned to this role in the studio you're currently logged on to.

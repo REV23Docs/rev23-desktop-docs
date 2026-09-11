@@ -93,7 +93,7 @@ Note: This property is only visible if the Points Type is set to Custom.
 
 ### Follow-up Options
 
-**Follow Up Days:** When a follow up task is created, the task will be set for this many days from the service date. For example, if you'd like to follow up two weeks later, set this value to 14.
+**Follow Up Days:** When a follow-up task is created, the task will be set for this many days from the service date. For example, if you'd like to follow up two weeks later, set this value to 14.
 
 **Create Follow Up Task:** If checked, a task will be created when the service is finished and will be assigned to the artist/piercer for them to follow up with the client.
 
@@ -105,8 +105,8 @@ See [Service Follow-Ups](/rev23-desktop-docs/concepts/service-follow-ups/) for m
 
 > These properties are only visible if the **Family** property is set to *Piercing*.
 
-**Default Gauge:** If applicable, you can specify the default gauge this piercing is generally done with. When the service is created for this type, it will use this gauge, you can then override it per service as needed.
+**Default Gauge:** If applicable, you can specify the default gauge this piercing is generally done with. When the service is created for this type, it will use this gauge. You can then override it per service as needed.
 
-**Default Length/Diameter:** If applicable, you can specify the default length/diameter this piercing is generally done with. When the service is created for this type, it will use this length/diameter, you can then override it per service as needed.
+**Default Length/Diameter:** If applicable, you can specify the default length/diameter this piercing is generally done with. When the service is created for this type, it will use this length/diameter. You can then override it per service as needed.
 
-**Default Anchor Rise:** If applicable, you can specify the default anchor rise this piercing is generally done with. When the service is created for this type, it will use this rise, you can then override it per service as needed.
+**Default Anchor Rise:** If applicable, you can specify the default anchor rise this piercing is generally done with. When the service is created for this type, it will use this rise. You can then override it per service as needed.

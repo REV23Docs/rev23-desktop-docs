@@ -14,7 +14,7 @@ Gotham City Police Commissioner, Jim Gordon was out for a run when he passed the
 
     ![REV23 Desktop](img/scheduler.png)
 
-3. Click and drag in the time slot you would like to schedule for. With the selection made you can right click and select New Appointment from the menu.
+3. Click and drag in the time slot you would like to schedule for. With the selection made, you can right-click and select New Appointment from the menu.
 
     ![REV23 Desktop](img/scheduler_new_appointment.png)
 
@@ -55,7 +55,7 @@ We have a created a new appointment and a new customer that was added directly i
 
 > When creating new objects from another object, as we did with the customer in the appointment, if you were to Save the customer, however, discard the appointment before saving it, the customer record would *not* be saved to the database.
 
-We've now returned to the Scheduler. We can see icons on the appointment indicating a deposit was taken, and that the customer wants an email reminder. If you've setup your email settings successfully in the Setup Wizard when you first installed REV23 Desktop, per the default settings, this client should receive a confirmation immediately once the appointment is saved, as well as another reminder 24 hours in advance of the appointment.
+We've now returned to the Scheduler. We can see icons on the appointment indicating a deposit was taken and that the customer wants an email reminder. If you successfully set up your email settings in the Setup Wizard when you first installed REV23 Desktop, this client should receive a confirmation as soon as the appointment is saved, as well as another reminder 24 hours before the appointment.
 
 ![REV23 Desktop](img/scheduler_new_appointment_complete.png)
 

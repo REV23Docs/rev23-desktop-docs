@@ -38,7 +38,7 @@ Since removal is neither a tattoo nor piercing, we should separate it into its o
 6. Click the **New** action to create a new Service Category.
 > Hint: If you have a category selected in the tree view before clicking the New action, the newly created category will have the selected category set as its Parent Category, making this a subcategory. In this case, we want our new category to be at the root level, meaning it has no parent. If the Parent Category is already set when the detail view opens, you can click the X button on the right hand side of the Parent Category editor to clear it.
 7. Type a **Name** for the category, we'll use `Tattoo Removal`.
-8. Since we want Removal to be it's own category, ensure there is no value set for the **Parent Category** property. Click the X button on the Parent Category editor to clear any value there.
+8. Since we want Removal to be its own category, ensure there is no value set for the **Parent Category** property. Click the X button on the Parent Category editor to clear any value there.
 9.  Select our newly created `Tattoo Removal` Department for the **Default Service Department** value.
 10. Click the **Save & Close** action to save the Service Category.
 
@@ -49,7 +49,7 @@ Now we need to create the actual Service Type which directs REV23 Desktop on how
 1. Navigate to **Configuration > Service Types**.
 2. Select our newly created `Tattoo Removal` category we created in the previous section.
 3. Click the **New** action to create a new Service Type.
-> Notice after clicking new, both the **Category** is selected, as well as the **Department**. This happened because we previously set the **Default Service Department** value when we created this category, which means any service type we create in this category will automatically use this **Department**.
+> Notice that after clicking new, both the **Category** and the **Department** are selected. This happened because we previously set the **Default Service Department** value when we created this category, which means any service type we create in this category will automatically use this **Department**.
 4. Fill out the following properties:
     + **Name:** `Zatanna's Mystical Tattoo Removal`
     + **Required Age:** `18`

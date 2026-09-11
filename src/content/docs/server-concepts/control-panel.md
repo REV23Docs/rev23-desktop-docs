@@ -18,6 +18,8 @@ The REV23 Desktop Control Panel is located only on your main REV23 Desktop PC an
 
 See [Database Service](/rev23-desktop-docs/server-concepts/database-service/).
 
+The Database Service tile displays the installed SQL Server version and the database-capacity meter. The meter uses a 50 GB limit for SQL Server 2025 Express and a 10 GB limit for SQL Server 2022 Express and earlier.
+
 ## Backup Service
 
 See [Backup Service](/rev23-desktop-docs/server-concepts/backup-service/).

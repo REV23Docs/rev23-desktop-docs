@@ -6,7 +6,7 @@ sidebar:
 ---
 Depending on your shop, you may have little to no products to sell, or possibly a whole lot of jewelry to sell. Inventory can become quite an advanced topic, so for the sake of this quick start, we're going to focus on simple aftercare products, ignoring the details and just getting it ready to sell.
 
-The **Inventory Item List View** is a slightly different from other list views, in that it has an additional section on the left which displays [Inventory Categories](/rev23-desktop-docs/inventory/inventory-categories/). This, as the name implies, allows you to categorize your inventory items into a folder like structure for easy navigation. REV23 Desktop already comes configured with what we believe to be well structured categories, however you're free to reorganize these to your liking. That is however, outside of the scope of this quick start.
+The **Inventory Item List View** is slightly different from other list views in that it has an additional section on the left that displays [Inventory Categories](/rev23-desktop-docs/inventory/inventory-categories/). This, as the name implies, allows you to categorize your inventory items into a folder-like structure for easy navigation. REV23 Desktop already comes configured with what we believe to be well-structured categories; however, you're free to reorganize these to your liking. That is outside the scope of this quick start.
 
 1. Navigate to **Inventory > Inventory Items**. 
 2. Ensure that the **Aftercare Products** category is selected in the tree list on the left and click the **New** action.
@@ -15,7 +15,7 @@ The **Inventory Item List View** is a slightly different from other list views, 
     - **Category** Since the Aftercare Products category was selected when we first created the item, the **Category** is already set for us. 
     - **Department:** And since this is a default category, REV23 Desktop already knows the department. 
     - **Inventory Item Type:** Set to `Piercing`, since this is piercing specific aftercare. 
-    - We can also add an [**Image**](/rev23-desktop-docs/ui/editors/#image-editors), the **Manufacturer** and **Vendor** information. Again. you can include as little or as much information here as you'd like.
+    - We can also add an [**Image**](/rev23-desktop-docs/ui/editors/#image-editors), as well as the **Manufacturer** and **Vendor** information. Again, you can include as little or as much information here as you'd like.
     - **UPC Bar code**: If the item has a UPC from the manufacturer, type or scan it in to this field.
 
     ![REV23 Desktop](img/inventory_item_detail_view.png)

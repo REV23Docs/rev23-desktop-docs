@@ -4,7 +4,7 @@ sidebar:
   label: "Templates"
   order: 21
 ---
-Templates are special documents in REV23 Desktop that contain placeholders (fields), which are filled with properties from a particular object. For example, consent forms are templates which then have fields such as the customer's name, address, driver's licenses, etc... populated and merged into the document. Unlike most objects in REV23 Desktop, you create and edit a template's text using the Template Designer and do very little with the Template Detail View itself.
+Templates are special documents in REV23 Desktop that contain placeholders (fields), which are filled with properties from a particular object. For example, consent forms are templates that have fields such as the customer's name, address, driver's license, etc., populated and merged into the document. Unlike most objects in REV23 Desktop, you create and edit a template's text using the Template Designer and do very little with the Template Detail View itself.
 
 > Important Note: Templates that are built-in to REV23 Desktop, easily identifiable by having an author of `REV23`, are overwritten each time you install an update to REV23 Desktop. This means that if you make a change to one of the built-in templates, the change will be reverted when you do an update and replaced with our version of the template. If you wish to make minor changes to our templates or use them as a guide to make your own, you must Clone the template first and edit your copy. This ensures that it will not be overwritten during a REV23 Desktop update. Additionally, occasionally we will make changes to REV23 Desktop that will require you to edit your custom templates to accommodate the changes. For example, we may remove or rename a property in the database which you were using in your template. After major updates to REV23 Desktop you should review your templates to ensure they're still working as you expect them to.
 
@@ -31,4 +31,4 @@ Templates are special documents in REV23 Desktop that contain placeholders (fiel
 
 ### Tools
 
-**Connect Templates:** Use this action to display templates from other connected studios that you which to connect to the current studio you're logged into. If all of your studio's use the same template and you wish to keep the same when you make a change, connecting the templates will allow you to modify the template and all studios that template is connected to will receive the change inherently. This action is only available in the Template List View.
+**Connect Templates:** Use this action to display templates from other connected studios that you wish to connect to the current studio you're logged into. If all of your studios use the same template and you wish to keep them in sync when you make a change, connecting the templates will allow you to modify the template and automatically apply the change to all connected studios. This action is only available in the Template List View.

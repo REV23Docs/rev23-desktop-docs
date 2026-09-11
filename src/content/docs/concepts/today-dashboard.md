@@ -19,14 +19,16 @@ The services list shows services that are currently in progress or have complete
 
 ## Actions
 
-**Appointments:**: Opens the appointment scheduler in a separate window. You can close and open the scheduler as needed, or leave it open for the duration of the day.
+**Appointments:** Opens the appointment scheduler in a separate window. You can close and open the scheduler as needed, or leave it open for the duration of the day.
 
 **New Walk-in:** Creates a new Service record.
 
 **New Walk-in (Queued):** Creates a new Walk-in Queue record.
 
-**New Sale:** Starts a new sale. Generally used if you're just selling some retail as you will generally use the **Sale** action on a service when adding a service to a sale.
+**New Service Group:** Starts multiple related Service records for the same customer and employee. See [Service Groups](/rev23-desktop-docs/concepts/service-groups/).
 
-**REV23 News**: Displays [news](/rev23-desktop-docs/reference/news/) from REV23. If lit up, there are news items you have not yet. Once news items have been read, this appears dimmed.
+**New Sale:** Starts a new sale. This is generally used for retail-only sales; when adding a service to a sale, you will usually use the **Sale** action on the service instead.
+
+**REV23 News:** Displays [news](/rev23-desktop-docs/reference/news/) from REV23. If this action is lit up, you have unread news items. It appears dimmed after the items have been read.
 
 > If **Appointments** *and* **Walk-in Queue** features are disabled in [Configuration: My Studio: Options](/rev23-desktop-docs/configuration/my-studio/#service-options), the Today dashboard is hidden. In this case you would just use the Service list view.

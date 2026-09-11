@@ -1,34 +1,34 @@
 ---
-title: "P2PE Devices"
+title: "Integrated Terminals"
 sidebar:
-  label: "P2PE Devices"
+  label: "Integrated Terminals"
   order: 7
 ---
-P2PE (Point-to-point Encryption) Devices represent the credit card terminals from CardConnect that REV23 Desktop can connect to to process credit card transactions.
+Integrated Terminals are the CardPointe credit card terminals that REV23 Desktop can use to process payments through REV23's Fiserv integration. Older releases referred to these records as P2PE Devices.
 
-Use the Configure CardConnect action to automatically retrieve your registered terminals. You can configure some options per terminal.
+Use **Configure CardPointe** to retrieve the terminals registered to your Merchant ID. You can configure several options per terminal.
 
 ## Actions
 
 ### Records Creation
 
-**Configure CardConnect:** Retrieves a list of registered P2PE Devices from your CardConnect account.
+**Configure CardPointe:** Retrieves the integrated terminals registered to your CardPointe Merchant ID.
 
 ## Properties
 
-**Friendly Name:** By default P2PE Devices are identified by their serial number. If you have more than one terminal you can assign a friendly name, such as "Left" or "Right" for easy identification. The friendly name is required must be unique.
+**Friendly Name:** By default, integrated terminals are identified by their serial number. If you have more than one terminal, you can assign a friendly name, such as "Left" or "Right," for easy identification. The friendly name is required and must be unique.
 
-**HSN:** The Hardware Serial Number of the terminal. The HSN is required must be unique.
-> Note: After the P2PE Device record is saved, the HSN cannot be changed.
+**HSN:** The Hardware Serial Number of the terminal. The HSN is required and must be unique.
+> Note: After the Integrated Terminal record is saved, the HSN cannot be changed.
 
-**Merchant ID:** The Merchant ID associated with this P2PE Device.
-> Note: After the P2PE Device record is saved, the merchant ID cannot be changed.
+**Merchant ID:** The CardPointe Merchant ID associated with this terminal.
+> Note: After the Integrated Terminal record is saved, the Merchant ID cannot be changed.
 
 **Allow Beep:** If checked, the terminal will beep when prompting the customer to insert and remove their card.
 
 **Banner Display Text:** If supplied, this text will be displayed on the bottom of the terminal when not in use. If blank, no text will be displayed and the terminal will only show your logo.
 
-> Banner Display Text Note: As of the time of this writing, all CardConnect P2PE Devices reboot themselves at approximately 3AM EST. When rebooted, the banner display text reverts back to its connection status (i.e. `BOLTED`). Your banner display text will be displayed again after the end of the first transaction for the day.
+> After a terminal restarts, its banner may show the connection status instead of your custom text. REV23 Desktop sends the banner text again after the next completed transaction.
 
 ## Related
 - [Concepts: Credit Cards](/rev23-desktop-docs/concepts/credit-cards/)
