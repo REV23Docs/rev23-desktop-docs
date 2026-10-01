@@ -1,5 +1,6 @@
 ---
 title: "Quick Start: Add a tattooer"
+description: Add a tattoo artist in REV23 Desktop, assign their security role and service types, and prepare their account to work in the quick-start studio.
 sidebar:
   label: "Add a tattooer"
   order: 1

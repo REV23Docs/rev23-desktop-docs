@@ -1,5 +1,6 @@
 ---
 title: "Custom Texts"
+description: Edit the custom text REV23 Desktop places on customer-facing reports, including receipt policies, translations, and connected studio behavior.
 sidebar:
   label: "Custom Texts"
   order: 3

@@ -1,5 +1,6 @@
 ---
 title: "Tattoo Management Studio"
+description: Learn why older REV23 Desktop documents and screens may say Tattoo Management Studio, the product name used before its 2017 rebrand.
 sidebar:
   label: "Tattoo Management Studio"
   order: 16

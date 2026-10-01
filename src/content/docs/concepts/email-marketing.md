@@ -1,5 +1,6 @@
 ---
 title: "Email Marketing"
+description: Export customer contact information from REV23 Desktop for use with a separate email marketing service, including the steps to export customer emails.
 sidebar:
   label: "Email Marketing"
   order: 34

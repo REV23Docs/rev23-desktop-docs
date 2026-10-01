@@ -1,5 +1,6 @@
 ---
 title: "Time Clock"
+description: Track hourly staff time in REV23 Desktop with clock-in and clock-out entries, corrections for missed punches, hourly rates, and tip sharing.
 sidebar:
   label: "Time Clock"
   order: 26

@@ -1,5 +1,6 @@
 ---
 title: "My Studio"
+description: Configure your REV23 Desktop studio location, business hours, appointments, deposits, gift cards, inventory, payments, and other operating options.
 sidebar:
   label: "My Studio"
   order: 0

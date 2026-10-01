@@ -1,5 +1,6 @@
 ---
 title: "Users"
+description: Learn how REV23 Desktop user accounts represent the people working in your studio and control access through individual security permissions.
 sidebar:
   label: "Users"
   order: 0

@@ -1,5 +1,6 @@
 ---
 title: "Templates"
+description: Learn how REV23 Desktop templates fill documents such as consent forms with customer and service details, and how template translations work.
 sidebar:
   label: "Templates"
   order: 10

@@ -1,5 +1,6 @@
 ---
 title: "Walk-outs"
+description: Record why potential customers leave without booking a tattoo or piercing, then use REV23 Desktop reports to spot patterns in walk-out reasons.
 sidebar:
   label: "Walk-outs"
   order: 29

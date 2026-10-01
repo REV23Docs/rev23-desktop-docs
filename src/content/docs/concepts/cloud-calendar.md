@@ -1,5 +1,6 @@
 ---
 title: "Cloud Calendar"
+description: Give artists read-only access to their REV23 Desktop schedules on iPhone, Android, and other calendar apps using Cloud Calendar.
 sidebar:
   label: "Cloud Calendar"
   order: 6

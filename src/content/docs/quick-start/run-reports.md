@@ -1,5 +1,6 @@
 ---
 title: "Quick Start: Run reports"
+description: Run REV23 Desktop reports in the quick-start studio, including a commissions report that summarizes employee earnings from recorded sales.
 sidebar:
   label: "Run reports"
   order: 14

@@ -1,5 +1,6 @@
 ---
 title: "Lengths & Diameters"
+description: Set up jewelry lengths and diameters in REV23 Desktop and assign optional sizes to piercing inventory items.
 sidebar:
   label: "Lengths & Diameters"
   order: 9

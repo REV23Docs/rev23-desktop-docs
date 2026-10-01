@@ -1,5 +1,6 @@
 ---
 title: "Template Designer"
+description: Customize REV23 Desktop documents in Template Designer by adding data fields, editing field properties, and previewing forms with customer information.
 sidebar:
   label: "Template Designer"
   order: 11

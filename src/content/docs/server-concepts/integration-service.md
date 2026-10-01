@@ -1,5 +1,6 @@
 ---
 title: "Integration Service"
+description: Learn what the REV23 Desktop Integration Service does in the background and how it connects the desktop database to services such as Cloud Calendar.
 sidebar:
   label: "Integration Service"
   order: 3

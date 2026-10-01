@@ -1,5 +1,6 @@
 ---
 title: "Gift Cards"
+description: Sell, redeem, and reuse gift cards in REV23 Desktop, and learn how to order valid card numbers or print your own cards with barcodes.
 sidebar:
   label: "Gift Cards"
   order: 19

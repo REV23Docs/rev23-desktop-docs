@@ -1,5 +1,6 @@
 ---
 title: "Aftercare Forms"
+description: Customize, print, and email aftercare forms in REV23 Desktop by linking templates to service types and configuring Virtual Receptionist workflows.
 sidebar:
   label: "Aftercare Forms"
   order: 12

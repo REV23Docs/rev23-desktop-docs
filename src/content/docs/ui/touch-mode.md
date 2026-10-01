@@ -1,5 +1,6 @@
 ---
 title: "Touch Mode"
+description: Turn on Touch Mode in REV23 Desktop to enlarge interface controls and adjust editors such as date and time fields for touchscreen use.
 sidebar:
   label: "Touch Mode"
   order: 10

@@ -1,5 +1,6 @@
 ---
 title: "Sales & Invoices"
+description: Create and manage sales and invoices in REV23 Desktop for services, retail items, gift cards, deposits, discounts, taxes, and payments.
 sidebar:
   label: "Sales & Invoices"
   order: 17

@@ -1,5 +1,6 @@
 ---
 title: "Virtual Receptionist Options"
+description: Configure REV23 Desktop Virtual Receptionist workflows and outgoing email, including SMTP server settings and connected studio options.
 sidebar:
   label: "Virtual Receptionist Options"
   order: 24

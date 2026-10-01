@@ -1,5 +1,6 @@
 ---
 title: "Vendors"
+description: Create and manage inventory vendors in REV23 Desktop, including supplier contact details, item costs, and connected studio behavior.
 sidebar:
   label: "Vendors"
   order: 12

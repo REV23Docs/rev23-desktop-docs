@@ -1,5 +1,6 @@
 ---
 title: "SMTP (Email) Troubleshooting"
+description: Diagnose email sending problems in REV23 Desktop, including SMTP authentication failures, Gmail app passwords, and settings for other providers.
 sidebar:
   label: "Email (SMTP)"
   order: 5

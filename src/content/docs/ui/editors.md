@@ -1,5 +1,6 @@
 ---
 title: "Editors"
+description: Learn how REV23 Desktop editors handle text, dates, images, and other record properties in detail views, including special editor behavior.
 sidebar:
   label: "Editors"
   order: 8

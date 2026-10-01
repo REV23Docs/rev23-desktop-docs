@@ -1,5 +1,6 @@
 ---
 title: "Cloud Calendar"
+description: Troubleshoot REV23 Desktop Cloud Calendar synchronization by checking iOS fetch settings, the Integration Service, and calendar file contents.
 sidebar:
   label: "Cloud Calendar"
   order: 3

@@ -1,5 +1,6 @@
 ---
 title: "How to: Import Customers"
+description: Import customers into REV23 Desktop from a CSV file, prepare the required column headers, and understand how duplicate records are handled.
 sidebar:
   label: "How to: Import customers"
   order: 1

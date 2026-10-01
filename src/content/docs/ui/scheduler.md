@@ -1,5 +1,6 @@
 ---
 title: "Scheduler"
+description: Use the REV23 Desktop Scheduler to view appointments, move bookings, set statuses, start services, and review business hours and availability.
 sidebar:
   label: "Scheduler"
   order: 9

@@ -1,5 +1,6 @@
 ---
 title: "Roles"
+description: Control REV23 Desktop access with built-in and additive roles, combine roles for each user, and understand permissions such as backdating.
 sidebar:
   label: "Roles"
   order: 1

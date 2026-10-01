@@ -1,5 +1,6 @@
 ---
 title: "Quick Start: Add a Manager"
+description: Assign the Manager role to a user in REV23 Desktop so they can manage studio work after the initial administrator and owner accounts are created.
 sidebar:
   label: "Add a manager"
   order: 3

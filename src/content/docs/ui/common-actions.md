@@ -1,5 +1,6 @@
 ---
 title: "Common Actions"
+description: Find the common REV23 Desktop actions for creating, editing, viewing, and navigating records in list views and detail views.
 sidebar:
   label: "Common Actions"
   order: 7

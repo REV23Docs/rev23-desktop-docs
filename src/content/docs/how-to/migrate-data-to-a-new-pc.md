@@ -1,5 +1,6 @@
 ---
 title: "How to: Migrate data to another PC"
+description: Move your REV23 Desktop database to another PC, verify the data on the new machine, and clean up the old installation after migration.
 sidebar:
   label: "How to: Migrate data to a new PC"
   order: 6

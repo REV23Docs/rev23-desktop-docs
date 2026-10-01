@@ -1,5 +1,6 @@
 ---
 title: "Backup Service"
+description: Configure the REV23 Desktop Backup Service to save database backups on a schedule, check backup warnings, and follow healthy backup practices.
 sidebar:
   label: "Backup Service"
   order: 4

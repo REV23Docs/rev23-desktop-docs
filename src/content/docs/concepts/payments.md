@@ -1,5 +1,6 @@
 ---
 title: "Payments"
+description: Record, void, and backdate payments in REV23 Desktop for sale balances, deposits, refunds, and employee payouts.
 sidebar:
   label: "Payments"
   order: 16

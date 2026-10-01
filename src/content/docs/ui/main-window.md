@@ -1,5 +1,6 @@
 ---
 title: "Main Window"
+description: Learn how the REV23 Desktop main window is organized, including the ribbon, navigation bar, list views, and actions for finding and working with records.
 sidebar:
   label: "Main Window"
   order: 2

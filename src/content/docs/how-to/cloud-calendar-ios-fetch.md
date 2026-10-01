@@ -1,5 +1,6 @@
 ---
 title: "How to: Setup an iOS Device to fetch Cloud Calendar automatically"
+description: Subscribe to REV23 Desktop Cloud Calendar on an iPhone or iPad and configure automatic fetch so appointment changes reach your device.
 sidebar:
   label: "How to: Configure iOS for Cloud Calendar"
   order: 9

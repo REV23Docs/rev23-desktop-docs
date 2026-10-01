@@ -1,5 +1,6 @@
 ---
 title: "Hardware Troubleshooting"
+description: Troubleshoot barcode scanners, magnetic stripe readers, and document or photo scanners used with REV23 Desktop.
 sidebar:
   label: "Hardware"
   order: 2

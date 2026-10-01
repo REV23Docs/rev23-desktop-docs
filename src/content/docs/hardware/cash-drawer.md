@@ -1,5 +1,6 @@
 ---
 title: "Cash Drawer"
+description: Configure a cash drawer for REV23 Desktop, including the device driver and the open code needed to trigger the drawer from the software.
 sidebar:
   label: "Cash Drawer"
   order: 4

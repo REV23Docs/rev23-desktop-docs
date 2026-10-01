@@ -1,5 +1,6 @@
 ---
 title: "Detail Views"
+description: Learn how REV23 Desktop detail views display one customer or other record and which actions are available when creating or editing it.
 sidebar:
   label: "Detail Views"
   order: 6

@@ -1,5 +1,6 @@
 ---
 title: "Remote Connections"
+description: Connect an add-on PC to your REV23 Desktop database from outside the studio network using a VPN or direct SQL connection, with setup and troubleshooting steps.
 sidebar:
   label: "Remote Connections"
   order: 1

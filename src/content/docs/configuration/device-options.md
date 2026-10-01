@@ -1,5 +1,6 @@
 ---
 title: "Device Options"
+description: Set the REV23 Desktop options that apply to one PC, including its default hardware settings and other device-specific behavior.
 sidebar:
   label: "Device Options"
   order: 25

@@ -1,5 +1,6 @@
 ---
 title: "Quick Start: Set service prices"
+description: Set prices for tattoo and piercing service types in REV23 Desktop, including studio prices, provider prices, and custom amounts for individual services.
 sidebar:
   label: "Set service prices"
   order: 6

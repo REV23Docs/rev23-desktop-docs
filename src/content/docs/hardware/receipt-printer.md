@@ -1,5 +1,6 @@
 ---
 title: "Receipt Printer"
+description: Install and configure an Epson TM-T88V receipt printer for REV23 Desktop, including printer setup, default settings, and receipt paper size.
 sidebar:
   label: "Receipt Printer"
   order: 3
