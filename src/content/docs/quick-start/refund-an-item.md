@@ -1,5 +1,6 @@
 ---
 title: "Quick Start: Refund an item"
+description: Follow the REV23 Desktop quick start to refund a retail item from a sale, record the return reason, and send the overpayment back to the customer's card.
 sidebar:
   label: "Refund an item"
   order: 13

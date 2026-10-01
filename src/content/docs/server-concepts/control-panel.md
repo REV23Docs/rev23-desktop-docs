@@ -1,5 +1,6 @@
 ---
 title: "REV23 Desktop Control Panel"
+description: Open the REV23 Desktop Control Panel on your main PC to manage database, backup, integration, and Virtual Receptionist services and run maintenance tools.
 sidebar:
   label: "Control Panel"
   order: 1

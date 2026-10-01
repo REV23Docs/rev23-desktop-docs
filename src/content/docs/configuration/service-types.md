@@ -1,5 +1,6 @@
 ---
 title: "Service Types"
+description: Configure tattoo and piercing service types in REV23 Desktop, including consent and aftercare forms, age requirements, pricing, commissions, and points.
 sidebar:
   label: "Service Types"
   order: 14

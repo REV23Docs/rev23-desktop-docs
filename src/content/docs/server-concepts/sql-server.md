@@ -1,5 +1,6 @@
 ---
 title: "SQL Server"
+description: Understand how REV23 Desktop uses Microsoft SQL Server for its database, including Express size limits, installed versions, and when an upgrade may be needed.
 sidebar:
   label: "SQL Server"
   order: 6

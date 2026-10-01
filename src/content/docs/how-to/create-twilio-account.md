@@ -1,5 +1,6 @@
 ---
 title: "Text messaging in REV23 Desktop"
+description: Learn why REV23 Desktop can no longer send SMS messages after mobile carrier registration changes, and where to continue customer texting with REV23.
 sidebar:
   label: "Text messaging in REV23 Desktop"
   order: 0

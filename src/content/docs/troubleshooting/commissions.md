@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Missing commissions"
+description: Troubleshoot missing REV23 Desktop commissions by checking service payout values, employee service types, business hours, report dates, and prior payouts.
 sidebar:
   label: "Commissions"
   order: 1

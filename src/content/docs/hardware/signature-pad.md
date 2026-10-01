@@ -1,5 +1,6 @@
 ---
 title: "Signature Pad"
+description: Set up a Wacom STU-530 or STU-540 signature pad for REV23 Desktop, including optional tablet drivers and display slideshow configuration.
 sidebar:
   label: "Signature Pad"
   order: 0
